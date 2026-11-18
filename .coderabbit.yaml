@@ -1,0 +1,54 @@
+language: "en-US"
+tone_instructions: "Be direct and concise. No fluff."
+
+reviews:
+  profile: "chill"
+  high_level_summary: true
+  collapse_walkthrough: true
+  poem: false
+  sequence_diagrams: false
+  suggested_reviewers: false
+  auto_review:
+    enabled: true
+    drafts: false
+    ignore_title_keywords:
+      - "WIP"
+      - "DO NOT REVIEW"
+  path_filters:
+    - "!**/__pycache__/**"
+    - "!**/*.pyc"
+    - "!results/**"
+    - "!data/**"
+  path_instructions:
+    - path: "**/*.py"
+      instructions: >-
+        Code is Apache-2.0. Keep any file header that credits an author or a third-party source.
+        Paths to a work folder come from $SCRATCH or an argument, never a machine name or a home directory.
+    - path: "{NOTICE,AI_NOTICE.md,AUTHORS,CITATION.cff,README.md}"
+      instructions: >-
+        These files carry the credit to Sergio Fernández Rubio (GeiserX) and the third-party licences.
+        Flag any change that weakens, removes or shortens the credit request or a third-party entry.
+  tools:
+    gitleaks:
+      enabled: true
+    actionlint:
+      enabled: true
+    yamllint:
+      enabled: true
+    markdownlint:
+      enabled: true
+    shellcheck:
+      enabled: true
+    ruff:
+      enabled: true
+
+chat:
+  auto_reply: true
+
+knowledge_base:
+  learnings:
+    scope: "local"
+  code_guidelines:
+    enabled: true
+    filePatterns:
+      - "AGENTS.md"
