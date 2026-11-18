@@ -1,0 +1,131 @@
+"""Follow changed owned geometry within three deadline-bound boxE slots."""
+import pathlib,sys,json,time,math,csv,traceback,hashlib,os
+W=pathlib.Path(__file__).resolve().parent;sys.path.insert(0,str(W))
+for k in ('OPENBLAS_NUM_THREADS','OMP_NUM_THREADS','VECLIB_MAXIMUM_THREADS'):os.environ[k]='1'
+import campaign32base as C
+from invent_shape22 import fingerprint
+import numpy as np
+T=C.T;S=C.S
+GEOMETRY_LANES=('forensics','k123','classfill','modules','stair-c','soft')
+
+_signature_cache={}
+def source_signature(p):
+ paths=[pathlib.Path(str(p)+v)for v in('.json','.origin.json','.source.json','.provenance.json')]+[p.with_suffix('.json')]
+ result=[]
+ for q in paths:
+  if not q.is_file():continue
+  st=q.stat();key=(str(q),st.st_mtime_ns,st.st_size)
+  if key not in _signature_cache:_signature_cache[key]=C.sha(q)
+  result.append([str(q),_signature_cache[key]])
+ return result
+
+def identity(p,n=None):
+ rows=list(csv.DictReader(open(p)));n=int(rows[0]['n'])if n is None else n
+ if len(rows)!=n or not all(int(r['n'])==n for r in rows):raise ValueError('packing count')
+ a=np.array([[float(r['x']),float(r['y']),float(r['angle'])]for r in rows]);return n,float(C.mlp.side(a)),fingerprint(a)
+
+def init_history():
+ if (W/'historical-fingerprints.json').exists():return
+ seen=set();files=0
+ for rnd in range(21,32):
+  old=S/f'take-invent-r{rnd}/work'
+  for j in C.load(old/'jobs.json',[]):
+   if j['kind']=='control'or not(old/'boxE-raw'/j['id']/'done.json').exists():continue
+   p=pathlib.Path(j['start']);p=p if p.is_absolute()else old/p
+   try:seen.add(identity(p,j['n'])[2]);files+=1
+   except (OSError,ValueError,KeyError):pass
+ C.atomic(W/'historical-fingerprints.json',sorted(seen));C.state(f'HISTORY {files} completed earlier starts, {len(seen)} distinct geometries. Unchanged geometry stays closed.')
+
+def initial989(peer):
+ if (W/'late989-admitted').exists():return []
+ j=C.load(W/'late989-parent.json',{});p=W/'boxE-raw'/j['id']/'final/989.csv'
+ if C.claimed(C.sha(p),(S/'handoff-r32.log').read_text().splitlines()):
+  C.atomic(W/'late989-skipped.json',dict(reason='rebuild claimed exact late989 bytes first',sha256=C.sha(p),time=C.now()));(W/'late989-admitted').write_text('skipped exact-byte claim');C.state('SKIP late989: rebuild already claimed exact bytes; no duplicate kick.');return []
+ result,why=C.produce_input(p,989,'leg',3228,peer,dict(parent_job=j))
+ if result is None:raise ValueError('late989 extension refused: '+str(why))
+ result['priority']=-8;result['round31_parent']=j['id'];(W/'late989-admitted').write_text(C.now());return [result]
+
+def turn():
+ jobs,done,peer=C.collect()
+ wide_control=done.get('control907-wide32',{})
+ if wide_control.get('quench_from_certified')and wide_control.get('clearance',0)>=2.2e-11 and (wide_control.get('new',99)+1)*math.sqrt(907)<30.6183:
+  if not(W/'WIDE_GREEN').exists():(W/'WIDE_GREEN').write_text(C.now());C.state('CONTROL WIDE GREEN stopped907 side '+str((wide_control['new']+1)*math.sqrt(907))+'; certified-input fq and native/pandas clearance passed. Two fresh production starts permitted.')
+ C.atomic(W/'last-handoff-read.json',dict(time=C.now(),lines=len((S/'handoff-r32.log').read_text().splitlines())))
+ if time.time()>=C.ADMIT:return
+ if not(W/'CONTROL_GREEN').exists()or not(W/'ALL_FINISH_GREEN').exists():return
+ lines=(S/'handoff-r32.log').read_text().splitlines();locks={p.name for p in(W/'boxE-raw/locks').glob('*')}
+ pending=[j for j in jobs if not done.get(j['id'])and j['id']not in locks];room=max(0,5-len(pending));new=[]
+ tried=set(C.load(W/'tried-inputs.json',[]));shapes=set(C.load(W/'tried-shapes.json',[]));historical=set(C.load(W/'historical-fingerprints.json',[]));deferred=C.load(W/'deferred32.json',{})
+ if room and not(W/'late989-admitted').exists():new.extend(initial989(peer))
+ followed=set(C.load(W/'followed.json',[]));candidates=[]
+ for j in jobs:
+  d=done.get(j['id'],{});n=j['n']
+  if j['kind']in('control','early')or j['id']in followed or not d.get('quench_from_certified')or 'error'in d:continue
+  movement=j['side']-(d['new']+1)*math.sqrt(n)
+  if movement>(1e-9 if j['kind']=='leg'else 1e-6):
+   candidates.append((-7,-movement,W/'boxE-raw'/j['id']/'final'/f'{n}.csv',n,'leg',j['seed']+97,dict(parent_job=j),j['id']))
+ cache=C.load(W/'shape-cache32.json',{})
+ for lane in GEOMETRY_LANES:
+  root=S/f'take-{lane}-r32'
+  for p in list((root/'near').glob('*.csv'))+list(root.glob('*.csv')):
+   st=p.stat()
+   # Backlog gets the first ten minutes on published takes.
+   if p.parent==root and time.time()-st.st_mtime<600:continue
+   prior=cache.get(str(p))
+   if prior and prior['stamp']==[st.st_mtime_ns,st.st_size]:v=prior
+   else:
+    try:n,side,shape=identity(p);v=dict(stamp=[st.st_mtime_ns,st.st_size],n=n,side=side,shape=shape,sha256=C.sha(p));cache[str(p)]=v
+    except Exception:continue
+   n=v['n'];digest=v['sha256']
+   if n<50:continue
+   if lane=='classfill':
+    meta=C.load(p.with_suffix('.json'),{})
+    if str(meta.get('source','')).startswith('held n ='):continue
+   if digest in tried or v['shape']in shapes or v['shape']in historical:continue
+   if digest in deferred:
+    sig=source_signature(p);old=deferred[digest]
+    if 'source_signature'not in old or any(len(v)!=2 for v in old['source_signature']):old['source_signature']=sig
+    if sig==old['source_signature']:continue
+    del deferred[digest];C.state('SOURCE RETRY changed sidecar '+str(p))
+   if C.claimed(digest,lines):continue
+   delta=v['side']-(peer[n]+1)*math.sqrt(n)
+   if delta>.006 or delta<-.02:continue
+   candidates.append((-3,delta,p,n,'fresh',3231,None,None))
+ C.atomic(W/'shape-cache32.json',cache);C.atomic(W/'deferred32.json',deferred);candidates.sort(key=lambda v:(v[0],v[1]));end=time.time()+85
+ for rank,order,p,n,kind,seed,proof,parent in candidates:
+  if len(new)>=room or time.time()>end:break
+  digest=C.sha(p)
+  if C.claimed(digest,lines)or digest in tried:continue
+  if any(j['n']==n and not done.get(j['id'])for j in jobs+new):continue
+  wide=kind=='fresh'and (W/'WIDE_GREEN').exists()and sum(v['kind']=='wide'for v in jobs+new)<2 and any('/take-'+lane+'-r32/'in str(p)for lane in('forensics','k123'))
+  if wide:kind='wide';seed=3299
+  try:j,why=C.produce_input(p,n,kind,seed,peer,proof)
+  except Exception as e:why=repr(e);j=None
+  if j is None:
+   deferred[digest]=dict(path=str(p),reason=why,source_signature=source_signature(p));C.atomic(W/'deferred32.json',deferred);C.state('DEFER '+str(p)+' '+str(why)[:700]);continue
+  j.update(priority=rank,order=order)
+  if wide:j['options']=['--rmax','8','--tfac','0.15']
+  if parent:j['parent_job']=parent;followed.add(parent)
+  new.append(j)
+ for j in new:
+  digest=j['input_sha256'];p=W/j['start']
+  if C.claimed(digest,(S/'handoff-r32.log').read_text().splitlines()):continue
+  C.hand(f'CLAIM {j["kind"]} n={j["n"]} sha256={digest}; 900s probe120 seed={j["seed"]}; options={j.get('options',[])}; pinned {p}; job={j["id"]}')
+  C.state('QUEUE boxE '+j['id']+' from '+j['origin']+'; source '+j['ancestry']+'; log work/boxE-raw/'+j['id']+'/run.log; deadline17:00Z')
+  tried.add(digest);shapes.add(identity(p,j['n'])[2]);jobs.append(j);C.atomic(W/'jobs.json',jobs)
+ C.atomic(W/'tried-inputs.json',sorted(tried));C.atomic(W/'tried-shapes.json',sorted(shapes));C.atomic(W/'followed.json',sorted(followed))
+ pending=[j for j in jobs if not done.get(j['id'])and j['id']not in locks]
+ pending=[j for j in pending if j['kind']=='control'or not C.claimed(j['input_sha256'],lines)]
+ for j in pending:
+  if j['kind']!='control':j['bar']=(peer[j['n']]+1)*math.sqrt(j['n'])
+ pending.sort(key=C.dispatch_key);C.atomic(W/'queue.json',pending)
+ C.cmd(['rsync','-a',str(W/'starts'),C.REMOTE]);C.cmd(['rsync','-a',str(W/'queue.json'),C.REMOTE])
+ print(C.now(),'jobs',len(jobs),'done',sum(bool(v)for v in done.values()),'pending',len(pending),'deferred',len(deferred),flush=True)
+
+if __name__=='__main__':
+ init_history()
+ while time.time()<C.HARD and not(W/'STOP').exists():
+  try:turn()
+  except Exception:traceback.print_exc();C.state('CONTROLLER ERROR work/campaign32.log')
+  if '--once'in sys.argv:break
+  time.sleep(25)

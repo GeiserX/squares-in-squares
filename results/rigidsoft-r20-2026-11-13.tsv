@@ -1,0 +1,64 @@
+n	run	move	quenched_starts	best_start	best_side	bar_side	bar_minus_best
+263	p-ctl-263-s-1	plain turned block, staircases built again (rigidsoft_step.py scan --plain)	22	13x6_se-2.59_-0.30_-0.50_t0.25	16.865766085	16.724372710	-1.414e-01
+263	p-ctl-263-s1	plain turned block, staircases built again (rigidsoft_step.py scan --plain)	22	13x6_se2.59_-0.50_1.30_t0.25	16.900592028	16.724372710	-1.762e-01
+263	r-ctl-263	block sites turned one way, staircases built again (rigidsoft_return.py)	77	real_e-2.59_s16.7284_0.05_-0.05_t0.2_o2	16.728581300	16.724372710	-4.209e-03
+263	u-ctl-263-t1.0	every row one sense, turn scaled (rigidsoft_hop.py flip --turn)	26	r0-0p_e0	16.728567868	16.724372710	-4.195e-03
+263	u-ctl-263-t1.35	every row one sense, turn scaled (rigidsoft_hop.py flip --turn)	26	r0-9p_e0	16.724372709	16.724372710	8.982e-10
+297	f-a-297	fault (round 20 reader)	8	BR1:13_s0.15_easis	17.944930867	17.739455513	-2.055e-01
+297	f-ctl-297	fault (round 20 reader)	1	TL6:12_s0.15_easis	17.739455559	17.739455513	-4.610e-08
+297	m-a-297	two faults at once (rigidsoft_multi.py)	12	BR1:6+TL10:12	17.801993587	17.739455513	-6.254e-02
+328	ch-c-328-p1	fault chain pass (round 20 reader)	7	TL20:21_s0.15_easis	18.612575042	18.612574299	-7.431e-07
+328	ch-k-328-p1	fault chain pass (round 20 reader)	17	BR8:14_s0.15_easis	18.612574792	18.612574299	-4.931e-07
+328	chx-c-328-p1	flip after a chain pass	28	r0-0p_e0	18.612575042	18.612574299	-7.431e-07
+328	chx-k-328-p1	flip after a chain pass	33	r0-0p_e0	18.612574792	18.612574299	-4.931e-07
+328	f-BR1-13-328	fault (round 20 reader)	13	BR3:9_s0.15_easis	18.615911252	18.612574299	-3.337e-03
+328	f-BR12-13-328	fault (round 20 reader)	23	TL20:21_s0.15_easis	18.613387243	18.612574299	-8.129e-04
+328	f-BR8-13-328	fault (round 20 reader)	19	BR1:4_s0.15_easis	18.614012888	18.612574299	-1.439e-03
+328	f-a-328	fault (round 20 reader)	22	BR1:3_s0.15_easis	18.668324963	18.612574299	-5.575e-02
+328	m-a-328	two faults at once (rigidsoft_multi.py)	8	TL3:8+TL10:15	18.711052158	18.612574299	-9.848e-02
+328	m-b-328	two faults at once (rigidsoft_multi.py)	4	BR1:3+BR8:10	18.618813843	18.612574299	-6.240e-03
+328	p-a-328-s-1	plain turned block, staircases built again (rigidsoft_step.py scan --plain)	13	22x3_se-2.78_-0.45_-0.25_t0.2	18.615285384	18.612574299	-2.711e-03
+328	p-a-328-s1	plain turned block, staircases built again (rigidsoft_step.py scan --plain)	36	22x3_se2.6_0.05_0.15_t0.25	18.614952058	18.612574299	-2.378e-03
+328	r-a-328	block sites turned one way, staircases built again (rigidsoft_return.py)	14	int_e2.78_s18.6035_-0.00_0.15_t0.25_o0	18.665473644	18.612574299	-5.290e-02
+328	u-a-328-t1.0	every row one sense, turn scaled (rigidsoft_hop.py flip --turn)	32	r0-0p_e0	18.612575042	18.612574299	-7.431e-07
+328	u-a-328-t1.5	every row one sense, turn scaled (rigidsoft_hop.py flip --turn)	44	r0-0p_e0	18.612575042	18.612574299	-7.431e-07
+328	u-a-328-t2.0	every row one sense, turn scaled (rigidsoft_hop.py flip --turn)	44	r0-0p_e0	18.612575042	18.612574299	-7.431e-07
+328	u-a-328-t2.5	every row one sense, turn scaled (rigidsoft_hop.py flip --turn)	44	r0-3p_e0	18.612574298	18.612574299	9.498e-10
+332	ch-c-332-p1	fault chain pass (round 20 reader)	2	TL8:10_s0.15_easis	18.747681679	18.739455513	-8.226e-03
+332	f-a-332	fault (round 20 reader)	10	BR1:13_s0.15_easis	18.903514558	18.739455513	-1.641e-01
+332	m-a-332	two faults at once (rigidsoft_multi.py)	12	BR1:6+TL10:12	18.801934874	18.739455513	-6.248e-02
+365	ch-c-365-p1	fault chain pass (round 20 reader)	4	BR1:4_s0.15_easis	19.638010169	19.608277774	-2.973e-02
+365	ch-f-365-p1	fault chain pass (round 20 reader)	13	TL14:20_s0.15_easis	19.648693989	19.608277774	-4.042e-02
+365	ch-k-365-p1	fault chain pass (round 20 reader)	17	BR8:14_s0.15_easis	19.610439666	19.608277774	-2.162e-03
+365	chx-k-365-p1	flip after a chain pass	42	r9-10m_e0	19.608371152	19.608277774	-9.338e-05
+365	f-a-365	fault (round 20 reader)	14	BR2:3_s0.15_easis	19.608277773	19.608277774	9.715e-10
+365	m-a-365	two faults at once (rigidsoft_multi.py)	16	TL3:8+TL10:15	19.711055439	19.608277774	-1.028e-01
+365	r-a-365	block sites turned one way, staircases built again (rigidsoft_return.py)	24	real_e2.88_s19.5998_0.05_-0.25_t0.25_o2	19.639594584	19.608277774	-3.132e-02
+365	u-a-365-t1.0	every row one sense, turn scaled (rigidsoft_hop.py flip --turn)	44	r0-0p_e0	19.608277773	19.608277774	9.715e-10
+365	u-a-365-t1.5	every row one sense, turn scaled (rigidsoft_hop.py flip --turn)	44	r0-0p_e0	19.608277773	19.608277774	9.715e-10
+365	u-a-365-t2.0	every row one sense, turn scaled (rigidsoft_hop.py flip --turn)	44	r0-0p_e0	19.608277773	19.608277774	9.715e-10
+365	u-a-365-t2.5	every row one sense, turn scaled (rigidsoft_hop.py flip --turn)	44	r0-0p_e0	19.608277773	19.608277774	9.715e-10
+409	ch-c-409-p1	fault chain pass (round 20 reader)	2	TL8:10_s0.15_easis	20.747430299	20.739455513	-7.975e-03
+409	f-a-409	fault (round 20 reader)	10	BR1:8_s0.15_easis	20.778029562	20.739455513	-3.857e-02
+409	m-a-409	two faults at once (rigidsoft_multi.py)	12	BR1:6+TL10:12	20.801993530	20.739455513	-6.254e-02
+494	ch-c-494-p1	fault chain pass (round 20 reader)	5	TL8:10_s0.15_easis	22.735594442	22.733430919	-2.164e-03
+494	ch-j-494-p1	fault chain pass (round 20 reader)	24	TL6:12_s0.15_easis	22.734836449	22.733430919	-1.406e-03
+494	ch-j-494-p2	fault chain pass (round 20 reader)	4	TL17:18_s0.15_easis	22.740414148	22.733430919	-6.983e-03
+494	chx-c-494-p1	flip after a chain pass	16	r18-19m_e0	22.735594309	22.733430919	-2.163e-03
+494	chx-j-494-p1	flip after a chain pass	27	r7-9p_e0	22.734513912	22.733430919	-1.083e-03
+494	f-a-494	fault (round 20 reader)	2	BR1:8_s0.15_easis	22.890983096	22.733430919	-1.576e-01
+494	f-b-494	fault (round 20 reader)	7	TL8:10_s0.15_easis	22.735594442	22.733430919	-2.164e-03
+494	m-ctl-494	two faults at once (rigidsoft_multi.py)	1	TL6:12+BR18:21	22.738817772	22.733430919	-5.387e-03
+907	ch-d-907-p1	fault chain pass (round 20 reader)	8	BR32:38_s0.15_easis	30.617788144	30.617919301	1.312e-04
+907	ch-e-907-p1	fault chain pass (round 20 reader)	7	BR14:25_s0.15_easis	30.618519058	30.617919301	-5.998e-04
+907	ch-g-907-p1	fault chain pass (round 20 reader)	36	TL3:12_s0.15_easis	30.617919294	30.617919301	6.943e-09
+907	ch-g-907-p2	fault chain pass (round 20 reader)	14	TL20:26_s0.15_easis	30.617318085	30.617919301	6.012e-04
+907	ch-h-907-p1	fault chain pass (round 20 reader)	5	TL31:36_s0.15_easis	30.676957416	30.617919301	-5.904e-02
+907	chx-d-907-p1	flip after a chain pass	44	r32-34m_e0	30.616241287	30.617919301	1.678e-03
+907	chx-e-907-p1	flip after a chain pass	75	r13-14m_e0	30.618518770	30.617919301	-5.995e-04
+907	chx-g-907-p1	flip after a chain pass	43	r23-23p_e0	30.617919294	30.617919301	6.943e-09
+907	chx-g-907-p2	flip after a chain pass	16	r35-35m_e0	30.617320656	30.617919301	5.986e-04
+907	f-c-907	fault (round 20 reader)	10	TL15:24_s0.15_easis	30.616241287	30.617919301	1.678e-03
+907	old-ch-a-907-p1	fault chain pass, stopped	3	TL3:8_s0.15_easis	30.690437406	30.617919301	-7.252e-02
+907	old-ch-a2-907-p1	fault chain pass, stopped	9	TL30:32_s0.15_easis	30.643496435	30.617919301	-2.558e-02
+907	old-ch-b-907-p1	fault chain pass, stopped	3	TL3:9_s0.15_easis	30.646987555	30.617919301	-2.907e-02

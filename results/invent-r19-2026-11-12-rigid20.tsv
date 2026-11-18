@@ -1,0 +1,21 @@
+n	kind_of_block	reading_of_the_best_file
+367	45-degree block clear of the walls	169 squares at 45, 13 by 13 along the diagonals
+366	45-degree block clear of the walls	120 squares at 45, 15 by 8 along the diagonals
+847	45-degree block clear of the walls	225 squares at 45, 15 by 15 along the diagonals, plus 14 squares at 37
+401	45-degree block clear of the walls	25 squares at 45, 5 by 5 along the diagonals
+330	45-degree block on three walls	168 squares at 45, 14 by 13 along the diagonals, on the left, bottom and top walls
+850	45-degree band on the diagonal	256 squares at 45, 32 by 8 along the diagonals
+365	45-degree band on the diagonal	67 squares at 43 to 45, 22 by 4 along the diagonals
+262	45-degree band on the diagonal	one line of 19 squares at 45
+634	two arms and no block	stacks of 8 at 24 (115 squares, bottom and right walls) and of 7 at 27 (91 squares, left and top walls)
+646	two arms and no block	stacks of 8 at 22 (111 squares, bottom wall) and of 6 at 24 (77 squares, left wall)
+379	two arms and no block	twin arms of 6 at 22, 56 squares each, on the left and bottom walls
+340	two arms and no block	twin arms of 6 at 22, 50 squares each, on the left and bottom walls
+333	two arms and no block	two sheared arms of 7 at 26, 49 and 40 squares
+793	two arms and no block	two-arm layout at 23 to 24, 334 tilted squares on all four walls (held)
+796	two arms and no block	two-arm layout at 22 to 24, 300 tilted squares on all four walls (take-twoshort-r17)
+851	two arms and no block	two-arm layout at 22 to 24, 350 tilted squares on all four walls (take-family-r17)
+491	an arm with steep blocks	113 squares at 24 on the bottom wall and a block of 26 at 37 to 39
+848	an arm with steep blocks	91 squares at 26 on the bottom and right walls and two twin blocks of 27 at 36 to 39
+790	twin blocks that stand off the walls	two blocks of 85 squares at 26, 9.6 by 14.1, clear of every wall
+456	a fault from wall to wall	60 squares at 29 to 35 from the left wall to the right wall

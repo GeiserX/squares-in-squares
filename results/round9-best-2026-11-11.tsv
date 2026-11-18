@@ -1,0 +1,14 @@
+n	score	L	source	licence
+419	0.02273360695695814	20.934834819144395	fq quench of the held packing (own soft-box search, methods_soft.py)	own search
+542	0.02164937182882465	23.784910172530857	fq quench of border step from held n=497 (literature_border.py)	ours, on the held n=497
+549	0.019818467645880578	23.895110569244576	fq quench of grennwolf/squares-in-squares-top-1-santa-2025 :: submission_improved.csv	Apache 2.0 (Kaggle default for public notebooks)
+602	0.017737779876565885	24.97089693082779	fq quench of grennwolf/squares-in-squares-top-1-santa-2025 :: submission_improved.csv	Apache 2.0 (Kaggle default for public notebooks)
+640	0.019438128851663183	25.789971366331745	own soft-box search (methods_soft.py) from the held packing	own search
+645	0.018368878702771374	25.863361859127462	own soft-box search (methods_soft.py) from the held packing	own search
+648	0.01762424102216631	25.90448405495715	own soft-box search (methods_soft.py) from the held packing	own search
+651	0.01687733179079598	25.945321729540947	own soft-box search (methods_soft.py) from the held packing	own search
+654	0.016297987253192314	25.990219038654864	fq quench of the held packing (own soft-box search, methods_soft.py)	own search
+690	0.018898325513653225	26.764269473251524	fq quench of grennwolf/squares-in-squares-top-1-santa-2025 :: submission_improved.csv	Apache 2.0 (Kaggle default for public notebooks)
+756	0.01551725099618606	27.922108033340947	own soft-box search (methods_soft.py) from the held packing	own search
+800	0.01743855554428908	28.777508082640505	own soft-box search (methods_soft.py) from the held packing	own search
+865	0.01543228735711466	29.86475952739811	alexchilton/fault-line-dp-basin-hopping-lb-22-2620 :: quench__865.csv	Apache 2.0 (Kaggle default for public notebooks)

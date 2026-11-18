@@ -1,0 +1,107 @@
+{
+  "<scratch>/bounties-squares/gather/round23-2026-11-13b.csv": {
+    "evidence": "<scratch>/bounties-squares/round30-briefs/forensics.txt",
+    "known_held": true,
+    "sha256": "9626215c8746a05be4c2768df9dbc0d416aeb532ac0d44bfd4c2e5c57333cdd4"
+  },
+  "<scratch>/bounties-squares/gather/round22-2026-11-13b.csv": {
+    "evidence": "<scratch>/bounties-squares/round30-briefs/forensics.txt",
+    "known_held": true,
+    "sha256": "bebcdeca17468fcf38f3f2bcb5bab7b0c167f50bb50a893e474c3eb59a1c33ad"
+  },
+  "<scratch>/bounties-squares/gather/round21-2026-11-13a.csv": {
+    "evidence": "README.md",
+    "line": 9,
+    "sha256": "ec059f8f1b0a5a70490991b5e821f99c0e80e365dce750ef7c1dd5f43e6593d8"
+  },
+  "<scratch>/bounties-squares/gather/round20-2026-11-13a.csv": {
+    "evidence": "README.md",
+    "line": 9,
+    "sha256": "0344ef76a9d5c75979f7314fe9b745d82e4f32b7072fa9b60291b7f7d06677d6"
+  },
+  "<scratch>/bounties-squares/gather/round19-2026-11-12a.csv": {
+    "evidence": "README.md",
+    "line": 9,
+    "sha256": "d3739f8a037b96dd8d967cf751c0a81948a9a98e6585c1857afdd9effcfc2e12"
+  },
+  "<scratch>/bounties-squares/gather/round18-2026-11-12a.csv": {
+    "evidence": "README.md",
+    "line": 9,
+    "sha256": "b0707f218ceb4c298b3452222d671de8d2d455f0fdcfc201b56d305df576eec6"
+  },
+  "<scratch>/bounties-squares/gather/round17-2026-11-12a.csv": {
+    "evidence": "README.md",
+    "line": 9,
+    "sha256": "b1875bc8e648fe9d52f813661c5120974fccc31e2864b7170d02b3c40ce67ce2"
+  },
+  "<scratch>/bounties-squares/gather/round16-2026-11-12a.csv": {
+    "evidence": "README.md",
+    "line": 9,
+    "sha256": "d0ed4b0f71beb5d9977991d33987fb6be735b3416fb5dc685780d83ffaa7c745"
+  },
+  "<scratch>/bounties-squares/gather/round15-2026-11-12a.csv": {
+    "evidence": "README.md",
+    "line": 9,
+    "sha256": "7a8782432d09142d38eda6e2548713266e9f160388a3e0148ef793344616d683"
+  },
+  "<scratch>/bounties-squares/gather/round14-2026-11-12a.csv": {
+    "evidence": "README.md",
+    "line": 9,
+    "sha256": "befad081f55620a35a380873b56431fb6b6b5e171f4ccfae3c491129b92902ec"
+  },
+  "<scratch>/bounties-squares/gather/round13-2026-11-12a.csv": {
+    "evidence": "README.md",
+    "line": 9,
+    "sha256": "999cb7c584f7660a803433ad60552f3841289a345303e1e0695c11a5b94074d5"
+  },
+  "<scratch>/bounties-squares/gather/round12-2026-11-12a.csv": {
+    "evidence": "README.md",
+    "line": 9,
+    "sha256": "7693a9ba2721bdf67787a03a50ee1a107428fc783ac2244fa62fbb02fae656e4"
+  },
+  "<scratch>/bounties-squares/gather/round11-2026-11-11b.csv": {
+    "evidence": "README.md",
+    "line": 9,
+    "sha256": "3ad6a326f6bf32eb241776af15c86581ccd77e35e27f34963961a46a86437aaf"
+  },
+  "<scratch>/bounties-squares/gather/round10-2026-11-11a.csv": {
+    "evidence": "README.md",
+    "line": 9,
+    "sha256": "c1cd4bccd2a75d5ce9844b85966a6f0efa9372f695f62604770611b8af303320"
+  },
+  "<scratch>/bounties-squares/gather/round9-2026-11-11a.csv": {
+    "evidence": "README.md",
+    "line": 9,
+    "sha256": "33cae5841c726962504e4ff142bcc5129e0064d132a216e95342df70309e01c2"
+  },
+  "<scratch>/bounties-squares/gather/round8-2026-11-11a.csv": {
+    "evidence": "README.md",
+    "line": 9,
+    "sha256": "4f9c7d10b8bfe07678c45bf96b8a13de895127b52505e267122f3d8529f69605"
+  },
+  "<scratch>/bounties-squares/gather/round7-2026-11-11a.csv": {
+    "evidence": "README.md",
+    "line": 9,
+    "sha256": "0d57e01f2e081b0eeb441519fc458f7244f07c08f5ce768444c3b892fb63ee4a"
+  },
+  "<scratch>/bounties-squares/gather/round25-2026-11-14b.csv": {
+    "evidence": "<scratch>/bounties-squares/round30-briefs/forensics.txt",
+    "known_held": true,
+    "sha256": "9330bebe8e652f4e800951c761314eed9a5d26e7ca9548a9190a8ebfebe60a8b"
+  },
+  "<scratch>/bounties-squares/gather/round29-2026-11-15b.csv": {
+    "evidence": "<scratch>/bounties-squares/handoff-r30.log",
+    "line": 873,
+    "sha256": "70b9c8da403262bf732aa886335cde0c33b5f54215d0ddbabd51145ef6670fdd"
+  },
+  "<scratch>/bounties-squares/gather/round28-2026-11-15b.csv": {
+    "evidence": "<scratch>/bounties-squares/round30-briefs/forensics.txt",
+    "known_held": true,
+    "sha256": "1bc7a3f97a38f6d9ccc56dcafdcb816997b80d9b7ba64945757d9e0ca4b7e797"
+  },
+  "<scratch>/bounties-squares/gather/round27-2026-11-15b.csv": {
+    "evidence": "<scratch>/bounties-squares/round30-briefs/forensics.txt",
+    "known_held": true,
+    "sha256": "b5d3f682b334df4bbbc088aca7003a3963797b63958a861af78e19118d2fc0b9"
+  }
+}

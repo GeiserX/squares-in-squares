@@ -1,0 +1,13 @@
+n	score	L	source	licence
+237	0.03241361518198227	15.893805581317265	github.com/kenaznia-doga/s237-upper-bound@13c4b231 :: n-237-decimal-pose.yaml.csv	CC BY 4.0 (LICENSE.md of the packet)
+378	0.024696384856139453	19.92237469454576	fq quench of modules.py: corner 378h.C <held: jazivxt/boxed-in-sub :: submission.csv>, far zones 304h.F1 <held: seed merged0> and 378h.F2 <held: jazivxt/boxed-in-sub :: submission.csv>, squeezed (methods_lp, fq) (take-modules-r10)	Apache 2.0 (Kaggle default for public notebooks); see README
+457	0.022558560616475765	21.85980527177101	pablodiegoo/squares-in-squares-starter-notebook :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+638	0.019963054395702784	25.762901921715862	fq quench of family_step.py 1 shell(s) up from lucifer19/think-select-reclose :: v24_anchor.csv (harvest-2026-11-11) (take-family-r10)	Apache 2.0 (Kaggle default for public notebooks)
+705	0.015780171370535	26.970828618480287	fq quench of modules.py: corner 505h.C <held: jazivxt/boxed-in :: data.zip!submission.csv>, far zones 874h.F1 <held: udishiken/square-in-square-strecth-fq :: submission.csv> and 462h10.F2 <prvsiyan/a-square-deal-research-to-verified-packings :: submission.csv>, squeezed (methods_lp, fq) (take-modules-r10)	Apache 2.0; Apache 2.0 (Kaggle default for public notebooks)
+738	0.018888911305584122	27.679294514548793	pablodiegoo/squares-in-squares-starter-notebook :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+742	0.01843892267070668	27.741947240493353	pablodiegoo/squares-in-squares-starter-notebook :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+754	0.01626086530090798	27.90556851852299	pablodiegoo/squares-in-squares-starter-notebook :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+806	0.01615988923485312	28.848920636910663	fq quench of the held packing (our soft-box search of round 8, methods_soft.py, on penguin069/squares-boxed-public-certified-union :: effective_pandas_roundtrip.csv)	own search on a packing under Apache 2.0 (Kaggle default for public notebooks)
+816	0.014438619649199902	28.978163189498257	pablodiegoo/squares-in-squares-starter-notebook :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+856	0.01668433999835206	29.745619381707105	pablodiegoo/squares-in-squares-starter-notebook :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+933	0.013100087261512794	30.94519150196138	fq quench of family_step.py 3 shell(s) up from jazivxt/boxed-in-sub :: submission.csv (take-family-r10)	Apache 2.0 (Kaggle default for public notebooks)

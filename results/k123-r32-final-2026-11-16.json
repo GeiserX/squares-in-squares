@@ -1,0 +1,215 @@
+{
+  "time": "2026-11-16T17:04:38Z",
+  "rows": [
+    {
+      "n": 488,
+      "sha256": "2a076b966f153cb210572f33918e2988dbf3b06790d0ef8fd8ee9be7f3b4c0d5",
+      "bar32": 0.02266363731471066,
+      "score": 0.022622714319241677,
+      "gain_base": 4.0922995468983814e-05,
+      "best_other": null,
+      "qualifies": true
+    },
+    {
+      "n": 808,
+      "sha256": "33686e5de24178f6d5912e189555ed87bbc2d283da46bf868bd318ddd0797eba",
+      "bar32": 0.015768922858007572,
+      "score": 0.015753614221254875,
+      "gain_base": 1.530863675269778e-05,
+      "best_other": {
+        "score": 0.015748497853204535,
+        "take": "<scratch>/bounties-squares/take-backlog-r32/take.tsv"
+      },
+      "qualifies": false
+    },
+    {
+      "n": 864,
+      "sha256": "4cc137ef6d210a0af2e4ab2b15d2cf60e97a754f9dbdfc8ced391e0af31a5b9f",
+      "bar32": 0.015581727055325123,
+      "score": 0.015578533647630621,
+      "gain_base": 3.1934076945017154e-06,
+      "best_other": {
+        "score": 0.015567530080360159,
+        "take": "<scratch>/bounties-squares/take-backlog-r32/take.tsv"
+      },
+      "qualifies": false
+    },
+    {
+      "n": 866,
+      "sha256": "aba04baba0ac628cec5684a6b7e85505aff8d5bbeb2159aa4f39e726e544f41e",
+      "bar32": 0.015147712122207446,
+      "score": 0.015069830566012632,
+      "gain_base": 7.78815561948143e-05,
+      "best_other": {
+        "score": 0.015069804247240803,
+        "take": "<scratch>/bounties-squares/take-backlog-r32/take.tsv"
+      },
+      "qualifies": false
+    },
+    {
+      "n": 911,
+      "sha256": "6338f6a7822f8675cd240850003c1d479652b027c14717838d990a5a5cd83069",
+      "bar32": 0.016197753846477703,
+      "score": 0.016163553428354183,
+      "gain_base": 3.420041812352004e-05,
+      "best_other": {
+        "score": 0.016163560628258633,
+        "take": "<scratch>/bounties-squares/take-rebuild-r32/take.tsv"
+      },
+      "qualifies": true
+    }
+  ],
+  "retained_n": [
+    488,
+    911
+  ],
+  "take_sha256": "d0d44f2350dcc706e60fc15263b6d4ed290fca542012784f119b2de372f8f793",
+  "peer_tables": [
+    {
+      "path": "<scratch>/bounties-squares/take-backlog-r32/take.tsv",
+      "sha256": "87f6e1801f7a23eccc8f9ad4464c5b537d937d7f59fbcfb722bcd6c980d3a0ea"
+    },
+    {
+      "path": "<scratch>/bounties-squares/take-border-r32/take.tsv",
+      "sha256": "f2d193591d9e6e245c62543aae242d763b79d5a8acaef53dd7613223a83516e7"
+    },
+    {
+      "path": "<scratch>/bounties-squares/take-classfill-r32/take.tsv",
+      "sha256": "5ee63c73abe4791c13d828fcc7639d205809097098c9fca914b7febb55f20a5e"
+    },
+    {
+      "path": "<scratch>/bounties-squares/take-forensics-r32/take.tsv",
+      "sha256": "f83ec5ad3dea1b3baf452230f2d99615ccdd8d64138c6018e21eebef1c0c9aec"
+    },
+    {
+      "path": "<scratch>/bounties-squares/take-harvest-r32/take.tsv",
+      "sha256": "4e3806b2d3920c81f21cba1a427ec0e4166911518ca329a6e0469264cb41d28b"
+    },
+    {
+      "path": "<scratch>/bounties-squares/take-invent-r32/take.tsv",
+      "sha256": "db6f55a3418193c700d169a059063273835f294b11615539ad73bd1773c7e576"
+    },
+    {
+      "path": "<scratch>/bounties-squares/take-midm-r32/take.tsv",
+      "sha256": "be3dd64408caf3013e28f0d477b1f7a984335460b7c8c2f1fcdcf83d65aa3b70"
+    },
+    {
+      "path": "<scratch>/bounties-squares/take-quench-r32/take.tsv",
+      "sha256": "d76daa098e5e2892b366140f8c900e04e381d4a755eb20a63cd9b6bff5c0035c"
+    },
+    {
+      "path": "<scratch>/bounties-squares/take-rebuild-r32/take.tsv",
+      "sha256": "03dc259328fe4889ada595d4c108cdd3b639b89702fb1ffd962ca0063c0e5fc3"
+    },
+    {
+      "path": "<scratch>/bounties-squares/take-soft-r32/take.tsv",
+      "sha256": "d905fb63dc0b0988a45a54d034d4eafb8f21c64cea690ad921d1aab291a65f73"
+    },
+    {
+      "path": "<scratch>/bounties-squares/take-stair-c-r32/take.tsv",
+      "sha256": "5c1f935a3db12c5815566c5fbd0f163117ec2755f72816eba2b515e5809711fe"
+    },
+    {
+      "path": "<scratch>/bounties-squares/take-twoshort-r32/take.tsv",
+      "sha256": "dc4e107542bbe5f1c97980bb6dd7bdc545c4c730b18707304190568b7ef550e1"
+    }
+  ],
+  "numerical_checks": [
+    {
+      "n": 488,
+      "sha256": "2a076b966f153cb210572f33918e2988dbf3b06790d0ef8fd8ee9be7f3b4c0d5",
+      "rows": 488,
+      "clearance": 2.2000179455972102e-11,
+      "score": 0.022622714319241677,
+      "raw_result": "ok",
+      "pandas_score": 0.022622714319241677,
+      "pandas_result": "ok",
+      "time": "2026-11-16T17:03:43Z"
+    },
+    {
+      "n": 911,
+      "sha256": "6338f6a7822f8675cd240850003c1d479652b027c14717838d990a5a5cd83069",
+      "rows": 911,
+      "clearance": 2.2001955812811502e-11,
+      "score": 0.016163553428354183,
+      "raw_result": "ok",
+      "pandas_score": 0.016163553428354183,
+      "pandas_result": "ok",
+      "time": "2026-11-16T17:03:44Z"
+    }
+  ],
+  "strict_source_checks": [
+    {
+      "n": 488,
+      "sha256": "2a076b966f153cb210572f33918e2988dbf3b06790d0ef8fd8ee9be7f3b4c0d5",
+      "clean": true,
+      "hits": [],
+      "files": 16,
+      "seconds": 10.982570886611938
+    },
+    {
+      "n": 808,
+      "sha256": "33686e5de24178f6d5912e189555ed87bbc2d283da46bf868bd318ddd0797eba",
+      "clean": true,
+      "hits": [],
+      "files": 32,
+      "seconds": 0.15278291702270508
+    },
+    {
+      "n": 864,
+      "sha256": "4cc137ef6d210a0af2e4ab2b15d2cf60e97a754f9dbdfc8ced391e0af31a5b9f",
+      "clean": true,
+      "hits": [],
+      "files": 40,
+      "seconds": 0.24293804168701172
+    },
+    {
+      "n": 866,
+      "sha256": "aba04baba0ac628cec5684a6b7e85505aff8d5bbeb2159aa4f39e726e544f41e",
+      "clean": true,
+      "hits": [],
+      "files": 210,
+      "seconds": 1.699610710144043
+    },
+    {
+      "n": 911,
+      "sha256": "6338f6a7822f8675cd240850003c1d479652b027c14717838d990a5a5cd83069",
+      "clean": true,
+      "hits": [],
+      "files": 166,
+      "seconds": 1.8090851306915283
+    }
+  ],
+  "archive": {
+    "files": 8536,
+    "bytes": 264037928,
+    "checksum_differences": []
+  },
+  "remote_process_audit": {
+    "boxE": {
+      "workers": 0,
+      "lane_scratch": false
+    },
+    "boxC": {
+      "workers": 0,
+      "lane_scratch": false
+    },
+    "boxD": {
+      "workers": 0,
+      "lane_scratch": false
+    },
+    "boxB": {
+      "workers": 0,
+      "lane_scratch": false
+    }
+  },
+  "superseded_n": [
+    808,
+    864,
+    866
+  ],
+  "notes": [
+    "Superseded files remain available for pinned descendants. This final selection does not withdraw their ancestry.",
+    "812 was withdrawn before this final pass and remains excluded."
+  ]
+}

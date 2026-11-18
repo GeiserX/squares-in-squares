@@ -1,0 +1,31 @@
+experiment	case	needed	measured	verdict
+rigid45 formula vs exact fill	m=8 a=5 b=5 f=0.535534	gain 1	gain 1	ok
+rigid45 formula vs exact fill	m=12 a=8 b=8 f=0.656854	gain 4	gain 4	ok
+rigid45 formula vs exact fill	m=25 a=17 b=17 f=0.520815	gain 1	gain 1	ok
+rigid45 formula vs exact fill	m=19 a=13 b=13 f=0.692388	gain 7	gain 7	ok
+rigid45 formula vs exact fill	m=22 a=15 b=15 f=0.606602	gain 5	gain 5	ok
+rigid45 formula vs exact fill	m=9 a=6 b=6 f=0.742641	gain 4	gain 4	ok
+rigid45 formula vs exact fill	m=17 a=5 b=17 f=0.535534	gain 1	gain 1	ok
+rigid45 formula vs exact fill	m=13 a=5 b=12 f=0.535534	gain 1	gain 1	ok
+rigid45 formula vs exact fill	m=13 a=5 b=12 f=0.985281	gain 4	gain 4	ok
+rigid45 formula vs exact fill	m=13 a=5 b=12 f=0.981281	gain 1	gain 1	ok
+rigid45 formula vs exact fill	m=14 a=8 b=8 f=0.656854	gain 4	gain 4	ok
+rigid45 formula vs exact fill	m=20 a=5 b=10 f=0.535534	gain -2	gain -2	ok
+rigid45 formula vs exact fill	m=20 a=5 b=10 f=0.571068	gain 1	gain 1	ok
+rigid45 formula vs exact fill	m=20 a=5 b=10 f=0.567068	gain -2	gain -2	ok
+rigid45 enumeration	1935 blocks a,b<=44 with gain>0, fit m>=(A+B)/2+2, m=8..31	a held side beaten	0 designs	no gain
+rigid45 enumeration	same with fit m>=(A+B)/2+1 (36 designs, each fill-checked)	a held side beaten	0 wins; fill gives pred-1 or does not fit	no gain
+exact refill of held layouts	n=100..1000 at own side, tilted squares fixed	more than n squares	none (only n just under m^2, where the m grid has spare cells)	no gain
+straight slot + exact fill	m=30 f=0.52 rows of c=6..30, 12 vertical phases each	gain >= 1	best -2 (c=12); c=6..7 -4; c=8..11 -3; c=13..22 -3 to -5; c=23..30 -6 to -9	red
+straight slot, greedy removal of cap squares	m=30 f=0.52 c=12, 30 rounds	gain >= 1	-2 (no removal gained)	red
+straight slot, 45-degree corner cuts	m=30 f=0.52 c=12, 6 phases, cuts 0..12 step 1	gain >= 1	-2	red
+rigid sheared diagonal strip + exact fill	m=30 f=0.5636 a=3 eps=11.1 (our 904 holds gain 4)	gain 4	-25	red
+rigid 45 strip + exact fill	m=31 f=0.7072 a=1 (our 974 holds gain 13)	gain 13	12	red by 1
+tight sheared block + exact fill	m=16 f=0.6925 a=8 b=13 eps=0 (formula says 5)	gain 5	5	ok
+tight sheared block + exact fill	m=16 f=0.6789 a=8 b=13 eps=0..5 (we hold gain 5 at this side)	gain 5	0 at eps=0, -1 at 1-2, -2 at 3-3.118, -3 at 4-5	red
+band model, held staircases	n=904 phi=33.9 / 56.1	904	880 (18 uprights not on the two grids)	red
+band model, annealed from held staircases	n=904 phi=33.9 / 56.1, 150000 steps	904	899 / 900	red
+band model, annealed from a straight channel	m=30 f=0.5636 phi=33.9 / 56.1, 5 phases x 3 widths x 2 seeds x 400000 steps	904	900 (falls back to the grid)	red
+band model, held staircases	n=974 phi=45	974	973	red by 1
+band model, annealed from held staircases	n=593 phi=34.7 30.2 32.4 55.3 59.8	593	588 587 587 588 589	red
+band model layout through the official metric	m=30 f=0.5636, 900 squares	ok	ok at side 30.5636001	ok

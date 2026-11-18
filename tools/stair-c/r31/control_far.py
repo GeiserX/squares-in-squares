@@ -1,0 +1,14 @@
+"""A new far zone gets one build after the count cap, then repeats are skipped."""
+import ast,pathlib,sys,glob,json,os
+sys.path.insert(0,str(pathlib.Path(__file__).resolve().parent))
+ns=dict(sys=sys,glob=glob,json=json,os=os,L={'mods':[]});tree=ast.parse(pathlib.Path(sys.argv[1]).read_text())
+for node in tree.body:
+    if isinstance(node,ast.Assign) and any(getattr(t,'id',None) in ('CAP','CLOSE') for t in node.targets):exec(compile(ast.Module([node],[]),'worker','exec'),ns)
+    if isinstance(node,ast.FunctionDef) and node.name=='build':exec(compile(ast.Module([node],[]),'worker','exec'),ns)
+built=[];skipped=[]
+ns.update(checkpoint=lambda:None,run=lambda cmd,name,limit:built.append(name),log=lambda *a:skipped.append(a[1]) if a[0]=='SKIP floor' else None)
+def row(name,corner,side=30.001):return dict(n=921,ids=['old-corner',corner,'far2'],stacks=[1,1],f=.8,name=name,predicted=side,bar=30.,patch='live')
+ns['S']=dict(built=0,nogain={921:24},fresh={'sc28new'},build=[row('first','sc28new'),row('repeat','sc28new')])
+ns['H']={j['n']:{'L':j['bar']}for j in ns['S']['build']};ns['build']();assert built==['first'] and not skipped
+ns['S']['build'].append(row('below','old',29.999));ns['H']={j['n']:{'L':j['bar']}for j in ns['S']['build']};ns['build']();ns['build']();assert built==['first','below'] and skipped==['repeat']
+print('CONTROL novel far zone: first live far zone built after24 failures; repeated far zone skipped; below-bar recipe preserved')

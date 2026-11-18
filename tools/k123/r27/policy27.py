@@ -1,0 +1,59 @@
+"""Remaining round27 exclusions and source-specific withdrawal handling."""
+import re,pathlib,functools,json,csv,zipfile,io
+S=pathlib.Path('$SCRATCH/bounties-squares')
+BAD=re.compile(r'CC BY-SA|Attribution.ShareAlike|ShareAlike|penguin069|squares-joegun-boxed|squares-verified-best-of-1105|801h\b|held(?: n\s*=)?\s+801\b|take-harvest-r22/(?:near/)?(?:639|691|745|858|918)\b|take-(?:invent|midm)-r23/(?:near/)?639\b|take-forensics-r23/(?:near/)?980\b|take-forensics-r(?:1\d|2[0-3])/(?:near/)?918\b',re.I)
+def lifted(line):
+ # Mixed exclusions are never waived by a mention of the permitted seed.
+ if BAD.search(line) or re.search(r'prvsiyan|changed|rewrit|gone|missing|untraceable licence|without traceable|generic original',line,re.I):return False
+ return bool(re.search(r'Samanyu|seed(?:365|503|811|921|983)|bare921|held415/501/813/933|held933|735 tree',line,re.I))
+@functools.lru_cache(8)
+def withdrawals(stamps):
+ out=[]
+ for name,stamp in stamps:
+  for line in pathlib.Path(name).read_text().splitlines():
+   if re.search(r'\bWITHDRAW|\bWITHHOLD',line) and not lifted(line):
+    out.extend((p,line) for p in re.findall(r'(take-[a-z0-9-]+-r\d+/[^\s,;]+?\.csv)',line))
+ return out
+_walk_stamp=None
+def lines():
+ global _walk_stamp
+ import sys,importlib
+ lane=pathlib.Path('.');sys.path.insert(0,str(lane))
+ import quench_walk
+ stamp=(lane/'quench_walk.py').stat().st_mtime_ns
+ if _walk_stamp!=stamp:importlib.reload(quench_walk);_walk_stamp=stamp
+ quench_walk.load_withdrawn()
+ return list(quench_walk.WITHDRAWN_LINES)
+def banned(text):
+ active=lines()
+ import quench_walk
+ if hasattr(quench_walk,'CMP'):text=quench_walk.CMP.sub(quench_walk._cmp,text)
+ if BAD.search(text):return True
+ for p,line in active:
+  if p in text:
+   from replacements25 import allowed
+   if not allowed(str(S/p)):return True
+ return False
+@functools.lru_cache(None)
+def prv():
+ p=S/'take-harvest-r24/work/public/data/ds/prvsiyan__squares-verified-best-of-1105/data.zip';out={}
+ with zipfile.ZipFile(p) as z:
+  for name in ['submission.csv']:
+   for row in csv.DictReader(io.StringIO(z.read(name).decode('utf-8-sig'))):
+    r={str(k).strip().lower():v for k,v in row.items()};nn=str(r.get('n',r.get('id','').split('_')[0])).lstrip('s')
+    if nn.isdigit() and 'x' in r and 'y' in r:out.setdefault(int(nn),[]).append((float(str(r['x']).lstrip('s')),float(str(r['y']).lstrip('s'))))
+ return out
+_share={}
+def share(n,A):
+ import numpy as np
+ from scipy.spatial import cKDTree
+ xy=np.asarray(A)[:,:2];sig=(n,__import__('hashlib').sha256(xy.tobytes()).hexdigest())
+ if sig in _share:return _share[sig]
+ ref=np.asarray(prv().get(n,[]))
+ if len(ref)!=n:return 0.
+ a=xy-(xy.min(0)+xy.max(0))/2;b=ref-(ref.min(0)+ref.max(0))/2;tree=cKDTree(b);best=0.
+ for sw in (False,True):
+  for sx in (1,-1):
+   for sy in (1,-1):
+    x=(a[:,::-1] if sw else a)*[sx,sy];best=max(best,float((tree.query(x)[0]<1e-3).mean()))
+ _share[sig]=best;return best

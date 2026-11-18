@@ -1,0 +1,33 @@
+n	score	L	source	licence
+335	0.026875310128059215	18.79490415922492	fq quench of grennwolf/squares-in-squares-top-1-santa-2025 :: submission_improved.csv (taken through the merge nilanjansaha123/squares-gpu-seam-dp-soft-rigid-highs :: submission.csv)	Apache 2.0 (Kaggle default for public notebooks)
+419	0.022766642413063254	20.93551103806595	own soft-box search (methods_soft.py) from the held packing	own search
+453	0.023479928821501517	21.78353868427513	fq quench of the held packing (kmmmvs/squares-public-merge-daily :: submission.csv)	Apache 2.0 (Kaggle default for public notebooks)
+462	0.02115209953491326	21.948832406250393	fq quench of grennwolf/squares-in-squares-top-1-santa-2025 :: submission_improved.csv (taken through the merge nilanjansaha123/squares-gpu-seam-dp-soft-rigid-highs :: submission.csv)	Apache 2.0 (Kaggle default for public notebooks)
+497	0.0220791917288079	22.785719199972856	fq quench of grennwolf/squares-in-squares-top-1-santa-2025 :: submission_improved.csv (taken through the merge nilanjansaha123/squares-gpu-seam-dp-soft-rigid-highs :: submission.csv)	Apache 2.0 (Kaggle default for public notebooks)
+502	0.02107891410650331	22.877637087647926	fq quench of the held packing (udishiken/square-in-square-strecth-fq :: submission.csv)	Apache 2.0 (Kaggle default for public notebooks)
+505	0.020391696212970656	22.93045143294596	jazivxt/boxed-in :: data.zip!submission.csv	Apache 2.0
+508	0.019526552641091932	22.978961484419536	fq quench of the held packing (udishiken/square-in-square-strecth-fq :: submission.csv)	Apache 2.0 (Kaggle default for public notebooks)
+510	0.018384647100991636	22.998363368292445	jazivxt/boxed-in :: data.zip!submission.csv	Apache 2.0
+552	0.018959792658423513	23.94013451503735	fq quench of jazivxt/boxed-in :: data.zip!submission.csv	Apache 2.0
+555	0.018117727578844223	23.98526334026212	fq quench of the held packing (udishiken/square-in-square-strecth-fq :: submission.csv)	Apache 2.0 (Kaggle default for public notebooks)
+590	0.02056633449204348	24.789470132056675	own soft-box search (methods_soft.py) from the held packing	own search
+593	0.01952870985150712	24.827146485156263	fq quench of jazivxt/boxed-in-sub :: submission.csv plus the merge notebook's own step (taken through the merge nilanjansaha123/squares-gpu-seam-dp-soft-rigid-highs :: submission.csv)	Apache 2.0 (Kaggle default for public notebooks)
+601	0.017957653308005916	24.955538626544083	fq quench of jazivxt/boxed-in :: data.zip!submission.csv	Apache 2.0
+642	0.019280730324003237	25.826248644135543	jazivxt/boxed-in :: data.zip!submission.csv	Apache 2.0
+643	0.0187088810174445	25.831854081378523	fq quench of grennwolf/squares-in-squares-top-1-santa-2025 :: submission_improved.csv (taken through the merge nilanjansaha123/squares-gpu-seam-dp-soft-rigid-highs :: submission.csv)	Apache 2.0 (Kaggle default for public notebooks)
+646	0.01835678504135374	25.88309583298115	fq quench of jazivxt/boxed-in :: data.zip!submission.csv	Apache 2.0
+654	0.016308430032905052	25.990486096285117	own soft-box search (methods_soft.py) from the held packing	own search
+689	0.018926838362885334	26.745616471377733	fq quench of the held packing (udishiken/square-in-square-strecth-fq :: submission.csv)	Apache 2.0 (Kaggle default for public notebooks)
+690	0.018964016247919435	26.765995027676112	fq quench of grennwolf/squares-in-squares-top-1-santa-2025 :: submission_improved.csv (taken through the merge nilanjansaha123/squares-gpu-seam-dp-soft-rigid-highs :: submission.csv)	Apache 2.0 (Kaggle default for public notebooks)
+694	0.018352747702747862	26.827362323103873	fq quench of the held packing (penguin069/squares-boxed-public-certified-union :: effective_pandas_roundtrip.csv)	Apache 2.0 (Kaggle default for public notebooks)
+696	0.017670706011262194	26.847997158967534	fq quench of the held packing (penguin069/squares-boxed-public-certified-union :: effective_pandas_roundtrip.csv)	Apache 2.0 (Kaggle default for public notebooks)
+701	0.01648789340541934	26.912944726381966	fq quench of the held packing (jazivxt/boxed-in-sub :: submission.csv)	Apache 2.0 (Kaggle default for public notebooks)
+805	0.016621787992038062	28.844123962346355	fq quench of the held packing (busyaprime/squares-in-squares-fq-quenched-packings :: data.zip!packings.csv)	Attribution 4.0 International (CC BY 4.0)
+806	0.016176302908579743	28.849386623391446	own soft-box search (methods_soft.py) from the held packing	own search
+815	0.014633525142960124	28.965965720658865	fq quench of the held packing (udishiken/square-in-square-strecth-fq :: submission.csv)	Apache 2.0 (Kaggle default for public notebooks)
+864	0.015582959956036868	29.851920520292296	fq quench of the held packing (busyaprime/squares-in-squares-fq-quenched-packings :: data.zip!packings.csv)	Attribution 4.0 International (CC BY 4.0)
+865	0.015432309143198708	29.864760168146063	fq quench of the held packing (busyaprime/squares-in-squares-fq-quenched-packings :: data.zip!packings.csv)	Attribution 4.0 International (CC BY 4.0)
+869	0.014700579956450577	29.912161489796734	fq quench of the held packing (udishiken/square-in-square-strecth-fq :: submission.csv)	Apache 2.0 (Kaggle default for public notebooks)
+873	0.01389629263125669	29.957161235680495	fq quench of the held packing (jazivxt/boxed-in-sub :: submission.csv)	Apache 2.0 (Kaggle default for public notebooks)
+933	0.013252081161345908	30.94983416303367	fq quench of jazivxt/boxed-in :: data.zip!submission.csv	Apache 2.0
+981	0.015169181347288507	31.79603223499647	fq quench of the held packing (udishiken/square-in-square-strecth-fq :: submission.csv)	Apache 2.0 (Kaggle default for public notebooks)

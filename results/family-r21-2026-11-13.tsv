@@ -1,0 +1,601 @@
+part	box	target	donor	source_lane	direction	step	after_step	after_slp	after_squeeze	bar	delta_vs_bar	certified	state
+follow loop: walk from a new design	boxC	301	338-mn20	modules-r20 near/	down	1	17.877694491	17.860221956	17.860221956	17.846667194	1.355e-02	no	ok
+follow loop: walk from a new design	boxC	339	378-mn21	modules-r21 near/	down	1	18.922419435	18.908397472	18.908397472	18.906198209	2.199e-03	no	ok
+follow loop: walk from a new design	boxD	341	304-mn21	modules-r21 near/	up	1	19.004975633	18.941857436	18.941857413	18.941857361	5.200e-08	no	ok
+follow loop: walk from a new design	boxC	377	338-mn20	modules-r20 near/	up	1	19.975716356	19.901001414	19.900984260	19.900890352	9.391e-05	no	ok
+follow loop: walk from a new design	boxD	377	418-cn21	corners-r21 near/	down	1	19.920101743	19.907650786	19.907650786	19.900890352	6.760e-03	no	ok
+follow loop: walk from a new design	boxD	377	418-mn20	modules-r20 near/	down	1	19.920100249	19.907656304	19.907656304	19.900890352	6.766e-03	no	ok
+follow loop: walk from a new design	boxD	378	419-mn20	modules-r20 near/	down	1	19.934129189	19.922958010	19.922957684	19.922373903	5.838e-04	no	ok
+follow loop: walk from a new design	boxC	378	419-mn21	modules-r21 near/	down	1	19.934131920	19.922958005	19.922957684	19.922373903	5.838e-04	no	ok
+follow loop: walk from a new design	boxD	380	304-mn21	modules-r21 near/	up	2	20.024802369	19.973134242	19.973134064	19.961350025	1.178e-02	no	ok
+follow loop: walk from a new design	boxD	418	461-cn21	corners-r21 near/	down	1	20.932081747	20.920122667	20.920122082	20.920082123	3.996e-05	no	ok
+follow loop: walk from a new design	boxD	419	378-mn21	modules-r21 near/	up	1	21.005967059	20.935162406	20.935145842	20.934128625	1.017e-03	no	ok
+follow loop: walk from a new design	boxC	456	501-fo21	forensics-r21	down	1	21.859540156	21.851888154	21.851888154	21.846667194	5.221e-03	no	ok
+follow loop: walk from a new design	boxC	456	501-mm21	midm-r21	down	1	21.858832958	21.851962465	21.851962465	21.846667194	5.295e-03	no	ok
+follow loop: walk from a new design	boxC	456	501-p21	polish-r21	down	1	21.858962304	21.851066058	21.851066058	21.846667194	4.399e-03	no	ok
+follow loop: walk from a new design	boxC	458	503-mn20	modules-r20 near/	down	1	21.898243639	21.887722052	21.887722052	21.877799458	9.923e-03	no	ok
+follow loop: walk from a new design	boxC	461	418-cn21	corners-r21 near/	up	1	22.004403921	21.932222426	21.932222332	21.932001960	2.204e-04	no	ok
+follow loop: walk from a new design	boxC	461	418-mn20	modules-r20 near/	up	1	22.004417508	21.932361067	21.932003525	21.932001960	1.565e-06	no	ok
+follow loop: walk from a new design	boxC	462	419-mn20	modules-r20 near/	up	1	22.013843613	21.952468586	21.952331477	21.948753360	3.578e-03	no	ok
+follow loop: walk from a new design	boxD	462	419-mn21	modules-r21 near/	up	1	22.013845445	21.952177324	21.952134689	21.948753360	3.381e-03	no	ok
+follow loop: walk from a new design	boxC	504	551-mn21	modules-r21 near/	down	1	22.923696015	22.914705500	22.914705500	22.911414565	3.291e-03	no	ok
+follow loop: walk from a new design	boxC	506	461-cn21	corners-r21 near/	up	1	23.012469072	22.964997434	22.964997427	22.952113159	1.288e-02	no	ok
+follow loop: walk from a new design	boxC	538	587-mn21	modules-r21 near/	down	1	23.743780268	23.724998692	23.724998692	23.707106782	1.789e-02	no	ok
+follow loop: walk from a new design	boxD	538	587-mn21a	modules-r21 near/	down	1	23.743772964	23.725050002	23.725050002	23.707106782	1.794e-02	no	ok
+follow loop: walk from a new design	boxC	542	591-fo21	forensics-r21	down	1	nan	nan	nan	23.780373385		no	refused: the cut is not clean: side 23.796758529 (want 23.796758529), smallest gap -2.22e-02
+follow loop: walk from a new design	boxC	542	591-mm21	midm-r21	down	1	23.795304591	23.789442925	23.789442925	23.780373385	9.070e-03	no	ok
+follow loop: walk from a new design	boxD	548	501-fo21	forensics-r21	up	1	23.938394355	23.875168294	23.875153611	23.872518109	2.636e-03	no	ok
+follow loop: walk from a new design	boxC	548	501-mm21	midm-r21	up	1	23.937960341	23.875235937	23.875226392	23.872518109	2.708e-03	no	ok
+follow loop: walk from a new design	boxD	548	501-p21	polish-r21	up	1	23.938047507	23.875257510	23.875226468	23.872518109	2.708e-03	no	ok
+follow loop: walk from a new design	boxD	550	503-mn20	modules-r20 near/	up	1	23.989604973	23.910016422	23.910016417	23.909825290	1.911e-04	no	ok
+follow loop: walk from a new design	boxD	550	599-mn21	modules-r21 near/	down	1	23.921794378	23.910196666	23.910196183	23.909825290	3.709e-04	no	ok
+follow loop: walk from a new design	boxC	589	640-mm21	midm-r21	down	1	24.786813610	24.783730508	24.783730508	24.764758414	1.897e-02	no	ok
+follow loop: walk from a new design	boxD	590	641-fo21	forensics-r21	down	1	24.796758528	24.792460398	24.792460398	24.784148399	8.312e-03	no	ok
+follow loop: walk from a new design	boxC	590	641-fo21a	forensics-r21	down	1	24.796758291	24.792440516	24.792440516	24.784148399	8.292e-03	no	ok
+follow loop: walk from a new design	boxC	599	650-mn21	modules-r21 near/	down	1	24.932814592	24.924781520	24.924781520	24.921794194	2.987e-03	no	ok
+follow loop: walk from a new design	boxC	600	551-mn21	modules-r21 near/	up	1	24.986852743	24.934889633	24.934623369	24.932171000	2.452e-03	no	ok
+follow loop: walk from a new design	boxC	601	652-mn20	modules-r20 near/	down	1	24.960802857	24.953958329	24.953958329	24.951056027	2.902e-03	no	ok
+follow loop: walk from a new design	boxC	638	587-mn21	modules-r21 near/	up	1	25.832416165	25.764865623	25.764848073	25.761536403	3.312e-03	no	ok
+follow loop: walk from a new design	boxC	638	587-mn21a	modules-r21 near/	up	1	25.832411151	25.764895323	25.764848543	25.761536403	3.312e-03	no	ok
+follow loop: walk from a new design	boxC	640	693-f21	family-r21 (own results)	down	1	25.798019752	25.793748721	25.793748721	25.786813610	6.935e-03	no	ok
+follow loop: walk from a new design	boxC	642	591-fo21	forensics-r21	up	1	25.921530480	25.836083202	25.835926201	25.817412500	1.851e-02	no	ok
+follow loop: walk from a new design	boxD	642	591-mm21	midm-r21	up	1	25.919642848	25.838071692	25.838071692	25.817412500	2.066e-02	no	ok
+follow loop: walk from a new design	boxD	649	702-mn21	modules-r21 near/	down	1	25.920366910	25.911796819	25.911792917	25.910304093	1.489e-03	no	ok
+follow loop: walk from a new design	boxC	650	599-mn21	modules-r21 near/	up	1	26.005545624	25.943868426	25.939562163	25.932813790	6.748e-03	no	ok
+follow loop: walk from a new design	boxC	685	740-mn20	modules-r20 near/	down	1	26.706453160	26.686989669	26.686989669	26.684143608	2.846e-03	no	ok
+follow loop: walk from a new design	boxC	693	640-mm21	midm-r21	up	1	26.912533707	26.798178629	26.798019751	26.799033591	-1.014e-03	yes	below held
+follow loop: walk from a new design	boxC	694	641-fo21	forensics-r21	up	1	26.921544796	26.836113186	26.836110505	26.825155466	1.096e-02	no	ok
+follow loop: walk from a new design	boxD	694	641-fo21a	forensics-r21	up	1	26.921470635	26.836701378	26.836112498	26.825155466	1.096e-02	no	ok
+follow loop: walk from a new design	boxD	694	749-mm21	midm-r21	down	1	nan	nan	nan	26.825155466		no	refused: the cut is not clean: side 26.836309765 (want 26.836309765), smallest gap -1.62e-02
+follow loop: walk from a new design	boxC	694	749-mm21a	midm-r21	down	1	nan	nan	nan	26.825155466		no	refused: the cut is not clean: side 26.836002771 (want 26.836002771), smallest gap -1.75e-02
+follow loop: walk from a new design	boxD	695	750-fo21	forensics-r21	down	1	26.847630348	26.837454266	26.837360548	26.836089888	1.271e-03	no	ok
+follow loop: walk from a new design	boxD	695	750-fo21a	forensics-r21	down	1	26.847553416	26.836828136	26.836644022	26.836089888	5.541e-04	no	ok
+follow loop: walk from a new design	boxC	697	752-p21	polish-r21	down	1	nan	nan	nan	26.860374742		no	refused: the nearest full grid line is 3.4 from the cut
+follow loop: walk from a new design	boxC	697	752-p21a	polish-r21	down	1	nan	nan	nan	26.860374742		no	refused: the nearest full grid line is 4.4 from the cut
+follow loop: walk from a new design	boxD	697	752-rd21	readers-r21	down	1	nan	nan	nan	26.860374742		no	refused: the nearest full grid line is 3.4 from the cut
+follow loop: walk from a new design	boxC	697	752-rd21a	readers-r21	down	1	nan	nan	nan	26.860374742		no	refused: the nearest full grid line is 4.4 from the cut
+follow loop: walk from a new design	boxC	701	756-f21	family-r21 (own results)	down	1	26.921036773	26.912433651	26.912431934	26.912378265	5.367e-05	no	ok
+follow loop: walk from a new design	boxC	701	756-m20	modules-r20	down	1	26.921046849	26.912546669	26.912430432	26.912378265	5.217e-05	no	ok
+follow loop: walk from a new design	boxD	701	756-rd21	readers-r21	down	1	26.921044512	26.912490266	26.912431935	26.912378265	5.367e-05	no	ok
+follow loop: walk from a new design	boxD	703	650-mn21	modules-r21 near/	up	1	27.012961200	26.947883810	26.947883804	26.941702257	6.182e-03	no	ok
+follow loop: walk from a new design	boxD	705	652-mn20	modules-r20 near/	up	1	27.013839122	26.974541323	26.970685044	26.970685045	-1.000e-09	no (floatsafe)	below held
+follow loop: walk from a new design	boxC	736	793-ts21	twoshort-r21	down	1	27.672750100	27.646368133	27.646368133	27.637029403	9.339e-03	no	ok
+follow loop: walk from a new design	boxC	736	793-tsn21	twoshort-r21 near/	down	1	27.672775590	27.646372972	27.646372972	27.637029403	9.344e-03	no	ok
+follow loop: walk from a new design	boxC	736	793-tsn21a	twoshort-r21 near/	down	1	27.672793909	27.654350827	27.654350827	27.637029403	1.732e-02	no	ok
+follow loop: walk from a new design	boxC	736	793-tsn21b	twoshort-r21 near/	down	1	27.672760176	27.641252490	27.641252490	27.637029403	4.223e-03	no	ok
+follow loop: walk from a new design	boxC	736	793-tsx21	twoshort (handoff log)	down	1	27.672754191	27.646368214	27.646368214	27.637029403	9.339e-03	no	ok
+follow loop: walk from a new design	boxD	737	794-f21	family-r21 (own results)	down	1	27.683970611	27.665719628	27.665719628	27.638891817	2.683e-02	no	ok
+follow loop: walk from a new design	boxC	737	794-f21a	family-r21 (own results)	down	1	27.683970560	27.665719628	27.665719628	27.638891817	2.683e-02	no	ok
+follow loop: walk from a new design	boxC	737	794-f21b	family-r21 (own results)	down	1	27.683970489	27.665719628	27.665719628	27.638891817	2.683e-02	no	ok
+follow loop: walk from a new design	boxC	737	794-f21c	family-r21 (own results)	down	1	27.683970412	27.665719628	27.665719628	27.638891817	2.683e-02	no	ok
+follow loop: walk from a new design	boxC	737	794-f21d	family-r21 (own results)	down	1	27.683970359	27.665719628	27.665719628	27.638891817	2.683e-02	no	ok
+follow loop: walk from a new design	boxC	737	794-f21e	family-r21 (own results)	down	1	27.683970348	27.665719628	27.665719628	27.638891817	2.683e-02	no	ok
+follow loop: walk from a new design	boxC	737	794-p21	polish-r21	down	1	27.683970915	27.665719628	27.665719628	27.638891817	2.683e-02	no	ok
+follow loop: walk from a new design	boxC	737	794-p21a	polish-r21	down	1	27.683970598	27.665719628	27.665719628	27.638891817	2.683e-02	no	ok
+follow loop: walk from a new design	boxC	737	794-tsn21	twoshort-r21 near/	down	1	27.684001616	27.665719628	27.665719628	27.638891817	2.683e-02	no	ok
+follow loop: walk from a new design	boxD	737	853-f21	family-r21 (own results)	down	2	27.683970609	27.665719628	27.665719628	27.638891817	2.683e-02	no	ok
+follow loop: walk from a new design	boxD	737	853-f21a	family-r21 (own results)	down	2	27.683970558	27.665719628	27.665719628	27.638891817	2.683e-02	no	ok
+follow loop: walk from a new design	boxD	739	796-f21	family-r21 (own results)	down	1	27.714700855	27.696656791	27.696656791	27.684143608	1.251e-02	no	ok
+follow loop: walk from a new design	boxD	739	796-k21	k123-r21	down	1	27.714700914	27.696326096	27.696326096	27.684143608	1.218e-02	no	ok
+follow loop: walk from a new design	boxD	739	855-rd21	readers-r21	down	2	27.714700971	27.697066500	27.697066500	27.684143608	1.292e-02	no	ok
+follow loop: walk from a new design	boxD	741	798-fox21	forensics (handoff log)	down	1	27.745598060	27.738831273	27.738831273	27.727922063	1.091e-02	no	ok
+follow loop: walk from a new design	boxC	748	640-mm21	midm-r21	up	2	nan	nan	nan	27.827151956		no	refused: the opened layout overlaps: smallest gap -6.34e-02 at side 27.922794
+follow loop: walk from a new design	boxD	748	693-f21	family-r21 (own results)	up	1	nan	nan	nan	27.827151956		no	refused: the opened layout overlaps: smallest gap -6.34e-02 at side 27.922794
+follow loop: walk from a new design	boxC	752	809-mm21	midm-r21	down	1	nan	nan	nan	27.876751505		no	refused: the nearest full grid line is 3.4 from the cut
+follow loop: walk from a new design	boxC	752	809-mm21a	midm-r21	down	1	nan	nan	nan	27.876736779		no	refused: the nearest full grid line is 3.4 from the cut
+follow loop: walk from a new design	boxC	752	809-mm21b	midm-r21	down	1	nan	nan	nan	27.876493934		no	refused: the nearest full grid line is 4.4 from the cut
+follow loop: walk from a new design	boxC	753	810-iv21	invent-r21	down	1	27.898200658	27.890628475	27.889743593	27.889742974	6.190e-07	no	ok
+follow loop: walk from a new design	boxD	753	810-iv21a	invent-r21	down	1	27.898195386	27.890663770	27.889743627	27.889742974	6.530e-07	no	ok
+follow loop: walk from a new design	boxC	753	810-rd21	readers-r21	down	1	nan	nan	nan	27.889743674		no	refused: arm 1: no border square beside the cut
+follow loop: walk from a new design	boxC	754	811-hv20	harvest-r20	down	1	nan	nan	nan	27.900113400		no	refused: the nearest full grid line is 3.3 from the cut
+follow loop: walk from a new design	boxC	754	811-p21	polish-r21	down	1	nan	nan	nan	27.900113400		no	refused: the nearest full grid line is 3.3 from the cut
+follow loop: walk from a new design	boxC	754	811-p21a	polish-r21	down	1	nan	nan	nan	27.900113400		no	refused: the nearest full grid line is 3.3 from the cut
+follow loop: walk from a new design	boxC	756	813-f21	family-r21 (own results)	down	1	27.928759575	27.921653744	27.921652674	27.921046849	6.058e-04	no	ok
+follow loop: walk from a new design	boxC	756	813-f21a	family-r21 (own results)	down	1	27.928745145	27.921726545	27.921652763	27.921046849	6.059e-04	no	ok
+follow loop: walk from a new design	boxD	756	813-f21b	family-r21 (own results)	down	1	27.928744690	27.921644290	27.921642933	27.921046849	5.961e-04	no	ok
+follow loop: walk from a new design	boxC	756	813-iv21	invent-r21	down	1	27.928744663	27.921721180	27.921721017	27.921046849	6.742e-04	no	ok
+follow loop: walk from a new design	boxC	756	813-m21	modules-r21	down	1	27.928745088	27.921217603	27.921135891	27.921046849	8.904e-05	no	ok
+follow loop: walk from a new design	boxC	757	702-mn21	modules-r21 near/	up	1	27.971489697	27.935393935	27.935393930	27.931788175	3.606e-03	no	ok
+follow loop: walk from a new design	boxD	760	652-mn20	modules-r20 near/	up	2	28.020938615	27.976209809	27.976209804	27.976209805	-1.000e-09	no (floatsafe)	below held
+follow loop: walk from a new design	boxD	792	851-f21	family-r21 (own results)	down	1	28.677199117	28.658723703	28.658723703	28.637029403	2.169e-02	no	ok
+follow loop: walk from a new design	boxD	792	851-k21	k123-r21	down	1	28.676511524	28.648539496	28.648539496	28.637029403	1.151e-02	no	ok
+follow loop: walk from a new design	boxD	794	853-f21	family-r21 (own results)	down	1	28.706720409	28.683972506	28.683970609	28.683970915	-3.060e-07	no (under 1e-10)	below held
+follow loop: walk from a new design	boxD	794	853-f21a	family-r21 (own results)	down	1	28.706720261	28.683972427	28.683970558	28.683970598	-4.000e-08	no (under 1e-10)	below held
+follow loop: walk from a new design	boxD	794	853-iv21	invent-r21	down	1	28.706720220	28.683984315	28.683972208	28.683970483	1.725e-06	no	ok
+follow loop: walk from a new design	boxC	794	853-ivx21	invent (handoff log)	down	1	28.706724459	28.687893824	28.687893824	28.683970926	3.923e-03	no	ok
+follow loop: walk from a new design	boxD	794	853-tsn21	twoshort-r21 near/	down	1	28.706822943	28.685716135	28.683972221	28.683970483	1.738e-06	no	ok
+follow loop: walk from a new design	boxD	796	855-mn21	modules-r21 near/	down	1	28.732011873	28.714772305	28.714707220	28.714700914	6.306e-06	no	ok
+follow loop: walk from a new design	boxD	796	855-rd21	readers-r21	down	1	28.732009017	28.714701241	28.714700971	28.714700914	5.700e-08	no	ok
+follow loop: walk from a new design	boxC	797	740-mn20	modules-r20 near/	up	1	28.802889658	28.728120908	28.728120903	28.728120904	-1.000e-09	no (floatsafe)	below held
+follow loop: walk from a new design	boxC	806	749-mm21	midm-r21	up	1	28.950298143	28.862249415	28.851843452	28.848920550	2.923e-03	no	ok
+follow loop: walk from a new design	boxC	806	749-mm21a	midm-r21	up	1	28.949977663	28.862206661	28.851835417	28.848920550	2.915e-03	no	ok
+follow loop: walk from a new design	boxC	807	750-fo21	forensics-r21	up	1	28.930867549	28.860772398	28.860526794	28.860400738	1.261e-04	no	ok
+follow loop: walk from a new design	boxC	807	750-fo21a	forensics-r21	up	1	28.931814172	28.866330376	28.866330369	28.860400738	5.930e-03	no	ok
+follow loop: walk from a new design	boxC	809	752-p21	polish-r21	up	1	nan	nan	nan	28.885375784		no	refused: the nearest full grid line is 3.4 from the cut
+follow loop: walk from a new design	boxD	809	752-p21a	polish-r21	up	1	nan	nan	nan	28.885200084		no	refused: the nearest full grid line is 4.4 from the cut
+follow loop: walk from a new design	boxC	809	752-rd21	readers-r21	up	1	nan	nan	nan	28.885375784		no	refused: the nearest full grid line is 3.4 from the cut
+follow loop: walk from a new design	boxC	809	752-rd21a	readers-r21	up	1	nan	nan	nan	28.885200084		no	refused: the nearest full grid line is 4.4 from the cut
+follow loop: walk from a new design	boxC	809	868-mm21	midm-r21	down	1	nan	nan	nan	28.884960883		no	refused: arm 2: no border square beside the cut
+follow loop: walk from a new design	boxC	809	868-mm21a	midm-r21	down	1	nan	nan	nan	28.884960883		no	refused: the nearest full grid line is 8.6 from the cut
+follow loop: walk from a new design	boxC	809	868-mm21b	midm-r21	down	1	28.891253213	28.885976510	28.885974650	28.884960883	1.014e-03	no	ok
+follow loop: walk from a new design	boxC	809	868-rd21	readers-r21	down	1	nan	nan	nan	28.885200084		no	refused: the nearest full grid line is 3.3 from the cut
+follow loop: walk from a new design	boxC	811	870-c21	corners-r21	down	1	28.914396838	28.907549438	28.907547927	28.907506588	4.134e-05	no	ok
+follow loop: walk from a new design	boxC	811	870-cfn21	classfill-r21 near/	down	1	28.914409551	28.907555019	28.907554914	28.907552359	2.555e-06	no	ok
+follow loop: walk from a new design	boxC	811	870-f21	family-r21 (own results)	down	1	28.914403642	28.907552510	28.907552501	28.907552367	1.340e-07	no	ok
+follow loop: walk from a new design	boxD	811	870-sc21	stair-c-r21	down	1	28.914404078	28.907552584	28.907552401	28.907598255	-4.585e-05	no (under 1e-10)	below held
+follow loop: walk from a new design	boxC	811	870-scn21	stair-c-r21 near/	down	1	28.914465436	28.907648785	28.907642860	28.907552367	9.049e-05	no	ok
+follow loop: walk from a new design	boxC	811	870-scn21a	stair-c-r21 near/	down	1	28.914550556	28.907796673	28.907791266	28.907552359	2.389e-04	no	ok
+follow loop: walk from a new design	boxC	811	870-scn21b	stair-c-r21 near/	down	1	28.914561654	28.907827623	28.907785548	28.907552359	2.332e-04	no	ok
+follow loop: walk from a new design	boxD	811	870-scn21c	stair-c-r21 near/	down	1	28.914592468	28.907829533	28.907829527	28.907552359	2.772e-04	no	ok
+follow loop: walk from a new design	boxC	811	931-cf21a	classfill-r21	down	2	28.914440341	28.907588502	28.907577676	28.907552359	2.532e-05	no	ok
+follow loop: walk from a new design	boxC	811	931-mn21a	modules-r21 near/	down	2	28.914442376	28.907588026	28.907577846	28.907552359	2.549e-05	no	ok
+follow loop: walk from a new design	boxD	811	931-p21c	polish-r21	down	2	28.914403640	28.907559102	28.907552485	28.907552370	1.150e-07	no	ok
+follow loop: walk from a new design	boxD	813	756-f21	family-r21 (own results)	up	1	28.971732972	28.928745360	28.928744689	28.928745088	-3.990e-07	no (under 1e-10)	below held
+follow loop: walk from a new design	boxD	813	756-m20	modules-r20	up	1	28.971731687	28.928879698	28.928759573	28.928877855	-1.183e-04	no (under 1e-10)	below held
+follow loop: walk from a new design	boxC	813	756-rd21	readers-r21	up	1	28.971733566	28.928861501	28.928745142	28.928745088	5.400e-08	no	ok
+follow loop: walk from a new design	boxC	813	872-mn21	modules-r21 near/	down	1	28.936319646	28.928746304	28.928745096	28.928744663	4.330e-07	no	ok
+follow loop: walk from a new design	boxD	813	872-rdn20	readers-r20 near/	down	1	28.936306431	28.928880558	28.928878046	28.928877855	1.910e-07	no	ok
+follow loop: walk from a new design	boxD	816	875-c21	corners-r21	down	1	28.986466911	28.980335420	28.980335420	28.978162933	2.172e-03	no	ok
+follow loop: walk from a new design	boxD	816	875-c21a	corners-r21	down	1	28.985703706	28.980020529	28.979937785	28.978162933	1.775e-03	no	ok
+follow loop: walk from a new design	boxC	816	875-cf21	classfill-r21	down	1	28.985668165	28.980020628	28.980020523	28.978162933	1.858e-03	no	ok
+follow loop: walk from a new design	boxC	816	875-cf21a	classfill-r21	down	1	28.985354344	28.979858494	28.979821199	28.978162933	1.658e-03	no	ok
+follow loop: walk from a new design	boxD	816	875-f21	family-r21 (own results)	down	1	28.986063291	28.981184226	28.981184226	28.978162933	3.021e-03	no	ok
+follow loop: walk from a new design	boxC	816	875-m21	modules-r21	down	1	28.985597329	28.979939794	28.979927627	28.978162933	1.765e-03	no	ok
+follow loop: walk from a new design	boxC	816	936-c21	corners-r21	down	2	28.986063289	28.981192371	28.981192371	28.978162933	3.029e-03	no	ok
+follow loop: walk from a new design	boxD	817	652-mn20	modules-r20 near/	up	3	29.024886648	29.000757856	28.991114711	28.987107228	4.007e-03	no	ok
+follow loop: walk from a new design	boxD	851	912-f21	family-r21 (own results)	down	1	29.694071632	29.677204475	29.677201643	29.677201357	2.860e-07	no	ok
+follow loop: walk from a new design	boxC	851	912-mm21	midm-r21	down	1	29.694071062	29.677210179	29.677201463	29.677201357	1.060e-07	no	ok
+follow loop: walk from a new design	boxD	852	793-ts21	twoshort-r21	up	1	29.758457768	29.698218686	29.697804542	29.689147723	8.657e-03	no	ok
+follow loop: walk from a new design	boxD	852	793-tsn21	twoshort-r21 near/	up	1	29.758527566	29.695424552	29.695410060	29.689147723	6.262e-03	no	ok
+follow loop: walk from a new design	boxD	852	793-tsn21a	twoshort-r21 near/	up	1	29.758545639	29.690130818	29.690130703	29.689147723	9.830e-04	no	ok
+follow loop: walk from a new design	boxC	852	793-tsn21b	twoshort-r21 near/	up	1	29.758498417	29.695492992	29.695411068	29.689147723	6.263e-03	no	ok
+follow loop: walk from a new design	boxC	852	793-tsx21	twoshort (handoff log)	up	1	29.758468684	29.696475354	29.696475199	29.689147723	7.327e-03	no	ok
+follow loop: walk from a new design	boxC	853	794-f21	family-r21 (own results)	up	1	29.768786002	29.706721224	29.706720643	29.706724455	-3.812e-06	no (under 1e-10)	below held
+follow loop: walk from a new design	boxD	853	794-f21a	family-r21 (own results)	up	1	29.768785960	29.706726173	29.706723568	29.706724455	-8.870e-07	no (under 1e-10)	below held
+follow loop: walk from a new design	boxC	853	794-f21b	family-r21 (own results)	up	1	29.768785903	29.706722432	29.706720303	29.706724455	-4.152e-06	no (under 1e-10)	below held
+follow loop: walk from a new design	boxD	853	794-f21c	family-r21 (own results)	up	1	29.768785838	29.706723797	29.706720641	29.706724455	-3.814e-06	no (under 1e-10)	below held
+follow loop: walk from a new design	boxC	853	794-f21d	family-r21 (own results)	up	1	29.768785795	29.706735548	29.706720408	29.706724455	-4.047e-06	no (under 1e-10)	below held
+follow loop: walk from a new design	boxD	853	794-f21e	family-r21 (own results)	up	1	29.768785786	29.706721445	29.706720330	29.706720216	1.140e-07	no	ok
+follow loop: walk from a new design	boxC	853	794-p21	polish-r21	up	1	29.768786252	29.714531471	29.706720408	29.706724455	-4.047e-06	no (under 1e-10)	below held
+follow loop: walk from a new design	boxC	853	794-p21a	polish-r21	up	1	29.768785991	29.706723114	29.706720420	29.706724455	-4.035e-06	no (under 1e-10)	below held
+follow loop: walk from a new design	boxC	853	794-tsn21	twoshort-r21 near/	up	1	29.768811497	29.706983277	29.706983249	29.706720220	2.630e-04	no	ok
+follow loop: walk from a new design	boxD	855	796-f21	family-r21 (own results)	up	1	29.811483931	29.732009389	29.732009009	29.733979870	-1.971e-03	yes	below held
+follow loop: walk from a new design	boxC	855	796-k21	k123-r21	up	1	29.812659350	29.732009329	29.732009006	29.733979870	-1.971e-03	yes	below held
+follow loop: walk from a new design	boxC	856	740-mn20	modules-r20 near/	up	2	29.820044386	29.755962213	29.755867614	29.745619382	1.025e-02	no	ok
+follow loop: walk from a new design	boxC	857	798-fox21	forensics (handoff log)	up	1	29.834158205	29.769230775	29.769230769	29.761536403	7.694e-03	no	ok
+follow loop: walk from a new design	boxC	857	918-b21	border-r21	down	1	29.782737644	29.769180237	29.769180237	29.761536403	7.644e-03	no	ok
+follow loop: walk from a new design	boxC	857	918-b21a	border-r21	down	1	29.782681302	29.769186024	29.769186024	29.761536403	7.650e-03	no	ok
+follow loop: walk from a new design	boxC	857	918-p21	polish-r21	down	1	29.782681566	29.770085996	29.770085996	29.761536403	8.550e-03	no	ok
+follow loop: walk from a new design	boxD	862	923-fo21	forensics-r21	down	1	nan	nan	nan	29.825745981		no	refused: the cut is not clean: side 29.836002777 (want 29.836002777), smallest gap -1.75e-02
+follow loop: walk from a new design	boxD	868	809-mm21	midm-r21	up	1	nan	nan	nan	29.896498904		no	refused: the nearest full grid line is 3.4 from the cut
+follow loop: walk from a new design	boxD	868	809-mm21a	midm-r21	up	1	nan	nan	nan	29.896498904		no	refused: the nearest full grid line is 3.4 from the cut
+follow loop: walk from a new design	boxD	868	809-mm21b	midm-r21	up	1	nan	nan	nan	29.893503140		no	refused: the nearest full grid line is 4.4 from the cut
+follow loop: walk from a new design	boxD	869	810-iv21	invent-r21	up	1	nan	nan	nan	29.905762950		no	refused: the opened layout overlaps: smallest gap -1.18e-01 at side 29.946987
+follow loop: walk from a new design	boxC	869	810-iv21a	invent-r21	up	1	nan	nan	nan	29.905762950		no	refused: the opened layout overlaps: smallest gap -1.16e-01 at side 29.946978
+follow loop: walk from a new design	boxD	869	810-rd21	readers-r21	up	1	nan	nan	nan	29.905762950		no	refused: arm 1: no border square beside the cut
+follow loop: walk from a new design	boxD	870	811-hv20	harvest-r20	up	1	nan	nan	nan	29.916956559		no	refused: the nearest full grid line is 3.3 from the cut
+follow loop: walk from a new design	boxC	870	811-p21	polish-r21	up	1	nan	nan	nan	29.916956559		no	refused: the nearest full grid line is 3.3 from the cut
+follow loop: walk from a new design	boxC	870	811-p21a	polish-r21	up	1	nan	nan	nan	29.916956559		no	refused: the nearest full grid line is 3.3 from the cut
+follow loop: walk from a new design	boxC	870	931-cf21	classfill-r21	down	1	29.921154744	29.914461461	29.914423604	29.914404078	1.953e-05	no	ok
+follow loop: walk from a new design	boxC	870	931-cf21a	classfill-r21	down	1	29.921153512	29.914442654	29.914440341	29.916956559	-2.516e-03	no (under 1e-10)	below held
+follow loop: walk from a new design	boxD	870	931-cf21b	classfill-r21	down	1	29.921152293	29.914459513	29.914459432	29.916956559	-2.497e-03	no (under 1e-10)	below held
+follow loop: walk from a new design	boxC	870	931-f21	family-r21 (own results)	down	1	29.921195872	29.914450030	29.914450021	29.914404078	4.594e-05	no	ok
+follow loop: walk from a new design	boxC	870	931-f21a	family-r21 (own results)	down	1	29.921195518	29.914491723	29.914468446	29.914404078	6.437e-05	no	ok
+follow loop: walk from a new design	boxC	870	931-m21	modules-r21	down	1	29.921118866	29.914423896	29.914421933	29.916956559	-2.535e-03	no (under 1e-10)	below held
+follow loop: walk from a new design	boxD	870	931-mn20	modules-r20 near/	down	1	29.924009024	29.917496762	29.917496435	29.916956559	5.399e-04	no	ok
+follow loop: walk from a new design	boxD	870	931-mn21	modules-r21 near/	down	1	29.921282373	29.914511448	29.914511387	29.914404078	1.073e-04	no	ok
+follow loop: walk from a new design	boxC	870	931-mn21a	modules-r21 near/	down	1	29.921166758	29.914442381	29.914442376	29.916956559	-2.514e-03	no (under 1e-10)	below held
+follow loop: walk from a new design	boxD	870	931-p21	polish-r21	down	1	29.921716625	29.914470796	29.914428938	29.914404078	2.486e-05	no	ok
+follow loop: walk from a new design	boxC	870	931-p21a	polish-r21	down	1	29.921195798	29.914449397	29.914449388	29.914404078	4.531e-05	no	ok
+follow loop: walk from a new design	boxC	870	931-p21b	polish-r21	down	1	29.921195499	29.914492960	29.914449500	29.914404078	4.542e-05	no	ok
+follow loop: walk from a new design	boxD	870	931-p21c	polish-r21	down	1	29.921164951	29.914403964	29.914403640	29.914404078	-4.380e-07	no (under 1e-10)	below held
+follow loop: walk from a new design	boxC	870	931-rd21	readers-r21	down	1	29.921164984	29.914404291	29.914404224	29.914404078	1.460e-07	no	ok
+follow loop: walk from a new design	boxD	870	931-sc21	stair-c-r21	down	1	29.921716765	29.914469522	29.914469237	29.914404078	6.516e-05	no	ok
+follow loop: walk from a new design	boxD	870	931-scn21	stair-c-r21 near/	down	1	29.921703296	29.914576199	29.914572297	29.916956559	-2.384e-03	no (under 1e-10)	below held
+follow loop: walk from a new design	boxC	870	931-scn21a	stair-c-r21 near/	down	1	29.921251296	29.914625533	29.914624155	29.916956559	-2.332e-03	no (under 1e-10)	below held
+follow loop: walk from a new design	boxC	871	932-mn21	modules-r21 near/	down	1	29.937941884	29.930391210	29.930391205	29.929338354	1.053e-03	no	ok
+follow loop: walk from a new design	boxD	872	756-f21	family-r21 (own results)	up	2	29.977706443	29.936414459	29.936412593	29.936306433	1.062e-04	no	ok
+follow loop: walk from a new design	boxD	872	756-m20	modules-r20	up	2	29.977718510	29.936508592	29.936501621	29.936306433	1.952e-04	no	ok
+follow loop: walk from a new design	boxC	872	756-rd21	readers-r21	up	2	29.977707805	29.936419261	29.936419255	29.936306433	1.128e-04	no	ok
+follow loop: walk from a new design	boxD	872	813-f21	family-r21 (own results)	up	1	29.977718512	29.936398349	29.936393185	29.936306433	8.675e-05	no	ok
+follow loop: walk from a new design	boxC	872	813-f21a	family-r21 (own results)	up	1	29.977707808	29.936673721	29.936671239	29.936306433	3.648e-04	no	ok
+follow loop: walk from a new design	boxD	872	813-f21b	family-r21 (own results)	up	1	29.977706444	29.936319652	29.936319646	29.936306433	1.321e-05	no	ok
+follow loop: walk from a new design	boxD	872	813-iv21	invent-r21	up	1	29.977707080	29.936319652	29.936319646	29.936306433	1.321e-05	no	ok
+follow loop: walk from a new design	boxD	872	813-m21	modules-r21	up	1	29.977708038	29.936319652	29.936319646	29.936306433	1.321e-05	no	ok
+follow loop: walk from a new design	boxC	872	933-rdx20	readers (handoff log)	down	1	29.943757718	29.936567902	29.936325028	29.936306433	1.860e-05	no	ok
+follow loop: walk from a new design	boxC	875	936-c21	corners-r21	down	1	29.990948645	29.986065759	29.986063289	29.987072253	-1.009e-03	no (under 1e-10)	below held
+follow loop: walk from a new design	boxC	875	936-cf21	classfill-r21	down	1	29.990796406	29.985995991	29.985981991	29.985668165	3.138e-04	no	ok
+follow loop: walk from a new design	boxD	875	936-mn21	modules-r21 near/	down	1	29.992554804	29.987516827	29.987516028	29.987072253	4.438e-04	no	ok
+follow loop: walk from a new design	boxD	906	969-fo21	forensics-r21	down	1	30.619571721	30.602689208	30.602689208	30.591378147	1.131e-02	no	ok
+follow loop: walk from a new design	boxC	912	851-b20	border-r20	up	1	30.763219510	30.694874274	30.694869809	30.694827568	4.224e-05	no	ok
+follow loop: walk from a new design	boxC	912	851-f21	family-r21 (own results)	up	1	30.763217668	30.694862213	30.694856893	30.694071627	7.853e-04	no	ok
+follow loop: walk from a new design	boxD	912	851-k21	k123-r21	up	1	30.761632657	30.697893675	30.697892927	30.694071062	3.822e-03	no	ok
+follow loop: walk from a new design	boxD	913	976-mn21	modules-r21 near/	down	1	30.727038471	30.714470056	30.714470056	30.710251303	4.219e-03	no	ok
+follow loop: walk from a new design	boxC	914	794-f21	family-r21 (own results)	up	2	30.787489551	30.736686108	30.736670640	30.724353122	1.232e-02	no	ok
+follow loop: walk from a new design	boxD	914	794-f21a	family-r21 (own results)	up	2	30.787491956	30.736675501	30.736669098	30.724353122	1.232e-02	no	ok
+follow loop: walk from a new design	boxC	914	794-f21b	family-r21 (own results)	up	2	30.787489272	30.736675470	30.736670025	30.724353122	1.232e-02	no	ok
+follow loop: walk from a new design	boxD	914	794-f21c	family-r21 (own results)	up	2	30.787489549	30.736686159	30.736671645	30.724353122	1.232e-02	no	ok
+follow loop: walk from a new design	boxC	914	794-f21d	family-r21 (own results)	up	2	30.787489358	30.736671142	30.736670202	30.724353122	1.232e-02	no	ok
+follow loop: walk from a new design	boxC	914	794-p21	polish-r21	up	2	30.787489358	30.736675292	30.736669549	30.724353122	1.232e-02	no	ok
+follow loop: walk from a new design	boxC	914	794-p21a	polish-r21	up	2	30.787489370	30.736676137	30.736668986	30.724353122	1.232e-02	no	ok
+follow loop: walk from a new design	boxC	914	853-f21	family-r21 (own results)	up	1	30.787489359	30.736670804	30.736669661	30.724353122	1.232e-02	no	ok
+follow loop: walk from a new design	boxC	914	853-f21a	family-r21 (own results)	up	1	30.787489238	30.736675229	30.736670236	30.724353122	1.232e-02	no	ok
+follow loop: walk from a new design	boxC	914	853-iv21	invent-r21	up	1	30.787489205	30.736674624	30.736669599	30.724353122	1.232e-02	no	ok
+follow loop: walk from a new design	boxC	914	853-ivx21	invent (handoff log)	up	1	30.787492689	30.736323902	30.736319892	30.724353122	1.197e-02	no	ok
+follow loop: walk from a new design	boxC	914	853-tsn21	twoshort-r21 near/	up	1	30.787573638	30.736333433	30.736320854	30.724353122	1.197e-02	no	ok
+follow loop: walk from a new design	boxC	915	978-mn21	modules-r21 near/	down	1	30.759462876	30.744348188	30.744348188	30.739964705	4.383e-03	no	ok
+follow loop: walk from a new design	boxC	915	978-mx21	modules (handoff log)	down	1	30.759459543	30.744395488	30.744395488	30.739964705	4.431e-03	no	ok
+follow loop: walk from a new design	boxD	916	796-f21	family-r21 (own results)	up	2	30.823984476	30.765344808	30.765344802	30.752189774	1.316e-02	no	ok
+follow loop: walk from a new design	boxC	916	796-k21	k123-r21	up	2	30.824057774	30.764680104	30.756920766	30.752189774	4.731e-03	no	ok
+follow loop: walk from a new design	boxC	916	855-mn21	modules-r21 near/	up	1	30.823469322	30.765344808	30.765344802	30.752189774	1.316e-02	no	ok
+follow loop: walk from a new design	boxC	916	855-rd21	readers-r21	up	1	30.823952950	30.765344808	30.765344802	30.752189774	1.316e-02	no	ok
+follow loop: walk from a new design	boxD	917	980-p21	polish-r21	down	1	30.783492337	30.770857812	30.770857812	30.761536403	9.321e-03	no	ok
+follow loop: walk from a new design	boxC	929	868-mm21	midm-r21	up	1	nan	nan	nan	30.906856361		no	refused: arm 2: no border square beside the cut
+follow loop: walk from a new design	boxD	929	868-mm21a	midm-r21	up	1	nan	nan	nan	30.906856361		no	refused: the nearest full grid line is 8.6 from the cut
+follow loop: walk from a new design	boxC	929	868-mm21b	midm-r21	up	1	30.940110302	30.900773923	30.900772849	30.901395765	-6.229e-04	no (under 1e-10)	below held
+follow loop: walk from a new design	boxD	929	868-rd21	readers-r21	up	1	nan	nan	nan	30.906856361		no	refused: the nearest full grid line is 3.3 from the cut
+follow loop: walk from a new design	boxD	929	868-rd21a	readers-r21	up	1	30.940109523	30.900733296	30.900712299	30.900659109	5.319e-05	no	ok
+follow loop: walk from a new design	boxC	929	992-mm21	midm-r21	down	1	30.914801475	30.909550405	30.909550405	30.900659193	8.891e-03	no	ok
+follow loop: walk from a new design	boxC	929	992-p21	polish-r21	down	1	30.914748700	30.909522633	30.909522633	30.900659109	8.864e-03	no	ok
+follow loop: walk from a new design	boxC	930	993-iv21	invent-r21	down	1	nan	nan	nan	30.914585196		no	refused: the nearest full grid line is 6.4 from the cut
+follow loop: walk from a new design	boxD	930	993-scn21	stair-c-r21 near/	down	1	30.924699908	30.919590555	30.919590555	30.912735216	6.855e-03	no	ok
+follow loop: walk from a new design	boxC	930	993-scn21a	stair-c-r21 near/	down	1	30.924571405	30.919604994	30.919604994	30.912735216	6.870e-03	no	ok
+follow loop: walk from a new design	boxC	930	993-scn21b	stair-c-r21 near/	down	1	30.924549702	30.919597908	30.919597908	30.912735216	6.863e-03	no	ok
+follow loop: walk from a new design	boxC	930	993-scn21c	stair-c-r21 near/	down	1	30.924547541	30.917695486	30.917695486	30.912735216	4.960e-03	no	ok
+follow loop: walk from a new design	boxC	930	993-scn21d	stair-c-r21 near/	down	1	30.924475729	30.917689644	30.917689644	30.912735216	4.954e-03	no	ok
+follow loop: walk from a new design	boxC	931	870-c21	corners-r21	up	1	30.958572982	30.921152794	30.921119886	30.921118861	1.025e-06	no	ok
+follow loop: walk from a new design	boxC	931	870-cfn21	classfill-r21 near/	up	1	30.958577344	30.921199184	30.921195348	30.921153503	4.185e-05	no	ok
+follow loop: walk from a new design	boxC	931	870-f21	family-r21 (own results)	up	1	30.958577065	30.921185644	30.921184948	30.921153503	3.145e-05	no	ok
+follow loop: walk from a new design	boxC	931	870-sc21	stair-c-r21	up	1	30.958571421	30.921217710	30.921195871	30.921716765	-5.209e-04	no (under 1e-10)	below held
+follow loop: walk from a new design	boxC	931	870-scn21	stair-c-r21 near/	up	1	30.958661722	30.921185787	30.921185308	30.921164951	2.036e-05	no	ok
+follow loop: walk from a new design	boxD	931	870-scn21a	stair-c-r21 near/	up	1	30.958634294	30.921158869	30.921158686	30.921152285	6.401e-06	no	ok
+follow loop: walk from a new design	boxC	931	870-scn21b	stair-c-r21 near/	up	1	30.958639715	30.921187786	30.921185765	30.921152285	3.348e-05	no	ok
+follow loop: walk from a new design	boxC	931	870-scn21c	stair-c-r21 near/	up	1	30.958614750	30.921185550	30.921185495	30.921152285	3.321e-05	no	ok
+follow loop: walk from a new design	boxC	931	994-cf21	classfill-r21	down	1	30.928349514	30.921840060	30.921818224	30.921164951	6.533e-04	no	ok
+follow loop: walk from a new design	boxC	931	994-m21	modules-r21	down	1	30.928461408	30.921837575	30.921831268	30.921716625	1.146e-04	no	ok
+follow loop: walk from a new design	boxC	931	994-mm21	midm-r21	down	1	30.929736827	30.924093831	30.924070273	30.923959292	1.110e-04	no	ok
+follow loop: walk from a new design	boxC	931	994-mm21a	midm-r21	down	1	30.929736590	30.924072645	30.924070590	30.923959292	1.113e-04	no	ok
+follow loop: walk from a new design	boxC	931	994-rd21	readers-r21	down	1	30.929755304	30.923965099	30.923960155	30.923959292	8.630e-07	no	ok
+follow loop: walk from a new design	boxD	933	872-mn21	modules-r21 near/	up	1	30.983505689	30.943853981	30.943852389	30.943757718	9.467e-05	no	ok
+follow loop: walk from a new design	boxC	933	872-rdn20	readers-r20 near/	up	1	30.983495504	30.943773351	30.943773309	30.943757718	1.559e-05	no	ok
+follow loop: walk from a new design	boxD	933	996-cn21	corners-r21 near/	down	1	30.953464161	30.947802641	30.947802641	30.943757718	4.045e-03	no	ok
+follow loop: walk from a new design	boxC	936	875-c21	corners-r21	up	1	31.032169835	30.995703354	30.990981083	30.990948645	3.244e-05	no	ok
+follow loop: walk from a new design	boxC	936	875-c21a	corners-r21	up	1	31.031630202	30.995651944	30.993970888	30.990948610	3.022e-03	no	ok
+follow loop: walk from a new design	boxD	936	875-cf21	classfill-r21	up	1	31.031605063	30.991396557	30.990948637	30.990948610	2.700e-08	no	ok
+follow loop: walk from a new design	boxD	936	875-cf21a	classfill-r21	up	1	31.031383052	30.997917904	30.991588707	30.990796406	7.923e-04	no	ok
+follow loop: walk from a new design	boxD	936	875-f21	family-r21 (own results)	up	1	31.031884500	30.990948637	30.990948631	30.990948610	2.100e-08	no	ok
+follow loop: walk from a new design	boxC	936	875-m21	modules-r21	up	1	31.031554957	30.995656483	30.993970927	30.990796406	3.175e-03	no	ok
+follow loop: walk from a new design	boxD	975	912-f21	family-r21 (own results)	up	1	31.777091282	31.734974929	31.734974929	31.714095652	2.088e-02	no	ok
+follow loop: walk from a new design	boxD	975	912-mm21	midm-r21	up	1	31.777090812	31.737928738	31.737928738	31.714095652	2.383e-02	no	ok
+follow loop: walk from a new design	boxD	981	918-b21	border-r21	up	1	31.846226528	31.802985246	31.799958643	31.794665726	5.293e-03	no	ok
+follow loop: walk from a new design	boxD	981	918-b21a	border-r21	up	1	31.849366880	31.799759730	31.799736769	31.794665726	5.071e-03	no	ok
+follow loop: walk from a new design	boxD	981	918-p21	polish-r21	up	1	31.848421919	31.797014106	31.797014099	31.794665726	2.348e-03	no	ok
+follow loop: walk from a new design	boxC	986	923-fo21	forensics-r21	up	1	31.922344319	31.862133982	31.851843455	31.847671850	4.172e-03	no	ok
+follow loop: walk from a new design	boxC	994	870-sc21	stair-c-r21	up	2	31.962609642	31.931090518	31.931090518	31.929736590	1.354e-03	no	time limit
+follow loop: walk from a new design	boxD	994	931-cf21	classfill-r21	up	1	31.962603319	31.931047457	31.930404687	31.928349514	2.055e-03	no	ok
+follow loop: walk from a new design	boxC	994	931-cf21a	classfill-r21	up	1	31.962573975	31.928805525	31.928647621	31.928349514	2.981e-04	no	ok
+follow loop: walk from a new design	boxD	994	931-cf21b	classfill-r21	up	1	31.962601373	31.930206614	31.930166268	31.928349514	1.817e-03	no	ok
+follow loop: walk from a new design	boxD	994	931-f21	family-r21 (own results)	up	1	31.962609643	31.931088870	31.931070751	31.928349514	2.721e-03	no	ok
+follow loop: walk from a new design	boxC	994	931-f21a	family-r21 (own results)	up	1	31.962609348	31.931130353	31.930404687	31.928349514	2.055e-03	no	ok
+follow loop: walk from a new design	boxD	994	931-m21	modules-r21	up	1	31.962613908	31.929438846	31.929438846	31.928349514	1.089e-03	no	time limit
+follow loop: walk from a new design	boxC	994	931-mn20	modules-r20 near/	up	1	31.964969678	31.930101319	31.930101278	31.929838909	2.624e-04	no	ok
+follow loop: walk from a new design	boxC	994	931-mn21	modules-r21 near/	up	1	31.962640416	31.934288978	31.930404639	31.928461408	1.943e-03	no	ok
+follow loop: walk from a new design	boxC	994	931-mn21a	modules-r21 near/	up	1	31.962585142	31.928643990	31.928643435	31.928349514	2.939e-04	no	ok
+follow loop: walk from a new design	boxC	994	931-p21	polish-r21	up	1	31.963053095	31.931143390	31.930404517	31.928349514	2.055e-03	no	ok
+follow loop: walk from a new design	boxC	994	931-p21a	polish-r21	up	1	31.962609581	31.931074038	31.931068448	31.928349514	2.719e-03	no	ok
+follow loop: walk from a new design	boxD	994	931-p21b	polish-r21	up	1	31.962609331	31.931101011	31.930404517	31.928461408	1.943e-03	no	ok
+follow loop: walk from a new design	boxD	994	931-p21c	polish-r21	up	1	31.962553098	31.931076069	31.930403283	31.928461408	1.942e-03	no	ok
+follow loop: walk from a new design	boxC	994	931-rd21	readers-r21	up	1	31.962553122	31.931129263	31.930912823	31.928461408	2.451e-03	no	ok
+follow loop: walk from a new design	boxC	994	931-sc21	stair-c-r21	up	1	31.963053204	31.931080448	31.931068738	31.929736590	1.332e-03	no	ok
+follow loop: walk from a new design	boxC	994	931-scn21	stair-c-r21 near/	up	1	31.963052532	31.931134360	31.931075348	31.928349514	2.726e-03	no	ok
+follow loop: walk from a new design	boxD	994	931-scn21a	stair-c-r21 near/	up	1	31.962758205	31.934269780	31.930403452	31.928349514	2.054e-03	no	ok
+follow loop: walk from a new design	boxC	995	932-mn21	modules-r21 near/	up	1	31.984755585	31.948110454	31.945897138	31.944994406	9.027e-04	no	ok
+follow loop: walk from a new design	boxD	996	933-rdx20	readers (handoff log)	up	1	31.989230146	31.956000004	31.955999898	31.953322994	2.677e-03	no	ok
+follow loop: walk from a new design	boxD	999	875-cf21	classfill-r21	up	2	32.035330505	31.998574717	31.998574702	31.997718598	8.561e-04	no	ok
+follow loop: walk from a new design	boxD	999	875-f21	family-r21 (own results)	up	2	32.035330501	31.998580576	31.998574702	31.997718598	8.561e-04	no	ok
+follow loop: walk from a new design	boxD	999	936-c21	corners-r21	up	1	32.035330511	31.999164250	31.999164242	31.997718598	1.446e-03	no	ok
+follow loop: walk from a new design	boxC	999	936-cf21	classfill-r21	up	1	32.035223384	31.999650952	31.998970132	31.997718598	1.252e-03	no	ok
+follow loop: walk from a new design	boxC	999	936-mn21	modules-r21 near/	up	1	32.036459664	31.999422375	31.999422313	31.997718598	1.704e-03	no	ok
+stair walk: a refused start, cut beside the staircase	boxD	505	601-c20	corners-r20	down	2	22.941879285	22.933868880	22.933868880	22.930451433	3.417e-03	no	ok
+stair walk: a refused start, cut beside the staircase	boxD	505	601-c20a	corners-r20	down	2	22.942718254	22.935012914	22.935012914	22.930451433	4.561e-03	no	ok
+stair walk: a refused start, cut beside the staircase	boxD	552	601-c20	corners-r20	down	1	23.952745524	23.941879285	23.941879285	23.939867893	2.011e-03	no	ok
+stair walk: a refused start, cut beside the staircase	boxD	552	601-c20a	corners-r20	down	1	23.951597638	23.942718254	23.942718254	23.939867893	2.850e-03	no	ok
+stair walk: a refused start, cut beside the staircase	boxC	652	601-c20	corners-r20	up	1	25.998515694	25.970318387	25.970315353	25.960793179	9.522e-03	no	ok
+stair walk: a refused start, cut beside the staircase	boxC	697	752-p21a	polish-r21	down	1	26.876493934	26.867791849	26.867791849	26.860374742	7.417e-03	no	ok
+stair walk: a refused start, cut beside the staircase	boxC	697	752-rd21a	readers-r21	down	1	26.876656502	26.868287163	26.868287163	26.860374742	7.912e-03	no	ok
+stair walk: a refused start, cut beside the staircase	boxD	699	811-p21	polish-r21	down	2	26.901912439	26.893258762	26.893258762	26.889968238	3.291e-03	no	ok
+stair walk: a refused start, cut beside the staircase	boxC	705	601-c20	corners-r20	up	2	27.009949939	26.981923177	26.980350712	26.970685045	9.666e-03	no	ok
+stair walk: a refused start, cut beside the staircase	boxC	752	697-fon20	forensics-r20 near/	up	1	27.941489949	27.880269760	27.880269746	27.876302288	3.967e-03	no	ok
+stair walk: a refused start, cut beside the staircase	boxC	752	809-mm21b	midm-r21	down	1	27.884960883	27.877791094	27.876512024	27.876302288	2.097e-04	no	ok
+stair walk: a refused start, cut beside the staircase	boxC	752	868-mm21	midm-r21	down	2	27.885519738	27.878199005	27.876655399	27.876302288	3.531e-04	no	ok
+stair walk: a refused start, cut beside the staircase	boxD	752	868-rd21	readers-r21	down	2	27.885430787	27.878194221	27.876657319	27.876286157	3.712e-04	no	ok
+stair walk: a refused start, cut beside the staircase	boxC	753	810-p20a	polish-r20	down	1	27.901879277	27.894641461	27.894641461	27.889742974	4.898e-03	no	ok
+stair walk: a refused start, cut beside the staircase	boxC	753	810-rd20a	readers-r20	down	1	27.901879305	27.894642241	27.894642241	27.889742974	4.899e-03	no	ok
+stair walk: a refused start, cut beside the staircase	boxC	753	869-p20a	polish-r20	down	2	27.900481640	27.892560698	27.892560698	27.889742974	2.818e-03	no	ok
+stair walk: a refused start, cut beside the staircase	boxD	754	811-p21	polish-r21	down	1	27.909777746	27.901931174	27.901912439	27.900113400	1.799e-03	no	ok
+stair walk: a refused start, cut beside the staircase	boxC	754	811-p21a	polish-r21	down	1	27.909777728	27.902058750	27.901981903	27.900113400	1.869e-03	no	ok
+stair walk: a refused start, cut beside the staircase	boxC	809	697-fon20	forensics-r20 near/	up	2	28.955519064	28.931605560	28.931605560	28.884960883	4.664e-02	no	ok
+stair walk: a refused start, cut beside the staircase	boxD	809	752-p21a	polish-r21	up	1	28.929027995	28.885282710	28.885282562	28.884960883	3.217e-04	no	ok
+stair walk: a refused start, cut beside the staircase	boxC	809	752-rd21a	readers-r21	up	1	28.929536500	28.885474911	28.885455682	28.884960883	4.948e-04	no	ok
+stair walk: a refused start, cut beside the staircase	boxC	809	868-mm21	midm-r21	down	1	28.893492070	28.885522220	28.885519738	28.884960883	5.589e-04	no	ok
+stair walk: a refused start, cut beside the staircase	boxD	809	868-rd21	readers-r21	down	1	28.893503140	28.885626392	28.885430787	28.884960883	4.699e-04	no	ok
+stair walk: a refused start, cut beside the staircase	boxC	810	869-p20a	polish-r20	down	1	28.907750899	28.900481640	28.900481640	28.898195386	2.286e-03	no	ok
+stair walk: a refused start, cut beside the staircase	boxC	810	869-sc20a	stair-c-r20	down	1	28.907755495	28.900540777	28.900540777	28.898195381	2.345e-03	no	ok
+stair walk: a refused start, cut beside the staircase	boxC	810	930-rd20	readers-r20	down	2	28.907755757	28.900542148	28.900542148	28.898195381	2.347e-03	no	ok
+stair walk: a refused start, cut beside the staircase	boxC	810	930-rd20a	readers-r20	down	2	28.907755758	28.900547708	28.900547708	28.898195386	2.352e-03	no	ok
+stair walk: a refused start, cut beside the staircase	boxC	811	870-scn20a	stair-c-r20 near/	down	1	28.917520406	28.910947716	28.910947716	28.907577956	3.370e-03	no	ok
+stair walk: a refused start, cut beside the staircase	boxD	811	870-scn20b	stair-c-r20 near/	down	1	28.917549808	28.910969543	28.910969543	28.907552359	3.417e-03	no	ok
+stair walk: a refused start, cut beside the staircase	boxD	868	752-p21a	polish-r21	up	2	29.936945454	29.893535225	29.893535155	29.892929741	6.054e-04	no	ok
+stair walk: a refused start, cut beside the staircase	boxC	868	752-rd21a	readers-r21	up	2	29.937034861	29.893851146	29.893847508	29.892929523	9.180e-04	no	ok
+stair walk: a refused start, cut beside the staircase	boxD	868	809-mm21a	midm-r21	up	1	29.936880626	29.893636550	29.893635146	29.892929523	7.056e-04	no	ok
+stair walk: a refused start, cut beside the staircase	boxD	868	809-mm21b	midm-r21	up	1	29.935389319	29.892985874	29.892976785	29.892929741	4.704e-05	no	ok
+stair walk: a refused start, cut beside the staircase	boxD	868	992-scn20	stair-c-r20 near/	down	2	29.910824608	29.904717441	29.904717441	29.892929741	1.179e-02	no	ok
+stair walk: a refused start, cut beside the staircase	boxC	869	930-rd20	readers-r20	down	1	29.914585460	29.907756281	29.907755757	29.905762950	1.993e-03	no	ok
+stair walk: a refused start, cut beside the staircase	boxC	869	930-rd20a	readers-r20	down	1	29.914585196	29.907755763	29.907755758	29.905762950	1.993e-03	no	ok
+stair walk: a refused start, cut beside the staircase	boxC	869	993-iv21	invent-r21	down	2	29.914605040	29.907796502	29.907796502	29.905762950	2.034e-03	no	ok
+stair walk: a refused start, cut beside the staircase	boxC	869	993-rd20a	readers-r20	down	2	29.914673771	29.907820809	29.907820809	29.905762950	2.058e-03	no	ok
+stair walk: a refused start, cut beside the staircase	boxC	870	811-p21	polish-r21	up	1	29.958395000	29.918142121	29.918140795	29.914404078	3.737e-03	no	ok
+stair walk: a refused start, cut beside the staircase	boxD	870	811-p21a	polish-r21	up	1	29.958393752	29.917312371	29.917300951	29.914404078	2.897e-03	no	ok
+stair walk: a refused start, cut beside the staircase	boxC	870	931-scn19b	stair-c-r21 near/	down	1	29.924130697	29.917445575	29.917438487	29.916956559	4.819e-04	no	ok
+stair walk: a refused start, cut beside the staircase	boxC	870	931-scn20b	stair-c-r20 near/	down	1	29.924072162	29.917448174	29.917448174	29.914404078	3.044e-03	no	ok
+stair walk: a refused start, cut beside the staircase	boxD	929	809-mm21a	midm-r21	up	2	30.941636243	30.912718795	30.912396077	30.902337831	1.006e-02	no	ok
+stair walk: a refused start, cut beside the staircase	boxC	929	868-mm21	midm-r21	up	1	30.941591307	30.912542333	30.912542321	30.902337831	1.020e-02	no	ok
+stair walk: a refused start, cut beside the staircase	boxD	929	868-mm21a	midm-r21	up	1	30.941567246	30.909413646	30.908456148	30.906856361	1.600e-03	no	ok
+stair walk: a refused start, cut beside the staircase	boxD	929	992-scn20	stair-c-r20 near/	down	1	30.916902310	30.910824608	30.910824608	30.906856361	3.968e-03	no	ok
+stair walk: a refused start, cut beside the staircase	boxC	930	993-iv21	invent-r21	down	1	30.921068620	30.914667366	30.914605040	30.912735221	1.870e-03	no	ok
+stair walk: a refused start, cut beside the staircase	boxC	930	993-rd20a	readers-r20	down	1	30.921072322	30.914674023	30.914673771	30.912735216	1.939e-03	no	ok
+stair walk: a refused start, cut beside the staircase	boxC	931	811-p21	polish-r21	up	2	30.965307562	30.926842938	30.926842898	30.921154744	5.688e-03	no	ok
+stair walk: a refused start, cut beside the staircase	boxD	931	811-p21a	polish-r21	up	2	30.960597554	30.924268650	30.924266721	30.921716765	2.550e-03	no	ok
+stair walk: a refused start, cut beside the staircase	boxD	931	870-scn20a	stair-c-r20 near/	up	1	30.961530003	30.925243233	30.925203573	30.921716625	3.487e-03	no	ok
+stair walk: a refused start, cut beside the staircase	boxC	931	870-scn20b	stair-c-r20 near/	up	1	30.962040807	30.925175133	30.925154403	30.921153512	4.001e-03	no	ok
+stair walk: a refused start, cut beside the staircase	boxC	992	868-mm21	midm-r21	up	2	31.955655685	31.918218922	31.918218894	31.915379765	2.839e-03	no	ok
+stair walk: a refused start, cut beside the staircase	boxD	993	930-rd20	readers-r20	up	1	31.961381999	31.921610996	31.921574594	31.919451945	2.123e-03	no	ok
+stair walk: a refused start, cut beside the staircase	boxD	993	930-rd20a	readers-r20	up	1	31.961176045	31.921123488	31.921050420	31.919451945	1.598e-03	no	ok
+stair walk: a refused start, cut beside the staircase	boxD	994	870-scn20a	stair-c-r20 near/	up	2	31.968304773	31.946266243	31.936045748	31.928461408	7.584e-03	no	ok
+stair walk: a refused start, cut beside the staircase	boxD	994	931-scn19b	stair-c-r21 near/	up	1	31.966327491	31.931940816	31.931548188	31.928349514	3.199e-03	no	ok
+stair walk: a refused start, cut beside the staircase	boxC	994	931-scn20b	stair-c-r20 near/	up	1	31.966586757	31.932640888	31.932640888	31.928461408	4.179e-03	no	time limit
+second draw of a near miss (SQ_DRAW=1)	boxD	377	338-mn20	modules-r20 near/	up	1	19.975716356	19.901001422	19.900984260	19.900890352	9.391e-05	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxC	461	418-mn20	modules-r20 near/	up	1	22.004417508	21.932130698	21.932003525	21.932001960	1.565e-06	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxD	550	503-mn20	modules-r20 near/	up	1	23.989604973	23.910160177	23.910159965	23.909825290	3.347e-04	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxC	701	756-f21	family-r21 (own results)	down	1	26.921036773	26.912462212	26.912431945	26.912378265	5.368e-05	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxC	701	756-m20	modules-r20	down	1	26.921046849	26.912473642	26.912441432	26.912378265	6.317e-05	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxC	701	756-rd21	readers-r21	down	1	26.921044512	26.912470996	26.912443007	26.912378265	6.474e-05	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxD	753	810-iv21	invent-r21	down	1	27.898200658	27.890613934	27.889743632	27.889742974	6.580e-07	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxD	753	810-iv21a	invent-r21	down	1	27.898195386	27.890628288	27.889743530	27.889742974	5.560e-07	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxC	756	813-m21	modules-r21	down	1	27.928745088	27.921047628	27.921047233	27.921046849	3.840e-07	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxD	756	813-m21	modules-r21	down	1	27.928745088	27.921047628	27.921047233	27.921046849	3.840e-07	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxC	794	853-f21	family-r21 (own results)	down	1	28.706720409	28.683970365	28.683970357	28.683970483	-1.260e-07	no (under 1e-10)	below held
+second draw of a near miss (SQ_DRAW=1)	boxC	794	853-f21a	family-r21 (own results)	down	1	28.706720261	28.684002442	28.683970360	28.683970483	-1.230e-07	no (under 1e-10)	below held
+second draw of a near miss (SQ_DRAW=1)	boxD	794	853-iv21	invent-r21	down	1	28.706720220	28.683970544	28.683970534	28.683970483	5.100e-08	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxC	794	853-tsn21	twoshort-r21 near/	down	1	28.706822943	28.683974456	28.683971275	28.683970483	7.920e-07	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxD	796	855-mn21	modules-r21 near/	down	1	28.732011873	28.714710753	28.714710746	28.714700914	9.832e-06	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxC	796	855-rd21	readers-r21	down	1	28.732009017	28.714767615	28.714702362	28.714700914	1.448e-06	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxC	811	870-cfn21	classfill-r21 near/	down	1	28.914409551	28.907555965	28.907554303	28.907506588	4.772e-05	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxC	811	870-f21	family-r21 (own results)	down	1	28.914403642	28.907552716	28.907552492	28.907552359	1.330e-07	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxD	811	870-f21	family-r21 (own results)	down	1	28.914403642	28.907552716	28.907552492	28.907552359	1.330e-07	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxD	811	870-k0f4349	a walk step of this round	down	1	28.914442376	28.907586109	28.907577846	28.907506588	7.126e-05	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxC	811	870-ked2ffe	a walk step of this round	down	1	28.914403640	28.907552587	28.907552480	28.907552359	1.210e-07	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxD	811	870-ked2ffe	a walk step of this round	down	1	28.914403640	28.907552587	28.907552480	28.907552359	1.210e-07	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxC	813	756-m20	modules-r20	up	1	28.971731687	28.928903708	28.928903321	28.928877855	2.547e-05	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxC	813	756-rd21	readers-r21	up	1	28.971733566	28.929067227	28.928745142	28.928744663	4.790e-07	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxD	813	756-rd21	readers-r21	up	1	28.971733566	28.929067227	28.928745142	28.928745088	5.400e-08	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxD	813	872-mn21	modules-r21 near/	down	1	28.936319646	28.928745327	28.928745142	28.928744663	4.790e-07	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxD	813	872-rdn20	readers-r20 near/	down	1	28.936306431	28.928878152	28.928877966	28.928877855	1.110e-07	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxC	851	912-f21	family-r21 (own results)	down	1	29.694071632	29.677199685	29.677199000	29.677201357	-2.357e-06	no (under 1e-10)	below held
+second draw of a near miss (SQ_DRAW=1)	boxC	851	912-mm21	midm-r21	down	1	29.694071062	29.677206336	29.677201483	29.677201357	1.260e-07	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxD	853	794-f21	family-r21 (own results)	up	1	29.768786002	29.706735608	29.706720404	29.706724455	-4.051e-06	no (under 1e-10)	below held
+second draw of a near miss (SQ_DRAW=1)	boxD	853	794-f21a	family-r21 (own results)	up	1	29.768785960	29.706734142	29.706721794	29.706724455	-2.661e-06	no (under 1e-10)	below held
+second draw of a near miss (SQ_DRAW=1)	boxD	853	794-f21c	family-r21 (own results)	up	1	29.768785838	29.706736597	29.706722328	29.706724455	-2.127e-06	no (under 1e-10)	below held
+second draw of a near miss (SQ_DRAW=1)	boxC	853	794-f21d	family-r21 (own results)	up	1	29.768785795	29.706734146	29.706720636	29.706724455	-3.819e-06	no (under 1e-10)	below held
+second draw of a near miss (SQ_DRAW=1)	boxC	853	794-f21e	family-r21 (own results)	up	1	29.768785786	29.706727949	29.706727309	29.706720216	7.093e-06	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxD	853	794-p21	polish-r21	up	1	29.768786252	29.713567492	29.706726028	29.706724455	1.573e-06	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxD	853	794-p21a	polish-r21	up	1	29.768785991	29.706747587	29.706722407	29.706724455	-2.048e-06	no (under 1e-10)	below held
+second draw of a near miss (SQ_DRAW=1)	boxD	870	931-m21	modules-r21	down	1	29.921118866	29.914422614	29.914422427	29.914396838	2.559e-05	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxD	870	931-p21c	polish-r21	down	1	29.921164951	29.914405042	29.914404112	29.914396838	7.274e-06	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxC	870	931-rd21	readers-r21	down	1	29.921164984	29.914405019	29.914404112	29.916956559	-2.552e-03	no (under 1e-10)	below held
+second draw of a near miss (SQ_DRAW=1)	boxC	872	813-f21	family-r21 (own results)	up	1	29.977718512	29.936393191	29.936393185	29.936306433	8.675e-05	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxD	872	813-f21	family-r21 (own results)	up	1	29.977718512	29.936393191	29.936393185	29.936306433	8.675e-05	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxC	872	813-f21b	family-r21 (own results)	up	1	29.977706444	29.936336494	29.936336488	29.936306433	3.005e-05	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxC	872	813-iv21	invent-r21	up	1	29.977707080	29.936431488	29.936405328	29.936306433	9.890e-05	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxC	872	813-k51ebef	a walk step of this round	up	1	29.977706443	29.936319652	29.936319646	29.936306433	1.321e-05	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxD	872	813-k51ebef	a walk step of this round	up	1	29.977706443	29.936319652	29.936319646	29.936306433	1.321e-05	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxC	872	813-k694227	a walk step of this round	up	1	29.977707805	29.936524441	29.936507792	29.936306433	2.014e-04	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxD	872	813-k885a0f	a walk step of this round	up	1	29.977718510	29.936498363	29.936498357	29.936306433	1.919e-04	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxC	872	813-m21	modules-r21	up	1	29.977708038	29.936319652	29.936319646	29.936306433	1.321e-05	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxC	872	813-m21	modules-r21	up	1	29.977708038	29.936319652	29.936319646	29.936306433	1.321e-05	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxC	872	933-rdx20	readers (handoff log)	down	1	29.943757718	29.936651278	29.936324976	29.936306433	1.854e-05	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxC	872	933-rdx20	readers (handoff log)	down	1	29.943757718	29.936651278	29.936324976	29.936306433	1.854e-05	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxC	912	851-b20	border-r20	up	1	30.763219510	30.694861944	30.694856935	30.694827568	2.937e-05	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxD	912	851-b20	border-r20	up	1	30.763219510	30.694861944	30.694856935	30.694827568	2.937e-05	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxC	929	868-mm21b	midm-r21	up	1	30.940110302	30.900713761	30.900711554	30.900711471	8.300e-08	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxC	931	870-c21	corners-r21	up	1	30.958572982	30.921188720	30.921164095	30.921118861	4.523e-05	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxD	931	870-c21	corners-r21	up	1	30.958572982	30.921188720	30.921164095	30.921118861	4.523e-05	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxC	931	870-f21	family-r21 (own results)	up	1	30.958577065	30.921168436	30.921165739	30.921118861	4.688e-05	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxC	931	870-sc21	stair-c-r21	up	1	30.958571421	30.921197782	30.921195438	30.921152280	4.316e-05	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxD	931	870-scn21a	stair-c-r21 near/	up	1	30.958634294	30.921177203	30.921167870	30.921152280	1.559e-05	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxC	931	994-mm21	midm-r21	down	1	30.929736827	30.924076862	30.924070458	30.923959292	1.112e-04	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxC	931	994-rd21	readers-r21	down	1	30.929755304	30.923962804	30.923960152	30.923959292	8.600e-07	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxC	933	872-rdn20	readers-r20 near/	up	1	30.983495504	30.943773352	30.943773309	30.943757718	1.559e-05	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxD	933	872-rdn20	readers-r20 near/	up	1	30.983495504	30.943773352	30.943773309	30.943757718	1.559e-05	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxD	377	338-mn20	modules-r20 near/	up	1	19.975716356	19.901001416	19.900984269	19.900890352	9.392e-05	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	461	418-mn20	modules-r20 near/	up	1	22.004417508	21.932293735	21.932233792	21.932001960	2.318e-04	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxD	550	503-mn20	modules-r20 near/	up	1	23.989604973	23.910163351	23.910159965	23.909825290	3.347e-04	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	701	756-f21	family-r21 (own results)	down	1	26.921036773	26.912433771	26.912431942	26.912378265	5.368e-05	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	701	756-m20	modules-r20	down	1	26.921046849	26.912475348	26.912441531	26.912378265	6.327e-05	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	701	756-rd21	readers-r21	down	1	26.921044512	26.912471759	26.912433680	26.912378265	5.541e-05	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxD	753	810-iv21	invent-r21	down	1	27.898200658	27.890663719	27.889743530	27.889742974	5.560e-07	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	753	810-iv21a	invent-r21	down	1	27.898195386	27.890630479	27.889743533	27.889742974	5.590e-07	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxD	756	813-m21	modules-r21	down	1	27.928745088	27.921219558	27.921136160	27.921046849	8.931e-05	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxD	794	853-f21	family-r21 (own results)	down	1	28.706720409	28.683970419	28.683970410	28.683970598	-1.880e-07	no (under 1e-10)	below held
+second draw of a near miss (SQ_DRAW=2)	boxC	794	853-f21a	family-r21 (own results)	down	1	28.706720261	28.683972392	28.683970610	28.683970483	1.270e-07	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxD	794	853-iv21	invent-r21	down	1	28.706720220	28.683972392	28.683970542	28.683970483	5.900e-08	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	794	853-tsn21	twoshort-r21 near/	down	1	28.706822943	28.685716135	28.683970360	28.683970483	-1.230e-07	yes	below held
+second draw of a near miss (SQ_DRAW=2)	boxD	796	855-mn21	modules-r21 near/	down	1	28.732011873	28.714706623	28.714704302	28.714700914	3.388e-06	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	796	855-rd21	readers-r21	down	1	28.732009017	28.714767612	28.714702362	28.714700914	1.448e-06	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	811	870-cfn21	classfill-r21 near/	down	1	28.914409551	28.907556480	28.907554914	28.907506588	4.833e-05	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	811	870-f21	family-r21 (own results)	down	1	28.914403642	28.907552515	28.907552480	28.907552359	1.210e-07	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxD	811	870-f21	family-r21 (own results)	down	1	28.914403642	28.907552515	28.907552480	28.907552359	1.210e-07	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	811	870-ked2ffe	a walk step of this round	down	1	28.914403640	28.907553662	28.907552498	28.907552359	1.390e-07	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	813	756-m20	modules-r20	up	1	28.971731687	28.928878118	28.928878081	28.928877855	2.260e-07	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	813	756-rd21	readers-r21	up	1	28.971733566	28.928745502	28.928745086	28.928877855	-1.328e-04	no (under 1e-10)	below held
+second draw of a near miss (SQ_DRAW=2)	boxC	813	872-mn21	modules-r21 near/	down	1	28.936319646	28.928746684	28.928745142	28.928744663	4.790e-07	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxD	813	872-rdn20	readers-r20 near/	down	1	28.936306431	28.928881603	28.928877979	28.928877855	1.240e-07	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	851	912-f21	family-r21 (own results)	down	1	29.694071632	29.677625861	29.677201485	29.677201357	1.280e-07	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	851	912-mm21	midm-r21	down	1	29.694071062	29.677626283	29.677201430	29.677201357	7.300e-08	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxD	853	794-f21	family-r21 (own results)	up	1	29.768786002	29.706720270	29.706720260	29.706724455	-4.195e-06	no (under 1e-10)	below held
+second draw of a near miss (SQ_DRAW=2)	boxD	853	794-f21a	family-r21 (own results)	up	1	29.768785960	29.706720848	29.706720367	29.706724455	-4.088e-06	no (under 1e-10)	below held
+second draw of a near miss (SQ_DRAW=2)	boxC	853	794-f21c	family-r21 (own results)	up	1	29.768785838	29.706720759	29.706720641	29.706724455	-3.814e-06	no (under 1e-10)	below held
+second draw of a near miss (SQ_DRAW=2)	boxC	853	794-f21d	family-r21 (own results)	up	1	29.768785795	29.706729765	29.706728710	29.706724455	4.255e-06	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	853	794-f21e	family-r21 (own results)	up	1	29.768785786	29.706725012	29.706720404	29.706720216	1.880e-07	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	853	794-f21e	family-r21 (own results)	up	1	29.768785786	29.706725012	29.706720404	29.706720216	1.880e-07	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	853	794-p21	polish-r21	up	1	29.768786252	29.714136399	29.706725747	29.706724455	1.292e-06	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	853	794-p21a	polish-r21	up	1	29.768785991	29.706734736	29.706720408	29.706724455	-4.047e-06	no (under 1e-10)	below held
+second draw of a near miss (SQ_DRAW=2)	boxD	870	931-m21	modules-r21	down	1	29.921118866	29.914422962	29.914422364	29.914396838	2.553e-05	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	870	931-p21c	polish-r21	down	1	29.921164951	29.914404800	29.914404229	29.914396838	7.391e-06	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	870	931-rd21	readers-r21	down	1	29.921164984	29.914404126	29.914404112	29.916956559	-2.552e-03	no (under 1e-10)	below held
+second draw of a near miss (SQ_DRAW=2)	boxD	872	813-f21	family-r21 (own results)	up	1	29.977718512	29.936319652	29.936319646	29.936306433	1.321e-05	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxD	872	813-f21b	family-r21 (own results)	up	1	29.977706444	29.936429093	29.936429087	29.936306433	1.227e-04	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxD	872	813-iv21	invent-r21	up	1	29.977707080	29.936319652	29.936319646	29.936306433	1.321e-05	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxD	872	813-k51ebef	a walk step of this round	up	1	29.977706443	29.936319652	29.936319646	29.936306433	1.321e-05	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxD	872	813-k51ebef	a walk step of this round	up	1	29.977706443	29.936319652	29.936319646	29.936306433	1.321e-05	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	872	813-k694227	a walk step of this round	up	1	29.977707805	29.936348912	29.936348906	29.936306433	4.247e-05	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxD	872	813-k885a0f	a walk step of this round	up	1	29.977718510	29.936319652	29.936319646	29.936306433	1.321e-05	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	872	813-m21	modules-r21	up	1	29.977708038	29.936319652	29.936319646	29.936306433	1.321e-05	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	872	813-m21	modules-r21	up	1	29.977708038	29.936319652	29.936319646	29.936306433	1.321e-05	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	872	933-rdx20	readers (handoff log)	down	1	29.943757718	29.936651278	29.936324987	29.936306433	1.855e-05	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	872	933-rdx20	readers (handoff log)	down	1	29.943757718	29.936651278	29.936324987	29.936306433	1.855e-05	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxD	912	851-b20	border-r20	up	1	30.763219510	30.694859708	30.694859537	30.694827568	3.197e-05	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxD	929	868-mm21b	midm-r21	up	1	30.940110302	30.900821261	30.900815035	30.900659193	1.558e-04	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	931	870-c21	corners-r21	up	1	30.958572982	30.921136089	30.921132339	30.921118861	1.348e-05	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxD	931	870-c21	corners-r21	up	1	30.958572982	30.921136089	30.921132339	30.921118861	1.348e-05	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxD	931	870-f21	family-r21 (own results)	up	1	30.958577065	30.921165843	30.921165054	30.921118861	4.619e-05	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	931	870-sc21	stair-c-r21	up	1	30.958571421	30.921226660	30.921225289	30.921152280	7.301e-05	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxD	931	870-scn21	stair-c-r21 near/	up	1	30.958661722	30.921201665	30.921201614	30.921118861	8.275e-05	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxD	931	870-scn21a	stair-c-r21 near/	up	1	30.958634294	30.921157161	30.921157001	30.921152280	4.721e-06	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	931	994-mm21	midm-r21	down	1	30.929736827	30.924070938	30.924069932	30.923959292	1.106e-04	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	931	994-mm21a	midm-r21	down	1	30.929736590	30.924070539	30.924069569	30.923959292	1.103e-04	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	931	994-rd21	readers-r21	down	1	30.929755304	30.923962557	30.923960120	30.923959292	8.280e-07	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	933	872-rdn20	readers-r20 near/	up	1	30.983495504	30.943783275	30.943773309	30.943757718	1.559e-05	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxD	933	872-rdn20	readers-r20 near/	up	1	30.983495504	30.943783275	30.943773309	30.943757718	1.559e-05	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxD	377	338-mn20	modules-r20 near/	up	1	19.975716356	19.901001416	19.901001411	19.900890352	1.111e-04	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	461	418-mn20	modules-r20 near/	up	1	22.004417508	21.932293475	21.932073888	21.932001960	7.193e-05	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	550	503-mn20	modules-r20 near/	up	1	23.989604973	23.910167947	23.910166596	23.909825290	3.413e-04	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxD	701	756-f21	family-r21 (own results)	down	1	26.921036773	26.912433619	26.912432033	26.912378265	5.377e-05	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	701	756-m20	modules-r20	down	1	26.921046849	26.912442775	26.912430429	26.912378265	5.216e-05	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxD	701	756-rd21	readers-r21	down	1	26.921044512	26.912472341	26.912431467	26.912378265	5.320e-05	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxD	753	810-iv21	invent-r21	down	1	27.898200658	27.890616307	27.889743530	27.889742974	5.560e-07	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	753	810-iv21a	invent-r21	down	1	27.898195386	27.890643604	27.889743627	27.889742974	6.530e-07	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxD	756	813-m21	modules-r21	down	1	27.928745088	27.921051114	27.921036772	27.921046849	-1.008e-05	yes	below held
+second draw of a near miss (SQ_DRAW=3)	boxD	794	853-f21	family-r21 (own results)	down	1	28.706720409	28.684015808	28.683972205	28.683970598	1.607e-06	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxD	794	853-f21a	family-r21 (own results)	down	1	28.706720261	28.683970636	28.683970529	28.683970483	4.600e-08	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxD	794	853-iv21	invent-r21	down	1	28.706720220	28.683972208	28.683970346	28.683970483	-1.370e-07	yes	below held
+second draw of a near miss (SQ_DRAW=3)	boxC	794	853-tsn21	twoshort-r21 near/	down	1	28.706822943	28.685716136	28.685716130	28.683970483	1.746e-03	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxD	796	855-mn21	modules-r21 near/	down	1	28.732011873	28.714707085	28.714704302	28.714700914	3.388e-06	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	796	855-rd21	readers-r21	down	1	28.732009017	28.714701096	28.714700854	28.714700914	-6.000e-08	yes	below held
+second draw of a near miss (SQ_DRAW=3)	boxD	796	855-rd21	readers-r21	down	1	28.732009017	28.714701096	28.714700854	28.714700914	-6.000e-08	yes	below held
+second draw of a near miss (SQ_DRAW=3)	boxC	811	870-cfn21	classfill-r21 near/	down	1	28.914409551	28.907560504	28.907554303	28.907506588	4.772e-05	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	811	870-f21	family-r21 (own results)	down	1	28.914403642	28.907552581	28.907552500	28.907552359	1.410e-07	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxD	811	870-f21	family-r21 (own results)	down	1	28.914403642	28.907552581	28.907552500	28.907552359	1.410e-07	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	811	870-ked2ffe	a walk step of this round	down	1	28.914403640	28.907552582	28.907552507	28.907552359	1.480e-07	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxD	813	756-m20	modules-r20	up	1	28.971731687	28.928880820	28.928878081	28.928877855	2.260e-07	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	813	756-rd21	readers-r21	up	1	28.971733566	28.928748433	28.928745167	28.928877855	-1.327e-04	no (under 1e-10)	below held
+second draw of a near miss (SQ_DRAW=3)	boxC	813	872-mn21	modules-r21 near/	down	1	28.936319646	28.928746203	28.928745142	28.928744663	4.790e-07	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	813	872-rdn20	readers-r20 near/	down	1	28.936306431	28.928881940	28.928877852	28.928877855	-3.000e-09	no (under 1e-10)	below held
+second draw of a near miss (SQ_DRAW=3)	boxD	813	872-rdn20	readers-r20 near/	down	1	28.936306431	28.928881940	28.928877852	28.928877855	-3.000e-09	no (under 1e-10)	below held
+second draw of a near miss (SQ_DRAW=3)	boxC	851	912-f21	family-r21 (own results)	down	1	29.694071632	29.677626574	29.677201491	29.677201357	1.340e-07	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	851	912-mm21	midm-r21	down	1	29.694071062	29.677203311	29.677201430	29.677201357	7.300e-08	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	853	794-f21	family-r21 (own results)	up	1	29.768786002	29.706720776	29.706720589	29.706724455	-3.866e-06	no (under 1e-10)	below held
+second draw of a near miss (SQ_DRAW=3)	boxD	853	794-f21a	family-r21 (own results)	up	1	29.768785960	29.706732361	29.706720408	29.706724455	-4.047e-06	no (under 1e-10)	below held
+second draw of a near miss (SQ_DRAW=3)	boxC	853	794-f21c	family-r21 (own results)	up	1	29.768785838	29.706724403	29.706720367	29.706724455	-4.088e-06	no (under 1e-10)	below held
+second draw of a near miss (SQ_DRAW=3)	boxD	853	794-f21d	family-r21 (own results)	up	1	29.768785795	29.706720337	29.706720330	29.706724455	-4.125e-06	no (under 1e-10)	below held
+second draw of a near miss (SQ_DRAW=3)	boxC	853	794-f21e	family-r21 (own results)	up	1	29.768785786	29.706724218	29.706720404	29.706720216	1.880e-07	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxD	853	794-f21e	family-r21 (own results)	up	1	29.768785786	29.706724218	29.706720404	29.706720216	1.880e-07	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxD	853	794-p21	polish-r21	up	1	29.768786252	29.714145211	29.706725745	29.706724455	1.290e-06	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	853	794-p21a	polish-r21	up	1	29.768785991	29.706735544	29.706720404	29.706724455	-4.051e-06	no (under 1e-10)	below held
+second draw of a near miss (SQ_DRAW=3)	boxD	870	931-cf21	classfill-r21	down	1	29.921154744	29.914464118	29.914461167	29.914396838	6.433e-05	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxD	870	931-m21	modules-r21	down	1	29.921118866	29.914423014	29.914422427	29.914396838	2.559e-05	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	870	931-p21c	polish-r21	down	1	29.921164951	29.914404063	29.914403715	29.914396838	6.877e-06	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	870	931-rd21	readers-r21	down	1	29.921164984	29.914404847	29.914403727	29.916956559	-2.553e-03	no (under 1e-10)	below held
+second draw of a near miss (SQ_DRAW=3)	boxD	872	813-f21	family-r21 (own results)	up	1	29.977718512	29.936319652	29.936319646	29.936306433	1.321e-05	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxD	872	813-f21b	family-r21 (own results)	up	1	29.977706444	29.936419628	29.936419303	29.936306433	1.129e-04	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxD	872	813-iv21	invent-r21	up	1	29.977707080	29.936336494	29.936336483	29.936306433	3.005e-05	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	872	813-k51ebef	a walk step of this round	up	1	29.977706443	29.936456838	29.936429419	29.936306433	1.230e-04	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	872	813-k51ebef	a walk step of this round	up	1	29.977706443	29.936456838	29.936429419	29.936306433	1.230e-04	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	872	813-k694227	a walk step of this round	up	1	29.977707805	29.936423820	29.936423795	29.936306433	1.174e-04	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	872	813-k885a0f	a walk step of this round	up	1	29.977718510	29.936319652	29.936319646	29.936306433	1.321e-05	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	872	813-m21	modules-r21	up	1	29.977708038	29.936319652	29.936319646	29.936306433	1.321e-05	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxD	872	813-m21	modules-r21	up	1	29.977708038	29.936319652	29.936319646	29.936306433	1.321e-05	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	872	933-rdx20	readers (handoff log)	down	1	29.943757718	29.936324982	29.936324976	29.936306433	1.854e-05	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	912	851-b20	border-r20	up	1	30.763219510	30.694107964	30.694071632	30.694827568	-7.559e-04	no (under 1e-10)	below held
+second draw of a near miss (SQ_DRAW=3)	boxC	929	868-mm21b	midm-r21	up	1	30.940110302	30.900838306	30.900714493	30.900659109	5.538e-05	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxD	931	870-c21	corners-r21	up	1	30.958572982	30.921126621	30.921126045	30.921118861	7.184e-06	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	931	870-f21	family-r21 (own results)	up	1	30.958577065	30.921169218	30.921165830	30.921118861	4.697e-05	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	931	870-sc21	stair-c-r21	up	1	30.958571421	30.921199512	30.921195754	30.921152280	4.347e-05	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxD	931	870-scn21	stair-c-r21 near/	up	1	30.958661722	30.921201691	30.921201650	30.921118861	8.279e-05	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxD	931	870-scn21a	stair-c-r21 near/	up	1	30.958634294	30.921173747	30.921156998	30.921118861	3.814e-05	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	931	994-mm21	midm-r21	down	1	30.929736827	30.924069938	30.924069930	30.923959292	1.106e-04	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	931	994-mm21	midm-r21	down	1	30.929736827	30.924069938	30.924069930	30.923959292	1.106e-04	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	931	994-mm21a	midm-r21	down	1	30.929736590	30.924070770	30.924069908	30.923959292	1.106e-04	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	931	994-rd21	readers-r21	down	1	30.929755304	30.923960811	30.923960150	30.923959292	8.580e-07	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	933	872-rdn20	readers-r20 near/	up	1	30.983495504	30.943773350	30.943773309	30.943757718	1.559e-05	no	ok
+second build of a near miss of this round	boxC	341	304-mn21	modules-r21 near/	up	1	19.004975633	18.941857420	18.941857415	18.941857361	5.400e-08	no	ok
+second build of a near miss of this round	boxC	377	338-mn20	modules-r20 near/	up	1	19.975716356	19.901001583	19.900890397	19.900890352	4.500e-08	no	ok
+second build of a near miss of this round	boxD	418	461-cn21	corners-r21 near/	down	1	20.932081747	20.920122124	20.920122082	20.920082123	3.996e-05	no	ok
+second build of a near miss of this round	boxC	461	418-mn20	modules-r20 near/	up	1	22.004417508	21.932293735	21.932233792	21.932001960	2.318e-04	no	ok
+second build of a near miss of this round	boxD	550	503-mn20	modules-r20 near/	up	1	23.989604973	23.910620894	23.910344416	23.909825290	5.191e-04	no	ok
+second build of a near miss of this round	boxC	701	756-f21	family-r21 (own results)	down	1	26.921036773	26.912433400	26.912431934	26.912378265	5.367e-05	no	ok
+second build of a near miss of this round	boxC	701	756-m20	modules-r20	down	1	26.921046849	26.912470743	26.912430714	26.912378265	5.245e-05	no	ok
+second build of a near miss of this round	boxD	701	756-rd21	readers-r21	down	1	26.921044512	26.912471117	26.912431566	26.912378265	5.330e-05	no	ok
+second build of a near miss of this round	boxC	753	810-iv21	invent-r21	down	1	27.898200658	27.890628474	27.890609324	27.889742974	8.663e-04	no	ok
+second build of a near miss of this round	boxD	753	810-iv21a	invent-r21	down	1	27.898195386	27.890628248	27.890609319	27.889742974	8.663e-04	no	ok
+second build of a near miss of this round	boxD	756	813-m21	modules-r21	down	1	27.928745088	27.921136588	27.921135987	27.921046849	8.914e-05	no	ok
+second build of a near miss of this round	boxC	796	855-rd21	readers-r21	down	1	28.732009017	28.714702369	28.714702362	28.714700914	1.448e-06	no	ok
+second build of a near miss of this round	boxC	807	750-fo21	forensics-r21	up	1	28.930867549	28.860509340	28.860500181	28.860400738	9.944e-05	no	ok
+second build of a near miss of this round	boxD	811	870-c21	corners-r21	down	1	28.914396838	28.907548880	28.907547502	28.907506588	4.091e-05	no	ok
+second build of a near miss of this round	boxC	811	870-cfn21	classfill-r21 near/	down	1	28.914409551	28.907597192	28.907592408	28.907552359	4.005e-05	no	ok
+second build of a near miss of this round	boxD	811	870-f21	family-r21 (own results)	down	1	28.914403642	28.907553954	28.907552480	28.907552359	1.210e-07	no	ok
+second build of a near miss of this round	boxD	811	870-k0f4349	a walk step of this round	down	1	28.914442376	28.907593163	28.907577683	28.907552359	2.532e-05	no	ok
+second build of a near miss of this round	boxC	811	870-kccfd52	a walk step of this round	down	1	28.914440341	28.907585746	28.907577670	28.907552359	2.531e-05	no	ok
+second build of a near miss of this round	boxC	811	870-ked2ffe	a walk step of this round	down	1	28.914403640	28.907553772	28.907552482	28.907552359	1.230e-07	no	ok
+second build of a near miss of this round	boxC	811	870-scn21	stair-c-r21 near/	down	1	28.914465436	28.907643839	28.907642860	28.907552359	9.050e-05	no	ok
+second build of a near miss of this round	boxC	813	756-rd21	readers-r21	up	1	28.971733566	28.928745842	28.928745144	28.928744663	4.810e-07	no	ok
+second build of a near miss of this round	boxC	813	872-mn21	modules-r21 near/	down	1	28.936319646	28.928748596	28.928745152	28.928744663	4.890e-07	no	ok
+second build of a near miss of this round	boxD	813	872-rdn20	readers-r20 near/	down	1	28.936306431	28.928879686	28.928877857	28.928745088	1.328e-04	no	ok
+second build of a near miss of this round	boxC	851	912-f21	family-r21 (own results)	down	1	29.694071632	29.677199696	29.677199115	29.677201357	-2.242e-06	no (under 1e-10)	below held
+second build of a near miss of this round	boxD	851	912-mm21	midm-r21	down	1	29.694071062	29.677204804	29.677201352	29.676511524	6.898e-04	no	ok
+second build of a near miss of this round	boxC	853	794-f21e	family-r21 (own results)	up	1	29.768785786	29.706721927	29.706720391	29.706720216	1.750e-07	no	ok
+second build of a near miss of this round	boxC	868	809-mm21b	midm-r21	up	1	29.935389319	29.893321778	29.893020721	29.891933897	1.087e-03	no	ok
+second build of a near miss of this round	boxD	870	931-cf21	classfill-r21	down	1	29.921154744	29.914462134	29.914461167	29.914396838	6.433e-05	no	ok
+second build of a near miss of this round	boxC	870	931-f21	family-r21 (own results)	down	1	29.921195872	29.914451833	29.914449553	29.914396838	5.272e-05	no	ok
+second build of a near miss of this round	boxC	870	931-f21a	family-r21 (own results)	down	1	29.921195518	29.914450046	29.914449443	29.914396838	5.261e-05	no	ok
+second build of a near miss of this round	boxD	870	931-mn21	modules-r21 near/	down	1	29.921282373	29.914512578	29.914511471	29.916956559	-2.445e-03	no (under 1e-10)	below held
+second build of a near miss of this round	boxC	870	931-p21	polish-r21	down	1	29.921716625	29.914468241	29.914468106	29.914396838	7.127e-05	no	ok
+second build of a near miss of this round	boxC	870	931-p21a	polish-r21	down	1	29.921195798	29.914449877	29.914449451	29.914396838	5.261e-05	no	ok
+second build of a near miss of this round	boxC	870	931-p21b	polish-r21	down	1	29.921195499	29.914451819	29.914449562	29.914396838	5.272e-05	no	ok
+second build of a near miss of this round	boxD	870	931-rd21	readers-r21	down	1	29.921164984	29.914404492	29.914404073	29.916956559	-2.552e-03	no (under 1e-10)	below held
+second build of a near miss of this round	boxD	870	931-sc21	stair-c-r21	down	1	29.921716765	29.914468630	29.914468318	29.916956559	-2.488e-03	no (under 1e-10)	below held
+second build of a near miss of this round	boxD	872	813-f21	family-r21 (own results)	up	1	29.977718512	29.936348912	29.936348906	29.936306433	4.247e-05	no	ok
+second build of a near miss of this round	boxC	872	813-f21b	family-r21 (own results)	up	1	29.977706444	29.936422903	29.936422841	29.936306433	1.164e-04	no	ok
+second build of a near miss of this round	boxC	872	813-iv21	invent-r21	up	1	29.977707080	29.936398349	29.936398343	29.936306433	9.191e-05	no	ok
+second build of a near miss of this round	boxD	872	813-k51ebef	a walk step of this round	up	1	29.977706443	29.936414741	29.936401741	29.936306433	9.531e-05	no	ok
+second build of a near miss of this round	boxC	872	813-k694227	a walk step of this round	up	1	29.977707805	29.936398349	29.936398343	29.936306433	9.191e-05	no	ok
+second build of a near miss of this round	boxC	872	813-k885a0f	a walk step of this round	up	1	29.977718510	29.936348912	29.936348906	29.936306433	4.247e-05	no	ok
+second build of a near miss of this round	boxC	872	813-m21	modules-r21	up	1	29.977708038	29.936348912	29.936348906	29.936306433	4.247e-05	no	ok
+second build of a near miss of this round	boxD	872	933-rdx20	readers (handoff log)	down	1	29.943757718	29.936746083	29.936324972	29.936306433	1.854e-05	no	ok
+second build of a near miss of this round	boxD	912	851-b20	border-r20	up	1	30.763219510	30.694862055	30.694858700	30.694827568	3.113e-05	no	ok
+second build of a near miss of this round	boxC	931	870-c21	corners-r21	up	1	30.958572982	30.921126037	30.921125323	30.921118861	6.462e-06	no	ok
+second build of a near miss of this round	boxC	931	870-cfn21	classfill-r21 near/	up	1	30.958577344	30.921190828	30.921184854	30.921152293	3.256e-05	no	ok
+second build of a near miss of this round	boxD	931	870-f21	family-r21 (own results)	up	1	30.958577065	30.921170963	30.921165946	30.921152293	1.365e-05	no	ok
+second build of a near miss of this round	boxD	931	870-scn21	stair-c-r21 near/	up	1	30.958661722	30.921185282	30.921185227	30.921153503	3.172e-05	no	ok
+second build of a near miss of this round	boxC	931	870-scn21a	stair-c-r21 near/	up	1	30.958634294	30.921167959	30.921167856	30.921152285	1.557e-05	no	ok
+second build of a near miss of this round	boxD	931	870-scn21b	stair-c-r21 near/	up	1	30.958639715	30.921186226	30.921185758	30.921152285	3.347e-05	no	ok
+second build of a near miss of this round	boxC	931	870-scn21c	stair-c-r21 near/	up	1	30.958614750	30.921185800	30.921185725	30.921152285	3.344e-05	no	ok
+second build of a near miss of this round	boxC	931	994-m21	modules-r21	down	1	30.928461408	30.921837775	30.921831466	30.921153503	6.780e-04	no	ok
+second build of a near miss of this round	boxC	931	994-mm21	midm-r21	down	1	30.929736827	30.924070284	30.924070268	30.923959292	1.110e-04	no	ok
+second build of a near miss of this round	boxC	931	994-mm21a	midm-r21	down	1	30.929736590	30.924070774	30.924069915	30.923959292	1.106e-04	no	ok
+second build of a near miss of this round	boxC	931	994-rd21	readers-r21	down	1	30.929755304	30.923961730	30.923960154	30.923959292	8.620e-07	no	ok
+second build of a near miss of this round	boxC	933	872-mn21	modules-r21 near/	up	1	30.983505689	30.943931151	30.943885291	30.943757718	1.276e-04	no	ok
+second build of a near miss of this round	boxC	933	872-rdn20	readers-r20 near/	up	1	30.983495504	30.943773352	30.943773311	30.943757718	1.559e-05	no	ok
+second build of a near miss of this round	boxC	936	875-c21	corners-r21	up	1	31.032169835	30.995701171	30.990948664	30.990948610	5.400e-08	no	ok
+second build of a near miss of this round	boxC	936	875-cf21	classfill-r21	up	1	31.031605063	30.991285534	30.990981309	30.990796406	1.849e-04	no	ok
+second build of a near miss of this round	boxC	936	875-f21	family-r21 (own results)	up	1	31.031884500	30.990948641	30.990948631	30.990948610	2.100e-08	no	ok

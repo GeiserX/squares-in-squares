@@ -1,0 +1,96 @@
+set	n	layout	side	f	c1	c2	lean1	lean2	read	squares	missing_cells	cut_stacks	y0	x0	loss	note	split_corner_of_section_9	side_of_the_split_layout
+control: the zone cut accepts it	911	lowest of the round 17 file and the take dirs	30.682866159	0.6829	9	9	1	-1	1	148	0	4.5	12.938886	14.011134	3.5231		3.568	30.682866159
+control: the zone cut accepts it	912	lowest of the round 17 file and the take dirs	30.694827568	0.6948	9	9	1	-1	0							no legal settle	3.753	30.695109484
+control: the zone cut accepts it	974	lowest of the round 17 file and the take dirs	31.697896727	0.6979	9	9	1	-1	1	139	0	3.5	12.923670	12.929069	3.6480		3.656	31.697896727
+control: the zone cut accepts it	975	lowest of the round 17 file and the take dirs	31.714568601	0.7146	9	9	1	-1	1	129	0	3.5	12.839166	11.773201	3.5588		3.582	31.714571208
+control: the zone cut accepts it	803	lowest of the round 17 file and the take dirs	28.816253732	0.8163	9	9	1	-1	0							no legal settle	2.953	28.817701165
+control: the zone cut accepts it	921	lowest of the round 17 file and the take dirs	30.812953796	0.8130	9	9	1	-1	1	126	9	2.5	12.555536	10.503414	3.7639		3.964	30.812998681
+control: the zone cut accepts it	863	lowest of the round 17 file and the take dirs	29.841418068	0.8414	7	7	1	-1	0							no legal settle	3.465	29.841547388
+control: the zone cut accepts it	983	lowest of the round 17 file and the take dirs	31.811880510						0							arm sizes 9.00 9.33 are not whole	2.558	31.816325821
+control: the zone cut accepts it	871	lowest of the round 17 file and the take dirs	29.929338354	0.9293	8	8	1	-1	1	130	0	4.5	12.158069	13.238796	3.2407		4.696	29.965446871
+control: the zone cut accepts it	930	lowest of the round 17 file and the take dirs	30.917456098	0.9175	8	11	-1	-1	1	158	0	3.5	15.167806	12.293516	4.1257		3.795	30.917456098
+control: the zone cut accepts it	993	lowest of the round 17 file and the take dirs	31.924791454	0.9248	8	11	-1	1	1	169	0	4.5	15.161451	13.280439	3.7804		3.806	31.924791454
+control: the zone cut accepts it	812	lowest of the round 17 file and the take dirs	28.923270829	0.9233	8	8	1	-1	1	130	0	4.5	12.172444	13.251191	3.3164		3.433	28.923270829
+refused by the zone cut	910	lowest of the round 17 file and the take dirs	30.676529569	0.6765	9	9	1	-1	1	156	0	4.5	13.969759	13.994052	3.8191			
+refused by the zone cut	791	lowest of the round 17 file and the take dirs	28.634070749						0							arm sizes 4.48 8.67 are not whole		
+refused by the zone cut	973	lowest of the round 17 file and the take dirs	31.689144488	0.6891	9	9	1	-1	1	147	0	4.5	12.885759	13.948687	3.6674			
+refused by the zone cut	793	lowest of the round 17 file and the take dirs	28.673443927	0.6734	9	9	1	-1	1	123	0	2.5	11.938036	11.997530	3.4019			
+refused by the zone cut	908	lowest of the round 17 file and the take dirs	30.634070749						0							arm sizes 8.67 8.67 are not whole		
+refused by the zone cut	969	lowest of the round 17 file and the take dirs	31.633982515						0							arm sizes 8.67 8.67 are not whole		
+refused by the zone cut	972	lowest of the round 17 file and the take dirs	31.676523629	0.6765	8	8	1	-1	1	147	9	4.5	13.734878	13.664998	5.0963			
+refused by the zone cut	861	lowest of the round 17 file and the take dirs	29.810706535	0.8107	9	9	1	-1	1	152	7	4.5	13.733705	12.624609	3.6946			
+refused by the zone cut	971	lowest of the round 17 file and the take dirs	31.661203597	0.6612	8	8	-1	1	0							13 cells of the rest are off the lattice		
+refused by the zone cut	851	lowest of the round 17 file and the take dirs	29.678989551	0.6790	9	9	1	-1	0							no legal settle		
+refused by the zone cut	796	lowest of the round 17 file and the take dirs	28.720309004	0.7203	8	8	1	-1	0							no legal settle		
+refused by the zone cut	909	lowest of the round 17 file and the take dirs	30.652396539						0							arm sizes 8.56 8.58 are not whole		
+refused by the zone cut	848	lowest of the round 17 file and the take dirs	29.623065214	0.6231	5	8	-1	1	0							no line between two stacks		
+refused by the zone cut	913	lowest of the round 17 file and the take dirs	30.710251303	0.7103	9	9	1	-1	1	105	0	2.5	10.897500	10.855681	3.6770			
+refused by the zone cut	965	lowest of the round 17 file and the take dirs	31.562050660	0.5621	6	6	-1	-1	0							no line between two stacks		
+refused by the zone cut	982	lowest of the round 17 file and the take dirs	31.801262053						0							arm sizes 9.00 9.33 are not whole		
+refused by the zone cut	790	lowest of the round 17 file and the take dirs	28.608712580	0.6087	8	8	-1	-1	0							no line between two stacks		
+refused by the zone cut	918	lowest of the round 17 file and the take dirs	30.784148399						0							arm sizes 6.11 10.64 are not whole		
+refused by the zone cut	919	lowest of the round 17 file and the take dirs	30.790161039						0							arm sizes 8.96 9.40 are not whole		
+refused by the zone cut	862	lowest of the round 17 file and the take dirs	29.827133252						0							arm sizes 7.17 8.53 are not whole		
+refused by the zone cut	805	lowest of the round 17 file and the take dirs	28.843254116	0.8433	7	7	1	-1	1	89	0	3.5	10.522836	10.525766	2.7258			
+refused by the zone cut	852	lowest of the round 17 file and the take dirs	29.690130705	0.6901	9	9	1	-1	1	123	0	2.5	11.905000	12.017288	3.4989			
+refused by the zone cut	854	lowest of the round 17 file and the take dirs	29.720685750						0							arm sizes 8.00 8.29 are not whole		
+refused by the zone cut	860	lowest of the round 17 file and the take dirs	29.800288222	0.8003	9	9	1	-1	1	162	9	4.5	14.714075	12.617966	3.7550			
+refused by the zone cut	794	lowest of the round 17 file and the take dirs	28.685132807						0							arm sizes 8.35 8.35 are not whole		
+refused by the zone cut	866	lowest of the round 17 file and the take dirs	29.879009147						0							arm sizes 8.40 8.37 are not whole		
+refused by the zone cut	981	lowest of the round 17 file and the take dirs	31.794665726	0.7947	6	11	1	-1	0							18 cells of the rest are off the lattice		
+refused by the zone cut	980	lowest of the round 17 file and the take dirs	31.784148399	0.7841	6	11	1	-1	0							16 cells of the rest are off the lattice		
+refused by the zone cut	920	lowest of the round 17 file and the take dirs	30.799088348						0							arm sizes 8.97 9.33 are not whole		
+refused by the zone cut	810	lowest of the round 17 file and the take dirs	28.907040713	0.9070	8	8	-1	-1	1	136	0	4.5	13.175421	13.230622	4.4374			
+refused by the zone cut	859	lowest of the round 17 file and the take dirs	29.788234420						0							arm sizes 8.92 9.31 are not whole		
+refused by the zone cut	800	lowest of the round 17 file and the take dirs	28.774176320	0.7742	9	9	1	-1	1	127	3	2.5	11.515025	12.530123	4.6032			
+refused by the zone cut	915	lowest of the round 17 file and the take dirs	30.739964705	0.7400	8	9	1	-1	1	112	2	2.5	11.779893	10.870762	2.7166			
+refused by the zone cut	976	lowest of the round 17 file and the take dirs	31.727038267	0.7270	9	9	1	-1	1	139	0	3.5	12.889840	12.906575	3.6215			
+refused by the zone cut	864	lowest of the round 17 file and the take dirs	29.851918339						0							arm sizes 7.93 8.27 are not whole		
+refused by the zone cut	795	lowest of the round 17 file and the take dirs	28.697749709						0							arm sizes 8.00 8.26 are not whole		
+refused by the zone cut	977	lowest of the round 17 file and the take dirs	31.743573465	0.7436	9	9	1	-1	1	140	0	3.5	12.959566	12.989029	4.1502			
+refused by the zone cut	978	lowest of the round 17 file and the take dirs	31.759462696	0.7595	9	9	1	-1	1	149	8	4.5	13.047100	13.054440	4.6845			
+refused by the zone cut	986	lowest of the round 17 file and the take dirs	31.847674022	0.8477	7	7	1	1	0							14 cells of the rest are off the lattice		
+refused by the zone cut	858	lowest of the round 17 file and the take dirs	29.778446245						0							arm sizes 8.78 9.34 are not whole		
+refused by the zone cut	798	lowest of the round 17 file and the take dirs	28.745602739	0.7456	8	11	1	-1	0							no legal settle		
+refused by the zone cut	849	lowest of the round 17 file and the take dirs	30.637029650	0.6370	9	9	1	-1	0							24 cells of the rest are off the lattice		
+refused by the zone cut	914	lowest of the round 17 file and the take dirs	30.728567066	0.7286	9	9	1	-1	1	158	0	4.5	14.074605	14.049780	4.1009			
+refused by the zone cut	989	lowest of the round 17 file and the take dirs	31.884737528						0							arm sizes 8.34 9.20 are not whole		
+refused by the zone cut	970	lowest of the round 17 file and the take dirs	31.638981453	0.6390	9	9	-1	1	0							no line between two stacks		
+refused by the zone cut	987	lowest of the round 17 file and the take dirs	31.864441754	0.8644	6	9	1	1	0							no legal settle		
+refused by the zone cut	926	lowest of the round 17 file and the take dirs	30.873125882						0							arm sizes 8.19 8.71 are not whole		
+refused by the zone cut	988	lowest of the round 17 file and the take dirs	31.873759419						0							arm sizes 8.33 9.50 are not whole		
+refused by the zone cut	811	lowest of the round 17 file and the take dirs	28.911740904						0							arm sizes 7.31 7.96 are not whole		
+refused by the zone cut	870	lowest of the round 17 file and the take dirs	29.923030157						0							arm sizes 8.56 8.89 are not whole		
+refused by the zone cut	806	lowest of the round 17 file and the take dirs	28.848981803	0.8490	7	8	1	-1	0							13 cells of the rest are off the lattice		
+refused by the zone cut	968	lowest of the round 17 file and the take dirs	31.608712580	0.6087	8	8	1	1	0							no line between two stacks		
+refused by the zone cut	792	lowest of the round 17 file and the take dirs	30.637026877	0.6370	9	9	1	-1	0							24 cells of the rest are off the lattice		
+refused by the zone cut	931	lowest of the round 17 file and the take dirs	30.929561461						0							arm sizes 8.50 8.52 are not whole		
+refused by the zone cut	929	lowest of the round 17 file and the take dirs	30.908358802	0.9084	8	8	-1	-1	0							no legal settle		
+refused by the zone cut	923	lowest of the round 17 file and the take dirs	30.837101199	0.8371	7	7	-1	1	0							14 cells of the rest are off the lattice		
+refused by the zone cut	868	lowest of the round 17 file and the take dirs	29.898591944	0.8986	8	8	-1	-1	0							no legal settle		
+refused by the zone cut	809	lowest of the round 17 file and the take dirs	28.889722770						0							arm sizes 7.95 8.50 are not whole		
+refused by the zone cut	802	lowest of the round 17 file and the take dirs	28.794295843	0.7943	6	6	1	-1	0							24 cells of the rest are off the lattice		
+refused by the zone cut	869	lowest of the round 17 file and the take dirs	29.911106363	0.9111	8	11	-1	-1	1	169	0	4.5	15.184803	13.312552	3.9930			
+refused by the zone cut	856	lowest of the round 17 file and the take dirs	29.751745558	0.7517	8	11	1	-1	0							18 cells of the rest are off the lattice		
+refused by the zone cut	876	lowest of the round 17 file and the take dirs	29.997548023						0							arm sizes 8.43 11.86 are not whole		
+refused by the zone cut	865	lowest of the round 17 file and the take dirs	29.860744683						0							arm sizes 6.94 9.33 are not whole		
+refused by the zone cut	927	lowest of the round 17 file and the take dirs	30.886964471						0							arm sizes 8.36 8.40 are not whole		
+refused by the zone cut	925	lowest of the round 17 file and the take dirs	30.860976406	0.8610	7	9	1	1	0							13 cells of the rest are off the lattice		
+refused by the zone cut	916	lowest of the round 17 file and the take dirs	30.752189877						0							arm sizes 8.56 11.04 are not whole		
+refused by the zone cut	992	lowest of the round 17 file and the take dirs	31.916323489	0.9163	8	8	-1	-1	0							no legal settle		
+refused by the zone cut	990	lowest of the round 17 file and the take dirs	31.894883416						0							arm sizes 8.32 8.28 are not whole		
+refused by the zone cut	922	lowest of the round 17 file and the take dirs	30.821430315	0.8214	9	9	1	-1	1	152	7	4.5	12.666350	13.661410	3.6181			
+refused by the zone cut	857	lowest of the round 17 file and the take dirs	29.761536403						0							arm sizes 6.40 10.78 are not whole		
+refused by the zone cut	917	lowest of the round 17 file and the take dirs	30.761536403						0							arm sizes 6.40 11.11 are not whole		
+refused by the zone cut	818	lowest of the round 17 file and the take dirs	28.997919803						0							arm sizes 7.16 7.57 are not whole		
+refused by the zone cut	807	lowest of the round 17 file and the take dirs	28.860404096	0.8604	7	8	1	-1	0							no legal settle		
+refused by the zone cut	808	lowest of the round 17 file and the take dirs	28.873581348	0.8736	8	8	1	-1	0							no legal settle		
+refused by the zone cut	985	lowest of the round 17 file and the take dirs	31.834437558	0.8344	9	9	1	-1	1	148	12	3.5	13.637932	11.590191	3.4855			
+refused by the zone cut	799	lowest of the round 17 file and the take dirs	28.756868146						0							arm sizes 6.07 11.38 are not whole		
+refused by the zone cut	867	lowest of the round 17 file and the take dirs	29.883529906						0							arm sizes 8.40 8.36 are not whole		
+refused by the zone cut	855	lowest of the round 17 file and the take dirs	29.733982994						0							arm sizes 8.41 11.20 are not whole		
+refused by the zone cut	801	lowest of the round 17 file and the take dirs	28.781136523						0							arm sizes 6.00 11.29 are not whole		
+refused by the zone cut	979	lowest of the round 17 file and the take dirs	31.766536608	0.7665	9	11	-1	-1	0							no legal settle		
+refused by the zone cut	928	lowest of the round 17 file and the take dirs	30.891963500						0							arm sizes 8.31 8.28 are not whole		
+refused by the zone cut	991	lowest of the round 17 file and the take dirs	31.900694929						0							arm sizes 8.26 8.33 are not whole		
+refused by the zone cut	797	lowest of the round 17 file and the take dirs	28.728120904	0.7281	8	8	1	-1	1	122	0	4.5	12.892870	11.828495	2.5014			

@@ -1,0 +1,51 @@
+{
+  "polynomial": [
+    1,
+    -27,
+    27,
+    9,
+    -6
+  ],
+  "variable": "u=tan(theta/2)",
+  "u": "0.38787480272983730338745334157783111092336882680777836170244638803608168815658354",
+  "angle_degrees": "42.400036366553448046180611624036883704864629072274765799738607257539462218535797",
+  "fraction": "0.60080173480874044688696022209117152440321721155248501274935258506373655412420043",
+  "chains": [
+    "(2+f)C+(1+f)S=3",
+    "C+17S=11+2f"
+  ],
+  "positive_observed": [
+    {
+      "n": 534,
+      "angle_error": -1.1581846592889633e-12,
+      "side_padding": 1.1347156547714121e-09,
+      "path": "<scratch>/bounties-squares/take-forensics-r23/534.csv",
+      "snapshot": "<scratch>/bounties-squares/take-forensics-r23/work/family-witness/534-5cb4c0d92481875e.csv",
+      "sha256": "5cb4c0d92481875e7d0ac7b37b20f0866850a1fad93ef251eebc49aef61d5db8",
+      "observed_fraction": 0.6008017359434561,
+      "observed_angle_degrees": 42.40003636655229
+    },
+    {
+      "n": 581,
+      "angle_error": -9.876544027065393e-13,
+      "side_padding": 1.1849332626212572e-09,
+      "path": "<scratch>/bounties-squares/take-k123-r23/581.csv",
+      "snapshot": "<scratch>/bounties-squares/take-forensics-r23/work/family-witness/581-24b7296465177f4a.csv",
+      "sha256": "24b7296465177f4a4cc7f54c372a4dad836db0678e22c3454b55bc4c09e293aa",
+      "observed_fraction": 0.6008017359936737,
+      "observed_angle_degrees": 42.40003636655246
+    },
+    {
+      "n": 847,
+      "angle_error": 7.105427357601002e-15,
+      "side_padding": 1.436031960011519e-09,
+      "path": "<scratch>/bounties-squares/take-forensics-r23/847.csv",
+      "snapshot": "<scratch>/bounties-squares/take-forensics-r23/work/family-witness/847-168ca12ed7dc4df0.csv",
+      "sha256": "168ca12ed7dc4df02c5efff5af8be1aceecadcc97111d28e79e6fb774f9ed925",
+      "observed_fraction": 0.6008017362447724,
+      "observed_angle_degrees": 42.40003636655346
+    }
+  ],
+  "decoy_angle_delta_degrees": "0.00001",
+  "decoy_residual": "0.0000020733515966915723118485333609561580361287582578962218970293279473802473878278933"
+}

@@ -1,0 +1,7 @@
+n	measurement	settings	side	held_side	above_held	status	source
+907	interrupted plain fault2 precheck	alm0		30.61624128895137		interrupted before measurement, wrong inverse reference	work/plain-fault2-precheck
+907	plain fault2 precheck	alm0 at side+0.003	30.616638585570037	30.61624128895137	0.000397296618667	RED	work/plain-fault2-precheck/measurement.json
+907	plain fault2 precheck polish	pol	30.616638585377448	30.61624128895137	0.000397296426078	RED	work/plain-fault2-precheck/measurement.json
+907	historical plain positive	alm0 at side+0.003	30.616241287479294	30.61624128895137	-0.000000001472076	GREEN	work/boxE-final/held-control/measurement.json
+907	historical plain positive polish	pol	30.616241287471116	30.61624128895137	-0.000000001480254	GREEN, below certification gain threshold	work/boxE-final/held-control/measurement.json
+907	inverse middle fault quench	alm0	30.88908729765357	30.61624128895137	0.2728460087022	RED, later extra rows changed; recovery not run	work/boxE-final/held-control/measurement.json

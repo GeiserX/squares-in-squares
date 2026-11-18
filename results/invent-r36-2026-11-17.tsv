@@ -1,0 +1,27 @@
+job	n	program	seed	start	start_sha256	held_share_1e3	start_vs_bar36	end_vs_bar36	raw_finds	search_end	error
+inv305-03bee985ef-s3628	305	midm	3628	take-forensics-r36/near/305-rect36-305-fq1-1794940478846690000.csv	03bee985ef647734	0.380	2.220e-07	-2.737e-11	1	normal	
+inv333-bb987320db-s3630	333	midm	3630	take-invent-r36/work/held/333-held-round35a.csv	bb987320db5eb10d	1.000	0.000e+00	0.000e+00	0	normal	
+inv341-85e11ad278-s3640	341	midm	3640	take-invent-r36/work/held/341-held-round35a.csv	85e11ad2783974d4	1.000	0.000e+00	0.000e+00	0	normal	
+inv499-e7c90e69da-s3636	499	midm	3636	take-invent-r36/work/held/499-held-round35a.csv	e7c90e69da9e2cee	1.000	0.000e+00	0.000e+00	0	normal	
+inv500-dcb6e0b582-s3634	500	midm	3634	take-invent-r36/work/held/500-held-round35a.csv	dcb6e0b582f9bbb2	1.000	0.000e+00	-2.755e-11	1	normal	
+inv545-624b1e546a-s3632	545	midm	3632	take-invent-r36/work/held/545-held-round35a.csv	624b1e546a7eadf3	1.000	0.000e+00	0.000e+00	0	normal	
+inv547-1d0780ca26-s3607	547	invent_barretain_budget30.py	3607	take-forensics-r36/near/547-rect36-547-fq0-1794940622070723000.csv	1d0780ca268cd8da	0.583	2.221e-09	-2.735e-11	1	normal	
+inv583-07f819bded-s3618	583	invent_barretain_budget30.py	3618	take-k123-r35/near/583-threeway28-07f819bded6305db.csv	07f819bded6305db	0.916	6.343e-07	-2.762e-11	2	normal	
+inv583-07f819bded-s3619	583	midm	3619	take-k123-r35/near/583-threeway28-07f819bded6305db.csv	07f819bded6305db	0.916	6.343e-07	-2.742e-11	1	normal	
+inv587-7bb79aa9fa-s3638	587	midm	3638	take-invent-r36/work/held/587-held-round35a.csv	7bb79aa9faf3e9dc	1.000	0.000e+00	0.000e+00	0	normal	
+inv643-e8773bc358-s3637	643	midm	3637	take-invent-r36/work/held/643-held-round35a.csv	e8773bc3585dbb1b	1.000	0.000e+00	0.000e+00	0	normal	
+inv692-1bc4203222-s3613	692	invent_barretain_budget30.py	3613	take-invent-r36/near/692-inv692-7f9cf90161-s3601.csv	1bc4203222a5ba0d	0.725	3.322e-10	3.322e-10	0	normal	
+inv692-7f9cf90161-s3601	692	invent_barretain_budget30.py	3601	take-forensics-r36/near/692-rect36-692-fq1-1794942584765974000.csv	7f9cf90161c56450	0.643	1.140e-07	3.322e-10	1	normal	
+inv694-dcbc34dbd5-s3631	694	midm	3631	take-invent-r36/work/held/694-held-round35a.csv	dcbc34dbd5d0d4f7	1.000	0.000e+00	0.000e+00	0	normal	
+inv696-65390a8774-s3626	696	midm	3626	take-forensics-r36/near/696-rect36-696-fq0-1794947407084906000.csv	65390a87741a3189	0.532	2.791e-10	3.007e-10	0	normal	
+inv707-0b212ddd96-s3616	707	invent_barretain_budget30.py	3616	take-forensics-r36/near/707-rect36-707-fq1-1794942072040752000.csv	0b212ddd9633b0e4	0.966	2.113e-07	-1.001e-12	2	normal	
+inv750-7a08960d5d-s3603	750	invent_barretain_budget30.py	3603	take-forensics-r36/near/750-rect36-750-fq1-1794942129263992000.csv	7a08960d5dff4b1e	0.300	3.548e-08	2.446e-08	1	normal	
+inv795-83a5eead3b-s3635	795	midm	3635	take-invent-r36/work/held/795-held-round35a.csv	83a5eead3b36f67e	1.000	0.000e+00	-2.769e-11	1	normal	
+inv802-c4a1ba10f4-s3609	802	invent_barretain_budget30.py	3609	take-forensics-r36/near/802-rect36-802-fq1-1794941626370500000.csv	c4a1ba10f44bf0cd	0.868	5.350e-08	5.352e-08	0	normal	
+inv807-d5329e11e3-s3611	807	invent_barretain_budget30.py	3611	take-k123-r36/near/807-join36-d5329e11e3e9264d.csv	d5329e11e3e9264d	0.768	1.227e-07	1.227e-07	0	normal	
+inv807-d5329e11e3-s3612	807	midm	3612	take-k123-r36/near/807-join36-d5329e11e3e9264d.csv	d5329e11e3e9264d	0.768	1.227e-07	2.391e-12	1	normal	
+inv860-deb7c1a64b-s3605	860	invent_barretain_budget30.py	3605	take-forensics-r36/near/860-rect36-860-fq1-1794938730540192000.csv	deb7c1a64b653ed4	0.692	1.561e-10	2.246e-11	0	normal	
+inv915-0bd465c8bc-s3641	915	midm	3641	take-invent-r36/work/held/915-held-round35a.csv	0bd465c8bc4a8af9	1.000	-2.220e-16	-3.316e-11	1	normal	
+inv924-3f1952fe39-s3639	924	midm	3639	take-invent-r36/work/held/924-held-round35a.csv	3f1952fe399572dd	1.000	0.000e+00	-2.785e-11	1	normal	
+inv969-ce8569065e-s3633	969	midm	3633	take-invent-r36/work/held/969-held-round35a.csv	ce8569065ee22147	1.000	0.000e+00	0.000e+00	0	normal	
+inv998-fe7d99ee90-s3614	998	invent_barretain_budget30.py	3614	take-classfill-r35/near/998-yfe7d99ee9081s4216.csv	fe7d99ee9081a63a	0.804	4.821e-07	6.128e-12	2	normal	

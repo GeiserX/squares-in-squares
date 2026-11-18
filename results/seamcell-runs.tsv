@@ -1,0 +1,7 @@
+utc	run	f	p	D	gain_window	starts_per_cell	jobs	feasible	best_gain	best_f_star	verdict
+2026-11-09T04:42Z	controls2	0.8233/0.8222/0.794	3,1,2	-	known cells	24-48	168	24/24 at 0.8233, 0 below	0.667	0.823223	control green: the known 498 cell (3,8,3) jams at 0.823223, not below
+2026-11-09T04:58Z	cells-f07941	0.7941	1..6	1..4	0.80-1.00	200	6600	0	-	-	kill line hit: 0/200 cells with gain >= 0.80 at the leader's f
+2026-11-09T04:59Z	cal-8233	0.8233	3	3	0.66-0.67	2000	2000	17	0.667	0.823223	random starts find the known cell (17/2000)
+2026-11-09T05:00Z	low-7941	0.7941	1..6	1..4	0.40-0.79	300	9600	3	0.400	0.767767	best reachable gain at f=0.7941 is 0.40 (p=5 k=12 D=3)
+2026-11-09T05:11Z	front-0.90	0.90	1..6	1..4	0.60-1.00	1000	48000	74	0.750	0.870829	frontier: (4,15,4) gain 0.75 jams at f*=0.8708
+2026-11-09T05:21Z	front-0.86	0.86	1..6	1..4	0.60-1.00	1000	48000	21	0.667	0.823223	no new cell

@@ -1,0 +1,178 @@
+"""Measure shares only on recorded public-first packing nodes, including ancestors."""
+import csv
+import hashlib
+import json
+from pathlib import Path
+import re
+import numpy as np
+from common import S,W,write_json
+from policy import audit as geometry_audit
+
+CACHE={}
+OWN=re.compile(r'family[_ -](?:step|read)|k123|rectangle|modules?|stair|corner|one border|border_sweep|twoshort|our own|own construction|forensics',re.I)
+
+
+def direct_public(source):
+    import walk as A
+    if not isinstance(source,str):return False
+    source=re.sub(r'^results/[^:]+ n\s*=\s*\d+:\s*','',source.strip())
+    source=re.sub(r'^take-[^:]+/take\.tsv:\s*','',source)
+    source=re.sub(r'^public\s+','',source)
+    source=re.sub(r'^certified start; start [^;]{0,160}? from\s+','',source)
+    match=A.Q.PUBFIRST.match(source)
+    if not match:return False
+    ref=re.search(r'[\w.-]+/[\w.-]+\s*::',match[0])
+    if ref is None:return False
+    name=ref[0].split('::',1)[0].strip()
+    if name in ('Samanyu-dev/squares_in_squares','franciscouzo/square-packing'):return False
+    return not OWN.search(match[0][:ref.start()])
+
+
+def source_record_public(data,n):
+    import walk as A
+    if not isinstance(data,dict):return False
+    if data and all(str(k).isdigit() for k in data):return source_record_public(data.get(str(n)),n)
+    from held_boundary import is_held_node
+    if is_held_node(data):return False
+    if data.get('public_first') or data.get('kind') in ('fresh-public','reopened-public'):return True
+    if isinstance(data.get('inherited_job'),dict) and source_record_public(data['inherited_job'],n):return True
+    if any(direct_public(data.get(key)) for key in ['source','src']):return True
+    path=str(data.get('path',''))
+    copied=re.fullmatch(re.escape(str(S))+r'/(take-[a-z0-9-]+-r(\d+))/(\d+)\.csv',path)
+    if copied and int(copied[2])<=30 and int(copied[3])==n and not OWN.search(str(data.get('source',''))):
+        row=A.Q.take_row(copied[1],n) or ''
+        if direct_public(row.split(' || ',1)[0]):return True
+    if path in (str(S/'take-harvest-r26/695.csv'),str(S/'take-harvest-r26/814.csv')) and not OWN.search(str(data.get('source',''))):return True
+    held=re.search(r'(?:^|/)gather/round(\d+)-[^/]+\.csv$',path)
+    if held and int(data.get('n',n))==n:
+        return direct_public(A.held(n,int(held[1])))
+    return False
+
+
+def packing(path):
+    try:
+        with Path(path).open() as f:
+            reader=csv.DictReader(f)
+            if not {'n','x','y'}.issubset(reader.fieldnames or []):return None
+            rows=[];n=None
+            for r in reader:
+                k=int(r['n'])
+                if n is not None and k!=n:return None  # aggregate rows are checked through per-n snapshots
+                n=k;rows.append((float(r['x']),float(r['y']),float(r.get('angle',0))))
+            if n is None or len(rows)!=n:return None
+            return n,np.array(rows)
+    except (OSError,ValueError,KeyError):return None
+
+
+def public_node(original,n,texts,files,seen=None):
+    seen=set() if seen is None else seen
+    if original in seen:return False
+    seen.add(original)
+    if '/seeds/' in original or original.startswith('seeds/'):return False
+    if re.search(r'/work/public\w*/starts/|/work/public\d+/quick-starts/|/work/near-pub',original):return True
+    # Main13:32:00Z names this exact frozen transport donor as public-first.
+    if re.search(r'/take-forensics-r22/work/donors/799-986b3b6daebce05b9257\.csv$',original):return True
+    if original==str(S/'take-harvest-r26/695.csv'):return True
+    if original==str(S/'take-harvest-r26/814.csv'):
+        actual=Path(files.get(original,original))
+        if actual.is_file() and hashlib.sha256(actual.read_bytes()).hexdigest().startswith('5a4c0cdb'):return True
+    text=texts.get(original,'')
+    if direct_public(text.split(' || ',1)[0]):return True
+    sources=[text.split(' || ',1)[0]]
+    links=[]
+    names=[original+'.json',original+'.origin.json',original[:-4]+'.json',original[:-4]+'.origin.json',original+'.provenance.json',original+'.source.json']
+    for name in names:
+        raw=texts.get(name)
+        if raw is None:
+            actual=files.get(name,Path(name))
+            try:raw=Path(actual).read_text()
+            except OSError:continue
+        try:data=json.loads(raw)
+        except (ValueError,TypeError):continue
+        from held_boundary import is_held_node
+        if is_held_node(data):continue
+        if source_record_public(data,n):return True
+        if isinstance(data,dict):
+            sources.append(data.get('source',''))
+            if data.get('kind')=='fresh-follow' and data.get('original'):links.append(data['original'])
+    for source in sources:
+        if not isinstance(source,str):continue
+        linked=re.match(r'^fq (?:follow|quench(?: check)?) of\s+([^ ;]+\.csv)',source)
+        if linked:links.append(linked[1])
+    for linked in links:
+        if not linked.startswith('/'):
+            linked=str(S/linked) if linked.startswith(('take-','gather/','seeds/')) else str(Path(original).parent/linked)
+        packed=packing(files.get(linked,linked))
+        if packed is not None and packed[0]==n and public_node(linked,n,texts,files,seen):return True
+    return False
+
+
+def audit_nodes(nodes,texts,files):
+    audits=[]
+    for original,path,key in nodes:
+        if not original.endswith('.csv'):continue
+        value=packing(path)
+        if value is None:continue
+        n,coords=value
+        if not public_node(original,n,texts,files):continue
+        cache_key=(key,n)
+        if cache_key not in CACHE:
+            rows=[dict(n=n,x=x,y=y,angle=angle) for x,y,angle in coords]
+            CACHE[cache_key]=geometry_audit(rows)
+        allowed,evidence=CACHE[cache_key]
+        audits.append(dict(original=original,snapshot=str(path),sha256=key,n=n,
+                           share1e3=max((v['share1e3'] for v in evidence),default=0.),
+                           share1e2=max((v['share1e2'] for v in evidence),default=0.),
+                           share1e6=max((v['share1e6'] for v in evidence),default=0.),
+                           evidence=evidence,allowed=allowed))
+    return audits
+
+
+def check_live(start,walked):
+    from archived_sources import EXTRA_PINS
+    EXTRA_PINS.clear()
+    texts={str(k):v for k,v in walked[0]};files={str(p):str(p) for p in walked[2] if isinstance(p,str) and Path(p).is_file()}
+    nodes=[(original,path,hashlib.sha256(Path(path).read_bytes()).hexdigest()) for original,path in files.items() if original.endswith('.csv')]
+    import walk as A
+    from held_paths import audit
+    audits,direct=audit(str(start),texts,files,nodes,getattr(A,'ALL_WITHDRAWN_LINES',()))
+    return audits
+
+
+def job_view(job):
+    original=job.get('inherited_job',job)
+    parents=original.get('parents',[])
+    files={p['original']:p['snapshot'] for p in parents}
+    texts={}
+    matches=re.findall(r'walked source snapshot ($SCRATCH/bounties-squares/take-harvest-r\d+/work/source-proofs/[^ ;]+\.json)',original.get('source',''))
+    if matches:
+        proof=Path(matches[-1]);data=json.loads(proof.read_text())
+        digest=hashlib.sha256(json.dumps(data,sort_keys=True).encode()).hexdigest()
+        if proof.stem.rsplit('-',1)[-1]!=digest[:16]:raise ValueError('canonical source proof changed')
+        texts={str(k):v for k,v in data.get('walked_texts',[])}
+    nodes=[(p['original'],p['snapshot'],p['sha256']) for p in parents]
+    root=original.get('original',original['path'])
+    nodes.append((root,job['path'],job['sha256']))
+    files.setdefault(root,job['path'])
+    metadata={key:original[key] for key in ['kind','source','original','public_first','inherited_job'] if key in original}
+    texts.setdefault(root+'.source.json',json.dumps(metadata))
+    return nodes,texts,files,root
+
+
+def reaches_held(job):
+    if job.get('walk',{}).get('helds'):return True
+    return isinstance(job.get('inherited_job'),dict) and reaches_held(job['inherited_job'])
+
+
+def root_public(job):
+    nodes,texts,files,root=job_view(job)
+    value=packing(job['path'])
+    return value is not None and public_node(root,value[0],texts,files)
+
+
+def check_job(job):
+    nodes,texts,files,root=job_view(job)
+    import walk as A
+    from held_paths import audit
+    audits,direct=audit(root,texts,files,nodes,getattr(A,'ALL_WITHDRAWN_LINES',()))
+    return audits

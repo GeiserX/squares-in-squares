@@ -1,0 +1,27 @@
+n	corner	far1	far2	predicted_minus_bar	built_minus_bar	box	log	certified_new	gain_on_held
+419	zc6x6-78f9341ag8x.C	304h.F1	419h.F2d	+6.01e-04	+0.000e+00	boxD	build-own8-419.log		
+549	zc8x8-147f8909ag9x.C	756h09.F2	649fa16a.F1d	+7.49e-04	+3.470e-05	boxC	build-own9s-549-s1.log		
+549	zc8x8-147f8909ag9x.C	503h.F2	649fa16a.F1d	+7.49e-04	+3.471e-05	boxC	build-own9-549.log		
+549	zc8x8-131f9012ag10x.C	549h14.F1d	503h.F2	+1.73e-03	+1.442e-04	boxC	build-g10-0-549.log		
+550	zc8x6-79f9098ag13x.C	504m10.F1	378h.F2	+3.30e-04	-2.000e-09	boxD	build-g13-550.log		
+554	zc6x6-78f9745ag12x.C	506h.F2	507h12.F1	-1.64e-03	-1.822e-03	boxD	build-g12-554.log		
+598	zc8x8-131f9012ag10x.C	756h09.F2	503h.F2	+5.77e-04	-6.800e-08	boxD	build-own10-598.log	0.018285776680516674	1.236e-05
+700	zc8x8-131f9012ag10x.C	700h17.F2	700so16.F1	+5.97e-04	-1.618e-05	boxC	build-g10-0-700.log		
+700	zc8x8-147f8909ag9x.C	700so16.F1	700h17.F2	+1.70e-03	-1.618e-05	boxC	build-g9-0-700.log	0.016647416281628802	6.292e-07
+758	zc7x7-113f9549ag11x.C	505h.F2	758b14.F2d	+5.07e-04	+1.765e-04	boxD	build-own11-758.log		
+803	zc9x9-110f8401ag14x.C	921h.F2	860fa16.F2	+7.17e-04	-7.607e-04	boxC	build-g14-1-803.log		
+815	zc7x7-113f9549ag11x.C	462h10.F2	815fa14.F1d	+1.21e-03	+1.968e-05	boxC	build-g11-0-815.log		
+815	zc7x7-113f9549ag11x.C	704r10.F1	815fa14.F1d	+1.21e-03	+1.968e-05	boxC	build-g11s-815-s1.log		
+860	zc9x9-126f8174ag11x.C	860fa16.F2	921h13.F2	+5.08e-04	+1.966e-04	boxC	build-g11-1-860.log		
+862	zc9x9-110f8401ag14x.C	921h.F2	z9-43f840.F1d	-1.54e-04	-4.103e-04	boxC	build-g14-1-862.log	0.01590221682107873	1.397e-05
+862	zc9x9-110f8401ag14x.C	984h.F2	z9-43f840.F1d	-1.54e-04	-4.100e-04	boxD	build-g14s-862-s1.log		
+863	zc7x7-88f8279ag8x.C	803h.F1	863po16.F1	+1.60e-03	+9.110e-04	boxC	build-g8-1-863.log		
+863	zc7x7-74f8436ag11x.C	863h.F1	863h.F1	+1.62e-03	+1.111e-03	boxC	build-own11b-863.log		
+914	zc9x9-77f7596ag11x.C	z9-19f720.F1	z9-46f740.F1	+1.02e-03	+5.969e-04	boxC	build-g11-1-914.log		
+921	zc9x9-126f8004ag11x.C	921mo16.F1	z9-43f840.F1	+7.70e-04	+1.687e-04	boxC	build-g11-0-921.log		
+924	zc7x7-74f8436ag11x.C	924fa12.F2	863h.F1	+1.58e-03	+5.246e-04	boxC	build-g11-1-924.log		
+936	zc7x7-99f9871ag12x.C	936t13.F1	760h12.F2	+2.26e-03	+6.211e-05	boxD	build-g12-936.log		
+975	zc9x9-120f7141ag14x.C	z9-19f720.F1	z9-46f740.F1	+4.63e-04	-1.000e-09	boxD	build-g14-2-975.log		
+977	zc9x9-77f7596ag11x.C	z9-46f740.F1	z9-19f720.F1	+2.60e-03	+0.000e+00	boxC	build-g11-0-977.log		
+984	zc9x9-126f8174ag11x.C	984mo16.F1d	z9-43f840.F1	+2.29e-03	+1.399e-03	boxC	build-g11-1-984.log		
+987	zc7x7-74f8436ag11x.C	863h.F1	924fa12.F2d	+1.68e-03	+5.511e-04	boxC	build-g11-0-987.log		

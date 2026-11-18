@@ -1,0 +1,7 @@
+donor above the bar, live row at the bar: stop=False expected=False
+donor, live row 2e-6 below the bar: stop=True expected=True
+held start, live row 2e-6 below: stop=True expected=True
+held start alone: stop=False expected=False
+fresh row start (live = itself): stop=False expected=False
+fresh row start, another lane 2e-6 below it: stop=True expected=True
+PASS

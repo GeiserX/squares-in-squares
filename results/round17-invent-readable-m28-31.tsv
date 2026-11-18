@@ -1,0 +1,218 @@
+n	m	k	held_f	board_f	score_gap	tilted	main_tilt_deg	share_main	kind	cut_3e-3	cut_1e-2
+784	28	0	0.000000	0.000000	4.821e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+785	28	1	0.520815	0.505935	5.311e-04	289	45.00	1.00	block45	no two flush arms	no two flush arms
+786	28	2	0.535534	0.521592	4.973e-04	50	45.00	1.00	block45	no two flush arms	no two flush arms
+787	28	3	0.535534	0.535534	4.927e-11	75	45.00	1.00	block45	no two flush arms	no two flush arms
+788	28	4	0.563197	0.563162	1.222e-06	108	33.60	0.97	fault	no two flush arms	no two flush arms
+789	28	5	0.591378	0.583389	2.844e-04	79	40.97	0.80	fault	no two flush arms	no two flush arms
+790	28	6	0.608713	0.593240	5.505e-04	170	26.41	1.00	arms	no two flush arms	no two flush arms
+791	28	7	0.634071	0.605885	1.002e-03	190	24.94	0.91	arms	no two flush arms	no two flush arms
+792	28	8	0.637029	0.629165	2.794e-04	202	24.10	0.85	arms	no two flush arms	no two flush arms
+793	28	9	0.677243	0.650241	9.589e-04	272	24.73	0.96	arms	no two flush arms	no two flush arms
+794	28	10	0.684144	0.671404	4.521e-04	220	23.99	0.95	arms	no two flush arms	no two flush arms
+795	28	11	0.697750	0.687289	3.710e-04	289	24.41	0.90	arms	no two flush arms	no two flush arms
+796	28	12	0.721540	0.701284	7.180e-04	265	19.09	0.60	arms	rest broken at cell 0,15	rest broken at cell 15,0
+797	28	13	0.728121	0.726067	7.277e-05	308	23.68	0.98	arms	run 2 holds 103 squares in 13 stacks of 	run 2 holds 103 squares in 13 stacks of 
+798	28	14	0.745603	0.736229	3.318e-04	290	18.43	0.62	arms	no two flush arms	rest broken at cell 10,0
+799	28	15	0.756868	0.753240	1.284e-04	258	17.90	0.74	arms	no two flush arms	no two flush arms
+800	28	16	0.776380	0.764968	4.035e-04	266	17.83	0.72	arms	no two flush arms	no two flush arms
+801	28	17	0.781137	0.778330	9.916e-05	279	17.47	0.70	arms	no two flush arms	no two flush arms
+802	28	18	0.794881	0.787913	2.461e-04	182	26.58	0.95	arms	no two flush arms	no two flush arms
+803	28	19	0.817705	0.793943	8.385e-04	263	23.51	0.95	arms	ok 7,7	ok 7,7
+804	28	20	0.829716	0.810061	6.932e-04	263	23.14	0.97	arms	ok 7,7	ok 7,7
+805	28	21	0.843441	0.828932	5.114e-04	243	19.97	0.85	arms	no two flush arms	no two flush arms
+806	28	22	0.848921	0.840752	2.877e-04	237	20.08	0.52	arms	no two flush arms	no two flush arms
+807	28	23	0.860410	0.855465	1.741e-04	233	22.11	0.72	arms	no two flush arms	no two flush arms
+808	28	24	0.873578	0.868758	1.696e-04	281	19.54	0.91	arms	no two flush arms	no two flush arms
+809	28	25	0.889723	0.882482	2.546e-04	273	18.88	0.91	arms	no two flush arms	no two flush arms
+810	28	26	0.905569	0.893719	4.163e-04	254	18.52	0.96	arms	no two flush arms	no two flush arms
+811	28	27	0.915901	0.907399	2.986e-04	297	17.42	0.92	arms	no two flush arms	no two flush arms
+812	28	28	0.923398	0.917591	2.038e-04	296	17.77	0.90	arms	ok 8,8	arm 1 leans both ways
+813	28	29	0.928878	0.928745	4.680e-06	294	17.56	0.97	arms	ok 8,8	ok 8,8
+814	28	30	0.944430	0.943236	4.184e-05	299	16.93	0.97	arms	ok 8,8	ok 8,8
+815	28	31	0.960926	0.958707	7.772e-05	259	18.26	0.90	arms	ok 7,7	ok 7,7
+816	28	32	0.978163	0.972126	2.113e-04	267	17.43	0.97	arms	ok 7,7	ok 7,7
+817	28	33	0.987585	0.983615	1.389e-04	293	14.99	0.92	arms	ok 8,7	ok 8,7
+818	28	34	0.997920	0.992877	1.763e-04	244	15.66	0.87	arms	no two flush arms	no two flush arms
+819	28	35	1.000000	1.000000	4.892e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+820	28	36	1.000000	1.000000	4.889e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+821	28	37	1.000000	1.000000	4.886e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+822	28	38	1.000000	1.000000	4.883e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+823	28	39	1.000000	1.000000	4.880e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+824	28	40	1.000000	1.000000	4.877e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+825	28	41	1.000000	1.000000	4.874e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+826	28	42	1.000000	1.000000	4.871e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+827	28	43	1.000000	1.000000	4.868e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+828	28	44	1.000000	1.000000	4.865e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+829	28	45	1.000000	1.000000	4.862e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+830	28	46	1.000000	1.000000	4.859e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+831	28	47	1.000000	1.000000	4.857e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+832	28	48	1.000000	1.000000	4.854e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+833	28	49	1.000000	1.000000	4.851e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+834	28	50	1.000000	1.000000	4.848e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+835	28	51	1.000000	1.000000	4.845e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+836	28	52	1.000000	1.000000	4.842e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+837	28	53	1.000000	1.000000	4.839e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+838	28	54	1.000000	1.000000	4.836e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+839	28	55	1.000000	1.000000	4.833e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+840	28	56	1.000000	1.000000	4.830e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+841	29	0	0.000000	0.000000	4.828e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+842	29	1	0.520815	0.502153	6.432e-04	289	45.00	1.00	block45	no two flush arms	no two flush arms
+843	29	2	0.535534	0.518244	5.955e-04	50	45.00	1.00	block45	no two flush arms	no two flush arms
+844	29	3	0.535534	0.533086	8.425e-05	75	45.00	1.00	block45	no two flush arms	no two flush arms
+845	29	4	0.563136	0.563087	1.699e-06	109	33.56	0.94	fault	no two flush arms	no two flush arms
+846	29	5	0.583782	0.580899	9.913e-05	88	39.65	0.55	fault	no two flush arms	no two flush arms
+847	29	6	0.606602	0.593239	4.592e-04	239	45.00	0.94	block45	no two flush arms	no two flush arms
+848	29	7	0.623065	0.605884	5.900e-04	145	26.29	0.62	arms	no two flush arms	no two flush arms
+849	29	8	0.637029	0.627375	3.313e-04	202	24.10	0.85	arms	no two flush arms	no two flush arms
+850	29	9	0.656854	0.635940	7.174e-04	256	45.00	1.00	block45	no two flush arms	no two flush arms
+851	29	10	0.684144	0.662645	7.370e-04	220	23.99	0.95	arms	no two flush arms	no two flush arms
+852	29	11	0.696963	0.682145	5.076e-04	287	24.27	0.91	arms	no two flush arms	no two flush arms
+853	29	12	0.707107	0.691656	5.290e-04	39	45.00	1.00	block45	no two flush arms	no two flush arms
+854	29	13	0.720686	0.705882	5.066e-04	303	23.86	0.99	arms	no two flush arms	no two flush arms
+855	29	14	0.733980	0.730632	1.145e-04	280	18.60	0.60	arms	no two flush arms	no two flush arms
+856	29	15	0.745619	0.738860	2.310e-04	291	18.43	0.62	arms	no two flush arms	rest broken at cell 4,0
+857	29	16	0.761536	0.755802	1.959e-04	260	18.47	0.70	arms	no two flush arms	no two flush arms
+858	29	17	0.779485	0.769741	3.326e-04	275	17.36	0.72	arms	no two flush arms	no two flush arms
+859	29	18	0.792137	0.780112	4.103e-04	284	18.14	0.74	arms	no two flush arms	no two flush arms
+860	29	19	0.802429	0.788369	4.794e-04	294	17.00	0.71	arms	no two flush arms	no two flush arms
+861	29	20	0.819190	0.795415	8.103e-04	214	26.39	0.98	arms	no two flush arms	no two flush arms
+862	29	21	0.827291	0.812086	5.179e-04	261	20.00	0.58	arms	no two flush arms	no two flush arms
+863	29	22	0.843684	0.830333	4.545e-04	286	22.70	0.95	arms	ok 7,7	ok 7,7
+864	29	23	0.851918	0.840968	3.726e-04	258	20.37	0.90	arms	no two flush arms	no two flush arms
+865	29	24	0.860745	0.854054	2.275e-04	274	17.75	0.55	arms	no two flush arms	no two flush arms
+866	29	25	0.879009	0.865757	4.503e-04	291	18.71	0.89	arms	no two flush arms	no two flush arms
+867	29	26	0.883530	0.879875	1.241e-04	311	18.97	0.89	arms	no two flush arms	no two flush arms
+868	29	27	0.898592	0.890850	2.628e-04	293	18.56	0.88	arms	no two flush arms	no two flush arms
+869	29	28	0.911106	0.904094	2.379e-04	343	13.95	0.58	arms	no two flush arms	no two flush arms
+870	29	29	0.923030	0.914378	2.934e-04	318	16.81	0.93	arms	no two flush arms	no two flush arms
+871	29	30	0.929519	0.925912	1.222e-04	308	17.54	0.92	arms	ok 8,8	ok 8,8
+872	29	31	0.936306	0.936306	4.709e-11	311	17.27	0.97	arms	ok 8,8	ok 8,8
+873	29	32	0.957067	0.951875	1.757e-04	326	16.39	0.94	arms	ok 8,8	ok 8,8
+874	29	33	0.971915	0.966677	1.772e-04	270	17.74	0.93	arms	ok 7,7	ok 7,7
+875	29	34	0.987148	0.977556	3.243e-04	284	16.97	0.97	arms	ok 7,7	arm 1 leans both ways
+876	29	35	0.997559	0.990782	2.290e-04	314	9.78	0.62	arms	no two flush arms	no two flush arms
+877	29	36	1.000000	0.997327	9.026e-05	0	0.00	0.00	grid	no two flush arms	no two flush arms
+878	29	37	1.000000	1.000000	4.894e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+879	29	38	1.000000	1.000000	4.891e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+880	29	39	1.000000	1.000000	4.888e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+881	29	40	1.000000	1.000000	4.885e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+882	29	41	1.000000	1.000000	4.882e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+883	29	42	1.000000	1.000000	4.880e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+884	29	43	1.000000	1.000000	4.877e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+885	29	44	1.000000	1.000000	4.874e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+886	29	45	1.000000	1.000000	4.871e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+887	29	46	1.000000	1.000000	4.869e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+888	29	47	1.000000	1.000000	4.866e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+889	29	48	1.000000	1.000000	4.863e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+890	29	49	1.000000	1.000000	4.860e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+891	29	50	1.000000	1.000000	4.858e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+892	29	51	1.000000	1.000000	4.855e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+893	29	52	1.000000	1.000000	4.852e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+894	29	53	1.000000	1.000000	4.850e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+895	29	54	1.000000	1.000000	4.847e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+896	29	55	1.000000	1.000000	4.844e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+897	29	56	1.000000	1.000000	4.841e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+898	29	57	1.000000	1.000000	4.839e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+899	29	58	1.000000	1.000000	4.836e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+900	30	0	0.000000	0.000000	4.833e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+901	30	1	0.520815	0.502153	6.217e-04	289	45.00	1.00	block45	no two flush arms	no two flush arms
+902	30	2	0.535534	0.514079	7.144e-04	50	45.00	1.00	block45	no two flush arms	no two flush arms
+903	30	3	0.535534	0.529567	1.986e-04	75	45.00	1.00	block45	no two flush arms	no two flush arms
+904	30	4	0.563136	0.548594	4.837e-04	109	33.56	0.94	fault	no two flush arms	no two flush arms
+905	30	5	0.566822	0.566822	2.183e-11	117	35.38	1.00	fault	no two flush arms	no two flush arms
+906	30	6	0.591378	0.591378	4.936e-11	100	40.97	1.00	fault	no two flush arms	no two flush arms
+907	30	7	0.618366	0.602348	5.319e-04	118	44.66	0.98	block45	no two flush arms	no two flush arms
+908	30	8	0.634071	0.605885	9.354e-04	210	24.50	0.89	arms	no two flush arms	no two flush arms
+909	30	9	0.652397	0.634250	6.019e-04	244	24.29	0.91	arms	no two flush arms	no two flush arms
+910	30	10	0.679149	0.646458	1.084e-03	268	24.68	0.93	arms	no two flush arms	no two flush arms
+911	30	11	0.689167	0.660913	9.361e-04	332	24.62	0.94	arms	ok 8,8	ok 8,8
+912	30	12	0.703184	0.687497	5.194e-04	292	24.29	0.98	arms	ok 8,8	ok 8,8
+913	30	13	0.714695	0.697340	5.744e-04	305	24.01	0.97	arms	no two flush arms	no two flush arms
+914	30	14	0.732159	0.722183	3.300e-04	285	18.43	0.61	arms	no two flush arms	no two flush arms
+915	30	15	0.743640	0.731761	3.927e-04	289	18.38	0.63	arms	no two flush arms	no two flush arms
+916	30	16	0.752190	0.746141	1.999e-04	315	18.39	0.62	arms	no two flush arms	no two flush arms
+917	30	17	0.761536	0.755870	1.871e-04	272	18.10	0.71	arms	no two flush arms	no two flush arms
+918	30	18	0.784148	0.768043	5.316e-04	277	18.11	0.70	arms	no two flush arms	no two flush arms
+919	30	19	0.796506	0.780569	5.257e-04	300	24.15	0.35	arms	no two flush arms	no two flush arms
+920	30	20	0.805317	0.792516	4.220e-04	310	20.29	0.60	arms	no two flush arms	no two flush arms
+921	30	21	0.816463	0.805719	3.540e-04	322	19.53	0.63	arms	ok 7,9	ok 7,9
+922	30	22	0.827291	0.821331	1.962e-04	230	22.78	0.90	arms	no two flush arms	no two flush arms
+923	30	23	0.837101	0.829072	2.643e-04	245	23.14	0.88	arms	no two flush arms	no two flush arms
+924	30	24	0.854910	0.841618	4.373e-04	296	22.33	0.96	arms	ok 7,7	ok 7,7
+925	30	25	0.860976	0.854304	2.194e-04	273	22.32	0.44	arms	no two flush arms	no two flush arms
+926	30	26	0.873126	0.863848	3.049e-04	324	18.46	0.82	arms	no two flush arms	no two flush arms
+927	30	27	0.886964	0.880196	2.223e-04	308	18.43	0.89	arms	no two flush arms	no two flush arms
+928	30	28	0.891963	0.889322	8.672e-05	332	18.50	0.89	arms	no two flush arms	no two flush arms
+929	30	29	0.908364	0.900144	2.697e-04	306	18.00	0.92	arms	no two flush arms	no two flush arms
+930	30	30	0.917455	0.912691	1.562e-04	341	13.92	0.58	arms	ok 11,8	ok 11,8
+931	30	31	0.929561	0.921103	2.772e-04	335	16.64	0.94	arms	no two flush arms	no two flush arms
+932	30	32	0.938591	0.935500	1.012e-04	324	17.17	0.94	arms	ok 8,8	ok 8,8
+933	30	33	0.943773	0.943758	5.105e-07	326	16.96	0.97	arms	ok 8,8	ok 8,8
+934	30	34	0.964143	0.958678	1.788e-04	331	16.07	0.99	arms	ok 8,8	ok 8,8
+935	30	35	0.978491	0.974308	1.368e-04	302	15.62	0.96	arms	ok 7,8	ok 7,8
+936	30	36	0.992553	0.985264	2.382e-04	305	16.68	0.94	arms	ok 7,7	ok 7,7
+937	30	37	1.000000	0.994227	1.886e-04	0	0.00	0.00	grid	no two flush arms	no two flush arms
+938	30	38	1.000000	1.000000	4.898e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+939	30	39	1.000000	1.000000	4.895e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+940	30	40	1.000000	1.000000	4.892e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+941	30	41	1.000000	1.000000	4.890e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+942	30	42	1.000000	1.000000	4.887e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+943	30	43	1.000000	1.000000	4.885e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+944	30	44	1.000000	1.000000	4.882e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+945	30	45	1.000000	1.000000	4.880e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+946	30	46	1.000000	1.000000	4.877e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+947	30	47	1.000000	1.000000	4.874e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+948	30	48	1.000000	1.000000	4.872e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+949	30	49	1.000000	1.000000	4.869e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+950	30	50	1.000000	1.000000	4.867e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+951	30	51	1.000000	1.000000	4.864e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+952	30	52	1.000000	1.000000	4.862e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+953	30	53	1.000000	1.000000	4.859e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+954	30	54	1.000000	1.000000	4.856e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+955	30	55	1.000000	1.000000	4.854e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+956	30	56	1.000000	1.000000	4.851e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+957	30	57	1.000000	1.000000	4.849e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+958	30	58	1.000000	1.000000	4.846e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+959	30	59	1.000000	1.000000	4.844e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+960	30	60	1.000000	1.000000	4.841e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+961	31	0	0.000000	0.000000	4.839e-11	0	0.00	0.00	grid	no two flush arms	no two flush arms
+962	31	1	0.520815	0.502153	6.017e-04	289	45.00	1.00	block45	no two flush arms	no two flush arms
+963	31	2	0.535534	0.514079	6.914e-04	50	45.00	1.00	block45	no two flush arms	no two flush arms
+964	31	3	0.535534	0.522822	4.094e-04	75	45.00	1.00	block45	no two flush arms	no two flush arms
+965	31	4	0.562051	0.544500	5.650e-04	120	32.59	0.98	arms	no two flush arms	no two flush arms
+966	31	5	0.566822	0.561949	1.568e-04	117	35.38	1.00	fault	no two flush arms	no two flush arms
+967	31	6	0.591378	0.590016	4.379e-05	99	40.97	1.00	fault	no two flush arms	no two flush arms
+968	31	7	0.608713	0.599918	2.827e-04	184	26.41	0.92	arms	no two flush arms	no two flush arms
+969	31	8	0.633983	0.605571	9.127e-04	214	24.51	0.88	arms	no two flush arms	no two flush arms
+970	31	9	0.638981	0.629165	3.152e-04	211	24.09	0.85	arms	no two flush arms	no two flush arms
+971	31	10	0.661205	0.636789	7.835e-04	269	25.27	0.96	arms	no two flush arms	no two flush arms
+972	31	11	0.677248	0.651401	8.290e-04	329	24.90	0.98	arms	no two flush arms	no two flush arms
+973	31	12	0.696609	0.666638	9.608e-04	288	24.45	0.94	arms	rest broken at cell 8,0	rest broken at cell 8,0
+974	31	13	0.703431	0.688380	4.823e-04	346	24.28	0.97	arms	ok 8,8	arm 1 leans both ways
+975	31	14	0.720992	0.701629	6.201e-04	307	23.86	0.99	arms	ok 8,8	ok 8,8
+976	31	15	0.733980	0.721826	3.890e-04	339	18.72	0.99	arms	no two flush arms	no two flush arms
+977	31	16	0.745619	0.734342	3.608e-04	343	18.43	0.55	arms	no two flush arms	no two flush arms
+978	31	17	0.759851	0.748892	3.504e-04	323	17.99	0.61	arms	no two flush arms	no two flush arms
+979	31	18	0.766537	0.763618	9.328e-05	323	18.06	0.59	arms	no two flush arms	no two flush arms
+980	31	19	0.784148	0.770535	4.349e-04	288	17.52	0.70	arms	no two flush arms	no two flush arms
+981	31	20	0.795048	0.781014	4.480e-04	294	17.33	0.69	arms	no two flush arms	no two flush arms
+982	31	21	0.810539	0.793106	5.563e-04	311	19.95	0.62	arms	no two flush arms	no two flush arms
+983	31	22	0.816326	0.810204	1.952e-04	325	19.53	0.66	arms	ok 7,9	arm 1 leans both ways
+984	31	23	0.828351	0.820404	2.533e-04	337	19.20	0.59	arms	ok 7,9	ok 7,9
+985	31	24	0.837106	0.832404	1.498e-04	246	23.17	0.88	arms	no two flush arms	no two flush arms
+986	31	25	0.851903	0.841053	3.455e-04	249	22.72	0.94	arms	no two flush arms	no two flush arms
+987	31	26	0.864442	0.854732	3.091e-04	289	18.29	0.64	arms	no two flush arms	no two flush arms
+988	31	27	0.873759	0.864363	2.989e-04	327	17.28	0.69	arms	no two flush arms	no two flush arms
+989	31	28	0.884738	0.874459	3.268e-04	334	18.09	0.89	arms	no two flush arms	no two flush arms
+990	31	29	0.894887	0.888669	1.976e-04	327	18.34	0.90	arms	no two flush arms	no two flush arms
+991	31	30	0.900695	0.898184	7.976e-05	351	18.07	0.89	arms	no two flush arms	no two flush arms
+992	31	31	0.915985	0.909716	1.990e-04	323	17.69	0.94	arms	no two flush arms	no two flush arms
+993	31	32	0.924791	0.919167	1.785e-04	358	13.68	0.59	arms	ok 11,8	ok 8,11
+994	31	33	0.938722	0.928350	3.290e-04	339	15.55	0.94	arms	ok 8,9	ok 8,9
+995	31	34	0.945814	0.942651	1.003e-04	338	16.87	0.93	arms	ok 8,8	ok 8,8
+996	31	35	0.955104	0.953323	5.644e-05	356	16.48	0.96	arms	ok 8,8	ok 8,8
+997	31	36	0.973018	0.963228	3.101e-04	346	15.66	0.98	arms	ok 8,8	ok 8,8
+998	31	37	0.985812	0.981101	1.491e-04	301	17.04	0.94	arms	ok 7,7	ok 7,7
+999	31	38	0.997779	0.991755	1.906e-04	306	16.39	0.98	arms	ok 7,7	ok 7,7
+1000	31	39	1.000000	0.998158	5.825e-05	0	0.00	0.00	grid	no two flush arms	no two flush arms

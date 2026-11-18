@@ -1,0 +1,73 @@
+"""hq31.py BOX N [SECONDS [PROBE]] [--why TEXT]: queue one midm_scan lkick,kick job on the held round 30 c row of n
+(work/held31/<n>.csv, extracted byte for byte from gather/round30-2026-11-15c.csv) on BOX, after checking that no other lane
+claimed the same bytes (sha256 prefix of 12+ hex digits or the path) in handoff-r31.log in the last 60 minutes, and that
+the row's results-table source names neither prvsiyan/squares-verified-best-of-1105 nor penguin069 (rule 3). Writes
+the reviewed note (source and licence from the latest round table that lists n) into work/notes.json, then one claim
+line into handoff-r31.log. Key: h-<n>-<sha8>."""
+import csv, glob, hashlib, json, os, re, subprocess, sys, time, calendar
+S = '$SCRATCH/bounties-squares/'
+W = S + 'take-rebuild-r31/work/'
+args = [a for a in sys.argv[1:]]
+why = ''
+if '--why' in args:
+    i = args.index('--why'); why = args[i + 1]; del args[i:i + 2]
+box, n = args[0], int(args[1])
+sec = args[2] if len(args) > 2 else '900'
+probe = args[3] if len(args) > 3 else ('180' if n >= 700 else '120')
+p = W + 'held31/%d.csv' % n
+sha = hashlib.sha256(open(p, 'rb').read()).hexdigest()
+now = time.time()
+for l in open(S + 'handoff-r31.log', errors='replace'):
+    m = re.match(r'^(\S+) (\S+) -> [^:]*: (.*)$', l)
+    if not m or m.group(2) == 'rebuild' or not re.search(r'\bclaim', m.group(3), re.I):
+        continue
+    try:
+        t = calendar.timegm(time.strptime(m.group(1)[:19], '%Y-%m-%dT%H:%M:%S'))
+    except ValueError:
+        t = now
+    if now - t > 3600:
+        continue
+    hx = [h.lower() for h in re.findall(r'(?<![0-9a-fA-F])([0-9a-fA-F]{12,64})(?![0-9a-fA-F])', m.group(3))]
+    # round 31: other lanes extract the same held row with other bytes (forensics held-inputs), so a claim naming the n
+    # (n=N or a /N.csv start) also holds us off
+    # BYTES=1 (rooms): a claim naming the n holds us off only when it names a held row; other bytes of the same n do not
+    nhit = re.search(r'\bn ?= ?%d\b|/%d\.csv\b' % (n, n), m.group(3))
+    if nhit and os.environ.get('BYTES') == '1' and not re.search(r'\bheld', m.group(3), re.I):
+        nhit = None
+    if any(sha.startswith(h) for h in hx) or p in m.group(3) or nhit:
+        print('SKIP claimed by %s: %s' % (m.group(2), l.strip()[:200])); sys.exit(2)
+R = 'results/'
+tabs = sorted(glob.glob(R + 'round*-best-*.tsv'), key=lambda f: int(re.search(r'round(\d+)-', f).group(1)))
+tabs.append(S + 'take-assemble-r30/round30-best-2026-11-15.tsv')
+row, tab = None, None
+csv.field_size_limit(1 << 28)
+for f in tabs:
+    try:
+        for r in csv.DictReader(open(f), delimiter='\t'):
+            if r.get('n') == str(n):
+                row, tab = r, f
+    except Exception:
+        pass
+src = ' '.join((row or {}).get('source', '').split()); lic = ' '.join((row or {}).get('licence', '').split())
+if re.search(r'squares-verified-best-of-1105', src + ' ' + lic) and n != 801:
+    print('SKIP rule 3: the table source names prvsiyan/squares-verified-best-of-1105'); sys.exit(3)
+if re.search(r'penguin069', src + ' ' + lic) and n in (639, 691, 745, 858, 918):
+    print('SKIP rule 3: penguin069 boxed union at a listed n'); sys.exit(3)
+notes = json.load(open(W + 'notes.json')) if os.path.isfile(W + 'notes.json') else {}
+key = 'h-%d-%s' % (n, sha[:8]) + (('-' + os.environ['SEEDTAG']) if os.environ.get('SEEDTAG') else '')  # SEEDTAG: a second seed of the same start
+tabr = tab.replace(S, '').replace('', '') if tab else 'no round table lists it (held since before round 7)'
+notes[key] = {'reviewed': ('the start is the held round 30 c row of n = %d, extracted byte for byte from gather/round30-2026-11-15c.csv '
+                           '(the submitted round 30 c file, gate/cand-round30-1115c) to take-rebuild-r31/work/held31/%d.csv (sha256 %s); '
+                           'a held row is our own layout (rule 2 of round 31), and its record is its results-table row, %s n=%d' % (n, n, sha[:16], tabr, n)),
+              'source': 'the held round 30 c row of n = %d (gather/round30-2026-11-15c.csv); its row in %s: %s' % (n, tabr, src or 'none'),
+              'licence': lic or 'held row (our own layout)'}
+json.dump(notes, open(W + 'notes.json', 'w'), indent=1)
+mode = 'kick:%s' % sec + ((':' + probe) if probe != '0' else '')
+r = subprocess.run([sys.executable, '-I', W + 'tools/q31.py', box, key, str(n), p, mode], capture_output=True, text=True, env=dict(os.environ, FRONT='1' if probe == '0' else '0'))
+if r.returncode:
+    print('queue failed', r.stderr[-300:]); sys.exit(1)
+with open(S + 'handoff-r31.log', 'a') as h:
+    h.write('%s rebuild -> all: claim: %s s midm_scan lkick,kick%s of n=%d (job %s on %s), start bytes sha256 %s, the held round 30 c row%s, %s\n' % (
+        time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()), sec, (' (probe %s s)' % probe) if probe != '0' else '', n, key,
+        {'boxB': 'boxB', 'boxE': 'boxE', 'boxD': 'boxD'}[box], sha[:16], (' (' + why + ')') if why else '', p))
+print('queued', key, box, mode, r.stdout.strip())

@@ -1,0 +1,57 @@
+part	item	f	value	compared_with	difference	verdict	note
+block corner, lowest settled loss in squares	9 and 11	0.7665	3.9015	3.7280 (twoshort_corner.py stair, this round, 119 settled)	+0.17	dead	72 corners; block 8 by 11, 161 squares
+block corner, lowest settled loss in squares	11 and 11	0.68	5.4751	5.37 (twoshort avenue, first pass)	+0.11	dead	45 corners; block 10 by 11
+block corner, lowest settled loss in squares	8 and 11	0.70	2.9654	no staircase run at this f			45 corners
+block corner, lowest settled loss in squares	8 and 11	0.72	3.0811	no staircase run at this f			45 corners
+block corner, lowest settled loss in squares	8 and 11	0.74	3.0071	3.6236 (twoshort_corner.py stair, this round, 130 settled)	-0.62	passes	45 corners; block 7 by 11
+block corner, lowest settled loss in squares	8 and 11	0.76	3.1866	no staircase run at this f			45 corners
+block corner, lowest settled loss in squares	8 and 11	0.78	3.5661	no staircase run at this f			45 corners
+block corner, lowest settled loss in squares	9 and 9	0.62	2.6604	no staircase run at this f			45 corners
+block corner, lowest settled loss in squares	9 and 9	0.6227	2.4804	no staircase run at this f			45 corners; near ends are the swept zone cf9-72f6227.F1
+block corner, lowest settled loss in squares	9 and 9	0.63	2.6332	3.03 (twoshort avenue after hops (3.81 before))	-0.40	passes	45 corners, and 180 with six far zones for each near end
+block corner, lowest settled loss in squares	9 and 9	0.64	2.6879	3.46 (twoshort avenue after hops (3.71 before))	-0.77	passes	45 corners
+block corner, lowest settled loss in squares	9 and 9	0.65	2.9830	no staircase run at this f			45 corners
+block corner, lowest settled loss in squares	9 and 9	0.66	3.2908	no staircase run at this f			45 corners
+block corner, lowest settled loss in squares	9 and 9	0.68	3.4664	3.40 (twoshort avenue after hops (3.49 before))	+0.07	dead	45 corners
+block corner, lowest settled loss in squares	9 and 9	0.72	3.6096	3.56 (twoshort avenue after hops (3.65 before))	+0.05	dead	45 corners
+block corner, lowest settled loss in squares	9 and 9	0.76	3.5378	3.59 (twoshort avenue)	-0.05	dead	45 corners
+block corner, lowest settled loss in squares	8 and 9	0.64	2.0522	no staircase run at this f			45 corners; block 7 by 9
+block corner, lowest settled loss in squares	8 and 9	0.68	2.6413	2.72 (twoshort avenue)	-0.08	dead	45 corners
+block corner, lowest settled loss in squares	8 and 9	0.72	2.6985	2.79 (twoshort avenue)	-0.09	dead	45 corners
+block corner, lowest settled loss in squares	8 and 8	0.64	2.1549	2.80 (twoshort avenue)	-0.65	passes	125 corners with five far zones for each near end
+generator rows within 0.012 of side (modules.py queue)	8 and 11 block, f 0.70 to 0.78, 94 corners		0	n searched 530 to 1000			n with a row: 0; best row, predicted side less the bar: 855 +0.0131 (search with a slack of 0.04)
+generator rows within 0.012 of side (modules.py queue)	9 and 11 staircase, f 0.7665, 9 corners		10	n searched 530 to 1000			n with a row: 3; best row, predicted side less the bar: 978 +0.010217
+generator rows within 0.012 of side (modules.py queue)	9 and 9 block, f 0.63 to 0.68, 101 corners		32	n searched 300 to 1000			n with a row: 8; best row, predicted side less the bar: 969 -0.010160
+generator rows within 0.012 of side (modules.py queue)	9 and 9 block, f 0.62 and 0.65, 35 corners		16	n searched 530 to 1000			n with a row: 4; best row, predicted side less the bar: 969 -0.010372
+generator rows within 0.012 of side (modules.py queue)	9 and 9 block, f 0.63, six far zones for each near end, 50 corners		21	n searched 530 to 1000			n with a row: 6; best row, predicted side less the bar: 969 -0.010160
+generator rows within 0.012 of side (modules.py queue)	8 and 8 block, f 0.64, 46 corners		8	n searched 300 to 1000			n with a row: 2; best row, predicted side less the bar: 910 +0.002852
+generator rows within 0.012 of side (modules.py queue)	8 and 9 block, f 0.64 to 0.72, 43 corners		68	n searched 530 to 1000			n with a row: 17; best row, predicted side less the bar: 972 +0.002858
+generator rows within 0.012 of side (modules.py queue)	9 and 9 block with the swept zone, f 0.6227, 35 corners		20	n searched 530 to 1000			n with a row: 5; best row, predicted side less the bar: 969 -0.014236
+generator rows within 0.012 of side (modules.py queue)	9 and 9 block with two swept zones, f 0.62 and 0.6227, 45 and 45 corners made		24	n searched 300 to 1000			n with a row: not counted; best row, predicted side less the bar: 969 -0.014380
+build, side	969		31.623256278	bar 31.633982504	-0.010726	under	corner made at f 0.68, family squeeze and fq
+build, side	969		31.622748526	bar 31.633982504	-0.011234	under	corner made at f 0.63, family squeeze; nine builds with the library zone end between 31.622749 and 31.623285
+build, side	969		31.621681634	bar 31.633982504	-0.012301	under	one fq quench from the certified file above
+build, side	969		31.619580678	bar 31.633982504	-0.014402	under	block corner rebuilt with the swept zone cf9-72f6227.F1 as near ends, family squeeze; methods_lp.slp with fq ends at 31.619580671
+build, side	969		31.619580671	bar 31.633982504	-0.014402	under	one fq quench from the certified file above: the certified layout
+build, side	907		30.618227087	bar 30.617920026	+0.000307	above	near miss: 0.000139 under the round 17 file, above the 907 of take-rigidsoft-r19
+build, side	907		30.622399392	bar 30.618366066	+0.004033	above	best build with the library zones (round 17 file as the bar)
+build, side	910		30.679392646	bar 30.675980	+0.003413	above	block of 8 and 8, predicted 30.679381
+build, side	970		31.647428576	bar 31.638981	+0.008448	above	built 31.647428576, predicted 31.647436
+build, side	972		31.683936973	bar 31.676524	+0.007413	above	predicted 31.685944
+build, side	973		31.697804222	bar 31.689144	+0.008660	above	block of 8 and 8, predicted 31.697967
+build, side	971		31.672830797	bar 31.661204	+0.011627	above	predicted 31.672821
+certified	969	0.6196	0.015767151525601708	round 17 file 0.016229929899397755	-4.628e-04	certified	floatsafe at 2.2e-11; side 31.619576783; 5.277e-05 below the 969 of take-classfill-r19 (0.015819923988559026); no other take holds a 969
+kind sweep of a near end (classfill.py own --f), loss in squares	z9-54f640.F1 (9-arm, class 0), swept by the classfill lane	0.6227	2.8344	before 2.9140	-0.0796	moved	
+kind sweep of a near end (classfill.py own --f), loss in squares	z9-53f640.F1 (9-arm, class 8)	0.62	3.0597	before 3.1688	-0.1091	moved	
+kind sweep of a near end (classfill.py own --f), loss in squares	z9-46f640.F1 (9-arm, class 1)	0.62	3.2895	before 3.2895	+0.0000	no move	
+kind sweep of a near end (classfill.py own --f), loss in squares	z8-41f700.F1 (8-arm, class 1)	0.68	2.6970	before 2.6970	+0.0000	no move	
+kind sweep of a near end (classfill.py own --f), loss in squares	z8-25f650.F1 (8-arm, class 1)	0.68	2.6970	before 2.6970	+0.0000	no move	
+kind sweep of a near end (classfill.py own --f), loss in squares	z8-40f700.F1 (8-arm, class 0)	0.68	2.9569	before 2.9569	+0.0000	no move	
+kind sweep of a near end (classfill.py own --f), loss in squares	z9-36f680.F1 (9-arm, class 0)	0.68	3.2428	before 3.2428	+0.0000	no move	
+kind sweep of a near end (classfill.py own --f), loss in squares	cf9-72f6227.F1, 180 s of hops after the sweep	0.6196	2.8515	before 2.8515	+0.0000	no move	
+hops on a block corner (zone_corner.py sweep, 60 s each)	3 corners of 8 and 9 at f 0.68, 1 of 8 and 8 at f 0.64		0 states under the start			no move	no positive control of the hops ran
+reader of idea 3, control	12 layouts the zone cut accepts		8 read	7 with a split to compare	4 inside 0.1 squares, 3 outside (-0.12, -0.20, +0.33)	red in part	979 reads 5.41 against 4.13
+reader of idea 3, kill line	83 refused arm layouts at m 28 to 31		20 read	kill line 30		dead	12 with no missing cell; not read: 37 arm not whole, 11 rest off the lattice, 10 no legal settle, 5 no line between two stacks
+build, side	969		31.619580678	bar 31.633982504	-0.014402	under	19 builds of 969 with the swept zones from 16 rows and 6 corners (family squeeze; two also with methods_lp.slp and fq): every one ends at 31.619580678 or 31.619580671
+build, side	907		30.619580671	bar 30.617920026	+0.001661	above	the two rows of 907 with methods_lp.slp and fq; the family build that reached 30.618227 slid rows of the plain rest (modules.py grow: rest broken)
+build, side	969		31.619576788	bar 31.633982504	-0.014406	under	12 builds from looser starts (three rows, start 0.001 to 0.012 above the predicted side): 11 end at 31.619580678, one at 31.619576788; its one fq quench ends at 31.619576783

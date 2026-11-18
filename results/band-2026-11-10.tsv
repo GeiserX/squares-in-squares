@@ -1,0 +1,36 @@
+experiment	case	target	result	note
+go-line	n=974 side 31.70711	974	973	structure_band.py, two grids (the structure avenue's number)
+go-line	n=974 side 31.70711	974	974	band_model.Model, four staircases, held staircases; certified by floatsafe at 31.707106784
+go-line	n=974 side 31.70711	974	974	band_model.Cells, free cells
+go-line	n=904 side 30.56363	904	900	Model, one family 33.88 deg, held staircases and after annealing
+go-line	n=904 side 30.56363	904	897 -> 900	Model, three families (33.88, 39.64, 36.52 deg), held staircases -> annealed
+go-line	n=904 side 30.56363	904	901	Cells, held cells and after annealing
+go-line	n=593 side 24.84667	593	586 -> 588	Model, one family -34.73 deg, held staircases -> annealed
+go-line	n=593 side 24.84667	593	582 -> 586	Model, two families
+go-line	n=593 side 24.84667	593	581 -> 585	Model, three families
+go-line	n=593 side 24.84667	593	579 -> 584	Model, four families
+go-line	n=593 side 24.84667	593	586	Cells, held cells and after annealing
+control	n=401 side 20.53553 (rigid 5x5 block)	401	400	Model: 10 cells of the fourth grid are not rows that start at a wall
+control	n=401 side 20.53553 (rigid 5x5 block)	401	401	Cells
+control	n=262 side 16.70711 (rigid strip)	262	262	Cells
+control	n=536 side 23.65685 (two 45 deg blocks, 6 squares off 45)	536	530	Cells
+control	n=261 side 16.67878 (sheared block, 41.88 deg)	261	256	Model and Cells, fixed pitch
+control	n=261 side 16.67878 (sheared block, 41.88 deg)	261	256	Model, free pitch at exact event offsets
+side-needed	n=904 at held +0.005 / +0.01 / +0.02 / +0.04 / +0.08 / +0.12	904	900 / 900 / 901 / 901 / 901 / 902	Model, annealed
+side-needed	n=593 at held +0.005 / +0.01 / +0.02 / +0.04 / +0.08 / +0.12	593	588 / 588 / 588 / 589 / 591 / 594	Model, annealed
+annealer	n=401, 10 frontier cells removed, 100,000 steps, 3 seeds	401	398 / 398 / 391	Cells, T 0.6 -> 0.05
+annealer	n=401, 40 frontier cells removed, 200,000 steps, 3 seeds	401	400 / 400 / 400	Cells
+annealer	n=401 from the plain grid, 300,000 steps, 3 seeds	401	400 / 400 / 400	Cells
+annealer	n=401, 10 frontier cells removed, greedy (T 0.01)	401	400	Cells
+closure	drop one square, add an L strip: our file and the board	0 n improve	0 / 0	closure.py logic, 1,000 n
+closure	two gadgets in opposite corners (m >= m1+m2+1, k = k1+k2): our file and the board	0 n improve	0 / 0	
+generators	board entries behind our gap that no smaller board entry gives	416 n behind	409	7 come from another entry by drop-one or L strip
+history	n >= 300 that improved by more than 0.008 since the 2026-11-07 seed	33 n	20 changed the median tilt by more than 3 deg; 22 changed the number of patches	
+shear	rigid 8x13 block at m=16 built at 16.6925, fq quench	16.67878 (held)	16.68438	rigid threshold 16.69239
+shear	the same, 48 kicked quenches (sigma 0.003 to 0.06) and two --shrink --hops runs	16.67878	16.68432	
+shear	the same, refill and quench in turn	16.67878	16.68438	no step refills to 261
+shear-scan	rigid blocks that tie our side with room in one direction, m >= 10, k <= 12	133 blocks	0 below our side	band_shear.py scan
+shear-scan	rigid blocks whose side is up to 0.03 over ours, built there and quenched	370 of 391 blocks (stopped at the time limit)	0 below our side, 4 ties (n = 451, 538, 585, 634)	83 of 370 quenched more than 1e-4 below the rigid side, at most 0.0099
+target-scan	82 n with k <= 8 at m >= 20 where we trail the board: Cells at the held side	82 held layouts	30 held (all 30 stand at exactly 45 deg; 37 of the 82 do)	band_scan.py, rows in band-scan-2026-11-10.tsv
+target-scan	the same 82 n, cells annealed at 0.0005 below our side, 5 angles, 2 seeds	n squares	0 hits; nearest is 1 short (6 n)	30,000 steps per run
+target-scan	the same 82 n, cells annealed at 0.003 below our side, 5 angles, 2 seeds	n squares	0 hits; nearest is 1 short (5 n)	55 CPU-minutes for the whole scan

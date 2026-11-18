@@ -1,0 +1,100 @@
+from pathlib import Path
+import sys,importlib.util,json,re,csv,hashlib,os,math
+W=Path(__file__).parent;S=W.parent.parent
+L=Path('.')
+sys.path.insert(0,str(L));sys.path.insert(0,str(W))
+spec=importlib.util.spec_from_file_location('border_soft_source_policy',L/'tools/softround/policy.py');soft=importlib.util.module_from_spec(spec);spec.loader.exec_module(soft)
+RELAXED=soft.forensics_policy.RELAXED
+OLD22=soft.old_scores()
+from provenance import metadata
+
+def classify(source,licence='',proof=None):
+ result=soft.classify(source,licence,proof)
+ def weak_leaf(value):
+  if isinstance(value,list):return any(weak_leaf(v) for v in value)
+  if not isinstance(value,dict):return False
+  rec=value.get('record');children=any(value.get(k) for k in ('parents','parent','origin','reader_parent','immutable_parent','pinned_parent'))
+  if isinstance(rec,dict) and not children and value.get('reason')=='recorded ancestry' and not rec.get('reader_evidence'):
+   text=json.dumps(rec)
+   own=bool(re.search(r'our own design|own construction|taper enumeration',text,re.I))
+   named=[x for x in re.findall(r'(?<![/\w])([A-Za-z0-9_-]+/[A-Za-z0-9_.-]+)',text) if not x.startswith(('results/','take-','work/','near/','Volumes/','Users/','gate/')) and not x.endswith(('.csv','.tsv','.json'))]
+   if not own and not named:return True
+  return any(weak_leaf(v) for k,v in value.items() if k!='record')
+ if result['status']!='unknown' and proof and weak_leaf(proof):result.update(status='unknown',reason='generic leaf notice has no named public or own root')
+ return result
+def label(policy):return soft.label(policy)
+def manifest_policy(r):
+ source=r['donor_source'];licence=r.get('donor_licence','');proof=None
+ import forensics_sources
+ key=hashlib.sha256((source+licence+hashlib.sha256(Path(r['near']).read_bytes()).hexdigest()).encode()).hexdigest()
+ folder=W/'policy-evidence';folder.mkdir(exist_ok=True);saved=folder/(key+'.json')
+ if saved.exists():
+  try:proof=json.load(open(saved))
+  except (ValueError,OSError):pass
+ if proof is None:
+  p=Path(source.split(', ',1)[0])
+  try:
+   if p.exists() and p.read_bytes()==Path(r['near']).read_bytes():
+    ok,ev=forensics_sources.trace(p,int(r['donor']),S)
+    if ok:proof=ev
+    else:
+     md=metadata(p)
+     if isinstance(md,dict) and md.get('reader_evidence'):proof=md['reader_evidence']
+  except (OSError,ValueError,KeyError,RecursionError):pass
+  if proof is None:
+   # Older manifests already retain the exact descriptor read beside this donor.
+   # Materialize it with a byte-identical CSV under a source-specific key.
+   recorded=None
+   for match in re.finditer(r'recorded ancestry ',source):
+    try:
+     value,_=json.JSONDecoder().raw_decode(source[match.end():])
+     if isinstance(value,dict) and int(value.get('n',r['donor']))==int(r['donor']):recorded=value
+    except (ValueError,TypeError):pass
+   if recorded is None and '{' in source:
+    try:
+     value,_=json.JSONDecoder().raw_decode(source[source.index('{'):])
+     if isinstance(value,dict) and all(k in value for k in ('A','B')):recorded=dict(parts=value,n=int(r['donor']))
+    except ValueError:pass
+   if recorded is not None and 'end' in recorded:
+    rows=list(csv.DictReader(open(r['near'])))
+    hh=[.5*(abs(math.cos(float(q['angle'])))+abs(math.sin(float(q['angle'])))) for q in rows]
+    side=max(max(float(q[k])+h for q,h in zip(rows,hh))-min(float(q[k])-h for q,h in zip(rows,hh)) for k in ('x','y'))
+    if len(rows)!=int(r['donor']) or not math.isfinite(float(recorded['end'])) or abs(side-float(recorded['end']))>1e-6:recorded=None
+   if recorded is not None:
+    inputs=W/'policy-inputs';inputs.mkdir(exist_ok=True);packing=inputs/(key+'.csv')
+    if not packing.exists():packing.write_bytes(Path(r['near']).read_bytes())
+    assert packing.read_bytes()==Path(r['near']).read_bytes()
+    desc=dict(recorded);desc['retained_donor_sha256']=hashlib.sha256(packing.read_bytes()).hexdigest()
+    packing.with_suffix('.json').write_text(json.dumps(desc))
+    try:
+     ok,ev=forensics_sources.trace(packing,int(r['donor']),S)
+     if ok:proof=ev
+    except (OSError,ValueError,KeyError,RecursionError):pass
+  if proof is not None:
+   tmp=saved.with_name(saved.name+f'.{os.getpid()}.tmp');tmp.write_text(json.dumps(proof));tmp.replace(saved)
+ result=classify(source,licence,proof)
+ if proof is None:result.update(status='unknown',reason='full immutable parent evidence unavailable')
+ else:result['evidence_file']=str(saved)
+ return result
+
+def root_notices(policy):
+ files=list((L/'results').glob('round*-best-*.tsv'));archive=S/'take-soft-r24/work/candidate-a-sources.tsv'
+ if archive.exists():files.append(archive)
+ token=tuple((str(p),p.stat().st_mtime_ns) for p in files)
+ table=soft.source_table(token)
+ return ['source-policy root n='+str(n)+': '+table[n] for n in policy.get('roots',[]) if n in table]
+
+def eligible(n,score,policy,candidate,current,clean):
+ if policy['status']=='unknown':return False
+ if n in RELAXED and policy['status']=='none':return score<min(OLD22[n],clean[n])-1e-10
+ return score<min(candidate[n],float(current[n]['new']))-1e-10
+
+if __name__=='__main__':
+ candidate={int(r['n']):float(r['score']) for r in csv.DictReader(open(S/'gate/cand-round23-1113a/details.csv'))}
+ a=classify('our own design: zone_search.py taper enumeration','our own')
+ b=classify('Samanyu-dev/squares_in_squares (donor n = 365)','no licence')
+ c=classify('held: seed merged0','see README')
+ assert a['status']=='none' and b['status']=='seeds' and b['seeds']==[365] and c['status']=='unknown'
+ n=735;mid=(candidate[n]+OLD22[n])/2;cur={n:{'new':str(candidate[n])}};clean={n:OLD22[n]}
+ assert mid>candidate[n] and eligible(n,mid,a,candidate,cur,clean) and not eligible(n,mid,b,candidate,cur,clean)
+ print('source-policy control: own roots clear; Samanyu seed365 named; merged0 unresolved; clean735 midpoint accepted against round22 and rejected for Samanyu ancestry')

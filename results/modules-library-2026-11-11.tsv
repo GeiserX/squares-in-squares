@@ -1,0 +1,367 @@
+id	kind	c	signature	count	length	length2	f	tilt	loss	lock	f_max	missing_rest_cells	n	source	licence
+304h.F1	far1	6	c6:-|l7|u9	16	3.23046		0.920944	22.708	1.880	0.82500	0.9950	0	304	held: seed merged0	see README
+304h.F2	far2	6	c6:-|l7|u9	16	3.23046		0.920944	22.708	1.880	0.82500	0.9950	0	304	held: seed merged0	see README
+304h.C	corner	6x6	c6x6:5.4.3.2+1/2|l7|u33|++|x1	56	8.18574	8.18584	0.920944	22.708/22.708	1.843	0.920	0.980	1	304	held: seed merged0	see README
+338h.F1	far1	6	c6:5.3|l0|u8	16	3.23438		0.877615	24.417	1.671	0.78000	0.9750	0	338	held: seed merged0	see README
+338h.F2	far2	6	c6:5.3|l0|u8	16	3.23206		0.877615	24.385	1.662	0.78000	0.9750	0	338	held: seed merged0	see README
+338h.C	corner	6x6	c6x6:5.4+1.3.2/5.4+1.3.2.1|l5|u41|+-	77	10.14650	10.15267	0.877615	24.417/24.385	1.796	0.820	0.935	0	338	held: seed merged0	see README
+340h.F1	far1	6	c6:-|l7|u9	16	3.21634		0.926899	22.461	1.834	0.83000	0.9950	0	340	held: seed merged0	see README
+340h.F2	far2	6	c6:-|l7|u15|x1	21	4.21675		0.926899	22.461	2.381			1	340	held: seed merged0	see README
+340h.C	corner	6x6	c6x6:-/-|l14|u48|+-	62	9.21638	8.21634	0.926899	22.461/22.461	1.798	0.870	0.985	0	340	held: seed merged0	see README
+378h.F1	far1	6	c6:0.2.2|l6|u6	16	3.23621		0.922519	22.634	1.922	0.82500	0.9950	0	378	held: jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+378h.F2	far2	6	c6:6.5.4+1.3.2|l2|u9	32	6.15460		0.922519	22.621	2.087	0.82500	0.9950	0	378	held: jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+378h.C	corner	6x6	c6x6:5.0.0.2.0.0.1.1.1/-|l21|u25|++	56	9.10027	7.26549	0.922519	22.634/22.621	1.834	0.865	0.980	0	378	held: jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+418h.F1	far1	6	c6:-|l7|u9	16	3.23151		0.920094	22.743	1.882	0.82500	0.9950	0	418	held: busyaprime/squares-in-squares-fq-quenched-packings :: data.zip!packings.csv	Attribution 4.0 International (CC BY 4.0)
+418h.F2	far2	6	c6:-|l7|u9	16	3.23151		0.920094	22.743	1.882	0.82500	0.9950	0	418	held: busyaprime/squares-in-squares-fq-quenched-packings :: data.zip!packings.csv	Attribution 4.0 International (CC BY 4.0)
+418h.C	corner	6x6	c6x6:5.4+1.3.1/5.4+1.3.2.1|l8|u39|+-	77	10.09741	10.09741	0.920094	22.743/22.743	1.989	0.865	0.980	0	418	held: busyaprime/squares-in-squares-fq-quenched-packings :: data.zip!packings.csv	Attribution 4.0 International (CC BY 4.0)
+419h.F1	far1	6	c6:-|l7|u9	16	3.20051		0.934835	22.124	1.789	0.83500	0.9950	0	419	held: fq quench of the held packing (own soft-box search, methods_soft.py)	own search
+419h.F2	far2	6	c6:-|l7|u9	16	3.20043		0.934835	22.124	1.789	0.83500	0.9950	0	419	held: fq quench of the held packing (own soft-box search, methods_soft.py)	own search
+419h.C	corner	6x6	c6x6:5+1.4.3.2.1/5|l39|u30|+-	90	10.17744	12.33640	0.934835	22.124/22.124	2.150	0.875	0.990	0	419	held: fq quench of the held packing (own soft-box search, methods_soft.py)	own search
+461h.F1	far1	6	c6:-|l7|u9	16	3.20577		0.932002	22.245	1.803	0.83500	0.9950	0	461	held: seed merged0	see README
+461h.F2	far2	6	c6:-|l7|u9	16	3.20561		0.932002	22.245	1.802	0.83500	0.9950	0	461	held: seed merged0	see README
+461h.C	corner	6x6	c6x6:5/5.0.3.2.1+1|l24|u36|+-	77	10.08198	10.08198	0.932002	22.245/22.245	2.036	0.875	0.990	0	461	held: seed merged0	see README
+503h.F1	far1	6	c6:6.5.4+1.3.2|l2|u9	32	6.20266		0.898244	23.611	2.101	0.80000	0.9950	0	503	held: seed merged0	see README
+503h.F2	far2	8	c8:7.6.2+2+1|l7|u12	37	5.25784		0.898244	18.709	2.840	0.80000	0.9950	0	503	held: seed merged0	see README
+503h.C	corner	6x8	c6x8:5.4.3/7.0.6.7.4|l23|u38|++|x2	95	10.14682	11.30530	0.898244	23.611/18.709	1.755	0.900	0.955	2	503	held: seed merged0	see README
+504h.F1	far1	5	c5:4|l9|u8	21	5.01150		0.915136	26.744	1.377	0.82000	0.9950	0	504	held: seed merged0	see README
+504h.F2	far2	8	c8:4+4.0.0.4+3.5|l20|u13	53	7.32700		0.915136	18.088	2.719	0.82000	0.9950	0	504	held: seed merged0	see README
+504h.C	corner	5x8	c5x8:3.2.2/7.5.4+1.3|l5|u37|+-	69	10.06506	8.21561	0.915136	26.744/18.088	1.041	0.860	0.975	0	504	held: seed merged0	see README
+505h.F1	far1	8	c8:7.5.1+1+1+1|l0|u13	29	4.15640		0.930451	17.500	2.712	0.83500	0.9950	0	505	held: jazivxt/boxed-in :: data.zip!submission.csv	Apache 2.0
+505h.F2	far2	7	c7:-|l12|u13	25	4.17294		0.930451	19.576	2.522	0.83500	0.9950	0	505	held: jazivxt/boxed-in :: data.zip!submission.csv	Apache 2.0
+505h.C	corner	8x7	c8x7:7.5.4+1.3/6.3+1.2|l8|u28|+-	68	8.28847	9.19925	0.930451	17.500/19.576	3.607	0.875	0.990	0	505	held: jazivxt/boxed-in :: data.zip!submission.csv	Apache 2.0
+506h.F1	far1	6	c6:5+1.4+2.3.2.4.0.2|l10|u7	40	7.52222		0.952113	21.359	2.033	0.85500	0.9950	0	506	held: seed merged0	see README
+506h.F2	far2	6	c6:0.0.2|l10|u10	22	4.29518		0.952113	21.359	2.001	0.85500	0.9950	0	506	held: seed merged0	see README
+506h.C	corner	6x6	c6x6:5.4.3.2.1+1/5|l38|u37|+-|x1	95	10.06116	13.28601	0.952113	21.359/21.359	2.202	0.895	0.995	1	506	held: seed merged0	see README
+551h.F1	far1	8	c8:8.7.3+2.1|l3|u13	37	5.21007		0.926437	17.657	2.717	0.83000	0.9950	0	551	held: alexchilton/squares-in-squares-starter-kit :: data.zip!best_current.csv	Other (specified in description)
+551h.F2	far2	6	c6:-|l7|u9	16	3.21672		0.926437	22.480	1.834	0.83000	0.9950	0	551	held: alexchilton/squares-in-squares-starter-kit :: data.zip!best_current.csv	Other (specified in description)
+551h.C	corner	8x6	c8x6:7.5.4.3/5.4.3.2.1|l12|u50|+-	96	9.26925	13.13262	0.926437	17.657/22.480	3.524	0.870	0.985	0	551	held: alexchilton/squares-in-squares-starter-kit :: data.zip!best_current.csv	Other (specified in description)
+552h.F1	far1	8	c8:7.5.1|l3|u13	29	4.14719		0.940135	17.110	2.709	0.84500	0.9950	0	552	held: jazivxt/boxed-in :: data.zip!submission.csv	Apache 2.0
+552h.F2	far2	7	c7:-|l12|u13	25	4.14555		0.940135	19.173	2.409	0.84500	0.9950	0	552	held: jazivxt/boxed-in :: data.zip!submission.csv	Apache 2.0
+552h.C	corner	8x7	c8x7:7+1.6.4+1.3/6.2+2.2|l8|u26|+-	68	8.28259	9.20346	0.940135	17.110/19.173	3.681	0.885	0.995	0	552	held: jazivxt/boxed-in :: data.zip!submission.csv	Apache 2.0
+553h.F1	far1	6	c6:-|l12|u10	22	4.27932		0.961519	20.921	1.983	0.86500	0.9950	0	553	held: seed merged0	see README
+553h.F2	far2	6	c6:0.4.2|l6|u10	22	4.27316		0.961519	20.921	1.949	0.86500	0.9950	0	553	held: seed merged0	see README
+553h.C	corner	6x6	c6x6:5.4.3.2.1/5|l39|u37|+-|x1	95	10.04455	13.26294	0.961519	20.921/20.921	2.214	0.925	0.995	1	553	held: seed merged0	see README
+599h.F1	far1	6	c6:6.5.4+1.3.2|l2|u9	32	6.15178		0.923743	22.592	2.078	0.82500	0.9950	0	599	held: jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+599h.F2	far2	8	c8:8.8.7.3+2.1|l5|u11	45	6.26473		0.923743	17.709	2.743	0.82500	0.9950	0	599	held: jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+599h.C	corner	6x8	c6x8:5.4.3/8.8.8.8.8.8.6.5.4.2+1|l7|u42|+-	127	10.10619	15.50662	0.923743	22.592/17.709	2.014	0.865	0.980	0	599	held: jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+600h.F1	far1	8	c8:7.5.2|l2|u13	29	4.15151		0.935795	17.287	2.712	0.84000	0.9950	0	600	held: jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+600h.F2	far2	7	c7:-|l12|u13	25	4.15944		0.935795	19.355	2.470	0.84000	0.9950	0	600	held: jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+600h.C	corner	8x7	c8x7:7.3+2.1+1/6.5.1+1+1|l5|u26|+-	59	7.16828	9.11457	0.935795	17.287/19.355	3.541	0.880	0.995	0	600	held: jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+602h.F1	far1	6	c6:-|l12|u10	22	4.25660		0.970897	20.468	1.927	0.87500	0.9950	0	602	held: grennwolf/squares-in-squares-top-1-santa-2025 :: submission_improved.csv	Apache 2.0 (Kaggle default for public notebooks)
+602h.F2	far2	6	c6:-|l12|u10	22	4.25502		0.970897	20.506	1.912	0.87500	0.9950	0	602	held: grennwolf/squares-in-squares-top-1-santa-2025 :: submission_improved.csv	Apache 2.0 (Kaggle default for public notebooks)
+602h.C	corner	6x6	c6x6:5.4.3.2.1/-|l39|u36|+-|x1	89	10.03811	12.17115	0.970897	20.468/20.506	2.271	0.915	0.995	1	602	held: grennwolf/squares-in-squares-top-1-santa-2025 :: submission_improved.csv	Apache 2.0 (Kaggle default for public notebooks)
+639h.F1	far1	10	c10:10.10.9.4+2.1|l12|u11	59	6.68105		0.781137	19.014	4.165	0.68500	0.8800	0	639	held: seed merged0	see README
+639h.F2	far2	6	c6:5.2+1+1+1|l0|u6	16	3.31303		0.781137	27.581	1.619	0.68500	0.8800	0	639	held: seed merged0	see README
+639h.C	corner	10x6	c10x6:9.5+2+1.1.2/5.4+1|l13|u57|++	100	9.57084	12.31342	0.781137	19.014/27.581	3.953	0.725	0.840	0	639	held: seed merged0	see README
+650h.F1	far1	8	c8:7.2+2+1.1+1|l2|u13	29	4.15397		0.932814	17.406	2.710	0.83500	0.9950	0	650	held: alexchilton/squares-in-squares-starter-kit :: data.zip!best_current.csv	Other (specified in description)
+650h.F2	far2	6	c6:-|l7|u9	16	3.20376		0.932814	22.211	1.796	0.83500	0.9950	0	650	held: alexchilton/squares-in-squares-starter-kit :: data.zip!best_current.csv	Other (specified in description)
+650h.C	corner	8x6	c8x6:6.5.4.1+1+1/5|l23|u47|+-	93	8.15447	14.08657	0.932814	17.406/22.211	3.431	0.895	0.990	0	650	held: alexchilton/squares-in-squares-starter-kit :: data.zip!best_current.csv	Other (specified in description)
+651h.F1	far1	8	c8:3+2+2.3+2.1|l3|u13	29	4.14246		0.945322	16.898	2.709	0.85000	0.9950	0	651	held: own soft-box search (methods_soft.py) from the held packing	own search
+651h.F2	far2	7	c7:7.7.7.7|l33|u13	74	11.55043		0.945322	18.971	2.461	0.85000	0.9950	0	651	held: own soft-box search (methods_soft.py) from the held packing	own search
+651h.C	corner	8x7	c8x7:6.4/4+2.3+2.3+2.1|l11|u28|+-	66	7.16360	10.16302	0.945322	16.898/18.971	3.515	0.890	0.995	0	651	held: own soft-box search (methods_soft.py) from the held packing	own search
+652h.F1	far1	7	c7:4+1.1|l5|u8	19	3.26703		0.965441	18.046	2.744	0.87000	0.9950	0	652	held: jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+652h.F2	far2	6	c6:-|l13|u9	22	4.26946		0.965441	20.734	1.958	0.87000	0.9950	0	652	held: jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+652h.C	corner	7x6	c7x6:6.0.3.3.2.1/5.4+1.3.2.1|l22|u41|+-	94	11.12434	11.00146	0.965441	18.046/20.734	2.688	0.910	0.995	0	652	held: jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+702h.F1	far1	8	c8:8.8.8.7.2+2+2|l5|u11	53	7.31713		0.922812	17.797	2.736	0.82500	0.9950	0	702	held: alexchilton/squares-in-squares-starter-kit :: data.zip!best_current.csv	Other (specified in description)
+702h.F2	far2	8	c8:8.8.8.7.2+2+2|l5|u11	53	7.31722		0.922812	17.804	2.734	0.82500	0.9950	0	702	held: alexchilton/squares-in-squares-starter-kit :: data.zip!best_current.csv	Other (specified in description)
+702h.C	corner	8x8	c8x8:7.6.5.4.2+1/7.7.0.0.7.6.5.3|l27|u44|+-	131	11.20128	14.35176	0.922812	17.797/17.804	3.290	0.865	0.980	0	702	held: alexchilton/squares-in-squares-starter-kit :: data.zip!best_current.csv	Other (specified in description)
+703h.F1	far1	8	c8:6.5|l5|u13	29	4.14214		0.947016	16.824	2.719	0.85000	0.9950	0	703	held: udishiken/square-in-square-strecth-fq :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+703h.F2	far2	6	c6:3+3.4+2|l7|u9	28	5.36058		0.947016	21.590	1.907	0.85000	0.9950	0	703	held: udishiken/square-in-square-strecth-fq :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+703h.C	corner	8x6	c8x6:6.5.1+1/5.0.0.0.0.2|l23|u50|+-	93	8.17539	14.04892	0.947016	16.824/21.590	3.647	0.930	0.995	0	703	held: udishiken/square-in-square-strecth-fq :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+704h.F1	far1	7	c7:4+3.3+2.3+1|l1|u9	26	4.32520		0.963163	18.152	2.770	0.86500	0.9950	0	704	held: seed merged0	see README
+704h.F2	far2	7	c7:5.1|l4|u9	19	3.27132		0.963163	18.152	2.760	0.86500	0.9950	0	704	held: seed merged0	see README
+704h.C	corner	7x7	c7x7:6.5+1.4.3.2/6.5|l49|u45|+-	126	11.05993	15.26944	0.963163	18.152/18.152	2.817	0.955	0.995	0	704	held: seed merged0	see README
+705h.F1	far1	7	c7:4+3.3+2.1|l3|u10	26	4.30314		0.976897	17.491	2.729	0.88000	0.9950	0	705	held: jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+705h.F2	far2	7	c7:4+3.3+2.1|l3|u10	26	4.30324		0.976897	17.491	2.730	0.88000	0.9950	0	705	held: jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+705h.C	corner	7x7	c7x7:6.5.4.3/1.0.2.2|l15|u40|+-	78	9.04002	10.08408	0.976897	17.491/17.491	3.099	0.930	0.995	0	705	held: jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+740h.F1	far1	8	c8:7+1.6+2.4+2.2+2+1.1|l1|u12	41	6.00152		0.706994	24.197	2.794	0.61000	0.8050	0	740	held: seed merged0	see README
+740h.F2	far2	8	c8:8.7.6+2.2+2|l10|u12	49	7.09890		0.706994	24.145	2.823	0.61000	0.8050	0	740	held: seed merged0	see README
+740h.C	corner	8x8	c8x8:7.6.4.4/8.8.4+3.4+1+1.2|l7|u23|+-	82	8.54934	10.73581	0.706994	24.197/24.145	2.496	0.650	0.765	0	740	held: seed merged0	see README
+746h.F1	far1	10	c10:9.5+2+1.3+1|l3|u15	39	4.53355		0.799034	18.572	3.975	0.70000	0.8950	0	746	held: seed merged0	see README
+746h.F2	far2	6	c6:5.3+1|l0|u7	16	3.29393		0.799034	27.031	1.605	0.70000	0.8950	0	746	held: seed merged0	see README
+746h.C	corner	10x6	c10x6:9.8.2+1+1+1/3.2|l11|u67|+-	105	9.53733	13.26701	0.799034	18.572/27.031	3.941	0.740	0.855	0	746	held: seed merged0	see README
+747h.F1	far1	10	c10:9.9.1+1+1+1.4+1|l17|u15	59	6.63223		0.811200	18.176	4.013	0.71500	0.9100	0	747	held: busyaprime/squares-in-squares-fq-quenched-packings :: data.zip!packings.csv	Attribution 4.0 International (CC BY 4.0)
+747h.F2	far2	6	c6:5.1|l3|u7	16	3.28462		0.811200	26.647	1.614	0.71500	0.9100	0	747	held: busyaprime/squares-in-squares-fq-quenched-packings :: data.zip!packings.csv	Attribution 4.0 International (CC BY 4.0)
+747h.C	corner	10x6	c10x6:9.5+2.4.3/5|l28|u46|+-	102	8.53775	14.45660	0.811200	18.176/26.647	4.030	0.755	0.870	0	747	held: busyaprime/squares-in-squares-fq-quenched-packings :: data.zip!packings.csv	Attribution 4.0 International (CC BY 4.0)
+755h.F1	far1	8	c8:4+3+1.3+2+2.3+2+1.1+1|l8|u13	44	6.22019		0.916539	18.032	3.318	0.82000	0.9950	0	755	held: seed merged0	see README
+755h.F2	far2	8	c8:4+4.5+3.2.0.4+3.2+2.2|l19|u11	61	8.38328		0.916539	18.032	2.772	0.82000	0.9950	0	755	held: seed merged0	see README
+755h.C	corner	8x8	c8x8:4+4.5+3.2.0.4+3.2+2.2.0.0.0.1.1+1+1.1+1+1+1.1+1+1+1.1+1+1.1+1+1.1+1+1.1/-|l28|u73|++	154	15.38328	13.22019	0.916539	18.032/18.032	3.367	0.860	0.975	0	755	held: seed merged0	see README
+756h.F1	far1	8	c8:-|l16|u13	29	4.16937		0.922108	17.906	2.739	0.82500	0.9950	0	756	held: own soft-box search (methods_soft.py) from the held packing	own search
+756h.F2	far2	8	c8:8.0.6.2+2+1.1|l12|u13	45	6.27121		0.922108	17.838	2.758	0.82500	0.9950	0	756	held: own soft-box search (methods_soft.py) from the held packing	own search
+756h.C	corner	8x8	c8x8:7.6.5.4.3.2/0.0.6.4.3.2.2|l47|u47|+-	138	13.23962	13.24448	0.922108	17.906/17.838	3.319	0.865	0.980	0	756	held: own soft-box search (methods_soft.py) from the held packing	own search
+757h.F1	far1	8	c8:7.5.2+1+1|l0|u13	29	4.15513		0.931788	17.447	2.712	0.83500	0.9950	0	757	held: jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+757h.F2	far2	8	c8:7.5.2|l2|u13	29	4.15519		0.931788	17.447	2.712	0.83500	0.9950	0	757	held: jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+757h.C	corner	8x8	c8x8:7.6.5.4/7.0.5.4.3.3|l22|u49|+-	115	11.19774	12.24593	0.931788	17.447/17.447	3.386	0.875	0.990	0	757	held: jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+758h.F1	far1	8	c8:0.3|l12|u14	29	4.14407		0.958641	16.321	2.817	0.86000	0.9950	0	758	held: seed merged0	see README
+758h.F2	far2	7	c7:4+2.1|l4|u8	19	3.27483		0.958641	18.361	2.757	0.86000	0.9950	0	758	held: seed merged0	see README
+758h.C	corner	8x7	c8x7:4.3.3.2+1/0.5.4+1+1.3.2.1|l28|u51|+-	109	10.26018	13.08852	0.958641	16.321/18.361	3.855	0.900	0.995	0	758	held: seed merged0	see README
+759h.F1	far1	7	c7:3+2.1|l3|u10	19	3.26202		0.970238	17.818	2.739	0.87500	0.9950	0	759	held: seed merged0	see README
+759h.F2	far2	7	c7:2+2.1|l4|u10	19	3.26202		0.970238	17.818	2.739	0.87500	0.9950	0	759	held: seed merged0	see README
+759h.C	corner	7x7	c7x7:6.5+1.4.3.2/6.6.0.0.6.5.4.3|l28|u40|+-	119	11.04905	14.19981	0.970238	17.818/17.818	2.813	0.930	0.995	0	759	held: seed merged0	see README
+760h.F1	far1	7	c7:5.1|l3|u10	19	3.24221		0.984676	17.096	2.693	0.88500	0.9950	0	760	held: seed merged0	see README
+760h.F2	far2	7	c7:5.2|l2|u10	19	3.24434		0.984676	17.096	2.707	0.88500	0.9950	0	760	held: seed merged0	see README
+760h.C	corner	7x7	c7x7:6.5.4.1+1+1/4.4.3.2|l5|u42|+-	78	9.04269	10.07739	0.984676	17.096/17.096	3.194	0.950	0.995	0	760	held: seed merged0	see README
+803h.F1	far1	7	c7:6.5+1.4|l5|u11	32	5.33833		0.820376	23.432	2.287	0.72500	0.9200	0	803	held: jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+803h.F2	far2	7	c7:6.5+1.4|l5|u11	32	5.33833		0.820376	23.432	2.287	0.72500	0.9200	0	803	held: jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+803h.C	corner	7x7	c7x7:6.5.4.1+1/6.5|l15|u31|+-|x1	73	9.31357	9.31357	0.820376	23.432/23.432	2.831	0.765	0.880	1	803	held: jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+804h.F1	far1	7	c7:6.5+1.4.3|l2|u11	32	5.32154		0.829716	23.143	2.253	0.73000	0.9250	0	804	held: seed merged0	see README
+804h.F2	far2	7	c7:6.5+1.4.3|l2|u11	32	5.32154		0.829716	23.143	2.253	0.73000	0.9250	0	804	held: seed merged0	see README
+804h.C	corner	7x7	c7x7:6.5.2+1+1/6.5.4.1+1+1|l6|u35|+-	74	9.37047	9.37047	0.829716	23.143/23.143	2.669	0.770	0.885	0	804	held: seed merged0	see README
+811h.F1	far1	9	c9:8.8.8.7.6.5.3.3|l24|u14	86	10.34369		0.916539	16.488	3.265	0.82000	0.9950	0	811	held: seed merged0	see README
+811h.F2	far2	8	c8:4+4.5+3.2.0.4+3.2+2.2|l19|u11	61	8.38328		0.916539	18.032	2.772	0.82000	0.9950	0	811	held: seed merged0	see README
+811h.C	corner	9x8	c9x8:8.7.6.5/4+3+1.3+2+2.3+2+1.1+1|l11|u73|-+	133	11.27178	14.22019	0.916539	16.488/18.032	4.620	0.860	0.975	0	811	held: seed merged0	see README
+813h.F1	far1	8	c8:7.3+2.2+1|l1|u13	29	4.15564		0.931300	17.466	2.712	0.83500	0.9950	0	813	held: busyaprime/squares-in-squares-fq-quenched-packings :: data.zip!packings.csv	Attribution 4.0 International (CC BY 4.0)
+813h.F2	far2	8	c8:7.3+2.1|l4|u12	29	4.15563		0.931300	17.466	2.712	0.83500	0.9950	0	813	held: busyaprime/squares-in-squares-fq-quenched-packings :: data.zip!packings.csv	Attribution 4.0 International (CC BY 4.0)
+813h.C	corner	8x8	c8x8:6.5.1/0.0.3+1.0.2|l37|u75|+-	130	12.19288	13.24232	0.931300	17.466/17.466	3.575	0.875	0.990	0	813	held: busyaprime/squares-in-squares-fq-quenched-packings :: data.zip!packings.csv	Attribution 4.0 International (CC BY 4.0)
+814h.F1	far1	8	c8:7.5.4|l0|u13	29	4.14384		0.944430	16.933	2.714	0.84500	0.9950	0	814	held: jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+814h.F2	far2	8	c8:7.5.4|l0|u13	29	4.14382		0.944430	16.933	2.713	0.84500	0.9950	0	814	held: jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+814h.C	corner	8x8	c8x8:7+1.6.4+1.3.2+1/6+1.6.5.4|l12|u48|+-	107	11.21090	11.21090	0.944430	16.933/16.933	3.798	0.885	0.995	0	814	held: jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+815h.F1	far1	7	c7:6.2+1|l2|u8	19	3.26730		0.965966	18.021	2.749	0.87000	0.9950	0	815	held: fq quench of the held packing (udishiken/square-in-square-strecth-fq :: submission.csv)	Apache 2.0 (Kaggle default for public notebooks)
+815h.F2	far2	8	c8:6+2.5+3.4+4.4+3.3+2.2+2.3|l4|u14	61	8.29943		0.965966	16.099	2.792	0.90508	0.9950	0	815	held: fq quench of the held packing (udishiken/square-in-square-strecth-fq :: submission.csv)	Apache 2.0 (Kaggle default for public notebooks)
+815h.C	corner	7x8	c7x8:6.0.5.0.2.2.0.2.2/6.5.4.2|l27|u53|+-	116	14.12712	10.25640	0.965966	18.021/16.099	3.330			0	815	held: fq quench of the held packing (udishiken/square-in-square-strecth-fq :: submission.csv)	Apache 2.0 (Kaggle default for public notebooks)
+816h.F1	far1	7	c7:5.4|l1|u9	19	3.25660		0.978163	17.428	2.750	0.88000	0.9950	0	816	held: jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+816h.F2	far2	7	c7:5.4|l1|u9	19	3.25660		0.978163	17.428	2.750	0.88000	0.9950	0	816	held: jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+816h.C	corner	7x7	c7x7:4.4.3.3/6.5.4.3|l15|u44|+-	91	9.99740	11.04793	0.978163	17.428/17.428	2.950	0.920	0.995	0	816	held: jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+852h.F1	far1	7	c7:4.1+1+1|l4|u9	20	3.56761		0.699596	26.784	2.294	0.60000	0.7950	0	852	held: jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+852h.F2	far2	8	c8:8.8.8.8.7.0.0.2.2|l17|u10	70	9.99975		0.699596	24.416	2.843	0.60000	0.7950	0	852	held: jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+852h.C	corner	7x8	c7x8:3+2/1+1+1+1.5|l7|u65|--	86	10.44499	9.81170	0.699596	26.784/24.416	1.941	0.640	0.755	0	852	held: jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+857h.F1	far1	9	c9:8.6+1.5+1+1.4.1|l7|u20	54	6.82353		0.766537	20.851	3.390	0.67000	0.8650	0	857	held: seed merged0	see README
+857h.F2	far2	9	c9:8.6+1.5+1+1.4.1|l7|u28	62	7.82353		0.766537	20.851	3.801	0.67000	0.8650	0	857	held: seed merged0	see README
+857h.C	corner	9x9	c9x9:8.7.6+1+1.5+1+1.4.3/8.7.6+1+1.5+1+1.4.3|l28|u108|+-	210	17.59261	16.59261	0.766537	20.851/20.851	3.787	0.710	0.825	0	857	held: seed merged0	see README
+861h.F1	far1	8	c8:7.6.2+1+1+1|l1|u4	23	3.50593		0.823849	21.093	3.168	0.72500	0.9200	0	861	held: seed merged0	see README
+861h.F2	far2	8	c8:7.6+1.2+1+1+1|l0|u4	23	3.50593		0.823849	21.093	3.168	0.72500	0.9200	0	861	held: seed merged0	see README
+861h.C	corner	8x8	c8x8:7.0.3.2.2/7.0.3.2.2|l35|u60|+-	123	12.38429	12.38429	0.823849	21.093/21.093	3.475	0.825	0.880	0	861	held: seed merged0	see README
+862h.F1	far1	8	c8:7.6.5.4.2+1+1|l5|u6	37	5.36263		0.836564	20.714	3.128	0.74000	0.9350	0	862	held: kirilltym/22-2153-cpu-cuda-mps-eda-island-union-lp :: _closure_inputs__140109664_v26_float64_roundtrip.csv	Apache 2.0 (Kaggle default for public notebooks)
+862h.F2	far2	7	c7:6.5+1.4|l4|u12	32	5.31671		0.836564	22.927	2.277	0.74000	0.9350	0	862	held: kirilltym/22-2153-cpu-cuda-mps-eda-island-union-lp :: _closure_inputs__140109664_v26_float64_roundtrip.csv	Apache 2.0 (Kaggle default for public notebooks)
+862h.C	corner	8x7	c8x7:6+1.5.4/6.5.4|l14|u39|+-	84	9.50640	10.40365	0.836564	20.714/22.927	3.685	0.780	0.895	0	862	held: kirilltym/22-2153-cpu-cuda-mps-eda-island-union-lp :: _closure_inputs__140109664_v26_float64_roundtrip.csv	Apache 2.0 (Kaggle default for public notebooks)
+863h.F1	far1	7	c7:6.5+1.0.2|l14|u11	39	6.39112		0.844288	22.680	2.278	0.74500	0.9400	0	863	held: busyaprime/squares-in-squares-fq-quenched-packings :: data.zip!packings.csv	Attribution 4.0 International (CC BY 4.0)
+863h.F2	far2	7	c7:6.5+1.4+2.1|l9|u11	39	6.39045		0.844288	22.680	2.274	0.74500	0.9400	0	863	held: busyaprime/squares-in-squares-fq-quenched-packings :: data.zip!packings.csv	Attribution 4.0 International (CC BY 4.0)
+863h.C	corner	7x7	c7x7:5.4.2/5.2+1+1|l5|u35|+-	60	8.27874	8.27727	0.844288	22.680/22.680	2.725	0.835	0.900	0	863	held: busyaprime/squares-in-squares-fq-quenched-packings :: data.zip!packings.csv	Attribution 4.0 International (CC BY 4.0)
+870h.F1	far1	8	c8:8.8.8.7.4+2.1|l4|u11	53	7.31319		0.924791	17.721	2.730	0.82500	0.9950	0	870	held: seed merged0	see README
+870h.F2	far2	9	c9:9.9.9.9.8.8.7.6+2.5+2.4+2.2|l24|u16	122	14.49438		0.924791	16.170	3.289	0.82500	0.9950	0	870	held: seed merged0	see README
+870h.C	corner	8x9	c8x9:7.3+2.2+1+1/8.7.2+2.2|l17|u71|-+	125	13.16073	11.26342	0.924791	17.721/16.170	4.149	0.865	0.980	0	870	held: seed merged0	see README
+871h.F1	far1	8	c8:7.3+2.2+1|l1|u13	29	4.15416		0.932818	17.406	2.712	0.83500	0.9950	0	871	held: seed merged0	see README
+871h.F2	far2	8	c8:7.5.3+1|l0|u13	29	4.15403		0.932818	17.406	2.711	0.83500	0.9950	0	871	held: seed merged0	see README
+871h.C	corner	8x8	c8x8:7.5.1+1+1+1/7.2+2+1.1|l3|u90|+-|x1	121	12.15405	12.15417	0.932818	17.406/17.406	4.005	0.875	0.990	1	871	held: seed merged0	see README
+873h.F1	far1	8	c8:0.3|l12|u14	29	4.14712		0.957161	16.386	2.829	0.86000	0.9950	0	873	held: fq quench of the held packing (jazivxt/boxed-in-sub :: submission.csv)	Apache 2.0 (Kaggle default for public notebooks)
+873h.F2	far2	8	c8:-|l16|u13	29	4.14734		0.957161	16.386	2.831	0.86000	0.9950	0	873	held: fq quench of the held packing (jazivxt/boxed-in-sub :: submission.csv)	Apache 2.0 (Kaggle default for public notebooks)
+873h.C	corner	8x8	c8x8:7.5.4.3/7.6.5.4.2+2+1.2+1.2+1.2|l15|u46|+-	115	10.17241	13.29943	0.957161	16.386/16.386	4.076	0.900	0.995	0	873	held: fq quench of the held packing (jazivxt/boxed-in-sub :: submission.csv)	Apache 2.0 (Kaggle default for public notebooks)
+874h.F1	far1	8	c8:0.5+1.4|l12|u15	37	5.18329		0.972909	15.663	2.927	0.87500	0.9950	0	874	held: udishiken/square-in-square-strecth-fq :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+874h.F2	far2	7	c7:5.1|l3|u10	19	3.25869		0.972909	17.688	2.732	0.87500	0.9950	0	874	held: udishiken/square-in-square-strecth-fq :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+874h.C	corner	8x7	c8x7:6.5+1.4.2+1/6.6.0.6.5.4.3.2|l20|u52|+-	123	10.24887	15.16406	0.972909	15.663/17.688	3.905	0.915	0.995	0	874	held: udishiken/square-in-square-strecth-fq :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+875h.F1	far1	7	c7:5.1+1+1+1|l6|u11	26	4.29150		0.988866	16.875	2.747	0.89000	0.9950	0	875	held: kmmmvs/squares-public-merge-daily :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+875h.F2	far2	7	c7:5.1+1+1+1|l6|u11	26	4.29153		0.988866	16.875	2.747	0.89000	0.9950	0	875	held: kmmmvs/squares-public-merge-daily :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+875h.C	corner	7x7	c7x7:6.5.3+1.2+1/6.5+1.4.3|l11|u43|+-	91	10.01865	11.06737	0.988866	16.875/16.875	3.431	0.930	0.995	0	875	held: kmmmvs/squares-public-merge-daily :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+911h.F1	far1	8	c8:7.6.5.1|l10|u12	41	6.00880		0.695622	24.470	2.752	0.60000	0.7950	0	911	held: seed merged0	see README
+911h.F2	far2	8	c8:7+1.6.1+1.2+1|l11|u11	41	6.00841		0.695622	24.470	2.750	0.60000	0.7950	0	911	held: seed merged0	see README
+911h.C	corner	8x8	c8x8:5+1+1+1+1+1+1+1+1.6+1+1+1+1+1.2+1+1+1+1.5+1+1.1+1+1+1.3+1.1/0.0.0.0.0.0.2|l23|u7|--	92	8.20443	12.60111	0.695622	24.470/24.470	3.459	0.640	0.755	0	911	held: seed merged0	see README
+912h.F1	far1	8	c8:7.6.2+1+1.1|l11|u12	41	6.00401		0.703260	24.287	2.781	0.60500	0.8000	0	912	held: kmmmvs/squares-in-squares-private-packings :: submission.csv	Other (specified in description)
+912h.F2	far2	8	c8:7.6.3+1.2+1|l11|u10	41	6.00397		0.703260	24.287	2.781	0.60500	0.8000	0	912	held: kmmmvs/squares-in-squares-private-packings :: submission.csv	Other (specified in description)
+912h.C	corner	8x8	c8x8:6+1.5.4.3.2/0.0.0.3.3.2|l42|u62|+-	133	12.63066	13.72776	0.703260	24.287/24.287	3.032	0.645	0.760	0	912	held: kmmmvs/squares-in-squares-private-packings :: submission.csv	Other (specified in description)
+921h.F1	far1	7	c7:5+1|l15|u11	32	5.33920		0.821404	23.401	2.300	0.72500	0.9200	0	921	held: jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+921h.F2	far2	9	c9:7.6.5|l58|u12	88	10.77568		0.821404	19.393	3.479	0.79508	0.9200	0	921	held: jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+921h.C	corner	7x9	c7x9:6.5+1.2+2.2/8.7+1.6.5.4.2.1|l15|u43|+-	110	11.31568	11.56348	0.821404	23.401/19.393	2.952	0.765	0.880	0	921	held: jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+922h.F1	far1	8	c8:7.6+1.3+1+1|l0|u4	23	3.49588		0.834720	20.770	3.150	0.73500	0.9300	0	922	held: seed merged0	see README
+922h.F2	far2	8	c8:7.6.3+1+1|l1|u4	23	3.49598		0.834720	20.774	3.150	0.73500	0.9300	0	922	held: seed merged0	see README
+922h.C	corner	8x8	c8x8:7.6.5.3.2/7.0.5.0.3|l25|u60|+-	123	12.36579	12.36214	0.834720	20.770/20.774	3.362	0.825	0.890	0	922	held: seed merged0	see README
+923h.F1	far1	7	c7:6.5.3|l7|u11	32	5.30213		0.847247	22.584	2.269	0.75000	0.9450	0	923	held: seed merged0	see README
+923h.F2	far2	8	c8:7.0.7.6.5.4.3|l14|u7	53	7.47770		0.847247	20.387	3.074	0.75000	0.9450	0	923	held: seed merged0	see README
+923h.C	corner	7x8	c7x8:6.5.2+1+1/6+1.5.4|l9|u44|+-	84	10.38236	9.50082	0.847247	22.584/20.387	3.002	0.815	0.905	0	923	held: seed merged0	see README
+924h.F1	far1	7	c7:6.5+1.4.2|l10|u11	39	6.36577		0.855382	22.318	2.222	0.76000	0.9550	0	924	held: udishiken/square-in-square-strecth-fq :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+924h.F2	far2	7	c7:6.5+1.4+2|l9|u12	39	6.37611		0.855382	22.318	2.289	0.76000	0.9550	0	924	held: udishiken/square-in-square-strecth-fq :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+924h.C	corner	7x7	c7x7:6.5.4.2/6.5.2+1+1.1+1|l3|u37|+-	74	9.35486	9.34384	0.855382	22.318/22.318	2.693	0.845	0.915	0	924	held: udishiken/square-in-square-strecth-fq :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+930h.F1	far1	11	c11:10.9+1.8.4+1+1+1.1+1+1+1|l5|u19	63	6.29149		0.917455	13.921	4.174	0.82000	0.9950	0	930	held: seed merged0	see README
+930h.F2	far2	8	c8:7.7.7.4.1+1+1|l7|u10	45	6.28431		0.917455	18.012	2.811	0.82000	0.9950	0	930	held: seed merged0	see README
+930h.C	corner	11x8	c11x8:10.9+1.8.4+1+1+1.2+1+1/7.4+2.1+1+1+1|l13|u100|++	169	13.29150	15.16676	0.917455	13.921/18.012	5.241	0.860	0.975	0	930	held: seed merged0	see README
+931h.F1	far1	8	c8:7.4+1.1+1|l3|u12	29	4.15546		0.931533	17.457	2.713	0.83500	0.9950	0	931	held: seed merged0	see README
+931h.F2	far2	9	c9:1+1+1.1+1+1.1+1+1.1+1.1+1.1.4.3.2|l64|u17	104	12.39543		0.931533	15.757	3.367	0.83500	0.9950	0	931	held: seed merged0	see README
+931h.C	corner	8x9	c8x9:8.8.4+3.0.1.3/8.7.3+2+1.2+1+1+1|l17|u71|++	141	15.24375	11.25405	0.931533	17.457/15.757	4.112	0.875	0.990	0	931	held: seed merged0	see README
+933h.F1	far1	8	c8:-|l15|u14	29	4.16006		0.949834	16.705	2.876	0.85000	0.9950	0	933	held: jazivxt/boxed-in :: data.zip!submission.csv	Apache 2.0
+933h.F2	far2	8	c8:-|l15|u14	29	4.15995		0.949834	16.705	2.875	0.85000	0.9950	0	933	held: jazivxt/boxed-in :: data.zip!submission.csv	Apache 2.0
+933h.C	corner	8x8	c8x8:6+1.5.3+1+1.2.1/7.7.7.0.0.0.7.3+2.3.2|l39|u49|+-	146	11.12268	16.34572	0.949834	16.705/16.705	3.559	0.900	0.995	0	933	held: jazivxt/boxed-in :: data.zip!submission.csv	Apache 2.0
+934h.F1	far1	8	c8:7|l16|u14	37	5.17965		0.964143	16.073	2.817	0.86500	0.9950	0	934	held: seed merged0	see README
+934h.F2	far2	8	c8:4+3.0.2.1|l13|u14	37	5.17739		0.964143	16.188	2.777	0.86500	0.9950	0	934	held: seed merged0	see README
+934h.C	corner	8x8	c8x8:6.5.4.1+1+1/6.6.4+2+1.4.2+2.2+1|l14|u45|+-	107	10.17247	12.25115	0.964143	16.073/16.188	4.135	0.905	0.995	0	934	held: seed merged0	see README
+935h.F1	far1	7	c7:2+2.1|l4|u10	19	3.24986		0.979882	17.341	2.715	0.88000	0.9950	0	935	held: kmmmvs/squares-public-merge-daily :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+935h.F2	far2	7	c7:2+2.1|l4|u10	19	3.24993		0.979882	17.341	2.715	0.88000	0.9950	0	935	held: kmmmvs/squares-public-merge-daily :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+935h.C	corner	7x7	c7x7:6.5.4.3.1/0.0.4.3.2.1|l44|u52|+-	125	13.05870	13.05856	0.979882	17.341/17.341	2.872	0.920	0.995	0	935	held: kmmmvs/squares-public-merge-daily :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+981h.F1	far1	10	c10:10.10.9.2+2+2.1|l9|u14	59	6.64753		0.796032	18.627	3.993	0.70000	0.8950	0	981	held: fq quench of the held packing (udishiken/square-in-square-strecth-fq :: submission.csv)	Apache 2.0 (Kaggle default for public notebooks)
+981h.F2	far2	10	c10:10.10.7+2.7+2.6+3.3+2+2|l10|u15	79	8.75792		0.796032	18.568	4.020	0.74008	0.8950	0	981	held: fq quench of the held packing (udishiken/square-in-square-strecth-fq :: submission.csv)	Apache 2.0 (Kaggle default for public notebooks)
+981h.C	corner	10x10	c10x10:8+1+1.5+2+1+1+1.4+1+1+1+1+1/0.0.8+2.9.9.5+2.2|l30|u102|--	199	13.53714	17.75805	0.796032	18.627/18.568	4.756	0.740	0.855	0	981	held: fq quench of the held packing (udishiken/square-in-square-strecth-fq :: submission.csv)	Apache 2.0 (Kaggle default for public notebooks)
+983h.F1	far1	9	c9:8.7.6.4.3+1+1.2|l6|u5	43	5.47121		0.816856	19.520	3.411	0.72000	0.9150	0	983	held: seed merged0	see README
+983h.F2	far2	7	c7:5+1|l16|u10	32	5.33975		0.816856	23.540	2.268	0.72000	0.9150	0	983	held: seed merged0	see README
+983h.C	corner	9x7	c9x7:8.0.2.2/6|l62|u66|+-	146	12.55162	15.56509	0.816856	19.520/23.540	3.778	0.760	0.875	0	983	held: seed merged0	see README
+984h.F1	far1	7	c7:6.5+1.2+1+1|l5|u11	32	5.31730		0.834479	22.993	2.264	0.73500	0.9300	0	984	held: jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+984h.F2	far2	9	c9:7.6.5.4.0.0.2|l51|u13	88	10.74077		0.834479	19.022	3.388	0.78008	0.9300	0	984	held: jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+984h.C	corner	7x9	c7x9:6.5+1.2.2/8.7+1.6+2.5+2.4+2.2+1.1|l12|u41|+-	110	11.31048	11.57313	0.834479	22.993/19.022	3.202	0.775	0.890	0	984	held: jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+985h.F1	far1	8	c8:7.6.3+1+1|l1|u4	23	3.48639		0.844832	20.462	3.131	0.74500	0.9400	0	985	held: seed merged0	see README
+985h.F2	far2	8	c8:7.6+1.3+1+1|l0|u4	23	3.48647		0.844832	20.467	3.131	0.74500	0.9400	0	985	held: seed merged0	see README
+985h.C	corner	8x8	c8x8:7.6.5.4.3+1.1+1/7.6.5.3|l16|u58|+-	123	12.34831	12.34722	0.844832	20.462/20.467	3.299	0.825	0.900	0	985	held: seed merged0	see README
+986h.F1	far1	7	c7:6.5.4|l6|u11	32	5.27868		0.859294	22.188	2.215	0.76000	0.9550	0	986	held: seed merged0	see README
+986h.F2	far2	8	c8:7.7.7.6.5.2.1+1+1+1|l8|u7	53	7.45006		0.859294	20.009	3.003	0.76000	0.9550	0	986	held: seed merged0	see README
+986h.C	corner	7x8	c7x8:6.5.2+1/1.0.2+2|l16|u49|+-	84	10.37270	9.50974	0.859294	22.188/20.009	3.156	0.800	0.915	0	986	held: seed merged0	see README
+993h.F1	far1	11	c11:10.9.8.7.3.2|l18|u17	74	7.32016		0.924791	13.722	4.224	0.82500	0.9950	0	993	held: busyaprime/squares-in-squares-fq-quenched-packings :: data.zip!packings.csv	Attribution 4.0 International (CC BY 4.0)
+993h.F2	far2	8	c8:8.8.8.7.3+2|l6|u11	53	7.31319		0.924791	17.721	2.730	0.82500	0.9950	0	993	held: busyaprime/squares-in-squares-fq-quenched-packings :: data.zip!packings.csv	Attribution 4.0 International (CC BY 4.0)
+993h.C	corner	11x8	c11x8:10.9.8.4+2+1/7.3+2.1+1+1+1|l16|u103|-+	169	13.28065	15.16100	0.924791	13.722/17.721	5.200	0.865	0.980	0	993	held: busyaprime/squares-in-squares-fq-quenched-packings :: data.zip!packings.csv	Attribution 4.0 International (CC BY 4.0)
+995h.F1	far1	9	c9:8.3+3+1.1|l6|u11	33	4.24197		0.951393	15.032	3.871	0.85500	0.9950	0	995	held: seed merged0	see README
+995h.F2	far2	8	c8:0.0.1|l15|u13	29	4.15690		0.951393	16.638	2.863	0.85500	0.9950	0	995	held: seed merged0	see README
+995h.C	corner	9x8	c9x8:0.0.4.4.3/0.5|l33|u68|+-	117	11.13690	12.12827	0.951393	15.032/16.638	4.153	0.895	0.995	0	995	held: seed merged0	see README
+996h.F1	far1	8	c8:0.0.0.1+1|l20|u15	37	5.20741		0.955474	16.461	2.952	0.86000	0.9950	0	996	held: seed merged0	see README
+996h.F2	far2	8	c8:0.0.1+1|l13|u14	29	4.14963		0.955474	16.461	2.836	0.86000	0.9950	0	996	held: seed merged0	see README
+996h.C	corner	8x8	c8x8:7.6/0.0.0.0.7.6.5.2.2|l48|u47|+-	130	11.10403	14.24583	0.955474	16.461/16.461	3.452	0.900	0.995	0	996	held: seed merged0	see README
+998h.F1	far1	7	c7:3+2.1+1+1+1|l0|u10	19	3.24256		0.985812	17.036	2.702	0.89000	0.9950	0	998	held: avazaku/squares-contact-lp-cusp-bounds-465-998 :: data.zip!correction_packings.csv	Other (specified in description)
+998h.F2	far2	7	c7:3+2.1|l3|u10	19	3.24209		0.985812	17.036	2.699	0.89000	0.9950	0	998	held: avazaku/squares-contact-lp-cusp-bounds-465-998 :: data.zip!correction_packings.csv	Other (specified in description)
+998h.C	corner	7x7	c7x7:6.5.4.3.2.1/6.5.4.3.1|l26|u52|+-	118	12.00325	13.05022	0.985812	17.036/17.036	2.924	0.930	0.995	0	998	held: avazaku/squares-contact-lp-cusp-bounds-465-998 :: data.zip!correction_packings.csv	Other (specified in description)
+591h07.F1	far1	8	c8:7+1.6.1+1+1+1+1|l1|u3	23	3.51225		0.816934	21.296	3.179	0.72000	0.9150	0	591	prvsiyan/squares-in-squares-verified-packings-20261101 :: data.zip!packing_coordinates.csv	Apache 2.0
+591h07.F2	far2	6	c6:5.2+1|l2|u6	16	3.28185		0.816934	26.464	1.628	0.72000	0.9150	0	591	prvsiyan/squares-in-squares-verified-packings-20261101 :: data.zip!packing_coordinates.csv	Apache 2.0
+591h07.C	corner	8x6	c8x6:7.0.6.3+1+1.2/4+2.3+1+1+1|l19|u36|++	87	9.49852	11.47832	0.816934	21.296/26.464	3.466	0.760	0.875	0	591	prvsiyan/squares-in-squares-verified-packings-20261101 :: data.zip!packing_coordinates.csv	Apache 2.0
+759h07.F1	far1	7	c7:5.4|l0|u10	19	3.26281		0.970869	17.787	2.748	0.87500	0.9950	0	759	pablodiegoo/unit-square-packing-certified-bounds :: data.zip!submission.csv	CC0: Public Domain
+759h07.F2	far2	7	c7:5.1+1|l3|u9	19	3.26238		0.970869	17.787	2.745	0.87500	0.9950	0	759	pablodiegoo/unit-square-packing-certified-bounds :: data.zip!submission.csv	CC0: Public Domain
+759h07.C	corner	7x7	c7x7:6.5+1.4.3.2/6.0.0.1+1.1+1.3.3|l28|u47|+-	112	11.05277	13.15317	0.970869	17.787/17.787	2.878	0.915	0.995	0	759	pablodiegoo/unit-square-packing-certified-bounds :: data.zip!submission.csv	CC0: Public Domain
+803h07.F1	far1	7	c7:6.5+1.4|l5|u11	32	5.33651		0.821397	23.401	2.283	0.72500	0.9200	0	803	alexchilton/fault-line-dp-basin-hopping-lb-22-2620 :: cq.csv	Apache 2.0 (Kaggle default for public notebooks)
+803h07.F2	far2	7	c7:6.5+1.3+1|l5|u11	32	5.33651		0.821397	23.401	2.283	0.72500	0.9200	0	803	alexchilton/fault-line-dp-basin-hopping-lb-22-2620 :: cq.csv	Apache 2.0 (Kaggle default for public notebooks)
+803h07.C	corner	7x7	c7x7:6.5.4.1+1/6.5|l15|u31|+-|x1	73	9.31977	9.32065	0.821397	23.401/23.401	2.928	0.765	0.880	1	803	alexchilton/fault-line-dp-basin-hopping-lb-22-2620 :: cq.csv	Apache 2.0 (Kaggle default for public notebooks)
+651h09.F1	far1	8	c8:0.0.1|l14|u14	29	4.15241		0.955091	16.477	2.855	0.86000	0.9950	0	651	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+651h09.F2	far2	6	c6:0.3|l9|u10	22	4.29458		0.955091	21.222	2.020	0.86000	0.9950	0	651	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+651h09.C	corner	8x6	c8x6:7+1.5.4.3+1.2+1/5.0.0.4|l32|u46|+-|x1	110	10.33044	14.15127	0.955091	16.477/21.222	3.905	0.900	0.995	1	651	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+652h09.F1	far1	7	c7:1+1.4|l5|u8	19	3.27087		0.966389	18.001	2.775	0.87000	0.9950	0	652	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+652h09.F2	far2	6	c6:-|l13|u9	22	4.28959		0.966389	20.688	2.078	0.87000	0.9950	0	652	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+652h09.C	corner	7x6	c7x6:0.0.6.3+2.4.3/5.4.3.2.1|l25|u42|+-	100	11.12761	12.05646	0.966389	18.001/20.688	2.652	0.910	0.995	0	652	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+685h09.F1	far1	8	c8:5+2.5.1|l1|u11	25	3.80858		0.686999	24.672	2.687	0.60000	0.7850	0	685	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+685h09.F2	far2	8	c8:6.1+1+1+1.5.2|l12|u12	41	6.01223		0.686999	24.623	2.724	0.60000	0.7850	0	685	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+685h09.C	corner	8x8	c8x8:7.0.7.6.4.4/7.6.6.5.4|l53|u21|+-	130	10.76443	15.16752	0.686999	24.672/24.623	2.657	0.630	0.745	0	685	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+756h09.F1	far1	8	c8:3+3+1.0.1|l8|u13	29	4.16546		0.924570	17.752	2.737	0.82500	0.9950	0	756	busyaprime/squares-in-squares-fq-quenched-packings :: data.zip!packings.csv	Attribution 4.0 International (CC BY 4.0)
+756h09.F2	far2	8	c8:8.7.3+2|l5|u12	37	5.21183		0.924570	17.785	2.702	0.82500	0.9950	0	756	busyaprime/squares-in-squares-fq-quenched-packings :: data.zip!packings.csv	Attribution 4.0 International (CC BY 4.0)
+756h09.C	corner	8x8	c8x8:6.5+1.2+2.2+1+1/7.7.0.5.3|l27|u77|+-	146	13.25729	14.30859	0.924570	17.752/17.785	3.640	0.865	0.980	0	756	busyaprime/squares-in-squares-fq-quenched-packings :: data.zip!packings.csv	Attribution 4.0 International (CC BY 4.0)
+813h09.F1	far1	8	c8:7.5.3+1|l1|u12	29	4.15565		0.931306	17.466	2.712	0.83500	0.9950	0	813	busyaprime/squares-in-squares-fq-quenched-packings :: data.zip!packings.csv	Attribution 4.0 International (CC BY 4.0)
+813h09.F2	far2	8	c8:7.2+2+1.1+1|l2|u13	29	4.15560		0.931306	17.466	2.712	0.83500	0.9950	0	813	busyaprime/squares-in-squares-fq-quenched-packings :: data.zip!packings.csv	Attribution 4.0 International (CC BY 4.0)
+813h09.C	corner	8x8	c8x8:0.0.3+1.0.2/7.5.4.2+1+1|l37|u75|+-	138	13.24235	13.24339	0.931306	17.466/17.466	3.592	0.875	0.990	0	813	busyaprime/squares-in-squares-fq-quenched-packings :: data.zip!packings.csv	Attribution 4.0 International (CC BY 4.0)
+814h09.F1	far1	8	c8:0.3|l12|u14	29	4.15244		0.954616	16.498	2.852	0.85500	0.9950	0	814	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+814h09.F2	far2	6	c6:5.4.3.2.1|l14|u14	43	8.06713		0.954616	21.244	2.114	0.85500	0.9950	0	814	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+814h09.C	corner	8x6	c8x6:0.5.4/5.4+2.3.2|l24|u60|-+	109	9.15609	15.52294	0.954616	16.498/21.244	3.557	0.940	0.995	0	814	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+816h09.F1	far1	7	c7:5.1|l3|u10	19	3.25114		0.978618	17.405	2.716	0.88000	0.9950	0	816	busyaprime/squares-in-squares-fq-quenched-packings :: data.zip!packings.csv	Attribution 4.0 International (CC BY 4.0)
+816h09.F2	far2	7	c7:5.1|l3|u10	19	3.25394		0.978618	17.405	2.735	0.88000	0.9950	0	816	busyaprime/squares-in-squares-fq-quenched-packings :: data.zip!packings.csv	Attribution 4.0 International (CC BY 4.0)
+816h09.C	corner	7x7	c7x7:6.5.4.3/5.4.4.3.2.2+1|l10|u49|+-	98	10.00188	12.09562	0.978618	17.405/17.405	2.986	0.920	0.995	0	816	busyaprime/squares-in-squares-fq-quenched-packings :: data.zip!packings.csv	Attribution 4.0 International (CC BY 4.0)
+875h09.F1	far1	7	c7:5.4|l6|u11	26	4.29140		0.988927	16.872	2.747	0.89000	0.9950	0	875	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+875h09.F2	far2	7	c7:5.4.1|l5|u11	26	4.29190		0.988927	16.872	2.750	0.89000	0.9950	0	875	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+875h09.C	corner	7x7	c7x7:5.5.4.3+1.2+1/6.5.4.4.3|l16|u46|+-	105	11.06695	12.11229	0.988927	16.872/16.872	3.454	0.930	0.995	0	875	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+924h09.F1	far1	7	c7:6.5+1.4+2|l9|u12	39	6.37787		0.855386	22.318	2.301	0.76000	0.9550	0	924	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+924h09.F2	far2	7	c7:6.6.5+1.3.2|l12|u11	46	7.44787		0.855386	22.318	2.230	0.76000	0.9550	0	924	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+924h09.C	corner	7x7	c7x7:6.5.4.2/6.5.4.2|l2|u38|+-	74	9.34386	9.35485	0.855386	22.318/22.318	2.693	0.845	0.915	0	924	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+816h09c.F1	far1	7	c7:5.4|l1|u9	19	3.25662		0.978163	17.428	2.750	0.88000	0.9950	0	816	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+816h09c.F2	far2	7	c7:5.4|l1|u9	19	3.25662		0.978163	17.428	2.750	0.88000	0.9950	0	816	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+816h09c.C	corner	7x7	c7x7:4.4.3.3/6.5.4.3|l15|u44|+-	91	9.99740	11.04793	0.978163	17.428/17.428	2.950	0.920	0.995	0	816	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+862h09c.F1	far1	8	c8:7.6.5.2.2+1+1|l7|u6	37	5.36263		0.836565	20.714	3.128	0.74000	0.9350	0	862	kirilltym/22-2153-cpu-cuda-mps-eda-island-union-lp :: _closure_inputs__140109664_v26_float64_roundtrip.csv	Apache 2.0 (Kaggle default for public notebooks)
+862h09c.F2	far2	7	c7:6.5+1.4|l4|u12	32	5.31718		0.836565	22.927	2.280	0.74000	0.9350	0	862	kirilltym/22-2153-cpu-cuda-mps-eda-island-union-lp :: _closure_inputs__140109664_v26_float64_roundtrip.csv	Apache 2.0 (Kaggle default for public notebooks)
+862h09c.C	corner	8x7	c8x7:6+1.5.4/6.5.4|l10|u43|+-	84	9.50640	10.40365	0.836565	20.714/22.927	3.685	0.780	0.895	0	862	kirilltym/22-2153-cpu-cuda-mps-eda-island-union-lp :: _closure_inputs__140109664_v26_float64_roundtrip.csv	Apache 2.0 (Kaggle default for public notebooks)
+935h09c.F1	far1	7	c7:5.4|l1|u9	19	3.25429		0.980057	17.333	2.746	0.88500	0.9950	0	935	kmmmvs/squares-public-merge-daily :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+935h09c.F2	far2	8	c8:8.8.0.4.4.3|l11|u15	53	7.24536		0.980057	15.439	2.871	0.88500	0.9950	0	935	kmmmvs/squares-public-merge-daily :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+935h09c.C	corner	7x8	c7x8:6.5.4.3.2/5.4.4.2|l14|u53|+-	102	12.01223	10.24518	0.980057	17.333/15.439	3.446	0.925	0.995	0	935	kmmmvs/squares-public-merge-daily :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+936h09c.F1	far1	7	c7:5.4.3|l3|u11	26	4.27732		0.997707	16.391	2.724	0.90000	0.9977	0	936	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+936h09c.F2	far2	7	c7:5.4.3|l3|u11	26	4.27702		0.997707	16.391	2.722	0.90000	0.9977	0	936	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+936h09c.C	corner	7x7	c7x7:5.4.4.3+1.2/6.5.4.4.3|l18|u47|+-|x1	105	11.08243	12.12763	0.997707	16.391/16.391	3.874			1	936	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+378h10.F1	far1	6	c6:4|l6|u6	16	3.24577		0.925925	22.501	1.992	0.83000	0.9950	0	378	malyshevdanil/squares-in-squares-living-atlas-of-tight-packings :: submission_merged.csv	Apache 2.0 (Kaggle default for public notebooks)
+378h10.F2	far2	6	c6:6.5.4+1.2|l5|u9	32	6.14886		0.925925	22.501	2.084	0.83000	0.9950	0	378	malyshevdanil/squares-in-squares-living-atlas-of-tight-packings :: submission_merged.csv	Apache 2.0 (Kaggle default for public notebooks)
+378h10.C	corner	6x6	c6x6:5.0.0.0.0.1+1.1+1+1+1.1+1+1+1.1+1/-|l19|u20|++	56	9.10330	7.28213	0.925925	22.501/22.501	1.979	0.870	0.985	0	378	malyshevdanil/squares-in-squares-living-atlas-of-tight-packings :: submission_merged.csv	Apache 2.0 (Kaggle default for public notebooks)
+418h10.F1	far1	6	c6:-|l7|u9	16	3.23153		0.920096	22.743	1.882	0.82500	0.9950	0	418	prvsiyan/a-square-deal-research-to-verified-packings :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+418h10.F2	far2	6	c6:-|l7|u9	16	3.23153		0.920096	22.743	1.882	0.82500	0.9950	0	418	prvsiyan/a-square-deal-research-to-verified-packings :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+418h10.C	corner	6x6	c6x6:5.0.3.2.1+1/5.4+1.3.2.1|l11|u38|+-	77	10.09742	10.09742	0.920096	22.743/22.743	1.989	0.865	0.980	0	418	prvsiyan/a-square-deal-research-to-verified-packings :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+419h10.F1	far1	6	c6:-|l7|u9	16	3.19120		0.938372	21.958	1.758	0.84000	0.9950	0	419	prvsiyan/a-square-deal-research-to-verified-packings :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+419h10.F2	far2	6	c6:6.5.4+1.3|l4|u9	32	6.12247		0.938372	21.971	2.067	0.84000	0.9950	0	419	prvsiyan/a-square-deal-research-to-verified-packings :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+419h10.C	corner	6x6	c6x6:4.4.0.0.0.1+1.1+1+1+1.1+1+1+1.1+1/-|l15|u21|++	56	9.10392	7.26709	0.938372	21.958/21.971	2.054	0.880	0.995	0	419	prvsiyan/a-square-deal-research-to-verified-packings :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+462h10.F1	far1	6	c6:4+2.3.3|l12|u10	34	6.44664		0.953227	21.308	2.036	0.85500	0.9950	0	462	prvsiyan/a-square-deal-research-to-verified-packings :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+462h10.F2	far2	7	c7:4.1+1+1|l26|u13	46	7.32628		0.953227	18.508	2.631	0.85500	0.9950	0	462	prvsiyan/a-square-deal-research-to-verified-packings :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+462h10.C	corner	6x7	c6x7:3+2.2.1/7.3+3.3+2|l10|u35|++	71	9.06088	9.34670	0.953227	21.308/18.508	2.175	0.895	0.995	0	462	prvsiyan/a-square-deal-research-to-verified-packings :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+602h10.F1	far1	6	c6:4+1.3.2|l2|u10	22	4.28572		0.971704	20.428	2.097	0.87500	0.9950	0	602	malyshevdanil/squares-in-squares-living-atlas-of-tight-packings :: submission_merged.csv	Apache 2.0 (Kaggle default for public notebooks)
+602h10.F2	far2	6	c6:-|l12|u10	22	4.25142		0.971704	20.448	1.901	0.87500	0.9950	0	602	malyshevdanil/squares-in-squares-living-atlas-of-tight-packings :: submission_merged.csv	Apache 2.0 (Kaggle default for public notebooks)
+602h10.C	corner	6x6	c6x6:5.4+1.3.2.1+1/6.0.0.5.4.3.2|l17|u37|+-|x2	89	10.01491	12.17317	0.971704	20.428/20.448	2.175	0.925	0.995	2	602	malyshevdanil/squares-in-squares-living-atlas-of-tight-packings :: submission_merged.csv	Apache 2.0 (Kaggle default for public notebooks)
+705h10.F1	far1	7	c7:4+3.3+2.1+1|l4|u8	26	4.30463		0.977264	17.473	2.742	0.88000	0.9950	0	705	malyshevdanil/squares-in-squares-living-atlas-of-tight-packings :: submission_merged.csv	Apache 2.0 (Kaggle default for public notebooks)
+705h10.F2	far2	6	c6:5.2.1|l23|u9	40	7.46447		0.977264	20.149	2.046	0.88000	0.9950	0	705	malyshevdanil/squares-in-squares-living-atlas-of-tight-packings :: submission_merged.csv	Apache 2.0 (Kaggle default for public notebooks)
+705h10.C	corner	7x6	c7x6:6+1.5.4.3.2.3/5.4.3+1+1.2.1|l19|u40|+-	100	11.13905	12.05503	0.977264	17.473/20.149	2.978	0.920	0.995	0	705	malyshevdanil/squares-in-squares-living-atlas-of-tight-packings :: submission_merged.csv	Apache 2.0 (Kaggle default for public notebooks)
+756h10.F1	far1	8	c8:8.8.7.3+2.1+1|l2|u13	45	6.26303		0.924556	17.771	2.713	0.82500	0.9950	0	756	prvsiyan/a-square-deal-research-to-verified-packings :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+756h10.F2	far2	8	c8:8.7.3+2.1|l5|u11	37	5.21191		0.924556	17.721	2.717	0.82500	0.9950	0	756	prvsiyan/a-square-deal-research-to-verified-packings :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+756h10.C	corner	8x8	c8x8:7.5+1.4+1.1/7.7.7.0.4|l35|u75|+-	154	13.25909	15.35990	0.924556	17.771/17.721	3.671	0.895	0.980	0	756	prvsiyan/a-square-deal-research-to-verified-packings :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+757h10.F1	far1	8	c8:7.3+2.1|l3|u13	29	4.15508		0.931922	17.441	2.712	0.83500	0.9950	0	757	prvsiyan/a-square-deal-research-to-verified-packings :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+757h10.F2	far2	8	c8:7.3+2.1+1+1+1|l0|u13	29	4.15507		0.931922	17.441	2.712	0.83500	0.9950	0	757	prvsiyan/a-square-deal-research-to-verified-packings :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+757h10.C	corner	8x8	c8x8:5.4.3.3/7.6+1.5.4.2|l19|u48|+-	107	10.14794	12.24655	0.931922	17.441/17.441	3.381	0.875	0.990	0	757	prvsiyan/a-square-deal-research-to-verified-packings :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+760h10.F1	far1	7	c7:3+2.1|l3|u10	19	3.24201		0.984680	17.095	2.691	0.88500	0.9950	0	760	prvsiyan/a-square-deal-research-to-verified-packings :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+760h10.F2	far2	7	c7:5.1|l3|u10	19	3.24438		0.984680	17.095	2.707	0.88500	0.9950	0	760	prvsiyan/a-square-deal-research-to-verified-packings :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+760h10.C	corner	7x7	c7x7:6.5.4.1+1+1/4.1+1+1.6.4.3.2|l10|u42|+-	92	9.04271	12.17611	0.984680	17.095/17.095	3.237	0.925	0.995	0	760	prvsiyan/a-square-deal-research-to-verified-packings :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+814h10.F1	far1	8	c8:6.6.4|l8|u13	37	5.18853		0.944816	16.917	2.712	0.84500	0.9950	0	814	prvsiyan/a-square-deal-research-to-verified-packings :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+814h10.F2	far2	8	c8:6.5.4|l9|u13	37	5.18868		0.944816	16.917	2.713	0.84500	0.9950	0	814	prvsiyan/a-square-deal-research-to-verified-packings :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+814h10.C	corner	8x8	c8x8:7+1.6.4.3+1.2+1/7.6+1.5+1.4|l12|u46|+-	107	11.21188	11.21101	0.944816	16.917/16.917	3.813	0.885	0.995	0	814	prvsiyan/a-square-deal-research-to-verified-packings :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+863h10.F1	far1	7	c7:6.5+1.0.2+1|l13|u11	39	6.39112		0.844288	22.680	2.278	0.74500	0.9400	0	863	prvsiyan/a-square-deal-research-to-verified-packings :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+863h10.F2	far2	7	c7:6.5+1.4+2.2|l8|u11	39	6.39162		0.844288	22.680	2.282	0.74500	0.9400	0	863	prvsiyan/a-square-deal-research-to-verified-packings :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+863h10.C	corner	7x7	c7x7:5.4.2/5.2+1+1|l6|u34|+-	60	8.27748	8.27796	0.844288	22.680/22.680	2.721	0.835	0.900	0	863	prvsiyan/a-square-deal-research-to-verified-packings :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+873h10.F1	far1	8	c8:0.2+1|l12|u14	29	4.14572		0.957163	16.386	2.819	0.86000	0.9950	0	873	prvsiyan/a-square-deal-research-to-verified-packings :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+873h10.F2	far2	8	c8:0.3|l13|u13	29	4.14357		0.957163	16.386	2.802	0.86000	0.9950	0	873	prvsiyan/a-square-deal-research-to-verified-packings :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+873h10.C	corner	8x8	c8x8:7.5.4.3/6.6.5.4.2.2|l25|u46|+-	115	10.17242	13.29805	0.957163	16.386/16.386	4.065	0.900	0.995	0	873	prvsiyan/a-square-deal-research-to-verified-packings :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+921h10.F1	far1	7	c7:6.5+1.4.2|l2|u12	32	5.33928		0.821960	23.384	2.305	0.72500	0.9200	0	921	prvsiyan/a-square-deal-research-to-verified-packings :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+921h10.F2	far2	9	c9:8.7.6.5|l58|u13	97	11.83508		0.821960	19.378	3.482	0.81508	0.9200	0	921	prvsiyan/a-square-deal-research-to-verified-packings :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+921h10.C	corner	7x9	c7x9:6.5+1.3+1.2/7.7.6.5.4.3.1+1.2|l21|u45|+-|x1	119	11.31902	12.62501	0.821960	23.384/19.378	2.994	0.765	0.880	1	921	prvsiyan/a-square-deal-research-to-verified-packings :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+934h10.F1	far1	8	c8:7|l16|u14	37	5.17945		0.964147	16.073	2.816	0.86500	0.9950	0	934	malyshevdanil/squares-in-squares-living-atlas-of-tight-packings :: submission_merged.csv	Apache 2.0 (Kaggle default for public notebooks)
+934h10.F2	far2	8	c8:0.2.1|l12|u14	29	4.13482		0.964147	16.188	2.767	0.86500	0.9950	0	934	malyshevdanil/squares-in-squares-living-atlas-of-tight-packings :: submission_merged.csv	Apache 2.0 (Kaggle default for public notebooks)
+934h10.C	corner	8x8	c8x8:6.5.4.1+1+1/6.6.5+2.3+1.3.2.1|l23|u45|+-	115	10.17248	13.29045	0.964147	16.073/16.188	4.120	0.905	0.995	0	934	malyshevdanil/squares-in-squares-living-atlas-of-tight-packings :: submission_merged.csv	Apache 2.0 (Kaggle default for public notebooks)
+984h10.F1	far1	7	c7:6.5+1.2|l7|u11	32	5.31382		0.836144	22.941	2.255	0.74000	0.9350	0	984	malyshevdanil/squares-in-squares-living-atlas-of-tight-packings :: submission_merged.csv	Apache 2.0 (Kaggle default for public notebooks)
+984h10.F2	far2	9	c9:8.7.6.5.4.0.0.2|l52|u13	97	11.79390		0.836144	18.974	3.378	0.79008	0.9350	0	984	malyshevdanil/squares-in-squares-living-atlas-of-tight-packings :: submission_merged.csv	Apache 2.0 (Kaggle default for public notebooks)
+984h10.C	corner	7x9	c7x9:6.5+1/7.6.5.5.4+2.3+1+1.1|l20|u43|+-	110	11.31900	11.57810	0.836144	22.941/18.974	3.325	0.780	0.895	0	984	malyshevdanil/squares-in-squares-living-atlas-of-tight-packings :: submission_merged.csv	Apache 2.0 (Kaggle default for public notebooks)
+998h10.F1	far1	7	c7:4.2+1|l2|u10	19	3.24125		0.985813	17.036	2.693	0.89000	0.9950	0	998	malyshevdanil/squares-in-squares-living-atlas-of-tight-packings :: submission_merged.csv	Apache 2.0 (Kaggle default for public notebooks)
+998h10.F2	far2	7	c7:2+2.1|l4|u10	19	3.24180		0.985813	17.036	2.697	0.89000	0.9950	0	998	malyshevdanil/squares-in-squares-living-atlas-of-tight-packings :: submission_merged.csv	Apache 2.0 (Kaggle default for public notebooks)
+998h10.C	corner	7x7	c7x7:6.5.4.3.2.1/6.5.4.3.1|l26|u52|+-	118	12.00326	13.05022	0.985813	17.036/17.036	2.924	0.930	0.995	0	998	malyshevdanil/squares-in-squares-living-atlas-of-tight-packings :: submission_merged.csv	Apache 2.0 (Kaggle default for public notebooks)
+378h11.F1	far1	6	c6:0.0.2|l8|u6	16	3.23650		0.922579	22.640	1.923	0.82500	0.9950	0	378	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+378h11.F2	far2	6	c6:6.4.4+1.3|l5|u9	32	6.15480		0.922579	22.619	2.088	0.82500	0.9950	0	378	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+378h11.C	corner	6x6	c6x6:5.0.0.0.0.0.1.1.1/-|l23|u25|++	56	9.09968	7.26584	0.922579	22.640/22.619	1.830	0.865	0.980	0	378	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+419h11.F1	far1	6	c6:0.2.2|l5|u7	16	3.20763		0.936488	22.053	1.838	0.84000	0.9950	0	419	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+419h11.F2	far2	6	c6:0.2|l10|u10	22	4.29942		0.936488	22.053	1.909	0.84000	0.9950	0	419	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+419h11.C	corner	6x6	c6x6:-/5+1.4+1.3.2.1|l37|u30|+-	84	11.25479	10.15735	0.936488	22.053/22.053	2.060	0.880	0.995	0	419	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+495h11.F1	far1	8	c8:7+1.6+1.5+1+1.4.2|l5|u13	46	6.63218		0.765478	22.719	2.941	0.67000	0.8650	0	495	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+495h11.F2	far2	6	c6:5.2+1+1+1|l0|u6	16	3.32827		0.765478	28.050	1.624	0.67000	0.8650	0	495	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+495h11.C	corner	8x6	c8x6:7.6.3+1+1.2/5.4.3|l22|u38|++	92	8.54436	13.77135	0.765478	22.719/28.050	2.854	0.765	0.825	0	495	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+542h11.F1	far1	6	c6:5.4|l1|u6	16	3.30736		0.787664	27.382	1.621	0.69000	0.8850	0	542	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+542h11.F2	far2	8	c8:7.6+1.5.4.1|l11|u11	46	6.62748		0.787664	22.122	3.117	0.69000	0.8850	0	542	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+542h11.C	corner	6x8	c6x8:5/6.5.2.1+1.1|l18|u27|--	66	10.34467	7.44128	0.787664	27.382/22.122	1.369	0.730	0.845	0	542	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+552h11.F1	far1	7	c7:6+1.4+2.1+1+1|l0|u10	26	4.34754		0.946435	18.903	2.791	0.85000	0.9950	0	552	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+552h11.F2	far2	6	c6:3+3.2.4.2.2|l6|u6	28	5.36476		0.946435	21.616	1.925	0.85000	0.9950	0	552	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+552h11.C	corner	7x6	c7x6:6.5+1.4.3.2+1.1+1/5.4+1.3.2|l8|u40|+-	87	10.08193	11.04752	0.946435	18.903/21.616	2.643	0.890	0.995	0	552	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+601h11.F1	far1	7	c7:6+1.4+2.1|l2|u10	26	4.33176		0.956987	18.436	2.766	0.86000	0.9950	0	601	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+601h11.F2	far2	6	c6:5.4.3.1|l21|u6	40	7.52348		0.956987	21.141	2.103	0.86000	0.9950	0	601	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+601h11.C	corner	7x6	c7x6:6.5.4.3.2/0.0.5.4+1.3.2|l23|u41|+-	99	10.07899	13.14435	0.956987	18.436/21.141	2.557	0.900	0.995	0	601	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+602h11.F1	far1	6	c6:4+1.3.2|l2|u10	22	4.28572		0.971704	20.428	2.097	0.87500	0.9950	0	602	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+602h11.F2	far2	6	c6:-|l12|u10	22	4.24950		0.971704	20.447	1.891	0.87500	0.9950	0	602	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+602h11.C	corner	6x6	c6x6:5.4.3.2.1+1/6.0.0.5.4.3.2|l18|u37|+-|x2	89	10.01491	12.17316	0.971704	20.428/20.447	2.175	0.915	0.995	2	602	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+703h11.F1	far1	8	c8:6.4|l6|u13	29	4.14079		0.947328	16.811	2.711	0.85000	0.9950	0	703	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+703h11.F2	far2	6	c6:4+2.3.2.4.0.2|l10|u7	34	6.44279		0.947328	21.576	1.948	0.85000	0.9950	0	703	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+703h11.C	corner	8x6	c8x6:6.5.4.1+1+1/5|l26|u44|+-	93	8.17609	14.04967	0.947328	16.811/21.576	3.662	0.930	0.995	0	703	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+747h11.F1	far1	10	c10:9+1.9.1+1+1+1.2+1+1+1|l16|u15	59	6.63235		0.811201	18.176	4.014	0.71500	0.9100	0	747	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+747h11.F2	far2	6	c6:5.1|l3|u7	16	3.28458		0.811201	26.647	1.614	0.71500	0.9100	0	747	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+747h11.C	corner	10x6	c10x6:9.6+2.4.3/5|l28|u45|+-	102	8.53773	14.45661	0.811201	18.176/26.647	4.029	0.755	0.870	0	747	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+756h11.F1	far1	8	c8:-|l15|u14	29	4.17807		0.923974	17.752	2.833	0.82500	0.9950	0	756	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+756h11.F2	far2	8	c8:-|l15|u14	29	4.17832		0.923974	17.752	2.835	0.82500	0.9950	0	756	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+756h11.C	corner	8x8	c8x8:7.6.5.4.3.2/0.0.5.4.3.2.2|l48|u47|+-	138	13.24263	13.24239	0.923974	17.752/17.752	3.418	0.865	0.980	0	756	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+760h11.F1	far1	7	c7:5+2.2.1|l6|u10	26	4.29235		0.984676	17.096	2.719	0.88500	0.9950	0	760	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+760h11.F2	far2	7	c7:3+2+2.2.1|l6|u10	26	4.29196		0.984676	17.096	2.716	0.88500	0.9950	0	760	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+760h11.C	corner	7x7	c7x7:6.5.4.3/1+1.4+1.3.2|l7|u41|+-	78	9.04269	10.07980	0.984676	17.096/17.096	3.211	0.950	0.995	0	760	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+814h11.F1	far1	8	c8:7.5.4|l0|u13	29	4.14440		0.944436	16.932	2.718	0.84500	0.9950	0	814	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+814h11.F2	far2	8	c8:7.5.4|l0|u13	29	4.14440		0.944436	16.932	2.718	0.84500	0.9950	0	814	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+814h11.C	corner	8x8	c8x8:6.5.4.3.2+1/6.5.5.4|l19|u47|+-	107	11.20862	11.20736	0.944436	16.932/16.932	3.753	0.885	0.995	0	814	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+873h11.F1	far1	8	c8:0.3|l12|u14	29	4.14705		0.957163	16.386	2.829	0.86000	0.9950	0	873	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+873h11.F2	far2	8	c8:-|l16|u13	29	4.14705		0.957163	16.386	2.829	0.86000	0.9950	0	873	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+873h11.C	corner	8x8	c8x8:7.5.4.1+1+1/7.6.5.4.2+1.2+1.2|l20|u46|+-	115	10.17242	13.29888	0.957163	16.386/16.386	4.072	0.900	0.995	0	873	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+874h11.F1	far1	8	c8:0.5+1.4|l12|u15	37	5.18326		0.972917	15.663	2.926	0.87500	0.9950	0	874	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+874h11.F2	far2	7	c7:5.1|l5|u8	19	3.26068		0.972917	17.688	2.746	0.87500	0.9950	0	874	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+874h11.C	corner	8x7	c8x7:6.5.4.2+1/6.0.6.5.2.2.2|l22|u53|+-	116	10.24893	14.11426	0.972917	15.663/17.688	3.904	0.915	0.995	0	874	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+921h11.F1	far1	7	c7:6.0.2+2|l11|u11	32	5.33835		0.821414	23.401	2.295	0.72500	0.9200	0	921	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+921h11.F2	far2	9	c9:8.7.6.5|l59|u12	97	11.83662		0.821414	19.393	3.485	0.80508	0.9200	0	921	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+921h11.C	corner	7x9	c7x9:6.5+1.2+1.2/8.7+1.6.5.4.1+1+1.1|l15|u43|+-	110	11.31407	11.56352	0.821414	23.401/19.393	2.942	0.765	0.880	0	921	jazivxt/boxed-in-sub :: submission.csv	Apache 2.0 (Kaggle default for public notebooks)
+552h11c.F1	far1	8	c8:7.5.1+1|l2|u13	29	4.14734		0.940150	17.110	2.710	0.84500	0.9950	0	552	jazivxt/boxed-in :: data.zip!submission.csv	Apache 2.0
+552h11c.F2	far2	7	c7:-|l12|u13	25	4.14469		0.940150	19.173	2.404	0.84500	0.9950	0	552	jazivxt/boxed-in :: data.zip!submission.csv	Apache 2.0
+552h11c.C	corner	8x7	c8x7:7+1.6+1.4+1.3/6+1.5+1.2.1|l11|u27|+-|x2	75	8.28266	10.26453	0.940150	17.110/19.173	3.697			2	552	jazivxt/boxed-in :: data.zip!submission.csv	Apache 2.0
+933h11c.F1	far1	8	c8:-|l15|u14	29	4.15986		0.949836	16.704	2.875	0.85000	0.9950	0	933	jazivxt/boxed-in :: data.zip!submission.csv	Apache 2.0
+933h11c.F2	far2	8	c8:-|l15|u14	29	4.16015		0.949836	16.704	2.877	0.85000	0.9950	0	933	jazivxt/boxed-in :: data.zip!submission.csv	Apache 2.0
+933h11c.C	corner	8x8	c8x8:6+1.5+1.3+1+1.2.1/7.7.0.0.7.6.5.3.2|l23|u49|+-	130	11.12252	14.25712	0.949836	16.704/16.704	3.554	0.890	0.995	0	933	jazivxt/boxed-in :: data.zip!submission.csv	Apache 2.0
+549h11e.F1	far1	8	c8:7.6.5|l7|u12	37	5.26207		0.896284	18.770	2.858	0.80000	0.9950	0	549	grennwolf/squares-in-squares-top-1-santa-2025 :: submission_improved.csv	Apache 2.0 (Kaggle default for public notebooks)
+549h11e.F2	far2	8	c8:7.6.5|l7|u12	37	5.26243		0.896284	18.774	2.860	0.80000	0.9950	0	549	grennwolf/squares-in-squares-top-1-santa-2025 :: submission_improved.csv	Apache 2.0 (Kaggle default for public notebooks)
+549h11e.C	corner	8x8	c8x8:7.6.5.1+1.2/7.6+1.5.2|l18|u46|+-	107	11.23996	11.23998	0.896284	18.770/18.774	3.464	0.840	0.955	0	549	grennwolf/squares-in-squares-top-1-santa-2025 :: submission_improved.csv	Apache 2.0 (Kaggle default for public notebooks)
+602h11e.F1	far1	6	c6:-|l12|u10	22	4.25684		0.971462	20.529	1.919	0.87500	0.9950	0	602	grennwolf/squares-in-squares-top-1-santa-2025 :: submission_improved.csv	Apache 2.0 (Kaggle default for public notebooks)
+602h11e.F2	far2	6	c6:-|l13|u10|x1	22	4.25469		0.971462	20.442	1.921			1	602	grennwolf/squares-in-squares-top-1-santa-2025 :: submission_improved.csv	Apache 2.0 (Kaggle default for public notebooks)
+602h11e.C	corner	6x6	c6x6:5.4+1.2.2/0.0.0.5.4.3.2|l33|u35|+-|x1	95	11.10319	12.17118	0.971462	20.529/20.442	2.244	0.915	0.995	1	602	grennwolf/squares-in-squares-top-1-santa-2025 :: submission_improved.csv	Apache 2.0 (Kaggle default for public notebooks)

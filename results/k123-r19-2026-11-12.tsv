@@ -1,0 +1,185 @@
+part	where	what	runs	best	against	difference	note
+exact program	m 29	F 0.533086, chains 12 x 17, pins K 20,21,22, BR K2 17,18	6	best proven gain +1	find at +2	largest bound +1.001	6 proven optimal, 0 at the time limit
+exact program	m 29	F 0.533086, chains 17 x 17, pins K 17,18, BR K2 17,18	3	best proven gain +1	find at +2	largest bound +1.001	3 proven optimal, 0 at the time limit
+exact program	m 29	F 0.533086, chains 17 x 24, pins K 17,18, BR K2 12,13	4	best proven gain +1	find at +2	largest bound +1.001	4 proven optimal, 0 at the time limit
+exact program	m 30	F 0.548594, chains 17 x 17, pins K 18,19, BR K2 18,19	3	best proven gain +1	find at +4	largest bound +1.002	3 proven optimal, 0 at the time limit
+exact program	m 30	F 0.548594, chains 5 x 17, pins K 26,27,28, BR K2 18,19	6	best proven gain +1	find at +4	largest bound +1.002	6 proven optimal, 0 at the time limit
+exact program	m 30	F 0.548594, chains 5 x 29, pins K 26,27,28, BR K2 9,10,11	9	best proven gain +2	find at +4	largest bound +2.002	9 proven optimal, 0 at the time limit
+exact program	m 30	F 0.548594, chains 5 x 34, pins K 26,27,28, BR K2 6,7	6	best proven gain +2	find at +4	largest bound +2.002	6 proven optimal, 0 at the time limit
+exact program	m 31	F 0.561949, chains scan x K13, pins K 13, BR K2 2,3,4,5,6,7,8,9,10,11,12,13	12	best proven gain +2	find at +0	largest bound +2.397	10 proven optimal, 2 at the time limit
+exact program	m 31	F 0.561949, chains 17 x 17, pins K 19,20, BR K2 19,20	3	best proven gain +1	find at +4	largest bound +2.547	1 proven optimal, 2 at the time limit
+exact program	m 31	F 0.561949, chains 17 x 22, pins K 19,20, BR K2 15,16,17	6	best proven gain +2	find at +4	largest bound +2.627	4 proven optimal, 2 at the time limit
+exact program	m 31	F 0.561949, chains 22 x 22, pins K 15,16,17, BR K2 15,16,17	6	best proven gain +3	find at +4	largest bound +3.001	2 proven optimal, 4 at the time limit
+exact program	m 31	F 0.561949, chains 5 x 17, pins K 27,28,29, BR K2 19,20	6	best proven gain +2	find at +4	largest bound +2.002	6 proven optimal, 0 at the time limit
+exact program	m 31	F 0.561949, chains 5 x 22, pins K 27,28,29, BR K2 15,16,17	9	best proven gain +2	find at +4	largest bound +2.452	7 proven optimal, 2 at the time limit
+exact program	m 31	F 0.561949, chains 5 x 29, pins K 27,28,29, BR K2 10,11,12	9	best proven gain +2	find at +4	largest bound +2.252	8 proven optimal, 1 at the time limit
+exact program	m 31	F 0.561949, chains 5 x 34, pins K 27,28,29, BR K2 7,8	6	best proven gain +2	find at +4	largest bound +2.606	3 proven optimal, 3 at the time limit
+join, bands of chains of 3 (two families)	n 227	lowest start: 629-965-j12-34-s-16	5	lowest side 15.563625652328	bar 15.563625653053	side minus bar -7.247e-10	0 quenches below the bar by 1e-7
+join, bands of chains of 3 (two families)	n 258	lowest start: 532r-579r-j5-17-s-8	42	lowest side 16.563448002137	bar 16.563448002912	side minus bar -7.748e-10	0 quenches below the bar by 1e-7
+join, bands of chains of 3 (two families)	n 327	lowest start: 680-629-j5-16-s-7	8	lowest side 18.588547897231	bar 18.583781897231	side minus bar +4.766e-03	0 quenches below the bar by 1e-7
+join, bands of chains of 3 (two families)	n 403	lowest start: 788r-965-j19-34-s-11	5	lowest side 20.564935730276	bar 20.564935731274	side minus bar -9.976e-10	0 quenches below the bar by 1e-7
+join, bands of chains of 3 (two families)	n 444	lowest start: 532r-680r-j5-12-s-5	24	lowest side 21.564693167754	bar 21.564693168782	side minus bar -1.028e-09	0 quenches below the bar by 1e-7
+join, bands of chains of 3 (two families)	n 579	lowest start: 579-532-j5-5-s1	8	lowest side 24.562332010896	bar 24.562332012074	side minus bar -1.178e-09	0 quenches below the bar by 1e-7
+join, bands of chains of 3 (two families)	n 629	lowest start: 629-532-j23-20-s2	2	lowest side 25.566006354995	bar 25.566006356247	side minus bar -1.252e-09	0 quenches below the bar by 1e-7
+join, bands of chains of 3 (two families)	n 680	lowest start: 965r-680r-j5-5-s0	10	lowest side 26.565624194709	bar 26.565624195788	side minus bar -1.079e-09	0 quenches below the bar by 1e-7
+join, bands of chains of 3 (two families)	n 788	lowest start: 788r-965-j27-31-s-3	2	lowest side 28.563229886146	bar 28.563196806146	side minus bar +3.308e-05	0 quenches below the bar by 1e-7
+join, bands of chains of 3 (two families)	n 845	lowest start: 579-532-j11-4-s6	8	lowest side 29.563086646640	bar 29.563086648068	side minus bar -1.428e-09	0 quenches below the bar by 1e-7
+join, bands of chains of 3 (two families)	n 905	lowest start: 532r-629r-j11-4-s5	4	lowest side 30.566953939693	bar 30.566822539693	side minus bar +1.314e-04	0 quenches below the bar by 1e-7
+join, bands of chains of 3 (two families)	n 966	lowest start: 680r-579r-j27-18-s7	7	lowest side 31.566352423410	bar 31.566352424938	side minus bar -1.528e-09	0 quenches below the bar by 1e-7
+join, the new 583 for 909, and the two controls on the held 680	n 444	lowest start: 680-680-j5-12-s-5	1	lowest side 21.564693167754	bar 21.564693168782	side minus bar -1.028e-09	0 quenches below the bar by 1e-7
+join, the new 583 for 909, and the two controls on the held 680	n 909	lowest start: 583-583-j18-10-s6	5	lowest side 30.646882814914	bar 30.652396814914	side minus bar -5.514e-03	2 quenches below the bar by 1e-7
+join, the starts of j9 and j10 in a new order	n 174	lowest start: 407-295-j6-10-s-4	3	lowest side 13.710110384413	bar 13.707106384413	side minus bar +3.004e-03	0 quenches below the bar by 1e-7
+join, the starts of j9 and j10 in a new order	n 492	lowest start: 407-329r-j14-7-s4	2	lowest side 22.693173728725	bar 22.707103728725	side minus bar -1.393e-02	2 quenches below the bar by 1e-7
+join, the starts of j9 and j10 in a new order	n 493	lowest start: 295r-448r-j12-9-s1	2	lowest side 22.804756397925	bar 22.707106397925	side minus bar +9.765e-02	0 quenches below the bar by 1e-7
+join, the starts of j9 and j10 in a new order	n 538	lowest start: 448-295r-j12-5-s6	3	lowest side 23.804756397925	bar 23.707106397925	side minus bar +9.765e-02	0 quenches below the bar by 1e-7
+join, the starts of j9 and j10 in a new order	n 585	lowest start: 407-295-j16-5-s7	2	lowest side 24.797266274316	bar 24.707106274316	side minus bar +9.016e-02	0 quenches below the bar by 1e-7
+join, the starts of j9 and j10 in a new order	n 686	lowest start: 407r-407-j14-7-s6	3	lowest side 26.775583273520	bar 26.707103273520	side minus bar +6.848e-02	0 quenches below the bar by 1e-7
+join, the starts of j9 and j10 in a new order	n 966	lowest start: 680-680-j18-11-s5	1	lowest side 31.566352423409	bar 31.566352424938	side minus bar -1.529e-09	0 quenches below the bar by 1e-7
+join, the new 492 and 584 with the family	n 448	lowest start: 330-584r-j8-12-s-3	3	lowest side 21.686825073735	bar 21.687423773735	side minus bar -5.987e-04	3 quenches below the bar by 1e-7
+join, the new 492 and 584 with the family	n 634	lowest start: 492-407r-j19-11-s5	3	lowest side 25.688835177920	bar 25.703585177920	side minus bar -1.475e-02	3 quenches below the bar by 1e-7
+join, the new 492 and 584 with the family	n 635	lowest start: 537r-584-j19-16-s1	3	lowest side 25.776203071495	bar 25.707103071495	side minus bar +6.910e-02	0 quenches below the bar by 1e-7
+join, the new 492 and 584 with the family	n 685	lowest start: 448-492-j10-6-s4	1	lowest side 26.685751385379	bar 26.684143385379	side minus bar +1.608e-03	0 quenches below the bar by 1e-7
+join, the new 492 and 584 with the family	n 686	lowest start: 537-584-j19-16-s2	3	lowest side 26.802946957360	bar 26.707106957360	side minus bar +9.584e-02	0 quenches below the bar by 1e-7
+join, the new 492 and 584 with the family	n 738	lowest start: 537-584r-j19-15-s3	3	lowest side 27.683031062202	bar 27.678650062202	side minus bar +4.381e-03	0 quenches below the bar by 1e-7
+join, the new 634, 537 and 262 with the family	n 493	lowest start: 262-407-j11-8-s2	3	lowest side 22.804844750449	bar 22.707104750449	side minus bar +9.774e-02	0 quenches below the bar by 1e-7
+join, the new 634, 537 and 262 with the family	n 538	lowest start: 537-448r-j15-12-s2	3	lowest side 23.809078046337	bar 23.707078046337	side minus bar +1.020e-01	0 quenches below the bar by 1e-7
+join, the new 634, 537 and 262 with the family	n 585	lowest start: 262-407r-j11-4-s4	1	lowest side 24.803228223648	bar 24.707108223648	side minus bar +9.612e-02	0 quenches below the bar by 1e-7
+join, the new 634, 537 and 262 with the family	n 635	lowest start: 262-407-j12-5-s5	3	lowest side 25.792322544703	bar 25.707102544703	side minus bar +8.522e-02	0 quenches below the bar by 1e-7
+join, the new 634, 537 and 262 with the family	n 686	lowest start: 407r-537r-j13-10-s3	3	lowest side 26.797384195114	bar 26.707104195114	side minus bar +9.028e-02	0 quenches below the bar by 1e-7
+join, the new 634, 537 and 262 with the family	n 794	lowest start: 492-634r-j15-11-s3	2	lowest side 28.687584791939	bar 28.684143791939	side minus bar +3.441e-03	0 quenches below the bar by 1e-7
+join, the starts of j13 in a new order, our own counts first	n 262	lowest start: 262-262r-j6-6-s0	3	lowest side 16.698115018703	bar 16.699571018703	side minus bar -1.456e-03	1 quenches below the bar by 1e-7
+join, the starts of j13 in a new order, our own counts first	n 295	lowest start: 262-295r-j5-5-s0	3	lowest side 17.698115018703	bar 17.698066308703	side minus bar +4.871e-05	0 quenches below the bar by 1e-7
+join, the starts of j13 in a new order, our own counts first	n 330	lowest start: 537-448r-j5-9-s-3	3	lowest side 18.688956715676	bar 18.687652715676	side minus bar +1.304e-03	0 quenches below the bar by 1e-7
+join, the starts of j13 in a new order, our own counts first	n 407	lowest start: 262-537r-j8-12-s-3	3	lowest side 20.698115018704	bar 20.691800018704	side minus bar +6.315e-03	0 quenches below the bar by 1e-7
+join, the starts of j13 in a new order, our own counts first	n 448	lowest start: 448-537r-j8-12-s-2	3	lowest side 21.687041564797	bar 21.686825064797	side minus bar +2.165e-04	0 quenches below the bar by 1e-7
+join, the starts of j13 in a new order, our own counts first	n 492	lowest start: 262-537-j8-8-s-1	3	lowest side 22.698115018704	bar 22.693174018704	side minus bar +4.941e-03	0 quenches below the bar by 1e-7
+join, the starts of j13 in a new order, our own counts first	n 537	lowest start: 634r-295r-j12-4-s6	3	lowest side 23.687041564798	bar 23.687506664798	side minus bar -4.651e-04	1 quenches below the bar by 1e-7
+join, the starts of j13 in a new order, our own counts first	n 584	lowest start: 537-584r-j13-13-s0	3	lowest side 24.685886759980	bar 24.676745759980	side minus bar +9.141e-03	0 quenches below the bar by 1e-7
+join, the starts of j13 in a new order, our own counts first	n 634	lowest start: 537r-634-j6-6-s0	3	lowest side 25.688438696152	bar 25.688438441152	side minus bar +2.550e-07	0 quenches below the bar by 1e-7
+join, the starts of j13 in a new order, our own counts first	n 685	lowest start: 147r-634-j5-5-s1	3	lowest side 26.685694751808	bar 26.684143751808	side minus bar +1.551e-03	0 quenches below the bar by 1e-7
+join, the starts of j13 in a new order, our own counts first	n 738	lowest start: 229-537r-j10-6-s4	3	lowest side 27.685840782386	bar 27.678649782386	side minus bar +7.191e-03	0 quenches below the bar by 1e-7
+join, the starts of j13 left, small counts first	n 174	lowest start: 262-262-j6-10-s-3	3	lowest side 13.710110384413	bar 13.707106384413	side minus bar +3.004e-03	0 quenches below the bar by 1e-7
+join, the starts of j13 left, small counts first	n 201	lowest start: 262-295r-j6-10-s-3	3	lowest side 14.710110384413	bar 14.707106384413	side minus bar +3.004e-03	0 quenches below the bar by 1e-7
+join, the starts of j13 left, small counts first	n 230	lowest start: 330-537r-j6-18-s-8	3	lowest side 15.710110384413	bar 15.682930384413	side minus bar +2.718e-02	0 quenches below the bar by 1e-7
+join, the starts of j13 left, small counts first	n 368	lowest start: 262-407r-j8-8-s-1	3	lowest side 19.698115018704	bar 19.692388018704	side minus bar +5.727e-03	0 quenches below the bar by 1e-7
+join, the starts of j13 left, small counts first	n 369	lowest start: 537-295-j13-10-s2	3	lowest side 19.848855445567	bar 19.707155445567	side minus bar +1.417e-01	0 quenches below the bar by 1e-7
+join, the starts of j13 left, small counts first	n 408	lowest start: 330r-537r-j8-13-s-3	3	lowest side 20.848855445568	bar 20.707155445568	side minus bar +1.417e-01	0 quenches below the bar by 1e-7
+join, the starts of j13 left, small counts first	n 450	lowest start: 262-295-j12-5-s4	3	lowest side 21.804844750446	bar 21.733164750446	side minus bar +7.168e-02	0 quenches below the bar by 1e-7
+join, the starts of j13 left, small counts first	n 586	lowest start: 262-492-j11-8-s2	3	lowest side 24.803260296936	bar 24.707110296936	side minus bar +9.615e-02	0 quenches below the bar by 1e-7
+join, the starts of j13 left, small counts first	n 740	lowest start: 262-492-j12-5-s5	3	lowest side 27.791836836798	bar 27.706456836798	side minus bar +8.538e-02	0 quenches below the bar by 1e-7
+join, the starts of j13 left, small counts first	n 794	lowest start: 492r-634-j16-11-s3	1	lowest side 28.686193614120	bar 28.684143614120	side minus bar +2.050e-03	0 quenches below the bar by 1e-7
+join, the starts of j13 left, small counts first	n 795	lowest start: 634-407-j20-9-s8	3	lowest side 28.789802315672	bar 28.697752315672	side minus bar +9.205e-02	0 quenches below the bar by 1e-7
+join, wide seam, targets 292 488 734 789	n 292	lowest start: 403-403-j11-15-s-3	8	lowest side 17.600000000004	bar 17.591378000004	side minus bar +8.622e-03	0 quenches below the bar by 1e-7
+join, wide seam, targets 292 488 734 789	n 488	lowest start: 629-629-j11-15-s-3	8	lowest side 22.600000000005	bar 22.591378000005	side minus bar +8.622e-03	0 quenches below the bar by 1e-7
+join, wide seam, targets 292 488 734 789	n 734	lowest start: 629-629-j16-13-s2	7	lowest side 27.609838941594	bar 27.591378941594	side minus bar +1.846e-02	0 quenches below the bar by 1e-7
+join, wide seam, targets 292 488 734 789	n 789	lowest start: 680-680-j11-8-s2	7	lowest side 28.591327709243	bar 28.591327710623	side minus bar -1.380e-09	0 quenches below the bar by 1e-7
+join, a held band + the 327 result	n 292	lowest start: 227r-327-j5-5-s-1	13	lowest side 17.600000000004	bar 17.591378000004	side minus bar +8.622e-03	0 quenches below the bar by 1e-7
+join, a held band + the 327 result	n 488	lowest start: 629-327-j11-4-s4	12	lowest side 22.600000000005	bar 22.591378000005	side minus bar +8.622e-03	0 quenches below the bar by 1e-7
+join, a held band + the 327 result	n 734	lowest start: 629-327-j18-4-s9	7	lowest side 27.609838941596	bar 27.591378941596	side minus bar +1.846e-02	0 quenches below the bar by 1e-7
+join, each band of other chains with itself	n 106	lowest start: 266-266-j5-13-s-6	6	lowest side 10.822908976288	bar 10.822908044588	side minus bar +9.317e-07	0 quenches below the bar by 1e-7
+join, each band of other chains with itself	n 128	lowest start: 499-499-j7-22-s-11	2	lowest side 11.825091968216	bar 11.825091968755	side minus bar -5.388e-10	0 quenches below the bar by 1e-7
+join, each band of other chains with itself	n 147	lowest start: 229r-229r-j5-9-s-3	2	lowest side 12.651043553211	bar 12.656854553211	side minus bar -5.811e-03	2 quenches below the bar by 1e-7
+join, each band of other chains with itself	n 151	lowest start: 234-234-j5-9-s-3	2	lowest side 12.822875655535	bar 12.822875656135	side minus bar -6.000e-10	0 quenches below the bar by 1e-7
+join, each band of other chains with itself	n 177	lowest start: 266-266-j5-9-s-3	2	lowest side 13.822984872324	bar 13.822979734324	side minus bar +5.138e-06	0 quenches below the bar by 1e-7
+join, each band of other chains with itself	n 205	lowest start: 128-128-j8-4-s3	2	lowest side 14.824451146127	bar 14.824451146815	side minus bar -6.879e-10	0 quenches below the bar by 1e-7
+join, each band of other chains with itself	n 235	lowest start: 152r-152r-j8-4-s3	2	lowest side 15.826605633432	bar 15.826605634170	side minus bar -7.382e-10	0 quenches below the bar by 1e-7
+join, each band of other chains with itself	n 294	lowest start: 850-850r-j5-22-s-12	7	lowest side 17.656854249496	bar 17.656854250342	side minus bar -8.458e-10	0 quenches below the bar by 1e-7
+join, each band of other chains with itself	n 300	lowest start: 205r-205r-j8-4-s3	2	lowest side 17.824123388482	bar 17.824123389320	side minus bar -8.378e-10	0 quenches below the bar by 1e-7
+join, each band of other chains with itself	n 328	lowest start: 907-907-j5-22-s-12	2	lowest side 18.614940820699	bar 18.614368920699	side minus bar +5.719e-04	0 quenches below the bar by 1e-7
+join, each band of other chains with itself	n 336	lowest start: 235-235-j8-4-s3	2	lowest side 18.825571499866	bar 18.825571500753	side minus bar -8.874e-10	0 quenches below the bar by 1e-7
+join, each band of other chains with itself	n 366	lowest start: 229-229r-j8-4-s4	2	lowest side 19.645802047016	bar 19.656852047016	side minus bar -1.105e-02	1 quenches below the bar by 1e-7
+join, each band of other chains with itself	n 413	lowest start: 205-205-j12-4-s6	4	lowest side 20.823928435697	bar 20.822875435697	side minus bar +1.053e-03	0 quenches below the bar by 1e-7
+join, each band of other chains with itself	n 455	lowest start: 235-235-j12-4-s6	4	lowest side 21.825061496326	bar 21.825061497363	side minus bar -1.037e-09	0 quenches below the bar by 1e-7
+join, each band of other chains with itself	n 494	lowest start: 297-297-j11-4-s5	2	lowest side 22.740410172244	bar 22.736096172244	side minus bar +4.314e-03	0 quenches below the bar by 1e-7
+join, pairs of bands with the same chains, wide seam	n 88	lowest start: 153-88r-j5-5-s0	6	lowest side 9.882451030483	bar 9.882451030924	side minus bar -4.415e-10	0 quenches below the bar by 1e-7
+join, pairs of bands with the same chains, wide seam	n 129	lowest start: 236-179r-j5-8-s-2	4	lowest side 11.880960371558	bar 11.870010371558	side minus bar +1.095e-02	0 quenches below the bar by 1e-7
+join, pairs of bands with the same chains, wide seam	n 130	lowest start: 268r-268r-j5-12-s-5	2	lowest side 12.000000000002	bar 11.902430000002	side minus bar +9.757e-02	0 quenches below the bar by 1e-7
+join, pairs of bands with the same chains, wide seam	n 150	lowest start: 494-540r-j5-18-s-11	3	lowest side 12.778174593057	bar 12.778174593653	side minus bar -5.957e-10	0 quenches below the bar by 1e-7
+join, pairs of bands with the same chains, wide seam	n 152	lowest start: 235-414r-j5-16-s-8	6	lowest side 12.838831961094	bar 12.830718961094	side minus bar +8.113e-03	0 quenches below the bar by 1e-7
+join, pairs of bands with the same chains, wide seam	n 153	lowest start: 236r-302r-j9-16-s-5	6	lowest side 12.878915011009	bar 12.870014011009	side minus bar +8.901e-03	0 quenches below the bar by 1e-7
+join, pairs of bands with the same chains, wide seam	n 154	lowest start: 180r-208-j8-14-s-2	1	lowest side 12.923568638872	bar 12.921100638872	side minus bar +2.468e-03	0 quenches below the bar by 1e-7
+join, pairs of bands with the same chains, wide seam	n 172	lowest start: 228r-83r-j9-4-s4	1	lowest side 13.619739095565	bar 13.614690095565	side minus bar +5.049e-03	0 quenches below the bar by 1e-7
+join, pairs of bands with the same chains, wide seam	n 178	lowest start: 267r-456r-j8-21-s-8	6	lowest side 13.846667192846	bar 13.846667193499	side minus bar -6.527e-10	0 quenches below the bar by 1e-7
+join, pairs of bands with the same chains, wide seam	n 179	lowest start: 107-237r-j5-8-s-2	1	lowest side 13.887899568121	bar 13.880960568121	side minus bar +6.939e-03	0 quenches below the bar by 1e-7
+join, pairs of bands with the same chains, wide seam	n 206	lowest start: 301r-206r-j5-5-s0	3	lowest side 14.860158663395	bar 14.860158664085	side minus bar -6.899e-10	0 quenches below the bar by 1e-7
+join, pairs of bands with the same chains, wide seam	n 207	lowest start: 107-237-j5-7-s-1	4	lowest side 14.885618083168	bar 14.880960083168	side minus bar +4.658e-03	0 quenches below the bar by 1e-7
+join, pairs of bands with the same chains, wide seam	n 227	lowest start: 965r-403r-j5-12-s-5	6	lowest side 15.563625652328	bar 15.563625653053	side minus bar -7.247e-10	0 quenches below the bar by 1e-7
+join, pairs of bands with the same chains, wide seam	n 235	lowest start: 128r-152r-j8-5-s3	1	lowest side 15.826605727409	bar 15.826605634169	side minus bar +9.324e-08	0 quenches below the bar by 1e-7
+join, pairs of bands with the same chains, wide seam	n 236	lowest start: 107-207-j5-4-s1	3	lowest side 15.880960371560	bar 15.861930371560	side minus bar +1.903e-02	0 quenches below the bar by 1e-7
+join, pairs of bands with the same chains, wide seam	n 258	lowest start: 579-403-j5-12-s-4	4	lowest side 16.563448002137	bar 16.563448002912	side minus bar -7.746e-10	0 quenches below the bar by 1e-7
+join, pairs of bands with the same chains, wide seam	n 267	lowest start: 499-414r-j5-10-s-4	6	lowest side 16.838828608284	bar 16.838815268284	side minus bar +1.334e-05	0 quenches below the bar by 1e-7
+join, pairs of bands with the same chains, wide seam	n 268	lowest start: 302-268-j5-5-s0	3	lowest side 16.872029849086	bar 16.872029849878	side minus bar -7.920e-10	0 quenches below the bar by 1e-7
+join, pairs of bands with the same chains, wide seam	n 269	lowest start: 207-237-j5-4-s1	1	lowest side 16.914376118147	bar 16.889726118147	side minus bar +2.465e-02	0 quenches below the bar by 1e-7
+join, pairs of bands with the same chains, wide seam	n 301	lowest start: 87r-301r-j5-5-s0	3	lowest side 17.846667192847	bar 17.846667193686	side minus bar -8.388e-10	0 quenches below the bar by 1e-7
+join, pairs of bands with the same chains, wide seam	n 302	lowest start: 236-269-j11-10-s1	2	lowest side 17.885618083168	bar 17.870018083168	side minus bar +1.560e-02	0 quenches below the bar by 1e-7
+join, pairs of bands with the same chains, wide seam	n 328	lowest start: 365-907-j5-22-s-12	1	lowest side 18.614940539164	bar 18.614368939164	side minus bar +5.716e-04	0 quenches below the bar by 1e-7
+join, pairs of bands with the same chains, wide seam	n 337	lowest start: 456-456-j9-14-s-3	1	lowest side 18.854083230362	bar 18.853729030362	side minus bar +3.542e-04	0 quenches below the bar by 1e-7
+join, pairs of bands with the same chains, wide seam	n 339	lowest start: 269r-180-j11-4-s5	1	lowest side 18.913421723496	bar 18.906197723496	side minus bar +7.224e-03	0 quenches below the bar by 1e-7
+join, pairs of bands with the same chains, wide seam	n 376	lowest start: 236r-269-j9-5-s3	3	lowest side 19.886926538973	bar 19.876006538973	side minus bar +1.092e-02	0 quenches below the bar by 1e-7
+join, pairs of bands with the same chains, wide seam	n 403	lowest start: 532r-629r-j5-12-s-5	6	lowest side 20.564959045994	bar 20.564935735994	side minus bar +2.331e-05	0 quenches below the bar by 1e-7
+join, pairs of bands with the same chains, wide seam	n 414	lowest start: 87r-414r-j5-5-s0	6	lowest side 20.840687358084	bar 20.840664048084	side minus bar +2.331e-05	0 quenches below the bar by 1e-7
+join, pairs of bands with the same chains, wide seam	n 444	lowest start: 579-966-j5-19-s-10	6	lowest side 21.564693167754	bar 21.564693168782	side minus bar -1.028e-09	0 quenches below the bar by 1e-7
+join, pairs of bands with the same chains, wide seam	n 487	lowest start: 532r-733r-j5-12-s-5	4	lowest side 22.564693167754	bar 22.564693168832	side minus bar -1.078e-09	0 quenches below the bar by 1e-7
+join, pairs of bands with the same chains, wide seam	n 494	lowest start: 263-540r-j5-4-s-1	1	lowest side 22.737158439743	bar 22.736096439743	side minus bar +1.062e-03	0 quenches below the bar by 1e-7
+join, pairs of bands with the same chains, wide seam	n 499	lowest start: 235r-456r-j5-4-s1	2	lowest side 22.846667192848	bar 22.829297192848	side minus bar +1.737e-02	0 quenches below the bar by 1e-7
+join, pairs of bands with the same chains, wide seam	n 581	lowest start: 228r-365-j12-5-s5	1	lowest side 24.614597057623	bar 24.606602057623	side minus bar +7.995e-03	0 quenches below the bar by 1e-7
+join, pairs of bands with the same chains, wide seam	n 629	lowest start: 788r-789r-j5-9-s-3	2	lowest side 25.566415123406	bar 25.566006323406	side minus bar +4.088e-04	0 quenches below the bar by 1e-7
+join, pairs of bands with the same chains, wide seam	n 680	lowest start: 258r-966r-j5-12-s-5	6	lowest side 26.565736627482	bar 26.565624227482	side minus bar +1.124e-04	0 quenches below the bar by 1e-7
+join, pairs of bands with the same chains, wide seam	n 788	lowest start: 965-680-j13-9-s2	2	lowest side 28.563949761185	bar 28.563196761185	side minus bar +7.530e-04	0 quenches below the bar by 1e-7
+join, pairs of bands with the same chains, wide seam	n 966	lowest start: 227-789-j11-7-s3	6	lowest side 31.566560953735	bar 31.566352453735	side minus bar +2.085e-04	0 quenches below the bar by 1e-7
+join, the new 147 and 366	n 124	lowest start: 229r-229-j5-9-s-4	1	lowest side 11.662314686421	bar 11.656854686421	side minus bar +5.460e-03	0 quenches below the bar by 1e-7
+join, the new 147 and 366	n 146	lowest start: 229r-229-j5-8-s-3	1	lowest side 12.645751311067	bar 12.583781311067	side minus bar +6.197e-02	0 quenches below the bar by 1e-7
+join, the new 147 and 366	n 147	lowest start: 229r-366r-j5-13-s-7	6	lowest side 12.651043553176	bar 12.656854553176	side minus bar -5.811e-03	6 quenches below the bar by 1e-7
+join, the new 147 and 366	n 171	lowest start: 229r-366-j5-12-s-6	6	lowest side 13.645751311067	bar 13.571431311067	side minus bar +7.432e-02	0 quenches below the bar by 1e-7
+join, the new 147 and 366	n 172	lowest start: 366-366r-j5-13-s-6	9	lowest side 13.645751311071	bar 13.614691311071	side minus bar +3.106e-02	0 quenches below the bar by 1e-7
+join, the new 147 and 366	n 200	lowest start: 229r-229-j5-5-s-1	1	lowest side 14.661228641359	bar 14.656854641359	side minus bar +4.374e-03	0 quenches below the bar by 1e-7
+join, the new 147 and 366	n 227	lowest start: 229r-229-j5-4-s0	1	lowest side 15.645751311167	bar 15.563621311167	side minus bar +8.213e-02	0 quenches below the bar by 1e-7
+join, the new 147 and 366	n 229	lowest start: 229r-229r-j5-5-s0	6	lowest side 15.650161519745	bar 15.650161514609	side minus bar +5.136e-09	0 quenches below the bar by 1e-7
+join, the new 147 and 366	n 258	lowest start: 366-229-j8-7-s1	4	lowest side 16.645751311088	bar 16.563451311088	side minus bar +8.230e-02	0 quenches below the bar by 1e-7
+join, the new 147 and 366	n 259	lowest start: 229-229-j10-9-s1	6	lowest side 16.645751311068	bar 16.591381311068	side minus bar +5.437e-02	0 quenches below the bar by 1e-7
+join, the new 147 and 366	n 260	lowest start: 229-229r-j7-7-s1	9	lowest side 16.645753250523	bar 16.633523250523	side minus bar +1.223e-02	0 quenches below the bar by 1e-7
+join, the new 147 and 366	n 328	lowest start: 229-229-j8-4-s3	5	lowest side 18.649198436630	bar 18.614368436630	side minus bar +3.483e-02	0 quenches below the bar by 1e-7
+join, the new 147 and 366	n 329	lowest start: 229r-366-j5-5-s-1	4	lowest side 18.649198436630	bar 18.656854436630	side minus bar -7.656e-03	4 quenches below the bar by 1e-7
+join, the new 147 and 366	n 330	lowest start: 229-229r-j8-5-s3	9	lowest side 18.691607322834	bar 18.692388122834	side minus bar -7.808e-04	9 quenches below the bar by 1e-7
+join, the new 147 and 366	n 364	lowest start: 366r-229-j9-4-s4	5	lowest side 19.645751311070	bar 19.571431311070	side minus bar +7.432e-02	0 quenches below the bar by 1e-7
+join, the new 147 and 366	n 366	lowest start: 229-366-j5-5-s0	9	lowest side 19.645802047016	bar 19.645802047949	side minus bar -9.326e-10	0 quenches below the bar by 1e-7
+join, the new 147 and 366	n 403	lowest start: 366-366-j13-12-s1	4	lowest side 20.645751311069	bar 20.564931311069	side minus bar +8.082e-02	0 quenches below the bar by 1e-7
+join, the new 147 and 366	n 404	lowest start: 366-366r-j9-8-s1	4	lowest side 20.645751311072	bar 20.591381311072	side minus bar +5.437e-02	0 quenches below the bar by 1e-7
+join, the new 147 and 366	n 487	lowest start: 366r-229-j13-4-s7	2	lowest side 22.645751311081	bar 22.564691311081	side minus bar +8.106e-02	0 quenches below the bar by 1e-7
+join, the new 147 and 366	n 489	lowest start: 229-366-j8-4-s3	8	lowest side 22.645875746298	bar 22.606605746298	side minus bar +3.927e-02	0 quenches below the bar by 1e-7
+join, the new 147 and 366	n 490	lowest start: 366-366r-j11-7-s3	4	lowest side 22.645875746298	bar 22.637029746298	side minus bar +8.846e-03	0 quenches below the bar by 1e-7
+join, the new 147 and 366	n 533	lowest start: 366-366-j9-4-s4	2	lowest side 23.645751339162	bar 23.583781339162	side minus bar +6.197e-02	0 quenches below the bar by 1e-7
+join, the new 147 and 366	n 680	lowest start: 366r-366-j13-4-s7	2	lowest side 26.645751311071	bar 26.565621311071	side minus bar +8.013e-02	0 quenches below the bar by 1e-7
+join, the family layouts 147 229 329 330 366 (143 of 756 starts)	n 124	lowest start: 147-147r-j5-5-s-1	9	lowest side 11.662301033912	bar 11.656854033912	side minus bar +5.447e-03	0 quenches below the bar by 1e-7
+join, the family layouts 147 229 329 330 366 (143 of 756 starts)	n 147	lowest start: 329-329-j5-13-s-6	42	lowest side 12.651043553175	bar 12.651043553794	side minus bar -6.188e-10	0 quenches below the bar by 1e-7
+join, the family layouts 147 229 329 330 366 (143 of 756 starts)	n 200	lowest start: 329-147r-j9-5-s2	8	lowest side 14.661205862971	bar 14.656853862971	side minus bar +4.352e-03	0 quenches below the bar by 1e-7
+join, the family layouts 147 229 329 330 366 (143 of 756 starts)	n 201	lowest start: 147-330r-j6-10-s-4	20	lowest side 14.710110384413	bar 14.707106384413	side minus bar +3.004e-03	0 quenches below the bar by 1e-7
+join, the family layouts 147 229 329 330 366 (143 of 756 starts)	n 229	lowest start: 147-366r-j5-9-s-4	37	lowest side 15.650161513880	bar 15.650161514609	side minus bar -7.293e-10	0 quenches below the bar by 1e-7
+join, the family layouts 147 229 329 330 366 (143 of 756 starts)	n 230	lowest start: 330-147-j8-5-s3	10	lowest side 15.710110384413	bar 15.682930384413	side minus bar +2.718e-02	0 quenches below the bar by 1e-7
+join, the family layouts 147 229 329 330 366 (143 of 756 starts)	n 294	lowest start: 229r-329r-j5-5-s-1	5	lowest side 17.659529836864	bar 17.656853836864	side minus bar +2.676e-03	0 quenches below the bar by 1e-7
+join, the family layouts 147 229 329 330 366 (143 of 756 starts)	n 295	lowest start: 229r-330-j6-6-s-1	14	lowest side 17.699564316283	bar 17.704232316283	side minus bar -4.668e-03	13 quenches below the bar by 1e-7
+join, the same starts, new counts first	n 406	lowest start: 329-329r-j11-7-s2	1	lowest side 20.657931290888	bar 20.656854290888	side minus bar +1.077e-03	0 quenches below the bar by 1e-7
+join, the same starts, new counts first	n 407	lowest start: 329-330-j12-8-s2	6	lowest side 20.691799707763	bar 20.692388107763	side minus bar -5.884e-04	2 quenches below the bar by 1e-7
+join, the same starts, new counts first	n 447	lowest start: 329-329-j12-8-s3	19	lowest side 21.648365853496	bar 21.656853853496	side minus bar -8.488e-03	6 quenches below the bar by 1e-7
+join, the same starts, new counts first	n 448	lowest start: 366-330-j12-8-s3	15	lowest side 21.687271239767	bar 21.692388239767	side minus bar -5.117e-03	15 quenches below the bar by 1e-7
+join, the new 447 448 407 with the family	n 262	lowest start: 295r-407r-j8-12-s-4	5	lowest side 16.699571140882	bar 16.707107140882	side minus bar -7.536e-03	5 quenches below the bar by 1e-7
+join, the new 447 448 407 with the family	n 330	lowest start: 295-448r-j6-10-s-3	1	lowest side 18.689367179346	bar 18.691607179346	side minus bar -2.240e-03	1 quenches below the bar by 1e-7
+join, the new 447 448 407 with the family	n 537	lowest start: 407r-407r-j15-11-s3	6	lowest side 23.687506711848	bar 23.692387711848	side minus bar -4.881e-03	4 quenches below the bar by 1e-7
+join, the new 447 448 407 with the family	n 583	lowest start: 407-447-j8-4-s3	11	lowest side 24.647667608152	bar 24.656854608152	side minus bar -9.187e-03	6 quenches below the bar by 1e-7
+join, the new 447 448 407 with the family	n 584	lowest start: 329r-329-j12-5-s6	1	lowest side 24.676745570544	bar 24.677669570544	side minus bar -9.240e-04	1 quenches below the bar by 1e-7
+join, the new 447 448 407 with the family	n 909	lowest start: 448-447-j16-5-s9	5	lowest side 30.671869813036	bar 30.652399813036	side minus bar +1.947e-02	0 quenches below the bar by 1e-7
+certified	n 147	k123 join (k123_join.py: the held band of chains of 4 of n = 229 joined with itself at a seam, the second part moved bac	1	score 0.04344048590177896	held 0.043919744053541265	gain 4.793e-04	take.tsv
+certified	n 262	k123 join (k123_join.py: the n = 295 of take-soft-r19 at 2026-11-12 21:24 UTC, turned by 180 degrees, up to its chain 7,	1	score 0.03170295061307593	held 0.03216850402591587	gain 4.656e-04	take.tsv
+certified	n 295	k123 join (k123_join.py: the first end of the n = 330 of take-k123-r19 at 2026-11-12 21:09 UTC up to its chain 11, joine	1	score 0.030508556235084416	held 0.030780284892241383	gain 2.717e-04	take.tsv
+certified	n 329	k123 join (k123_join.py: the first end of the held band of n = 229, turned by 180 degrees, joined at a seam with the n =	1	score 0.02816359200278895	held 0.02858567062881545	gain 4.221e-04	take.tsv
+certified	n 330	k123 join (k123_join.py: the first end of the held band of n = 229 up to its chain 8, joined at a seam with the same lay	1	score 0.028939118769244043	held 0.028982102188906955	gain 4.298e-05	take.tsv
+certified	n 366	k123 join (k123_join.py: the first end of the held band of n = 229 up to its chain 8, joined at a seam with the same lay	1	score 0.026902523437629	held 0.02748023131563282	gain 5.777e-04	take.tsv
+certified	n 407	k123 join (k123_join.py: the first end of the n = 329 of take-k123-r19 at 2026-11-12 21:09 UTC up to its chain 11, joine	1	score 0.025654432643500424	held 0.025683600911215132	gain 2.917e-05	take.tsv
+certified	n 447	k123 join (k123_join.py: the first end of the n = 329 of take-k123-r19 at 2026-11-12 21:09 UTC up to its chain 11, joine	1	score 0.023932569275900706	held 0.024334056630080925	gain 4.015e-04	take.tsv
+certified	n 448	k123 join (k123_join.py: the first end of the n = 330 of take-midm-r19 at 2026-11-12 21:44 UTC up to its chain 7, joined	1	score 0.02460617632856965	held 0.024869007233488283	gain 2.628e-04	take.tsv
+certified	n 492	k123 join (k123_join.py: the first end of the n = 407 of take-k123-r19 at 2026-11-12 21:29 UTC up to its chain 13, joine	1	score 0.02308728332009502	held 0.023715433836273947	gain 6.282e-04	take.tsv
+certified	n 537	k123 join (k123_join.py: the n = 634 of take-k123-r19 at 2026-11-12 21:48 UTC, turned by 180 degrees, up to its chain 11	1	score 0.0221712915397394	held 0.022402013955493016	gain 2.307e-04	take.tsv
+certified	n 583	k123 join (k123_join.py: the first end of the n = 447 of take-k123-r19 at 2026-11-12 21:29 UTC up to its chain 13, joine	1	score 0.020802091536926692	held 0.02118256334661206	gain 3.805e-04	take.tsv
+certified	n 584	k123 join (k123_join.py: the first end of the n = 329 of take-k123-r19 at 2026-11-12 21:09 UTC, turned by 180 degrees, u	1	score 0.02113099733522561	held 0.021169231035847558	gain 3.823e-05	take.tsv
+certified	n 634	k123 join (k123_join.py: the first end of the n = 492 of take-k123-r19 at 2026-11-12 21:43 UTC up to its chain 18, joine	1	score 0.020218221804954473	held 0.02081972440067159	gain 6.015e-04	take.tsv
+certified	n 909	k123 join (k123_join.py: the first end of the n = 583 of take-k123-r19 at 2026-11-12 21:34 UTC up to its chain 17, joine	1	score 0.016492938877378238	held 0.016675817514804958	gain 1.829e-04	take.tsv

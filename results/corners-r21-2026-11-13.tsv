@@ -1,0 +1,78 @@
+n	corner	far1	far2	predicted_minus_bar	built_minus_bar	box	log	certified_new	gain_on_held
+338	zc6x6-77f8777ag20x.C	z6-28f880.F1	z6-28f880.F1	+5.77e-05	-1.000e-09	boxA	build-g20-338.log		
+339	zc6x6-74f9224ag27sx.C	338h.F1	378h11.F2	+2.34e-03	+1.574e-03	boxA	build-g27s-339.log		
+378	zc6x6-74f9224ag27sx.C	304h.F1	599h.F1	+9.49e-04	+1.212e-04	boxA	build-g27s-378.log		
+418	zc6x6-77f9201ag20x.C	304h.F1	418h14.F2d	+6.29e-05	+1.962e-05	boxA	build-g20-418.log		
+418	zc6x6-77f9201ag23x.C	304h.F1	304h.F1	+6.59e-05	+1.962e-05	boxC	build-a1-418-s0.log		
+419	zc6x6-78f9341ag20x.C	304h.F1	419h.F2d	+6.01e-04	+3.295e-06	boxA	build-g20-419.log		
+461	zc6x6-77f9201ag23x.C	419h.F2d	304h.F1	+2.66e-03	+7.193e-05	boxC	build-a1-461-s0.log		
+461	zc6x6-77f9320ag21x.C	304h.F1	378h12.F1d	+5.29e-04	+2.204e-04	boxC	build-a2-461-s0.log		
+549	zc8x8-123f9004ag20x.C	503h.F2	649fa16.F1d	+1.81e-03	+2.026e-04	boxC	build-a2-549-s0.log		
+587	zc8x8-126f7438ag21x.C	495h11.F1	637h12.F2	+5.55e-04	-6.500e-08	boxC	build-a1-587-s0.log	0.02128475800683094	2.673e-09
+598	zc8x8-123f9004ag20x.C	503h.F2	504m10.F1d	+4.52e-04	-2.000e-09	boxA	build-g20-598.log		
+599	zc9x9-122f9213ag22x.C	994h13.F2	994h13.F2	+2.60e-03	+1.664e-03	boxC	build-a2-599-s0.log		
+599	zc9x9-122f9212ag23x.C	994h13.F2	994h13.F2	+2.54e-03	+1.664e-03	boxD	build-b1-599-s0.log		
+649	zc8x8-123f8972ag18x.C	755h13.F1	503h.F2	+7.46e-03	+9.341e-04	boxC	build-a1-649-s0.log		
+650	zc9x9-122f9280bf928h2.C	994h13.F1	994h13.F1	+5.17e-03	+3.933e-03	boxD	build-b1-650-s0.log		
+700	zc8x8-123f9004ag20x.C	700so16.F1	700h17.F2	+5.75e-04	-2.000e-09	boxA	build-g20-700.log		
+736	zc9x9-78f6891ag19x.C	z9-54f640.F1	z9-54f640.F1	+7.12e-03	+5.929e-03	boxC	build-a2-736-s0.log		
+753	zc8x8-144f9025ag17x.C	995z11.F2	649fa16.F1d	+9.77e-03	+9.458e-03	boxC	build-a1-753-s0.log		
+756	zc8x8-130f9287ag21x.C	503h.F2	755h.F2	+2.20e-03	+2.276e-06	boxC	build-a1-756-s0.log		
+758	zc7x7-78f9926ag21x.C	462h10.F2	815fa14.F1d	+7.36e-03	+3.431e-03	boxC	build-a1-758-s0.log		
+759	zc7x7-127f9861ag23x.C	462h10.F2	704h.F1	+6.60e-03	+4.052e-03	boxC	build-a2-759-s0.log		
+759	zc7x7-78f9926ag21x.C	704h.F1	462h10.F2	+8.08e-03	+4.504e-03	boxC	build-a1-759-s0.log		
+811	zc9x9-122f9213ag22x.C	931h.F2d	811h.F1	+2.61e-03	+3.792e-05	boxD	build-b1-811-s0.log		
+812	zc8x8-130f9534ag18x.C	993h.F2d	995z11.F2	+5.12e-03	+1.675e-03	boxC	build-a1-812-s0.log		
+813	zc8x8-130f9287ag21x.C	503h.F2	995h12.F2d	+8.71e-04	+4.060e-07	boxD	build-b1-813-s0.log		
+816	zc7x7-127f9861ag23wx.C	601m10.F2	816m10.F1	+2.97e-03	+2.158e-03	boxC	build-a1-816-s0.log		
+816	zc7x7-127f9861ag23x.C	601m10.F2	816m10.F1	+3.71e-03	+2.158e-03	boxC	build-a2-816-s0.log		
+870	zc9x9-122f9280af928h2.C	931h.F2	811h.F1	+4.15e-03	+4.531e-05	boxC	build-a1-870-s0.log		
+870	zc9x9-122f9213ag22x.C	931h.F2d	811h.F1	+1.37e-03	+4.563e-05	boxA	build-g22-870.log		
+871	zc8x8-114f9547ag15yx.C	995z11.F2	812fa16.F2d	+5.61e-03	+1.266e-03	boxC	build-a2-871-s0.log		
+872	zc8x8-130f9287ag21x.C	504h.F2	599fa12.F2	+1.79e-03	+4.711e-05	boxD	build-b1-872-s0.log		
+874	zc7x7-127f9861ag23x.C	874h14.F1	462h10.F2	+7.40e-03	+5.499e-03	boxC	build-a2-874-s0.log		
+875	zc7x7-78f9926ag21x.C	875m10.F1	760h13.F2	+9.38e-04	-6.053e-04	boxC	build-a2-875-s1.log		
+875	zc7x7-127f9861ag23x.C	760h12.F2	875m10.F1	+3.09e-04	-3.596e-04	boxC	build-a1-875-s0.log		
+875	zc7x7-120f9908ag27sx.C	760h12.F2	875m10.F1	+1.04e-03	+1.017e-04	boxC	build-a2-875-s0.log		
+912	zc9x9-114f7068ag22x.C	z9-36f680.F1	z9-44f680.F1	+1.77e-03	+1.065e-03	boxC	build-a1-912-s0.log		
+931	zc9x9-122f9213ag22x.C	811h.F1d	811h.F1	+1.06e-03	+1.168e-04	boxA	build-g22-931.log		
+931	zc9x9-122f9212ag23x.C	870h.F2d	811h.F1	+7.48e-04	+1.268e-04	boxC	build-a2-931-s0.log		
+931	zc9x9-122f9280af928h2.C	931h.F2d	811h.F1	+3.00e-03	+5.241e-04	boxD	build-b1-931-s0.log		
+932	zc8x8-122f9438ag20x.C	995z11.F2	812h14.F2	+2.45e-03	+0.000e+00	boxC	build-a1-932-s0.log		
+932	zc8x8-137f9363ag21x.C	504h.F2	503h.F2	+1.68e-03	+5.645e-04	boxC	build-a2-932-s0.log		
+933	zc8x8-122f9450ag20x.C	504h.F2	995h12.F2d	+1.82e-03	+3.171e-04	boxA	build-g20-933.log		
+935	zc7x7-126f9861ag23wx.C	936u13.F2	652h.F1	+8.71e-03	+7.117e-03	boxD	build-b1-935-s0.log		
+936	zc7x7-78f9926ag21x.C	999fa14.F1	875h14.F2	+2.16e-04	-1.297e-03	boxD	build-b1-936-s2.log		
+936	zc7x7-120f9908ag27sx.C	817h13.F2	999fa14.F1	+9.35e-04	+4.323e-04	boxC	build-a1-936-s0.log		
+936	zc7x7-120f9908ag27sx.C	936u13.F2	999fa14.F1	+9.35e-04	+4.323e-04	boxD	build-b1-936-s1.log		
+977	zc9x9-77f7595ag21x.C	z9-46f740.F1	z9-19f720.F1	+2.60e-03	+2.060e-03	boxC	build-a1-977-s0.log		
+984	zc9x9-126f8004ag15x.C	z9-43f840.F1	984mo16.F1d	+6.36e-03	+4.624e-03	boxC	build-a1-984-s0.log		
+994	zc9x9-113f9298ag21x.C	931h.F2	931h.F2d	+2.50e-03	+1.707e-03	boxC	build-a2-994-s0.log		
+995	zc8x8-122f9450ag20x.C	995b14.F1	995h13.F2	+5.17e-04	+6.325e-05	boxA	build-g20-995.log		
+996	zc8x8-122f9450ag20x.C	758h.F1	996h.F2d	+2.16e-03	+1.412e-04	boxC	build-a1-996-s0.log		
+997	zc7x7-127f9861ag23x.C	z7-31f930.F1	874h14.F1	+6.20e-03	+4.252e-03	boxC	build-a2-997-s0.log		
+418	kick seed 1: 80 tries, 2 finds	start 20.920101742527	-	-	-6.175e-10	boxC	kick-418-1.log		
+461	kick seed 1: 80 tries, 2 finds	start 21.932073888619	-	-	-1.047e-09	boxC	kick-461-1.log		
+549	kick seed 1: 18 tries, 0 finds	start 23.890257733270	-	-	+2.459e-04	boxC	kick-549-1.log		
+587	kick seed 1: 9 tries, 0 finds	start 24.743771760224	-	-	-6.477e-08	boxD	kick-587-1.log		
+756	kick seed 1: 8 tries, 1 finds	start 27.921039049491	-	-	+2.195e-06	boxC	kick-756-1.log		
+811	kick seed 6: 8 tries, 0 finds	start 28.907506586501	-	-	-4.578e-05	boxA	kick-mm-811-6.log		
+811	kick seed 1: 6 tries, 2 finds	start 28.907590279278	-	-	-4.578e-05	boxC	kick-811-1.log	0.015079848486343916	8.002e-05
+811	kick seed 5: 6 tries, 0 finds	start 28.907506586501	-	-	-4.578e-05	boxC	kick-811-5.log		
+811	kick seed 2: 6 tries, 2 finds	start 28.907590279278	-	-	-3.668e-05	boxA	kick-mm-811-2.log		
+813	kick seed 1: 6 tries, 0 finds	start 28.928745095607	-	-	+4.328e-07	boxC	kick-813-1.log		
+870	kick seed 4: 4 tries, 1 finds	start 29.914406855237	-	-	-2.560e-03	boxC	kick-870-4.log	0.014193036428595818	8.727e-05
+870	kick seed 5: 6 tries, 0 finds	start 29.914396836398	-	-	-2.560e-03	boxC	kick-870-5.log		
+870	kick seed 1: 4 tries, 1 finds	start 29.914449387731	-	-	-2.550e-03	boxC	kick-870-1.log		
+870	kick seed 3: 6 tries, 0 finds	start 29.914406855237	-	-	-2.550e-03	boxC	kick-870-3.log		
+870	kick seed 2: 6 tries, 0 finds	start 29.914449387731	-	-	-2.507e-03	boxA	kick-mm-870-2.log		
+872	kick seed 1: 8 tries, 2 finds	start 29.936353544058	-	-	+1.321e-05	boxC	kick-872-1.log		
+872	kick seed 4: 7 tries, 0 finds	start 29.936319646273	-	-	+1.321e-05	boxC	kick-872-4.log		
+872	kick seed 9: 8 tries, 0 finds	start 29.936319646273	-	-	+1.321e-05	boxC	kick-872-9.log		
+875	kick seed 8: 6 tries, 1 finds	start 29.985699002172	-	-	+3.196e-04	boxD	kick-875-8.log		
+875	kick seed 1: 6 tries, 1 finds	start 29.985703704215	-	-	+3.256e-04	boxD	kick-875-1.log		
+931	kick seed 1: 3 tries, 1 finds	start 30.921281586000	-	-	+1.543e-04	boxC	kick-931-1.log		
+931	kick seed 2: 6 tries, 1 finds	start 30.921281586000	-	-	+1.627e-04	boxA	kick-mm-931-2.log		
+936	kick seed 1: 7 tries, 0 finds	start 30.990948609859	-	-	+1.522e-04	boxD	kick-936-1.log		
+995	kick seed 1: 6 tries, 0 finds	start 31.945057656408	-	-	+6.325e-05	boxD	kick-995-1.log		
+996	kick seed 1: 4 tries, 2 finds	start 31.953464160662	-	-	+1.404e-04	boxD	kick-996-1.log		

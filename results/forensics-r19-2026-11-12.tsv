@@ -1,0 +1,65 @@
+kind	item	want	got	note
+certified	n 202	below the round 17 score 0.03625298018334311	0.03600324863072335	gain 2.497e-04 on the round 17 file; forensics_windows.py corners: the 202 squares that lie whole in a corner window of the round 19 packing of n = 263 from take-midm-r19 (fq kick and quench (midm_scan.py, kick) from the round 19 file of n = 263 in take-rigidsoft-r19 (rigidsoft_band.py fault (a band of 3 rows of the 6 x 13 block moved one diagonal track, with a seventh square in the row under it and in the row over it), fq quench from the held packing of n = 263 (seed merged0 (Couzo, MIT; Samanyu-dev, no licence), harvest-best-2026-11-09.tsv))), then one fq quench
+certified	n 409	below the round 17 score 0.02554763151451378	0.025500074777630832	gain 4.756e-05 on the round 17 file; forensics_pool.py build: the held packing of n = 10 (seed merged0, see README) in the free corner of the round 19 packing of n = 297 from take-rigidsoft-r19 (rigidsoft_band.py fault TL6:12 (a band of 6 rows of the 6 x 18 block moved one diagonal track, with a seventh square in the row under it and in the row over it), fq quench from the held packing of n = 297 (seed merged0 (Couzo, MIT; Samanyu-dev, no licence), harvest-best-2026-11-09.tsv)), two grid blocks in the other corners, then one fq quench
+reading	the pod of the held 685 alone, m = 17 (108 tilted squares)	294	294	forensics_arm.py ctl
+reading	the arm of the held 685 alone, m = 16 (97 tilted squares)	260	260	forensics_arm.py ctl
+reading	the 90 pod squares at 23.9886 degrees alone, m = 17	less than 294	283	the reading can fail; the 18 loose squares of the pod are worth 11 squares
+control	forensics_pod.py scan of round 17, flush rows beside the pod, m = 26	685	683	red
+control	forensics_arm.py ends 8 16: lattice taper zones at both ends, flush stacks of 8	260	259	red; 2,162 pairs of zones in the first scan, 210 fills with the tool as committed
+control	the same at sides up to 0.05 larger (FADD)	260	259	red
+control	forensics_arm.py jog 8 9 16: flush rows with jogs, end rows cut on the lattice	260	257	red
+control	forensics_arm.py jog 8 9 16 --joint: a row of 9 at each jog	260	257	red; leaving squares out of the end rows gains 0
+control	forensics_arm.py endsjog 8 9 16: taper zones, jogs and rows of 9	260	257	red; 21,562 fills
+control	one square more in the layout of 259, fq quench, side	16.684143608	16.7364	red; plain quench; polish and 4 kicks end above 18.2
+zone	end zone of 11 squares for stacks of 8, length	1.859 with the zone of 17 at 2.713	2.004639	the lattice taper; zone_search.py search (resume, delete, insert, hop), 13 minutes: no shorter zone
+zone	end zone of 17 squares for stacks of 8, length	2.567 with the zone of 11 at 2.005	2.713019	the lattice taper; zone_search.py search (resume, delete, insert, hop), 13 minutes: no shorter zone
+zone	the two end zones together, for 260	4.572	4.718	0.146 too long
+slot	B(6) alone, m = 13 (537 with the pod)	169 + 3	169 + 1	taper arm, exact fill
+slot	B(8) alone, m = 15 (634 with the pod)	225 + 4	225 + 2	taper arm, exact fill
+slot	B(9) alone, m = 16 (685 with the pod, the control)	256 + 4	256 + 3	taper arm, exact fill
+slot	B(10) alone, m = 17 (the pod itself)	289 + 5	289 + 3	taper arm, exact fill
+slot	B(12) alone, m = 19 (367 alone, 852 with the pod)	361 + 6	361 + 3	taper arm, exact fill
+slot	B(14) alone, m = 21 (448 alone, 973 with the pod)	441 + 7	441 + 4	taper arm, exact fill
+family	n 367 = 19^2 + 6, B(12)	board f 0.670857	held f 0.692388	4.304e-04 at F on the round 17 file; not built
+family	n 448 = 21^2 + 7, B(14)	board f 0.681078	held f 0.692388	3.895e-04 at F on the round 17 file; not built
+family	n 537 = 23^2 + 8, pod and B(6)	board f 0.684144	held f 0.692388	3.558e-04 at F on the round 17 file; not built
+family	n 634 = 25^2 + 9, pod and B(8)	board f 0.682309	held f 0.703584	7.721e-04 at F on the round 17 file; not built
+family	n 852 = 29^2 + 11, pod and B(12)	board f 0.682145	held f 0.690131	2.051e-04 at F on the round 17 file; not built
+family	n 973 = 31^2 + 12, pod and B(14)	board f 0.666638	held f 0.689144	1.603e-04 at F on the round 17 file; not built
+family	n 795 = 28^2 + 11	board f 0.687289	held f 0.697750	not in the family: it gives k = 10 at m = 28 at F
+family	n 974 = 31^2 + 13	board f 0.688380	held f 0.697897	not in the family: it gives k = 12 at m = 31 at F
+near	22 corner windows of the merge of 20:20 UTC, polish and plain fq	a side below the side to beat	0 rows	497 from 542 and 680 from 733 end 1.1e-9 below, 26 from 791 ends 2.4e-10 below: padding
+cores	forensics_cores.py census on the merge of 21:14 UTC	a new pair of cores	0	32 n by the sides alone, all in the round 17 list of tight pairs that lose one square
+notrun	band model with the held 263 as control, and 854 at 12/17	a run	none	the arm control took the round
+certified, beaten	n 365	below the round 17 score 0.02658382241209023	0.02656908301613492	gain 1.474e-05 on the round 17 file at 21:05 UTC; does not count: take-midm-r19 holds 0.026349054472360578 (21:23 UTC) and take-rigidsoft-r19 holds 0.02634416676907625 (21:39 UTC); one row and one column more on the take-rigidsoft-r19 layout of 328
+reading	held 685, squares right of x = 17 and below y = 16 + f	148	148	the arm zone, 9 by 16 and 4 more
+reading	held 685, squares right of x = 17 and above y = 16	90	90	a grid of 9 by 10
+reading	held 685, squares left of x = 17 + f and above y = 16	175	175	the pod zone, 17 by 10 and 5 more
+reading	held 685, squares left of x = 17 + f and below y = 16 + f	272	272	a grid of 17 by 16
+reading	held 685, squares that enter the square of side f at (17, 16)	no tilted square	3 upright squares	the two zones meet in plain columns
+fq	the held arm alone at m = 16, 260 squares, as held: plain, polish, 2 kicks, side	16.684143608	16.658909, 16.655553, 16.659985, 16.655026	the zone has slack when the arm stands alone
+fq	the same with every tilted square at the lattice tilt, centres as held: plain quench, side	16.684143608	16.652505	green; polish and kicks end above 18.1
+fq	the same with a jitter of 0.02 on the centres of the tilted squares: plain quench, side	16.684143608	16.652518	green; polish and kicks end above 17.8
+fq	every row as a straight row at the lattice tilt through the centre of the held row: plain quench, side	16.684143608	16.652317	green; polish and kicks end above 16.89
+longer arm	the held 685 with 8 to 10 more rows of 8 in place of the 90 squares above the arm, exact fill, 55 fills	more than 685	677	a longer arm loses 8 squares
+tool	forensics_arm.py jog 8 9 16 --joint --ph 0.25 on boxE	runs to the end	257	2,300 fills in 112 s
+tool	forensics_arm.py endsjog 8 9 16 --within 1 on boxE	runs to the end	255	1,550 fills in 32 s; --within 3 gave 257
+control	forensics_carry.py, c = 9: the held rows by rule, stacked uprights, plain fq, 260 squares, side	16.684143608	16.656407	GREEN; the row of 9 after 5 rows. After 3 rows: 16.657125. After 6 rows: 16.663618. The rows are read from the held arm
+control	the held 685 from the builder: the pod zone of the held 685, two grids and the arm zone of the built 260, plain fq, 685 squares, side	26.6841436076	26.6841436064	GREEN
+carry	forensics_carry.py, c = 6, 172 alone at side 13.684144, 1 start	reached	short	the uprights are 3 short of the count
+carry	forensics_carry.py, c = 8, 229 alone at side 15.684144, 6 starts	reached	2 squares short	227 squares end at 15.659306
+carry	forensics_carry.py, c = 10, 294 alone at side 17.684144, 8 starts	reached	17.726830	0.043 above
+carry	forensics_carry.py, c = 12, 367 alone at side 19.684144, 10 starts	reached	19.845921	0.162 above
+carry	forensics_carry.py, c = 14, 448 alone at side 21.684144, 22 starts	reached	21.814492	0.130 above
+carry	rows by rule without the held heights, exact fill and 7 squares added (work/gen/gen.py), c = 9, side	16.684143608	16.773442	0.089 above
+windows	forensics_windows.py walls on the merge of 22:02 UTC, 1,138,432 windows	a count below its side to beat	0	
+windows	forensics_windows.py any on the merge of 22:02 UTC, the 66 layouts that changed in round 19, 3,694,673 windows	a count below its side to beat	0	
+carry	work/gen/gen4.py, c = 10: one square less in the first or last row, heights scaled 0.97, 1.0, 1.03, 35 starts	17.684143608	17.726830	0.043 above, the same start as before
+carry	work/gen/gen4.py, c = 12: the same choices, 15 starts	19.684143608	19.826499	0.142 above
+cycle	free checks of 20:16 UTC	rows	closures 0, corner windows 0, pool build 0	81 n below the round 17 file in the takes, 0 of them from round 19; 22 near windows
+cycle	free checks of 20:20 UTC	rows	closures 0, corner windows 0, pool build 0	81 n below the round 17 file in the takes, 0 of them from round 19; 22 near windows
+cycle	free checks of 20:40 UTC	rows	closures 0, corner windows 0, pool build 0	82 n below the round 17 file in the takes, 10 of them from round 19; 22 near windows
+cycle	free checks of 21:00 UTC	rows	closures 2, corner windows 0, pool build 1	90 n below the round 17 file in the takes, 23 of them from round 19; 23 near windows; one row and one column more: n 365 from n 328: side 19.6128563886 against 19.6125747928, gain 1.474e-05; the 10 in the corner: n 409 from n 297: side 20.7396806280 against 20.7394555129, gain 1.113e-05
+cycle	free checks of 21:20 UTC	rows	closures 0, corner windows 0, pool build 0	99 n below the round 17 file in the takes, 38 of them from round 19; 24 near windows
+cycle	free checks of 21:40 UTC	rows	closures 0, corner windows 0, pool build 0	110 n below the round 17 file in the takes, 54 of them from round 19; 24 near windows
+cycle	free checks of 22:00 UTC	rows	closures 0, corner windows 1, pool build 0	119 n below the round 17 file in the takes, 65 of them from round 19; 21 near windows

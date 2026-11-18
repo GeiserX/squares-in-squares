@@ -1,0 +1,52 @@
+box	donor	donor_file	m_donor	k_donor	f_donor	m	shells	line_n	line_held_f	count	k_reached	short_of_line	best_edits	anchor	fill	depth	top_counts	seconds	result
+boxA	966	gather/round14-2026-11-12a.csv (jonathan1506 run of 03:51 UTC)	31	5	0.568166	30	1	905	0.568166	905	5	0	-	0.000,-1.000	exact	3	905 904 903 902 901	0	control: the held 905 side
+boxA	905	gather/round14-2026-11-12a.csv (jonathan1506 run of 03:51 UTC)	30	5	0.568166	31	-1	966	0.568166	966	5	0	-	0.000,0.000	exact	3	966 965 964 963 962	0	control: the held 966 side
+boxA	905	gather/round14-2026-11-12a.csv (jonathan1506 run of 03:51 UTC)	30	5	0.568166	29	1	846	0.583782	845	4	1	delete0 delete0 delete0	-1.000,-1.000	exact	3	845 844 843 842 841	0	short
+boxA	905	take-harvest-2026-11-12j (jonathan1506 run of 09:02 UTC)	30	5	0.566822	29	1	846	0.583782	845	4	1	delete0 delete0	-1.000,-1.000	exact	3	845 844 843 842 839 838	328	short
+boxA	904	gather/round14-2026-11-12a.csv (jonathan1506 run of 03:51 UTC)	30	4	0.563136	27	3	733	0.565624	732	3	1	delete32 delete32 delete32 delete32	0.000,0.000	exact	0	732 731 729 728 727 726	18	short
+boxA	845	gather/round14-2026-11-12a.csv (jonathan1506 run of 03:51 UTC)	29	4	0.563136	26	3	680	0.565624	679	3	1	-	-3.000,-3.000	exact	0	679 678 676 675 673 671	19	short
+boxA	788	gather/round14-2026-11-12a.csv (jonathan1506 run of 03:51 UTC)	28	4	0.563197	25	3	629	0.566006	627	2	2	-	-3.000,-3.000	exact	0	627 626 625 624 622 621	17	short
+boxA	965	gather/round14-2026-11-12a.csv (jonathan1506 run of 03:51 UTC)	31	4	0.562051	28	3	788	0.563197	786	2	2	-	0.000,0.000	exact	0	786 785 784 783 782 781	23	short
+boxA	904	gather/round14-2026-11-12a.csv (jonathan1506 run of 03:51 UTC)	30	4	0.563136	24	6	580	0.583782	578	2	2	delete28 delete28 delete28 delete28 delete28 delete28 delete28 delete28	0.000,0.000	exact	0	578 577 576 574 573 572	12	short
+boxA	845	gather/round14-2026-11-12a.csv (jonathan1506 run of 03:51 UTC)	29	4	0.563136	23	6	533	0.583782	531	2	2	-	-6.000,-6.000	exact	0	531 530 529 528 526 525	10	short
+boxA	965	gather/round14-2026-11-12a.csv (jonathan1506 run of 03:51 UTC)	31	4	0.562051	25	6	629	0.566006	626	1	3	-	0.000,0.000	exact	0	626 625 624 623 622 621	14	short
+boxA	965	gather/round14-2026-11-12a.csv (jonathan1506 run of 03:51 UTC)	31	4	0.562051	22	9	488	0.591378	485	1	3	-	0.000,0.000	exact	0	485 484 483 482 481 480	8	short
+boxA	403	gather/round14-2026-11-12a.csv (jonathan1506 run of 03:51 UTC)	20	3	0.564936	17	3	292	0.591378	290	1	2	-	0.000,0.000	exact	0	290 289 288 287 286 284	5	short
+boxA	905	gather/round14-2026-11-12a.csv (jonathan1506 run of 03:51 UTC)	30	5	0.568166	27	3	734	0.591378	732	3	2	-	0.000,0.000	exact	0	732 731 730 729 727 726	22	short
+boxA	966	gather/round14-2026-11-12a.csv (jonathan1506 run of 03:51 UTC)	31	5	0.568166	28	3	789	0.591378	788	4	1	-	0.000,0.000	exact	0	788 786 784 782 781 779	23	short
+boxA	904	gather/round14-2026-11-12a.csv (jonathan1506 run of 03:51 UTC)	30	4	0.563136	27	3	733	0.565624	732	3	1	delete32 delete32 delete32 delete32	0.000,0.000	exact	2	732 731 730 729 728 727	276	short
+boxA	845	gather/round14-2026-11-12a.csv (jonathan1506 run of 03:51 UTC)	29	4	0.563136	26	3	680	0.565624	679	3	1	-	-3.000,-3.000	exact	2	679 678 677 676 675 674	359	short
+boxD	629	gather/round14-2026-11-12a.csv (jonathan1506 run of 03:51 UTC)	25	4	0.566006	25	0	630	0.591378	629	4	1	-	0.000,0.000	exact	3	629 628 627 626 625 624	224	short
+boxD	680	gather/round14-2026-11-12a.csv (jonathan1506 run of 03:51 UTC)	26	4	0.565624	26	0	681	0.591378	680	4	1	-	0.000,0.000	exact	3	680 679 678 677 676 675	261	short
+boxD	444	gather/round14-2026-11-12a.csv (jonathan1506 run of 03:51 UTC)	21	3	0.564936	18	3	327	0.583782	325	1	2	-	0.000,0.000	exact	0	325 323 322 321 319 318	6	short
+boxD	629	gather/round14-2026-11-12a.csv (jonathan1506 run of 03:51 UTC)	25	4	0.566006	22	3	488	0.591378	486	2	2	-	0.000,0.000	exact	0	486 485 484 483 481 480	11	short
+boxD	629	gather/round14-2026-11-12a.csv (jonathan1506 run of 03:51 UTC)	25	4	0.566006	19	6	365	0.612856	362	1	3	-	0.000,0.000	exact	0	362 361 359 358 357 356	7	short
+boxD	788	gather/round14-2026-11-12a.csv (jonathan1506 run of 03:51 UTC)	28	4	0.563197	22	6	488	0.591378	485	1	3	-	0.000,0.000	exact	0	485 484 483 481 480 479	10	short
+boxD	733	gather/round14-2026-11-12a.csv (jonathan1506 run of 03:51 UTC)	27	4	0.565624	21	6	445	0.591378	443	2	2	-	-6.000,-6.000	exact	0	443 442 441 439 438 437	8	short
+boxD	680	gather/round14-2026-11-12a.csv (jonathan1506 run of 03:51 UTC)	26	4	0.565624	20	6	404	0.591378	402	2	2	-	-6.000,-6.000	exact	0	402 401 400 398 397 396	8	short
+boxD	788	gather/round14-2026-11-12a.csv (jonathan1506 run of 03:51 UTC)	28	4	0.563197	19	9	365	0.612856	362	1	3	-	0.000,0.000	exact	0	362 361 360 359 358 357	6	short
+boxD	733	gather/round14-2026-11-12a.csv (jonathan1506 run of 03:51 UTC)	27	4	0.565624	24	3	580	0.583782	579	3	1	delete0 delete0 delete0 delete0	-3.000,-3.000	exact	0	579 578 576 575 574 572	14	short
+boxD	680	gather/round14-2026-11-12a.csv (jonathan1506 run of 03:51 UTC)	26	4	0.565624	23	3	533	0.583782	532	3	1	-	-3.000,-3.000	exact	0	532 531 529 528 527 525	13	short
+boxD	905	take-harvest-2026-11-12j (jonathan1506 run of 09:02 UTC)	30	5	0.566822	27	3	734	0.591378	732	3	2	-	-3.000,-3.000	exact	0	732 731 730 729 728 727	21	short
+boxD	966	take-harvest-2026-11-12j (jonathan1506 run of 09:02 UTC)	31	5	0.566822	28	3	789	0.591378	788	4	1	-	0.000,0.000	exact	0	788 787 786 785 784 783	24	short
+boxD	905	take-harvest-2026-11-12j (jonathan1506 run of 09:02 UTC)	30	5	0.566822	24	6	581	0.606602	578	2	3	-	0.000,0.000	exact	0	578 577 576 575 574 573	14	short
+boxD	966	take-harvest-2026-11-12j (jonathan1506 run of 09:02 UTC)	31	5	0.566822	25	6	630	0.591378	628	3	2	-	0.000,0.000	exact	0	628 627 626 625 624 623	16	short
+boxD	905	take-harvest-2026-11-12j (jonathan1506 run of 09:02 UTC)	30	5	0.566822	21	9	446	0.623065	443	2	3	-	0.000,0.000	exact	0	443 442 441 440 439 437	9	short
+boxD	966	take-harvest-2026-11-12j (jonathan1506 run of 09:02 UTC)	31	5	0.566822	22	9	489	0.606602	487	3	2	delete27 delete27 delete27 delete27 delete27 delete27 delete27 delete27 delete27 delete27 delete27 delete27	0.000,0.000	exact	0	487 486 485 484 482 480	9	short
+boxD	966	take-harvest-2026-11-12j (jonathan1506 run of 09:02 UTC)	31	5	0.566822	28	3	789	0.591378	788	4	1	-	0.000,0.000	tolerant 0.01	1	788 787 786 785 784 783	160	short
+boxD	905	take-harvest-2026-11-12j (jonathan1506 run of 09:02 UTC)	30	5	0.566822	29	1	846	0.583782	844	3	2	-	0.000,0.000	tolerant 0.01	1	844 843 842 839 838 836	41	short
+boxD	845	gather/round14-2026-11-12a.csv (jonathan1506 run of 03:51 UTC)	29	4	0.563136	29	0	846	0.583782	845	4	1	-	0.000,0.000	tolerant 0.01	1	845 844 843 842 841 839	44	short
+boxD	788	gather/round14-2026-11-12a.csv (jonathan1506 run of 03:51 UTC)	28	4	0.563197	28	0	789	0.591378	788	4	1	-	0.000,0.000	tolerant 0.01	1	788 787 786 785 784 782	40	short
+boxD	680	gather/round14-2026-11-12a.csv (jonathan1506 run of 03:51 UTC)	26	4	0.565624	26	0	681	0.591378	680	4	1	-	0.000,0.000	tolerant 0.01	1	680 679 678 677 676 675	32	short
+boxD	905	take-harvest-2026-11-12j (jonathan1506 run of 09:02 UTC)	30	5	0.566822	31	-1	966	0.568166	966	5	0	-	0.000,0.000	exact	2	966 965 964 963 962 959	204	reaches the line
+boxD	966	take-harvest-2026-11-12j (jonathan1506 run of 09:02 UTC)	31	5	0.566822	31	0	967	0.591378	966	5	1	-	0.000,0.000	exact	2	966 965 964 963 962 961	220	short
+boxD	629	gather/round14-2026-11-12a.csv (jonathan1506 run of 03:51 UTC)	25	4	0.566006	25	0	630	0.591378	629	4	1	turn +0.00 deg, keep dp, corner 0, cut 0 chains	-	exact, band turned	-	-	-	turn scan: best at 0 deg
+boxD	629	gather/round14-2026-11-12a.csv (jonathan1506 run of 03:51 UTC)	25	4	0.582000	25	0	630	0.591378	617	-8	13	turn +0.25 deg, keep y, corner 3, cut 0 chains	-	exact, band turned	-	-	-	turn scan: best turned
+boxD	680	gather/round14-2026-11-12a.csv (jonathan1506 run of 03:51 UTC)	26	4	0.565624	26	0	681	0.591378	680	4	1	turn +0.00 deg, keep dp, corner 4, cut 0 chains	-	exact, band turned	-	-	-	turn scan: best at 0 deg
+boxD	680	gather/round14-2026-11-12a.csv (jonathan1506 run of 03:51 UTC)	26	4	0.582000	26	0	681	0.591378	663	-13	18	turn -0.25 deg, keep y, corner 5, cut 0 chains	-	exact, band turned	-	-	-	turn scan: best turned
+boxD	788	gather/round14-2026-11-12a.csv (jonathan1506 run of 03:51 UTC)	28	4	0.563197	28	0	789	0.591378	788	4	1	turn +0.00 deg, keep dp, corner 1, cut 0 chains	-	exact, band turned	-	-	-	turn scan: best at 0 deg
+boxD	788	gather/round14-2026-11-12a.csv (jonathan1506 run of 03:51 UTC)	28	4	0.582000	28	0	789	0.591378	776	-8	13	turn +0.25 deg, keep y, corner 2, cut 0 chains	-	exact, band turned	-	-	-	turn scan: best turned
+boxD	845	gather/round14-2026-11-12a.csv (jonathan1506 run of 03:51 UTC)	29	4	0.563136	29	0	846	0.583782	845	4	1	turn +0.00 deg, keep dp, corner 4, cut 0 chains	-	exact, band turned	-	-	-	turn scan: best at 0 deg
+boxD	845	gather/round14-2026-11-12a.csv (jonathan1506 run of 03:51 UTC)	29	4	0.582000	29	0	846	0.583782	826	-15	20	turn -0.25 deg, keep y, corner 5, cut 0 chains	-	exact, band turned	-	-	-	turn scan: best turned
+boxA	905	take-harvest-2026-11-12j (jonathan1506 run of 09:02 UTC)	30	5	0.566822	29	1	846	0.583782	844	3	2	turn +0.00 deg, keep dp, corner 1, cut 0 chains	-	exact, band turned	-	-	-	turn scan: best at 0 deg
+boxA	905	take-harvest-2026-11-12j (jonathan1506 run of 09:02 UTC)	30	5	0.582000	29	1	846	0.583782	827	-14	19	turn +0.25 deg, keep y, corner 2, cut 0 chains	-	exact, band turned	-	-	-	turn scan: best turned

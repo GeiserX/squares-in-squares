@@ -1,0 +1,17 @@
+source n	target n	direction	start	quenches	best side	side to beat	best minus side to beat	outcome
+680	444	down	held 680 (round 16)	42	21.564693167754	21.564935731325	-2.426e-04	certified, in take.tsv
+444 new	487	one row and one column	the new 444	2	22.564693167754	22.564935731385	-2.426e-04	certified, in take.tsv
+845	579	down	845 of round 16	12	24.562332010896	24.562384620784	-5.261e-05	certified, in take.tsv
+845	579	down	845 of round 17 (take-border-r17)	8	24.562332010896	24.562384620784	-5.261e-05	below the held side, the same side as the row above
+680	966	up	held 680 (round 16)	6	31.566352423409	31.566822492192	-4.701e-04	certified, in take.tsv
+444 new	258	down	the new 444	10	16.563448002137	16.563448002912	-7.750e-10	control: the held 258 to 1e-9
+403	629	up	held 403	4	25.566006354994	25.566006356247	-1.253e-09	control: the held 629 to 1e-9
+579 new	845	up	the new 579	4	29.563086646640	29.563086648068	-1.428e-09	control: the 845 of take-border-r17 to 1e-9
+788	532	down	held 788	12	23.562393079170	23.562384620734	+8.458e-06	no find
+532	788	up	held 532	4	28.563204043838	28.563196810560	+7.233e-06	no find
+227	403	up	held 227	4	20.564959045994	20.564935731274	+2.331e-05	no find
+258	444	up	held 258	4	21.564699255484	21.564693168782	+6.087e-06	no find (the side to beat is the new 444)
+629	905	up	held 629	4	30.566953939693	30.566822491283	+1.314e-04	no find
+444 new	680	up	the new 444	4	26.565772040264	26.565624195788	+1.478e-04	no find
+267	456	up	held 267 (chains of 2), fq alone	4	21.863119096722	21.846667193000	+1.645e-02	no find
+267	456	up	held 267 (chains of 2), collective turn of -2.0 to +1.2 degrees, then fq	20	21.854065814816	21.846667193000	+7.399e-03	no find: the member of the family is 0.0074 above the held side

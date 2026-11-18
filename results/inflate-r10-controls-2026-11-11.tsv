@@ -1,0 +1,12 @@
+control	n	box	what	tilt_deg	s_start	s_reached	steps	stop	seconds	side_after_squeeze	held_side	side_minus_held	result
+positive	815	28.965965720659	cap square 164 at (21.120, 7.348) deleted	-15.93	0.3	1.000000000000	49	one	78	28.965965694369	28.965965720659	-2.63e-08	green
+positive	924	30.855381659385	corner zone square 271 at (5.540, 4.541) deleted, tilted	-4.78	0.3	0.999999999766	9	one	10	30.855381663797	30.855381659385	+4.41e-09	green
+positive	924	30.855381659385	corner zone square 359 at (4.500, 3.882) deleted, upright	0.00	0.3	0.999999999022	1	one	1	30.855381663802	30.855381659385	+4.42e-09	green
+positive	704	26.963163194571	grid edge square 639 at (14.500, 7.463) deleted	0.00	0.3	1.000000000000	7	one	13	26.963163198390	26.963163194571	+3.82e-09	green
+negative grid	25	5	plain grid: largest clearance 0, pockets 0										green
+negative grid	289	17	plain grid: largest clearance 0, pockets 0										green
+negative grid	961	31	plain grid: largest clearance 0, pockets 0										green
+negative own box	all	held side of n	64 grows on 44 held layouts in a box of their own held side: 0 reached 1; largest s at n = 340 (grid)			0.926899							green
+insertion	305	17.950365483	methods_soft from the grown state of 304 pocket 1, new square at side 1, box 1e-4 below held: 253127 children, 84 restarts, energy 3.6e-04 to 2.4e-04, 0 finds		0.9122				560		17.950466482985		dry
+insertion	758	27.958540422	methods_soft from the grown state of 757 pocket 0, new square at side 1, box 1e-4 below held: 119080 children, 39 restarts, energy 1.7e-04 to 1.0e-04, 0 finds		0.9586				540		27.958641417671		dry
+insertion	997	31.973515784	methods_soft from the grown state of 996 pocket 0, new square at side 1, box 1e-4 below held: 87169 children, 29 restarts, energy 2.0e-04 to 1.4e-04, 0 finds		0.9308				560		31.973616781998		dry

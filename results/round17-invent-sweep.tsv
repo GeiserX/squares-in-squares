@@ -1,0 +1,47 @@
+start_utc	n	tag	legs	children	finds	start_side	end_side	result	kind_of_held	moved_when_it_came	board_gap	source_of_held
+13:41:39	802	rea15	2	36166	3	28.796469760161	28.795708528999	find	soft	1.507e-04	2.461e-04	own soft-box search (methods_soft.py) and fq quench from family_readers.py 1 shell(s) up f
+13:41:41	496	cov	2	99219	0	22.764758414066	22.764758414066	dry	harvest	7.354e-04	1.479e-05	jonathan1506/50-top-2-6-22-1793-fault-dp-fq-stretch :: submission.csv (run of 2026-11-12 0
+13:46:22	589	cov	2	60601	0	24.764758414169	24.764758414169	dry	harvest	5.528e-04	3.888e-05	jonathan1506/50-top-2-6-22-1793-fault-dp-fq-stretch :: submission.csv (run of 2026-11-12 0
+13:47:07	630	cov	2	53491	0	25.591378146732	25.591378146732	dry	polish	5.268e-04	4.496e-05	fq quench of jonathan1506/50-top-2-6-22-1793-fault-dp-fq-stretch :: submission.csv (run of
+13:49:43	541	cov	2	66083	0	23.761536402843	23.761536402843	dry	polish	5.129e-04	2.389e-05	fq quench of jonathan1506/50-top-2-6-22-1793-fault-dp-fq-stretch :: submission.csv (run of
+13:53:04	444	cov	2	64106	0	21.564935731325	21.564935731325	dry	harvest	3.081e-04	1.151e-05	jonathan1506/50-top-2-6-22-1793-fault-dp-fq-stretch :: submission.csv (run of 2026-11-12 0
+13:56:25	487	cov	2	60620	0	22.564935731355	22.564935731355	dry	polish	2.942e-04	1.261e-05	fq quench of jonathan1506/50-top-2-6-22-1793-fault-dp-fq-stretch :: submission.csv (run of
+13:59:46	749	cov	2	45849	0	27.838330373897	27.838330373897	dry	polish	1.822e-04	4.638e-04	fq quench of jonathan1506/50-top-2-6-22-1793-fault-dp-fq-stretch :: submission.csv (run of
+14:03:08	590	cov	2	55896	0	24.784148398796	24.784148398796	dry	harvest	1.729e-04	2.660e-04	jonathan1506/50-top-2-6-22-1793-fault-dp-fq-stretch :: submission.csv (run of 2026-11-12 0
+14:12:29	857	cov	2	42710	0	29.761536403432	29.761536403432	dry	polish	1.708e-04	1.959e-04	fq quench of jonathan1506/50-top-2-6-22-1793-fault-dp-fq-stretch :: submission.csv (run of
+15:14:13	861	cov	2	40842	0	29.819189736172	29.819189736172	dry	harvest	1.587e-04	8.103e-04	jonathan1506/50-top-2-6-22-1793-fault-dp-fq-stretch :: submission.csv (run of 2026-11-12 0
+15:16:12	700	ctl16	2	4036	7	26.900793222030	26.898566267238	find	modules	5.516e-05	1.714e-04	modules.py: corner 598h13.C <held: own soft-box search (methods_soft.py) and fq quench fro
+15:17:34	912	fw	2	38037	0	30.696126947383	30.696126947383	dry	family	4.670e-08	5.194e-04	family_step.py 1 shell(s) down from family_step.py 1 shell(s) up from family_step.py 1 she
+15:20:55	976	fw	2	32955	0	31.727108472897	31.727108472897	dry				
+15:24:16	973	fw	2	34919	0	31.689752757661	31.689752757661	dry	harvest	1.342e-06	9.608e-04	jonathan1506/50-top-2-6-22-1793-fault-dp-fq-stretch :: submission.csv (run of 2026-11-12 0
+15:25:40	911	fw	2	34827	0	30.682866596625	30.682866596625	dry	modules	2.139e-04	9.361e-04	modules.py: corner 911m10.C <the round 10 modules layout of n = 911 (corner 685h09.C <n = 
+15:27:38	917	cov	2	36463	0	30.761536403196	30.761536403196	dry	polish	1.482e-04	1.871e-04	fq quench of jonathan1506/50-top-2-6-22-1793-fault-dp-fq-stretch :: submission.csv (run of
+15:29:02	909	cov	2	37230	0	30.652396539076	30.652396539076	dry	polish	1.479e-04	6.019e-04	fq quench of jonathan1506/50-top-2-6-22-1793-fault-dp-fq-stretch :: submission.csv (run of
+15:30:59	980	cov	2	32020	0	31.784148399123	31.784148399123	dry	polish	1.108e-04	4.349e-04	fq quench of jonathan1506/50-top-2-6-22-1793-fault-dp-fq-stretch :: submission.csv (run of
+15:32:24	646	cov	2	54927	0	25.880395571410	25.880395571410	dry	harvest	1.062e-04	4.786e-04	jonathan1506/50-top-2-6-22-1793-fault-dp-fq-stretch :: submission.csv (run of 2026-11-12 0
+15:34:21	690	cov	2	50470	0	26.761536402994	26.761536402994	dry	polish	1.040e-04	2.115e-05	fq quench of jonathan1506/50-top-2-6-22-1793-fault-dp-fq-stretch :: submission.csv (run of
+15:35:45	817	cov	2	37335	0	28.987584872721	28.987584872721	dry	polish	1.007e-04	1.389e-04	fq quench of family_step.py 4 shell(s) up from the held packing of n = 601 (modules.py: co
+15:37:42	691	cov	2	48029	0	26.784148398877	26.784148398877	dry	polish	9.752e-05	3.166e-04	fq quench of jonathan1506/50-top-2-6-22-1793-fault-dp-fq-stretch :: submission.csv (run of
+15:39:06	745	cov	2	44611	0	27.784148398922	27.784148398922	dry	polish	8.426e-05	2.982e-04	fq quench of jonathan1506/50-top-2-6-22-1793-fault-dp-fq-stretch :: submission.csv (run of
+15:41:03	750	cov	2	43992	0	27.847855427710	27.847855427710	dry	polish	5.684e-05	3.823e-04	fq quench of jonathan1506/50-top-2-6-22-1793-fault-dp-fq-stretch :: submission.csv (run of
+15:42:28	545	cov	2	68042	0	23.825172337264	23.825172337264	dry	harvest	5.537e-05	5.315e-04	jonathan1506/50-top-2-6-22-1793-fault-dp-fq-stretch :: submission.csv (run of 2026-11-12 0
+15:44:25	491	cov	2	68042	0	22.684143606841	22.684143606841	dry	harvest	5.290e-05	6.416e-04	jonathan1506/50-top-2-6-22-1793-fault-dp-fq-stretch :: submission.csv (run of 2026-11-12 0
+15:47:46	495	cov	2	68066	0	22.762086563007	22.762086563007	dry	harvest	5.200e-05	3.032e-04	jonathan1506/50-top-2-6-22-1793-fault-dp-fq-stretch :: submission.csv (run of 2026-11-12 0
+15:51:07	638	cov	2	57433	0	25.761536402944	25.761536402944	dry	polish	5.099e-05	1.289e-04	fq quench of jonathan1506/50-top-2-6-22-1793-fault-dp-fq-stretch :: submission.csv (run of
+15:54:28	915	cov	2	33007	0	30.743639560943	30.743639560943	dry	harvest	4.881e-05	3.927e-04	jonathan1506/50-top-2-6-22-1793-fault-dp-fq-stretch :: submission.csv (run of 2026-11-12 0
+15:57:50	543	cov	2	59412	0	23.790689467087	23.790689467087	dry	harvest	4.577e-05	1.497e-04	jonathan1506/50-top-2-6-22-1793-fault-dp-fq-stretch :: submission.csv (run of 2026-11-12 0
+16:01:39	925	cov	2	38617	0	30.860976406431	30.860976406431	dry	polish	4.469e-05	2.194e-04	fq quench of jonathan1506/50-top-2-6-22-1793-fault-dp-fq-stretch :: submission.csv (run of
+16:05:00	604	cov	2	56417	0	24.991705315182	24.991705315182	dry	harvest	4.431e-05	6.731e-05	jazivxt/boxed-in :: data.zip!submission.csv (take-harvest-2026-11-12j) (dataset version of
+16:08:21	966	cov	2	33153	0	31.566822492192	31.566822492192	dry	harvest	4.324e-05	1.568e-04	jonathan1506/50-top-2-6-22-1783-fault-dp-fq-stretch :: submission.csv (take-harvest-2026-1
+16:11:42	869	cov	2	40184	0	29.911106363058	29.911106363058	dry	harvest	3.579e-05	2.379e-04	jonathan1506/50-top-2-6-22-1793-fault-dp-fq-stretch :: submission.csv (run of 2026-11-12 0
+16:15:03	510	cov	2	68807	0	22.997601672285	22.997601672285	dry	harvest	3.373e-05	5.484e-05	jonathan1506/50-top-2-6-22-1793-fault-dp-fq-stretch :: submission.csv (run of 2026-11-12 0
+16:18:24	987	cov	2	34235	0	31.864441754195	31.864441754195	dry	harvest	3.335e-05	3.091e-04	jonathan1506/50-top-2-6-22-1793-fault-dp-fq-stretch :: submission.csv (run of 2026-11-12 0
+16:21:45	793	cov	2	43992	0	28.677242857462	28.677242857462	dry	harvest	3.191e-05	9.589e-04	jonathan1506/50-top-2-6-22-1783-fault-dp-fq-stretch :: submission.csv (take-harvest-2026-1
+16:25:06	459	cov	2	75726	0	21.896189307724	21.896189307724	dry	polish	2.875e-05	1.925e-04	fq quench of the held packing (modules.py: corner 551h.C <the held packing of n = 551>, fa
+17:44:49	752	cov	2	50473	0	27.880269747390	27.880269747390	dry	harvest	2.349e-05	4.289e-04	jonathan1506/50-top-2-6-22-1793-fault-dp-fq-stretch :: submission.csv (run of 2026-11-12 0
+17:44:59	989	cov	2	38181	0	31.884737527804	31.884737527804	dry	polish	2.234e-05	3.268e-04	fq quench of jonathan1506/50-top-2-6-22-1793-fault-dp-fq-stretch :: submission.csv (run of
+17:48:10	694	cov	2	49300	0	26.825233344764	26.825233344764	dry	polish	1.782e-05	5.471e-04	fq quench of jazivxt/boxed-in :: data.zip!submission.csv (take-polish-r15) (dataset versio
+17:48:20	552	cov	2	54612	0	23.939867893132	23.939867893132	dry	harvest	1.135e-05	1.255e-04	jonathan1506/50-top-2-6-22-1793-fault-dp-fq-stretch :: submission.csv (run of 2026-11-12 0
+17:51:31	918	cov	2	29324	0	30.784148399072	30.784148399072	dry	polish	1.082e-05	5.316e-04	fq quench of jonathan1506/50-top-2-6-22-1793-fault-dp-fq-stretch :: submission.csv (run of
+17:51:41	632	cov	2	50798	0	25.638916067985	25.638916067985	dry	harvest	9.218e-06	7.475e-05	jonathan1506/50-top-2-6-22-1793-fault-dp-fq-stretch :: submission.csv (run of 2026-11-12 0
+17:54:53	648	cov	2	50408	0	25.903724065316	25.903724065316	dry	harvest	8.096e-06	1.545e-04	jonathan1506/50-top-2-6-22-1793-fault-dp-fq-stretch :: submission.csv (run of 2026-11-12 0

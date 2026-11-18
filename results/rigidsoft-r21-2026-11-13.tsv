@@ -1,0 +1,96 @@
+n	run	move	quenched_starts	best_start	best_side	bar_side	bar_minus_best
+297	ch-m-297-p1	fault chain pass, --clean 1 --reduce 2, from the r18 held layout (ch5.sh)	10	TL6:12_s0.15_easis	17.739455559	17.739455513	-4.610e-08
+297	ch-p-297-p1	fault chain pass from a round2/round3 layout (ch6.sh)	6	TL8:12_s0.15_easis	17.744144620	17.739455513	-4.689e-03
+297	ch-q-297-p1	fault chain pass from a round2/round3 layout (ch6.sh)	33	TL11:12_s0.15_easis	17.741860085	17.739455513	-2.405e-03
+297	ch-r-297-p1	fault chain pass after a kick scan of a round3 layout (ch6.sh)	36	TL8:10_s0.15_easis	17.748403084	17.739455513	-8.948e-03
+297	f2-a-297	fault2, band with an extra square inside, alm0/def	6	TL12:16_s0.15	17.949747468	17.739455513	-2.103e-01
+297	f2-ctl-297	fault2 control (plain band, --need 0)	1	TL6:12_s0.15	17.739455558	17.739455513	-4.510e-08
+297	f2-flags-297	fault2, extra-inside starts, 7 fq sets	1	TL12:16_s0.15	17.800772598	17.739455513	-6.132e-02
+297	f2-r0s-297	fault2, extra-inside starts, round set at corner radius 0.05, 0.2, 0.3	2	BR10:13_s0.15	17.741250448	17.739455513	-1.795e-03
+297	f2-r1525-297	fault2, extra-inside starts, round set at corner radius 0.15 and 0.25	2	TL12:16_s0.15	17.776686861	17.739455513	-3.723e-02
+297	f2-r3-297	fault2, extra-inside starts, round set at corner radius 0.3	4	BR12:13_s0.15	17.740749251	17.739455513	-1.294e-03
+297	f2-r45-297	fault2, extra-inside starts, round set at corner radius 0.4 and 0.5 (fq diverges)	2	BR10:13_s0.15	76023.140356721	17.739455513	-7.601e+04
+297	f2-rnd-297	fault2, extra-inside starts, round and shrink sets	5	BR10:13_s0.15	17.800772598	17.739455513	-6.132e-02
+297	kr-297	kick scan (midm_scan.py kick,lkick)	140	kick sig0.02	17.740414148	17.739455513	-9.586e-04
+297	rf-ctl-297	plain fault with the round and shrink sets (control)	1	TL6:12_s0.15_easis	17.739455559	17.739455513	-4.610e-08
+328	ch-r-328-p1	fault chain pass after a kick scan of a round3 layout (ch6.sh)	2	BR1:3_s0.15_easis	18.626975019	18.612574299	-1.440e-02
+328	f2-b-328	fault2, band with an extra square inside, alm0/def	4	BR4:8_s0.15	18.828427125	18.612574299	-2.159e-01
+328	f2-r0s-328	fault2, extra-inside starts, round set at corner radius 0.05, 0.2, 0.3	2	TL12:15_s0.15	18.625108688	18.612574299	-1.253e-02
+328	f2-r1525-328	fault2, extra-inside starts, round set at corner radius 0.15 and 0.25	1	TL12:15_s0.15	18.625108974	18.612574299	-1.253e-02
+328	f2-r3-328	fault2, extra-inside starts, round set at corner radius 0.3	2	TL14:15_s0.15	18.614166279	18.612574299	-1.592e-03
+328	f2-r45-328	fault2, extra-inside starts, round set at corner radius 0.4 and 0.5 (fq diverges)	1	TL12:15_s0.15	26634.411509775	18.612574299	-2.662e+04
+328	f2-rnd-328	fault2, extra-inside starts, round and shrink sets	4	TL12:15_s0.15	18.625073951	18.612574299	-1.250e-02
+328	k328a	kick scan (midm_scan.py kick,lkick)	151	lkick c18,r1.8,s0.06	18.612574298	18.612574299	8.808e-10
+328	k328b	kick scan (midm_scan.py kick,lkick)	426	lkick c55,r1.2,s0.12	18.612630613	18.612574299	-5.631e-05
+328	k328c	kick scan (midm_scan.py kick,lkick)	345	kick sig0.01	18.612630613	18.612574299	-5.631e-05
+328	k328d	kick scan (midm_scan.py kick,lkick)	737	kick sig0.01	18.612630613	18.612574299	-5.631e-05
+328	kr-328	kick scan (midm_scan.py kick,lkick)	121	lkick c63,r1.8,s0.12	18.612630613	18.612574299	-5.631e-05
+328	rf-nm-328-TL	plain fault near misses of r20, round/shrink/soft/stiff3	1	TL20:21_s0.15_easis	18.612575042	18.612574299	-7.431e-07
+332	ch-m-332-p1	fault chain pass, --clean 1 --reduce 2, from the r18 held layout (ch5.sh)	10	TL6:12_s0.15_easis	18.739455558	18.739455513	-4.507e-08
+332	ch-q-332-p1	fault chain pass from a round2/round3 layout (ch6.sh)	5	BR3:5_s0.15_easis	18.781513499	18.739455513	-4.206e-02
+332	ch-r-332-p1	fault chain pass after a kick scan of a round3 layout (ch6.sh)	7	BR6:8_s0.15_easis	18.740507594	18.739455513	-1.052e-03
+332	ch-r-332-p2	fault chain pass after a kick scan of a round3 layout (ch6.sh)	38	BR10:13_s0.15_easis	18.741018919	18.739455513	-1.563e-03
+332	chx-r-332-p1	flip after a chain pass	23	r7-8m_e0	18.740442814	18.739455513	-9.873e-04
+332	chx-r-332-p2	flip after a chain pass	27	r9-11m_e0	18.741018915	18.739455513	-1.563e-03
+332	f2-b-332	fault2, band with an extra square inside, alm0/def	7	TL2:6_s0.15	18.949747468	18.739455513	-2.103e-01
+332	f2-flags-332	fault2, extra-inside starts, 7 fq sets	1	TL1:6_s0.15	18.800461172	18.739455513	-6.101e-02
+332	f2-r0s-332	fault2, extra-inside starts, round set at corner radius 0.05, 0.2, 0.3	2	TL2:6_s0.15	18.776710607	18.739455513	-3.726e-02
+332	f2-r1525-332	fault2, extra-inside starts, round set at corner radius 0.15 and 0.25	1	TL2:6_s0.15	18.776710153	18.739455513	-3.725e-02
+332	f2-r3-332	fault2, extra-inside starts, round set at corner radius 0.3	5	TL3:6_s0.15	18.741019020	18.739455513	-1.564e-03
+332	f2-r45-332	fault2, extra-inside starts, round set at corner radius 0.4 and 0.5 (fq diverges)	1	TL2:6_s0.15	386838.296682437	18.739455513	-3.868e+05
+332	f2-rnd-332	fault2, extra-inside starts, round and shrink sets	6	TL2:6_s0.15	18.776725965	18.739455513	-3.727e-02
+332	kr-332	kick scan (midm_scan.py kick,lkick)	73	lkick c36,r1.2,s0.12	18.741019022	18.739455513	-1.564e-03
+365	ch-n-365-p1	plain fault chain pass from a round-set near miss (ch6.sh)	12	BR7:8_s0.15_easis	19.659249756	19.608277774	-5.097e-02
+365	f2-b-365	fault2, band with an extra square inside, alm0/def	7	BR4:8_s0.15	19.828427125	19.608277774	-2.201e-01
+365	f2-flags-365	fault2, extra-inside starts, 7 fq sets	1	BR4:8_s0.15	19.608500069	19.608277774	-2.223e-04
+365	f2-r0s-365	fault2, extra-inside starts, round set at corner radius 0.05, 0.2, 0.3	4	BR4:8_s0.15	19.608519239	19.608277774	-2.415e-04
+365	f2-r1525-365	fault2, extra-inside starts, round set at corner radius 0.15 and 0.25	2	BR4:8_s0.15	19.608519239	19.608277774	-2.415e-04
+365	f2-r3-365	fault2, extra-inside starts, round set at corner radius 0.3	3	TL7:10_s0.15	19.613021943	19.608277774	-4.744e-03
+365	f2-r45-365	fault2, extra-inside starts, round set at corner radius 0.4 and 0.5 (fq diverges)	4	TL7:8_s0.15	8010.759519883	19.608277774	-7.991e+03
+365	f2-rnd-365	fault2, extra-inside starts, round and shrink sets	6	TL11:15_s0.15	19.642016504	19.608277774	-3.374e-02
+365	fx-365	flip of lone rows on a round-set near miss	17	r7-7m_e0	19.608496511	19.608277774	-2.187e-04
+365	k365a	kick scan (midm_scan.py kick,lkick)	202	kick sig0.02	19.608487868	19.608277774	-2.101e-04
+365	k365b	kick scan (midm_scan.py kick,lkick)	207	lkick c191,r1.8,s0.03	19.608277773	19.608277774	9.306e-10
+365	rf-nm-365-BR	plain fault near misses of r20, round/shrink/soft/stiff3	1	BR2:3_s0.15_easis	19.640203670	19.608277774	-3.193e-02
+365	u-365-365-t1.0	every row one sense at a larger turn (rigidsoft_hop.py flip --turn, whole span)	2	r0-21p_e0	19.608500067	19.608277774	-2.223e-04
+365	u-365-365-t1.3	every row one sense at a larger turn (rigidsoft_hop.py flip --turn, whole span)	2	r0-21p_e0	19.608500068	19.608277774	-2.223e-04
+365	u-365-365-t1.6	every row one sense at a larger turn (rigidsoft_hop.py flip --turn, whole span)	2	r0-21p_e0	19.608500069	19.608277774	-2.223e-04
+365	u-365-365-t1.85	every row one sense at a larger turn (rigidsoft_hop.py flip --turn, whole span)	2	r0-21p_e0	19.612108731	19.608277774	-3.831e-03
+409	ch-m-409-p1	fault chain pass, --clean 1 --reduce 2, from the r18 held layout (ch5.sh)	10	BR11:13_s0.15_easis	20.750220096	20.739455513	-1.076e-02
+409	ch-p-409-p1	fault chain pass from a round2/round3 layout (ch6.sh)	7	BR6:8_s0.15_easis	20.740507573	20.739455513	-1.052e-03
+409	ch-p-409-p2	fault chain pass from a round2/round3 layout (ch6.sh)	39	BR3:4_s0.15_easis	20.758177129	20.739455513	-1.872e-02
+409	ch-s-409-p1	fault chain pass (maxch 2) after the 409 kick scan (ch6.sh)	39	BR1:2_s0.15_easis	20.739849491	20.739455513	-3.940e-04
+409	chx-p-409-p1	flip after a chain pass	29	r7-8m_e0	20.740442814	20.739455513	-9.873e-04
+409	chx-s-409-p1	flip after a chain pass	16	r0-0m_e0	20.739849487	20.739455513	-3.940e-04
+409	f2-a-409	fault2, band with an extra square inside, alm0/def	6	TL2:6_s0.15	20.949747468	20.739455513	-2.103e-01
+409	f2-r0s-409	fault2, extra-inside starts, round set at corner radius 0.05, 0.2, 0.3	1	TL3:6_s0.15	20.741019042	20.739455513	-1.564e-03
+409	f2-r1525-409	fault2, extra-inside starts, round set at corner radius 0.15 and 0.25	1	TL3:6_s0.15	20.741019024	20.739455513	-1.564e-03
+409	f2-r3-409	fault2, extra-inside starts, round set at corner radius 0.3	5	BR5:8_s0.15	20.741250448	20.739455513	-1.795e-03
+409	f2-r45-409	fault2, extra-inside starts, round set at corner radius 0.4 and 0.5 (fq diverges)	1	TL3:6_s0.15	58527.151757280	20.739455513	-5.851e+04
+409	f2-rnd-409	fault2, extra-inside starts, round and shrink sets	6	TL3:6_s0.15	20.756186882	20.739455513	-1.673e-02
+409	k409a	kick scan (midm_scan.py kick,lkick)	217	lkick c300,r1.2,s0.12	20.739849487	20.739455513	-3.940e-04
+494	ch-n-494-p1	plain fault chain pass from a round-set near miss (ch6.sh)	9	BR3:5_s0.15_easis	22.735599444	22.733430919	-2.169e-03
+494	ch-n-494-p2	plain fault chain pass from a round-set near miss (ch6.sh)	66	TL17:20_s0.15_easis	22.736768224	22.733430919	-3.337e-03
+494	chx-n-494-p2	flip after a chain pass	11	r18-19m_e0	22.736768230	22.733430919	-3.337e-03
+494	f2-a-494	fault2, band with an extra square inside, alm0/def	7	TL5:6_s0.15	22.808046093	22.733430919	-7.462e-02
+494	f2-flags-494	fault2, extra-inside starts, 7 fq sets	1	TL1:6_s0.15	22.859308691	22.733430919	-1.259e-01
+494	f2-r0s-494	fault2, extra-inside starts, round set at corner radius 0.05, 0.2, 0.3	3	TL2:6_s0.15	22.737156906	22.733430919	-3.726e-03
+494	f2-r1525-494	fault2, extra-inside starts, round set at corner radius 0.15 and 0.25	1	TL3:6_s0.15	22.737154808	22.733430919	-3.724e-03
+494	f2-r2-494	fault2, extra-inside starts, round set at corner radius 0.2	1	TL2:6_s0.15	22.800772598	22.733430919	-6.734e-02
+494	f2-r3-494	fault2, extra-inside starts, round set at corner radius 0.3	4	BR5:8_s0.15	22.741250448	22.733430919	-7.820e-03
+494	f2-r45-494	fault2, extra-inside starts, round set at corner radius 0.4 and 0.5 (fq diverges)	2	TL3:6_s0.15	14768.568590366	22.733430919	-1.475e+04
+494	f2-rnd-494	fault2, extra-inside starts, round and shrink sets	6	TL3:6_s0.15	22.737156548	22.733430919	-3.726e-03
+494	fx-494	flip of lone rows on a round-set near miss	22	r5-7m_e0	22.737154965	22.733430919	-3.724e-03
+494	ku-494	kick scan (midm_scan.py kick,lkick)	3	lkick c71,r1.2,s0.12	22.735217809	22.733430919	-1.787e-03
+494	rf-nm-494-TL	plain fault near misses of r20, round/shrink/soft/stiff3	1	TL8:10_s0.15_easis	22.737094110	22.733430919	-3.663e-03
+494	u-494-494-t1.0	every row one sense at a larger turn (rigidsoft_hop.py flip --turn, whole span)	2	r0-24m_e0	22.737151385	22.733430919	-3.720e-03
+494	u-494-494-t1.5	every row one sense at a larger turn (rigidsoft_hop.py flip --turn, whole span)	2	r0-24m_e0	22.737151591	22.733430919	-3.721e-03
+494	u-494-494-t2.0	every row one sense at a larger turn (rigidsoft_hop.py flip --turn, whole span)	2	r0-24m_e0	22.737151502	22.733430919	-3.721e-03
+494	u-494-494-t2.3	every row one sense at a larger turn (rigidsoft_hop.py flip --turn, whole span)	2	r0-24m_e0	22.737146489	22.733430919	-3.716e-03
+494	u-494chn-494-t1.0	every row one sense at a larger turn (rigidsoft_hop.py flip --turn, whole span)	2	r0-24p_e0	22.735034772	22.733430919	-1.604e-03
+494	u-494chn-494-t1.3	every row one sense at a larger turn (rigidsoft_hop.py flip --turn, whole span)	2	r0-24p_e0	22.734988080	22.733430919	-1.557e-03
+494	u-494chn-494-t1.67	every row one sense at a larger turn (rigidsoft_hop.py flip --turn, whole span)	2	r0-24p_e0	22.734980500	22.733430919	-1.550e-03
+907	f2-b-907	fault2, band with an extra square inside, alm0/def	15	TL3:13_s0.15	30.828427125	30.616241289	-2.122e-01
+907	f2-g907-907	fault2 on the r20 907 branch TL3:12+TL20:26, round and alm0	8	TL26:36_s0.15	30.618126292	30.616241289	-1.885e-03
+907	f2-r3-907	fault2, extra-inside starts, round set at corner radius 0.3	3	TL7:13_s0.15	30.624368042	30.616241289	-8.127e-03
+907	f2-rnd9-907	fault2 on the r20 907, extra-inside starts, round and round2	6	TL7:13_s0.15	30.629291185	30.616241289	-1.305e-02

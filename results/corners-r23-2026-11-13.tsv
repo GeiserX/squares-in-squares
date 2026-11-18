@@ -1,0 +1,302 @@
+kind	n	box	tag	modules	predicted	built	bar	delta	tries	finds	rows	score	source	licence	log
+build	597	boxC		zc8x8-92f9193abacklog-001.C+700h17.F2+700so16.F1	24.893526	24.892667811	24.893854241	-0.0011864300000006267							<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/logs/b-backlog-001-597-build-597.log
+build	758	boxC		zc8x8-116f9534ahd23-cd88d578-6.C+814h09.F1+504h.F2	27.953392	27.953425658	27.953419105	6.553000002185172e-06							<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/logs/b-hd23-cd88d578-6-758-build-758.log
+build	550	boxC		zc8x8-92f9193bbacklog-001.C+503h.F2+503h.F2d	23.908291	23.908286885	23.904014382	0.004272502999999261							<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/logs/b-backlog-001-550-build-550.log
+build	758	boxC		zc8x8-116f9627ahd23-cd88d578-7.C+814h09.F1+504h.F2	27.953292	27.953426048	27.953419105	6.9430000024794936e-06							<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/logs/b-hd23-cd88d578-7-758-build-758.log
+build	648	boxC		zc8x8-92f9191ahd23-09255b01-1.C+700so16.F2d+700so16.F1d	25.900339	25.899950839	25.899950262	5.769999980032026e-07							<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/logs/b-hd23-09255b01-1-648-build-648.log
+build	550	boxC		zc8x8-92f9191abacklog-000.C+503h.F2+649fa16a.F1d	23.904498	23.904014381	23.904014382	-1.000000082740371e-09							<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/logs/b-backlog-000-550-build-550.log
+build	758	boxC		zc8x8-116f9627agrow23-46-0.C+814h09.F1+504h.F2	27.953292	27.953426048	27.953419105	6.9430000024794936e-06							<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/logs/b-grow23-46-0-758-build-758.log
+build	758	boxC		zc8x8-100f8951bhd23-0dbbe302-0.C+814h09.F1+504h.F2	27.953135	27.953426074	27.953419105	6.9690000010780295e-06							<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/logs/b-hd23-0dbbe302-0-758-build-758.log
+build	503	boxC		zc8x8-92f9191abacklog-000.C+649fa16.F1d+649fa16.F1d	22.894785	22.89358756	22.893587555	5.000000413701855e-09							<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/logs/b-backlog-000-503-build-503.log
+build	503	boxC		zc8x8-92f9193abacklog-001.C+598h13.F2+598fa16.F1d	22.895319	22.895128274	22.893587555	0.0015407190000011894							<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/logs/b-backlog-001-503-build-503.log
+build	648	boxC		zc8x8-92f9191abacklog-000.C+700so16.F1d+700so16.F2d	25.900312	25.899950839	25.903443654	-0.0034928150000013147							<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/logs/b-backlog-000-648-build-648.log
+build	758	boxC		zc8x8-92f9191chd23-e036a493-2.C+814h09.F1+504h.F2	27.953477	27.953425833	27.953419105	6.728000002453882e-06							<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/logs/b-hd23-e036a493-2-758-build-758.log
+build	815	boxA		zc7x7-99f9609ahd69c5d4.C+652m10.F2+758b14.F2d	28.96113203175501	28.960927302782817	28.960655209597377	0.0002720931854405251							<scratch>/bounties-squares/take-corners-r23/work/logs/local23-hb-hd69c5d4-815.log
+lp-build	911	boxA		zc9x9-103f7067ahd790d3f.C+z9-36f680.F1+910ts17.F2	30.684985154673626	30.684424188257065	30.682846457446477	0.001577730810588207							<scratch>/bounties-squares/take-corners-r23/work/logs/local23-hb-hd790d3f-911.log
+build	974	boxA		zc9x9-103f7067ahd790d3f.C+910ts17.F2+z9-36f680.F1	31.698598900916515	31.697896725874152	31.697896727409002	-1.53485046894275e-09							<scratch>/bounties-squares/take-corners-r23/work/logs/local23-hb-hd790d3f-974.log
+build	805	boxA		zc7x7-61f8427ahd86a83c.C+863po16.F1+863h.F1	28.84364508393016	28.842826617611404	28.842708810826657	0.00011780678474693218							<scratch>/bounties-squares/take-corners-r23/work/logs/local23-hb-hd86a83c-805.log
+build	759	boxA		zc7x7-126f9668ahd12f5f0.C+652h.F1+816m10.F1	27.971386071014066	27.97023765481572	27.97023765601279	-1.1970726632171136e-09							<scratch>/bounties-squares/take-corners-r23/work/logs/local23-hb-hd12f5f0-759.log
+lp-build	936	boxA		zc7x7-120f9910ahd568f7a.C+999fa14.F1+817h13.F2	30.99203373986078	30.99150127373638	30.990740336363256	0.000760937373122772							<scratch>/bounties-squares/take-corners-r23/work/logs/local23-hb-hd568f7a-936.log
+lp-build	997	boxA		zc7x7-119f9703ahd3946c1.C+874h14.F1+874h14.F1d	31.97529216048479	31.975263142730594	31.973017757565188	0.0022453851654056223							<scratch>/bounties-squares/take-corners-r23/work/logs/local23-hb-hd3946c1-997.log
+lp-build	862	boxA		zc9x9-119f8145ahd64a7e5.C+z9-43f840.F1d+921h.F2	29.82698292523593	29.82676737780461	29.825745981267396	0.0010213965372152245							<scratch>/bounties-squares/take-corners-r23/work/logs/local23-hb-hd64a7e5-862.log
+build	805	boxA		zc7x7-96f8576ahd4e41f6.C+863h.F1+863po16.F1	28.844200922221734	28.842825624126156	28.842708810826657	0.00011681329949908559							<scratch>/bounties-squares/take-corners-r23/work/logs/local23-hb-hd4e41f6-805.log
+lp-build	875	boxA		zc7x7-113f9861ahd91a76d.C+998h.F1+817h13.F2	29.986267767899	29.98572792704164	29.98475708337999	0.0009708436616513438							<scratch>/bounties-squares/take-corners-r23/work/logs/local23-hb-hd91a76d-875.log
+build	805	boxA		zc7x7-75f8429ahd3946c1.C+863po16.F1+863po16.F1	28.843626597003524	28.842889582290084	28.842708810826657	0.00018077146342676542							<scratch>/bounties-squares/take-corners-r23/work/logs/local23-hb-hd3946c1-805.log
+lp-build	997	boxA		zc7x7-98f9786ahd4e41f6.C+874h14.F1d+875t13.F2	31.975794241473533	31.975542596120558	31.973017757565188	0.0025248385553702235							<scratch>/bounties-squares/take-corners-r23/work/logs/local23-hb-hd4e41f6-997.log
+scan	597	boxC	b-backlog-001-597-597/scan			24.892664738422	24.892667811288		5	1					<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/runs/b-backlog-001-597-597/scan/scan-597-23.tsv
+scan	597	boxC	b-backlog-001-597-597/leg-0			24.892664738422	24.892664738422		7	0					<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/runs/b-backlog-001-597-597/leg-0/scan-597-24.tsv
+scan	503	boxC	b-backlog-000-503-503/scan			22.893587559919	22.893587559919		24	0					<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/runs/b-backlog-000-503-503/scan/scan-503-23.tsv
+scan	758	boxC	fresh-family-758-7f57de6b10/scan			27.953419103558	27.953419104906		12	1					<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/runs/fresh-family-758-7f57de6b10/scan/scan-758-23.tsv
+scan	758	boxC	fresh-family-758-7f57de6b10/leg-0			27.953419103558	27.953419103558		11	0					<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/runs/fresh-family-758-7f57de6b10/leg-0/scan-758-24.tsv
+scan	503	boxC	fresh-family-503-925d6f51de/scan			22.896382426131	22.896404984645		20	2					<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/runs/fresh-family-503-925d6f51de/scan/scan-503-23.tsv
+scan	503	boxC	fresh-family-503-925d6f51de/leg-1			22.896382426131	22.896382426131		15	0					<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/runs/fresh-family-503-925d6f51de/leg-1/scan-503-25.tsv
+scan	503	boxC	fresh-family-503-925d6f51de/leg-0			22.896382942752	22.896404844834		16	1					<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/runs/fresh-family-503-925d6f51de/leg-0/scan-503-24.tsv
+scan	650	boxC	fresh-family-650-7a44ca9f6a/scan			25.929804206116	25.929804206116		7	0					<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/runs/fresh-family-650-7a44ca9f6a/scan/scan-650-23.tsv
+scan	599	boxC	fresh-family-599-9b65a8e7ae/scan			24.919068244662	24.919068282167		14	1					<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/runs/fresh-family-599-9b65a8e7ae/scan/scan-599-23.tsv
+scan	599	boxC	fresh-family-599-9b65a8e7ae/leg-0			24.919068244662	24.919068244662		8	0					<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/runs/fresh-family-599-9b65a8e7ae/leg-0/scan-599-24.tsv
+scan	379	boxC	fresh-family-379-852a46b1a0/scan			19.92931228705	19.92931228705		70	0					<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/runs/fresh-family-379-852a46b1a0/scan/scan-379-23.tsv
+scan	758	boxC	b-hd23-0dbbe302-0-758-758/scan						2	0					<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/runs/b-hd23-0dbbe302-0-758-758/scan/scan-758-23.tsv
+scan	758	boxC	b-hd23-e036a493-2-758-758/scan			27.953419103558	27.953425833271		5	1					<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/runs/b-hd23-e036a493-2-758-758/scan/scan-758-23.tsv
+scan	758	boxC	b-hd23-e036a493-2-758-758/leg-0			27.953419103558	27.953419103558		4	0					<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/runs/b-hd23-e036a493-2-758-758/leg-0/scan-758-24.tsv
+scan	503	boxC	fresh-family-503-180ccc0444/scan			22.896351144467	22.896374711107		16	1					<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/runs/fresh-family-503-180ccc0444/scan/scan-503-23.tsv
+scan	503	boxC	fresh-family-503-180ccc0444/leg-0			22.896351144466	22.896351144466		8	0					<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/runs/fresh-family-503-180ccc0444/leg-0/scan-503-24.tsv
+scan	650	boxC	fresh-family-650-ca6cabce1f/scan			25.92980413588	25.92980413588		7	0					<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/runs/fresh-family-650-ca6cabce1f/scan/scan-650-23.tsv
+scan	648	boxC	b-backlog-000-648-648/scan			25.89995050083	25.899950839191		20	2					<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/runs/b-backlog-000-648-648/scan/scan-648-23.tsv
+scan	648	boxC	b-backlog-000-648-648/leg-1			25.899950503224	25.899950503224		8	0					<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/runs/b-backlog-000-648-648/leg-1/scan-648-25.tsv
+scan	648	boxC	b-backlog-000-648-648/leg-0			25.899950469138	25.89995050083		10	4					<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/runs/b-backlog-000-648-648/leg-0/scan-648-24.tsv
+scan	650	boxC	fresh-family-650-037f5df7ff/scan			25.929804159927	25.929804159927		6	0					<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/runs/fresh-family-650-037f5df7ff/scan/scan-650-23.tsv
+scan	550	boxC	b-backlog-000-550-550/scan			23.904014381232	23.904014381232		6	0					<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/runs/b-backlog-000-550-550/scan/scan-550-23.tsv
+scan	550	boxC	fresh-family-550-72d15797b6/scan			23.908368780096	23.908368825413		14	1					<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/runs/fresh-family-550-72d15797b6/scan/scan-550-23.tsv
+scan	550	boxC	fresh-family-550-72d15797b6/leg-0			23.908368780096	23.908368780096		4	0					<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/runs/fresh-family-550-72d15797b6/leg-0/scan-550-24.tsv
+scan	599	boxC	fresh-family-599-cd5a3e1975/scan			24.919068282652	24.919068282652		16	0					<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/runs/fresh-family-599-cd5a3e1975/scan/scan-599-23.tsv
+scan	971	boxC	fresh-forensics-971-24cc4feb9d/scan			31.658051208634	31.658051208634		15	0					<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/runs/fresh-forensics-971-24cc4feb9d/scan/scan-971-23.tsv
+scan	648	boxC	b-hd23-09255b01-1-648-648/leg-2			25.899950284901	25.899950812833		7	1					<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/runs/b-hd23-09255b01-1-648-648/leg-2/scan-648-26.tsv
+scan	648	boxC	b-hd23-09255b01-1-648-648/scan			25.899950259273	25.899950838828		14	3					<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/runs/b-hd23-09255b01-1-648-648/scan/scan-648-23.tsv
+scan	648	boxC	b-hd23-09255b01-1-648-648/leg-1			25.899950259273	25.899950259273		3	0					<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/runs/b-hd23-09255b01-1-648-648/leg-1/scan-648-25.tsv
+scan	648	boxC	b-hd23-09255b01-1-648-648/leg-0			25.899950263721	25.899950273167		8	1					<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/runs/b-hd23-09255b01-1-648-648/leg-0/scan-648-24.tsv
+scan	599	boxC	fresh-family-599-998381d173/scan			24.919089502427	24.919089540923		8	1					<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/runs/fresh-family-599-998381d173/scan/scan-599-23.tsv
+scan	599	boxC	fresh-family-599-998381d173/leg-0			24.919078162539	24.919089502427		10	1					<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/runs/fresh-family-599-998381d173/leg-0/scan-599-24.tsv
+scan	650	boxC	fresh-family-650-2cbc3030d1/scan			25.929804155104	25.929804158817		5	2					<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/runs/fresh-family-650-2cbc3030d1/scan/scan-650-23.tsv
+scan	650	boxC	fresh-family-650-2cbc3030d1/leg-1			25.929804156393	25.929804156393		5	0					<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/runs/fresh-family-650-2cbc3030d1/leg-1/scan-650-25.tsv
+scan	650	boxC	fresh-family-650-2cbc3030d1/leg-0			25.929804155104	25.929804155104		7	0					<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/runs/fresh-family-650-2cbc3030d1/leg-0/scan-650-24.tsv
+scan	597	boxC	fresh-family-597-7ac49cbfa3/scan			24.891295869415	24.891295871561		13	1					<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/runs/fresh-family-597-7ac49cbfa3/scan/scan-597-23.tsv
+scan	597	boxC	fresh-family-597-7ac49cbfa3/leg-0			24.891295869414	24.891295869414		5	0					<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/runs/fresh-family-597-7ac49cbfa3/leg-0/scan-597-24.tsv
+scan	758	boxC	b-grow23-46-0-758-758/scan			27.953426048279	27.953426048279		4	0					<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/runs/b-grow23-46-0-758-758/scan/scan-758-23.tsv
+scan	758	boxC	b-hd23-cd88d578-7-758-758/scan			27.953426048279	27.953426048279		4	0					<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/runs/b-hd23-cd88d578-7-758-758/scan/scan-758-23.tsv
+scan	379	boxC	fresh-family-379-243386db98/scan			19.929312282645	19.929312282645		78	0					<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/runs/fresh-family-379-243386db98/scan/scan-379-23.tsv
+scan	758	boxC	b-hd23-cd88d578-6-758-758/scan			27.953422430517	27.953425658316		3	1					<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/runs/b-hd23-cd88d578-6-758-758/scan/scan-758-23.tsv
+scan	758	boxC	b-hd23-cd88d578-6-758-758/leg-0			27.953422430517	27.953422430517		1	0					<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/runs/b-hd23-cd88d578-6-758-758/leg-0/scan-758-24.tsv
+scan	550	boxD	fresh-family-550-93a908f882/scan			23.908367679571	23.908367679571		14	0					<scratch>/bounties-squares/take-corners-r23/work/remote/boxD/runs/fresh-family-550-93a908f882/scan/scan-550-23.tsv
+scan	927	boxD	fresh-family-927-887aa152cd/scan			30.882879459472	30.882879459472		10	0					<scratch>/bounties-squares/take-corners-r23/work/remote/boxD/runs/fresh-family-927-887aa152cd/scan/scan-927-23.tsv
+scan	758	boxD	fresh-family-758-ed247834d6/scan			27.953419103558	27.95343453161		5	1					<scratch>/bounties-squares/take-corners-r23/work/remote/boxD/runs/fresh-family-758-ed247834d6/scan/scan-758-23.tsv
+scan	758	boxD	fresh-family-758-ed247834d6/leg-0			27.953419103558	27.953419103558		7	0					<scratch>/bounties-squares/take-corners-r23/work/remote/boxD/runs/fresh-family-758-ed247834d6/leg-0/scan-758-24.tsv
+scan	597	boxD	fresh-family-597-f0507e4ba9/scan			24.891295869421	24.891295872767		14	1					<scratch>/bounties-squares/take-corners-r23/work/remote/boxD/runs/fresh-family-597-f0507e4ba9/scan/scan-597-23.tsv
+scan	597	boxD	fresh-family-597-f0507e4ba9/leg-0			24.891295869421	24.891295869421		5	0					<scratch>/bounties-squares/take-corners-r23/work/remote/boxD/runs/fresh-family-597-f0507e4ba9/leg-0/scan-597-24.tsv
+scan	648	boxD	fresh-family-648-3ac12c2ae8/scan			25.899950454054	25.899950454054		12	0					<scratch>/bounties-squares/take-corners-r23/work/remote/boxD/runs/fresh-family-648-3ac12c2ae8/scan/scan-648-23.tsv
+scan	932	boxD	fresh-family-932-c0e1e451d3/scan			30.937941884354	30.937941884354		5	0					<scratch>/bounties-squares/take-corners-r23/work/remote/boxD/runs/fresh-family-932-c0e1e451d3/scan/scan-932-23.tsv
+scan	871	boxD	fresh-family-871-efc05cd956/scan			29.929338352336	29.9293404434		4	1					<scratch>/bounties-squares/take-corners-r23/work/remote/boxD/runs/fresh-family-871-efc05cd956/scan/scan-871-23.tsv
+scan	871	boxD	fresh-family-871-efc05cd956/leg-0			29.929338352336	29.929338352336		4	0					<scratch>/bounties-squares/take-corners-r23/work/remote/boxD/runs/fresh-family-871-efc05cd956/leg-0/scan-871-24.tsv
+scan	503	boxD	fresh-family-503-a562f38c8f/scan			22.896382324303	22.89640498355		17	2					<scratch>/bounties-squares/take-corners-r23/work/remote/boxD/runs/fresh-family-503-a562f38c8f/scan/scan-503-23.tsv
+scan	503	boxD	fresh-family-503-a562f38c8f/leg-1			22.896382324303	22.896382324303		6	0					<scratch>/bounties-squares/take-corners-r23/work/remote/boxD/runs/fresh-family-503-a562f38c8f/leg-1/scan-503-25.tsv
+scan	503	boxD	fresh-family-503-a562f38c8f/leg-0			22.896382427488	22.896404844835		12	2					<scratch>/bounties-squares/take-corners-r23/work/remote/boxD/runs/fresh-family-503-a562f38c8f/leg-0/scan-503-24.tsv
+scan	550	boxD	fresh-family-550-837d4fc3fd/scan			23.908368738758	23.90840190941		17	2					<scratch>/bounties-squares/take-corners-r23/work/remote/boxD/runs/fresh-family-550-837d4fc3fd/scan/scan-550-23.tsv
+scan	550	boxD	fresh-family-550-837d4fc3fd/leg-1			23.908368738758	23.908368738758		12	0					<scratch>/bounties-squares/take-corners-r23/work/remote/boxD/runs/fresh-family-550-837d4fc3fd/leg-1/scan-550-25.tsv
+scan	550	boxD	fresh-family-550-837d4fc3fd/leg-0			23.908368748428	23.908368748428		9	0					<scratch>/bounties-squares/take-corners-r23/work/remote/boxD/runs/fresh-family-550-837d4fc3fd/leg-0/scan-550-24.tsv
+scan	648	boxD	fresh-family-648-2e1d836499/scan			25.899950445728	25.899950445728		10	0					<scratch>/bounties-squares/take-corners-r23/work/remote/boxD/runs/fresh-family-648-2e1d836499/scan/scan-648-23.tsv
+scan	650	boxD	fresh-family-650-d6fad14b87/scan			25.929804156403	25.929804156403		8	0					<scratch>/bounties-squares/take-corners-r23/work/remote/boxD/runs/fresh-family-650-d6fad14b87/scan/scan-650-23.tsv
+scan	597	boxD	fresh-family-597-34f578be53/scan			24.891295873962	24.891295873962		12	0					<scratch>/bounties-squares/take-corners-r23/work/remote/boxD/runs/fresh-family-597-34f578be53/scan/scan-597-23.tsv
+scan	650	boxD	fresh-family-650-4b20ce90a7/scan			25.92980415765	25.92980415765		6	0					<scratch>/bounties-squares/take-corners-r23/work/remote/boxD/runs/fresh-family-650-4b20ce90a7/scan/scan-650-23.tsv
+scan	550	boxD	fresh-family-550-4fcf073481/leg-2			23.908365976337	23.908366303088		10	1					<scratch>/bounties-squares/take-corners-r23/work/remote/boxD/runs/fresh-family-550-4fcf073481/leg-2/scan-550-26.tsv
+scan	550	boxD	fresh-family-550-4fcf073481/scan			23.908365977991	23.908398165118		11	3					<scratch>/bounties-squares/take-corners-r23/work/remote/boxD/runs/fresh-family-550-4fcf073481/scan/scan-550-23.tsv
+scan	550	boxD	fresh-family-550-4fcf073481/leg-1			23.908365977991	23.908365977991		6	0					<scratch>/bounties-squares/take-corners-r23/work/remote/boxD/runs/fresh-family-550-4fcf073481/leg-1/scan-550-25.tsv
+scan	550	boxD	fresh-family-550-4fcf073481/leg-0			23.908366305745	23.908366425517		6	1					<scratch>/bounties-squares/take-corners-r23/work/remote/boxD/runs/fresh-family-550-4fcf073481/leg-0/scan-550-24.tsv
+scan	987	boxD	fresh-family-987-40cd415201/scan			31.862212281558	31.862251795666		11	1					<scratch>/bounties-squares/take-corners-r23/work/remote/boxD/runs/fresh-family-987-40cd415201/scan/scan-987-23.tsv
+scan	987	boxD	fresh-family-987-40cd415201/leg-0			31.862212281557	31.862212281557		4	0					<scratch>/bounties-squares/take-corners-r23/work/remote/boxD/runs/fresh-family-987-40cd415201/leg-0/scan-987-24.tsv
+scan	599	boxD	fresh-family-599-e384f6fc93/scan			24.916947518789	24.916947518789		10	0					<scratch>/bounties-squares/take-corners-r23/work/remote/boxD/runs/fresh-family-599-e384f6fc93/scan/scan-599-23.tsv
+scan	874	boxD	fresh-family-874-fd5ded0646/scan			29.971699696549	29.971699696549		6	0					<scratch>/bounties-squares/take-corners-r23/work/remote/boxD/runs/fresh-family-874-fd5ded0646/scan/scan-874-23.tsv
+scan	872	boxD	fresh-family-872-cb6eee0b31/scan			29.936353099823	29.93635718078		6	1					<scratch>/bounties-squares/take-corners-r23/work/remote/boxD/runs/fresh-family-872-cb6eee0b31/scan/scan-872-23.tsv
+scan	872	boxD	fresh-family-872-cb6eee0b31/leg-0			29.936323979928	29.936353099791		3	1					<scratch>/bounties-squares/take-corners-r23/work/remote/boxD/runs/fresh-family-872-cb6eee0b31/leg-0/scan-872-24.tsv
+scan	758	boxD	fresh-family-758-f795d62ed6/scan			27.953419104906	27.953419104906		6	0					<scratch>/bounties-squares/take-corners-r23/work/remote/boxD/runs/fresh-family-758-f795d62ed6/scan/scan-758-23.tsv
+scan	876	boxD	fresh-family-876-d72eaafc91/scan			29.996947552399	29.996947553849		13	1					<scratch>/bounties-squares/take-corners-r23/work/remote/boxD/runs/fresh-family-876-d72eaafc91/scan/scan-876-23.tsv
+scan	876	boxD	fresh-family-876-d72eaafc91/leg-0						4	0					<scratch>/bounties-squares/take-corners-r23/work/remote/boxD/runs/fresh-family-876-d72eaafc91/leg-0/scan-876-24.tsv
+scan	758	boxD	fresh-family-758-af6799757d/scan			27.953419103558	27.953419104906		7	1					<scratch>/bounties-squares/take-corners-r23/work/remote/boxD/runs/fresh-family-758-af6799757d/scan/scan-758-23.tsv
+scan	758	boxD	fresh-family-758-af6799757d/leg-0			27.953419103558	27.953419103558		4	0					<scratch>/bounties-squares/take-corners-r23/work/remote/boxD/runs/fresh-family-758-af6799757d/leg-0/scan-758-24.tsv
+control	875	boxD	ctl-family875/leg-2			29.984843748197	29.984867575697		5	1					<scratch>/bounties-squares/take-corners-r23/work/remote/boxD/runs/ctl-family875/leg-2/scan-875-25.tsv
+control	875	boxD	ctl-family875/scan			29.984843849751	29.98492276297		9	3					<scratch>/bounties-squares/take-corners-r23/work/remote/boxD/runs/ctl-family875/scan/scan-875-22.tsv
+control	875	boxD	ctl-family875/leg-1			29.984917750628	29.98491799771		7	2					<scratch>/bounties-squares/take-corners-r23/work/remote/boxD/runs/ctl-family875/leg-1/scan-875-24.tsv
+control	875	boxD	ctl-family875/leg-0			29.984843849751	29.984843849751		6	0					<scratch>/bounties-squares/take-corners-r23/work/remote/boxD/runs/ctl-family875/leg-0/scan-875-23.tsv
+predict		boxC	hd23-4b207679-0								14				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-4b207679-0.tsv
+predict		boxC	hd23-26e83e53-3								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-26e83e53-3.tsv
+predict		boxC	hd23-cd88d578-9								10				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-cd88d578-9.tsv
+predict		boxC	hd23-cd88d578-8								4				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-cd88d578-8.tsv
+predict		boxC	hd23-090f9edb-14								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-090f9edb-14.tsv
+predict		boxC	hd23-26e83e53-2								14				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-26e83e53-2.tsv
+predict		boxC	backlog-034								10				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-backlog-034.tsv
+predict		boxC	hd23-13e35fac-0								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-13e35fac-0.tsv
+predict		boxC	backlog-022								13				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-backlog-022.tsv
+predict		boxC	hd23-26e83e53-10								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-26e83e53-10.tsv
+predict		boxC	hd23-26e83e53-0								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-26e83e53-0.tsv
+predict		boxC	hd23-174ce971-4								5				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-174ce971-4.tsv
+predict		boxC	hd23-4726efe3-0								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-4726efe3-0.tsv
+predict		boxC	hd23-26e83e53-1								6				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-26e83e53-1.tsv
+predict		boxC	hd23-26e83e53-11								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-26e83e53-11.tsv
+predict		boxC	backlog-037								2				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-backlog-037.tsv
+predict		boxC	hd23-23471537-2								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-23471537-2.tsv
+predict		boxC	hd23-fabeda22-0								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-fabeda22-0.tsv
+predict		boxC	hd23-09255b01-1								14				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-09255b01-1.tsv
+predict		boxC	hd23-a13088e0-0								8				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-a13088e0-0.tsv
+predict		boxC	hd23-26e83e53-5								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-26e83e53-5.tsv
+predict		boxC	hd23-174ce971-1								6				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-174ce971-1.tsv
+predict		boxC	hd23-090f9edb-13								6				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-090f9edb-13.tsv
+predict		boxC	hd23-090f9edb-12								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-090f9edb-12.tsv
+predict		boxC	hd23-174ce971-0								15				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-174ce971-0.tsv
+predict		boxC	hd23-26e83e53-4								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-26e83e53-4.tsv
+predict		boxC	hd23-a13088e0-1								7				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-a13088e0-1.tsv
+predict		boxC	hd23-09255b01-0								10				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-09255b01-0.tsv
+predict		boxC	hd23-23471537-3								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-23471537-3.tsv
+predict		boxC	hd23-228eb9fa-0								1				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-228eb9fa-0.tsv
+predict		boxC	hd23-23471537-1								3				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-23471537-1.tsv
+predict		boxC	hd23-26e83e53-6								5				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-26e83e53-6.tsv
+predict		boxC	hd23-090f9edb-10								8				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-090f9edb-10.tsv
+predict		boxC	hd23-174ce971-2								10				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-174ce971-2.tsv
+predict		boxC	hd23-174ce971-3								11				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-174ce971-3.tsv
+predict		boxC	hd23-090f9edb-11								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-090f9edb-11.tsv
+predict		boxC	hd23-26e83e53-7								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-26e83e53-7.tsv
+predict		boxC	hd23-09255b01-3								19				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-09255b01-3.tsv
+predict		boxC	backlog-019								7				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-backlog-019.tsv
+predict		boxC	backlog-025								13				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-backlog-025.tsv
+predict		boxC	hd23-23471537-0								3				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-23471537-0.tsv
+predict		boxC	backlog-031								10				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-backlog-031.tsv
+predict		boxC	hd23-f2260a6b-0								21				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-f2260a6b-0.tsv
+predict		boxC	hd23-55a139fe-17								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-55a139fe-17.tsv
+predict		boxC	hd23-d05c2dca-4								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-d05c2dca-4.tsv
+predict		boxC	hd23-bda1c605-4								8				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-bda1c605-4.tsv
+predict		boxC	hd23-e0994c20-7								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-e0994c20-7.tsv
+predict		boxC	hd23-e0994c20-6								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-e0994c20-6.tsv
+predict		boxC	hd23-bda1c605-5								1				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-bda1c605-5.tsv
+predict		boxC	hd23-d05c2dca-5								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-d05c2dca-5.tsv
+predict		boxC	hd23-55a139fe-16								8				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-55a139fe-16.tsv
+predict		boxC	backlog-043								19				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-backlog-043.tsv
+predict		boxC	backlog-094								12				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-backlog-094.tsv
+predict		boxC	backlog-082								8				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-backlog-082.tsv
+predict		boxC	hd23-f6fb02da-0								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-f6fb02da-0.tsv
+predict		boxC	backlog-055								3				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-backlog-055.tsv
+predict		boxC	hd23-55a139fe-14								9				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-55a139fe-14.tsv
+predict		boxC	hd23-d2fe026c-0								2				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-d2fe026c-0.tsv
+predict		boxC	hd23-d05c2dca-7								2				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-d05c2dca-7.tsv
+predict		boxC	hd23-88d35c1b-0								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-88d35c1b-0.tsv
+predict		boxC	hd23-e0994c20-4								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-e0994c20-4.tsv
+predict		boxC	hd23-bda1c605-7								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-bda1c605-7.tsv
+predict		boxC	hd23-bda1c605-6								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-bda1c605-6.tsv
+predict		boxC	hd23-e0994c20-5								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-e0994c20-5.tsv
+predict		boxC	grow23-48-3								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-grow23-48-3.tsv
+predict		boxC	hd23-d05c2dca-6								4				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-d05c2dca-6.tsv
+predict		boxC	hd23-55a139fe-15								6				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-55a139fe-15.tsv
+predict		boxC	backlog-040								12				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-backlog-040.tsv
+predict		boxC	hd23-090f9edb-9								12				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-090f9edb-9.tsv
+predict		boxC	hd23-55a139fe-11								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-55a139fe-11.tsv
+predict		boxC	hd23-90c06a76-0								21				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-90c06a76-0.tsv
+predict		boxC	hd23-d05c2dca-2								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-d05c2dca-2.tsv
+predict		boxC	hd23-e0994c20-1								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-e0994c20-1.tsv
+predict		boxC	hd23-bda1c605-2								5				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-bda1c605-2.tsv
+predict		boxC	hd23-bda1c605-3								5				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-bda1c605-3.tsv
+predict		boxC	hd23-e0994c20-0								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-e0994c20-0.tsv
+predict		boxC	hd23-d05c2dca-3								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-d05c2dca-3.tsv
+predict		boxC	hd23-90c06a76-1								11				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-90c06a76-1.tsv
+predict		boxC	hd23-55a139fe-10								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-55a139fe-10.tsv
+predict		boxC	backlog-079								8				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-backlog-079.tsv
+predict		boxC	hd23-090f9edb-8								4				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-090f9edb-8.tsv
+predict		boxC	hd23-55a139fe-12								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-55a139fe-12.tsv
+predict		boxC	hd23-55a139fe-8								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-55a139fe-8.tsv
+predict		boxC	hd23-0dbbe302-0								14				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-0dbbe302-0.tsv
+predict		boxC	hd23-d05c2dca-1								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-d05c2dca-1.tsv
+predict		boxC	hd23-bda1c605-1								4				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-bda1c605-1.tsv
+predict		boxC	hd23-e0994c20-2								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-e0994c20-2.tsv
+predict		boxC	hd23-e0994c20-3								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-e0994c20-3.tsv
+predict		boxC	hd23-bda1c605-0								11				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-bda1c605-0.tsv
+predict		boxC	hd23-d05c2dca-0								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-d05c2dca-0.tsv
+predict		boxC	hd23-e8cfe903-0								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-e8cfe903-0.tsv
+predict		boxC	hd23-55a139fe-9								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-55a139fe-9.tsv
+predict		boxC	hd23-55a139fe-13								15				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-55a139fe-13.tsv
+predict		boxC	hd23-90c06a76-2								5				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-90c06a76-2.tsv
+predict		boxC	backlog-046								4				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-backlog-046.tsv
+predict		boxC	backlog-052								2				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-backlog-052.tsv
+predict		boxC	backlog-085								9				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-backlog-085.tsv
+predict		boxC	backlog-091								9				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-backlog-091.tsv
+predict		boxC	backlog-088								7				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-backlog-088.tsv
+predict		boxC	hd23-090f9edb-6								1				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-090f9edb-6.tsv
+predict		boxC	hd23-55a139fe-22								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-55a139fe-22.tsv
+predict		boxC	hd23-55a139fe-4								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-55a139fe-4.tsv
+predict		boxC	hd23-e036a493-1								13				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-e036a493-1.tsv
+predict		boxC	hd23-b8981317-0								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-b8981317-0.tsv
+predict		boxC	hd23-b8981317-1								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-b8981317-1.tsv
+predict		boxC	hd23-55a139fe-5								2				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-55a139fe-5.tsv
+predict		boxC	hd23-55a139fe-23								2				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-55a139fe-23.tsv
+predict		boxC	hd23-090f9edb-7								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-090f9edb-7.tsv
+predict		boxC	backlog-076								1				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-backlog-076.tsv
+predict		boxC	hd23-090f9edb-5								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-090f9edb-5.tsv
+predict		boxC	hd23-55a139fe-21								4				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-55a139fe-21.tsv
+predict		boxC	hd23-55a139fe-7								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-55a139fe-7.tsv
+predict		boxC	hd23-e036a493-2								11				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-e036a493-2.tsv
+predict		boxC	hd23-bda1c605-14								17				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-bda1c605-14.tsv
+predict		boxC	hd23-63ff0f7d-0								1				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-63ff0f7d-0.tsv
+predict		boxC	hd23-63ff0f7d-1								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-63ff0f7d-1.tsv
+predict		boxC	hd23-bda1c605-15								7				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-bda1c605-15.tsv
+predict		boxC	hd23-55a139fe-6								2				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-55a139fe-6.tsv
+predict		boxC	hd23-55a139fe-20								6				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-55a139fe-20.tsv
+predict		boxC	hd23-090f9edb-4								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-090f9edb-4.tsv
+predict		boxC	backlog-061								11				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-backlog-061.tsv
+predict		boxC	backlog-049								4				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-backlog-049.tsv
+predict		boxC	hd23-090f9edb-0								2				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-090f9edb-0.tsv
+predict		boxC	hd23-55a139fe-18								1				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-55a139fe-18.tsv
+predict		boxC	hd23-55a139fe-2								1				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-55a139fe-2.tsv
+predict		boxC	hd23-bda1c605-11								2				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-bda1c605-11.tsv
+predict		boxC	hd23-c1bde45b-0								2				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-c1bde45b-0.tsv
+predict		boxC	hd23-9621fde9-2								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-9621fde9-2.tsv
+predict		boxC	hd23-9621fde9-3								1				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-9621fde9-3.tsv
+predict		boxC	hd23-bda1c605-10								2				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-bda1c605-10.tsv
+predict		boxC	grow23-46-0								20				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-grow23-46-0.tsv
+predict		boxC	hd23-55a139fe-3								17				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-55a139fe-3.tsv
+predict		boxC	hd23-55a139fe-19								2				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-55a139fe-19.tsv
+predict		boxC	backlog-058								14				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-backlog-058.tsv
+predict		boxC	hd23-090f9edb-1								9				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-090f9edb-1.tsv
+predict		boxC	backlog-070								11				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-backlog-070.tsv
+predict		boxC	backlog-064								8				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-backlog-064.tsv
+predict		boxC	hd23-cd88d578-10								1				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-cd88d578-10.tsv
+predict		boxC	hd23-090f9edb-3								11				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-090f9edb-3.tsv
+predict		boxC	hd23-e036a493-4								5				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-e036a493-4.tsv
+predict		boxC	hd23-55a139fe-1								8				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-55a139fe-1.tsv
+predict		boxC	hd23-bda1c605-12								9				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-bda1c605-12.tsv
+predict		boxC	hd23-d05c2dca-8								1				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-d05c2dca-8.tsv
+predict		boxC	hd23-9621fde9-1								5				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-9621fde9-1.tsv
+predict		boxC	hd23-bda1c605-8								2				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-bda1c605-8.tsv
+predict		boxC	hd23-bda1c605-9								5				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-bda1c605-9.tsv
+predict		boxC	hd23-9621fde9-0								17				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-9621fde9-0.tsv
+predict		boxC	hd23-03581fe0-0								15				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-03581fe0-0.tsv
+predict		boxC	hd23-bda1c605-13								13				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-bda1c605-13.tsv
+predict		boxC	hd23-55a139fe-0								10				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-55a139fe-0.tsv
+predict		boxC	backlog-067								8				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-backlog-067.tsv
+predict		boxC	backlog-073								12				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-backlog-073.tsv
+predict		boxC	hd23-090f9edb-2								6				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-090f9edb-2.tsv
+predict		boxC	backlog-028								2				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-backlog-028.tsv
+predict		boxC	backlog-000								10				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-backlog-000.tsv
+predict		boxC	hd23-9918ac50-4								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-9918ac50-4.tsv
+predict		boxC	hd23-e43eb151-0								15				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-e43eb151-0.tsv
+predict		boxC	hd23-cd88d578-0								12				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-cd88d578-0.tsv
+predict		boxC	hd23-cd88d578-1								16				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-cd88d578-1.tsv
+predict		boxC	backlog-001								9				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-backlog-001.tsv
+predict		boxC	hd23-9918ac50-7								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-9918ac50-7.tsv
+predict		boxC	hd23-26e83e53-9								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-26e83e53-9.tsv
+predict		boxC	hd23-cd88d578-3								12				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-cd88d578-3.tsv
+predict		boxC	hd23-cd88d578-2								14				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-cd88d578-2.tsv
+predict		boxC	hd23-26e83e53-8								2				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-26e83e53-8.tsv
+predict		boxC	hd23-9918ac50-6								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-9918ac50-6.tsv
+predict		boxC	backlog-016								9				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-backlog-016.tsv
+predict		boxC	grow23-45-0								15				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-grow23-45-0.tsv
+predict		boxC	hd23-366aeca4-0								3				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-366aeca4-0.tsv
+predict		boxC	hd23-7b5c512d-0								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-7b5c512d-0.tsv
+predict		boxC	hd23-cd88d578-6								16				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-cd88d578-6.tsv
+predict		boxC	hd23-cd88d578-7								14				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-cd88d578-7.tsv
+predict		boxC	hd23-7b5c512d-1								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-7b5c512d-1.tsv
+predict		boxC	hd23-9918ac50-3								4				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-9918ac50-3.tsv
+predict		boxC	hd23-366aeca4-1								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-366aeca4-1.tsv
+predict		boxC	backlog-013								9				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-backlog-013.tsv
+predict		boxC	backlog-007								8				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-backlog-007.tsv
+predict		boxC	hd23-20972ee2-0								31				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-20972ee2-0.tsv
+predict		boxC	hd23-9918ac50-1								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-9918ac50-1.tsv
+predict		boxC	hd23-7d1343e9-0								1				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-7d1343e9-0.tsv
+predict		boxC	hd23-cd88d578-5								6				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-cd88d578-5.tsv
+predict		boxC	hd23-cd88d578-4								1				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-cd88d578-4.tsv
+predict		boxC	hd23-9918ac50-0								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-hd23-9918ac50-0.tsv
+predict		boxC	backlog-004								6				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-backlog-004.tsv
+predict		boxC	backlog-010								5				<scratch>/bounties-squares/take-corners-r23/work/remote/boxC/predict-backlog-010.tsv
+predict		boxD	hd23-885f0c3a-0								5				<scratch>/bounties-squares/take-corners-r23/work/remote/boxD/predict-hd23-885f0c3a-0.tsv
+predict		boxD	hd23-8e65a392-0								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxD/predict-hd23-8e65a392-0.tsv
+predict		boxD	hd23-09255b01-2								6				<scratch>/bounties-squares/take-corners-r23/work/remote/boxD/predict-hd23-09255b01-2.tsv
+predict		boxD	grow23-48-2								11				<scratch>/bounties-squares/take-corners-r23/work/remote/boxD/predict-grow23-48-2.tsv
+predict		boxD	hd23-e036a493-0								8				<scratch>/bounties-squares/take-corners-r23/work/remote/boxD/predict-hd23-e036a493-0.tsv
+predict		boxD	hd23-e036a493-3								9				<scratch>/bounties-squares/take-corners-r23/work/remote/boxD/predict-hd23-e036a493-3.tsv
+predict		boxD	hd23-da046cdf-0								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxD/predict-hd23-da046cdf-0.tsv
+predict		boxD	hd23-d05c2dca-9								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxD/predict-hd23-d05c2dca-9.tsv
+predict		boxD	hd23-9918ac50-5								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxD/predict-hd23-9918ac50-5.tsv
+predict		boxD	hd23-9918ac50-2								0				<scratch>/bounties-squares/take-corners-r23/work/remote/boxD/predict-hd23-9918ac50-2.tsv

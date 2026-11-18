@@ -1,0 +1,26 @@
+n	arm	f	squares	class	best_seed_loss	loss_at_end	gain_of_the_hops	how	cpu_seconds
+338	6	0.8776	28	4	1.6797	1.6797	0.0000	taper enumeration	175
+340	6	0.9269	16	4	1.8388	1.8388	0.0000	library zone 304h.F1d carried to f	175
+378	7	0.9224	25	4	2.4639	2.4639	0.0000	taper enumeration	89
+419	6	0.9348	16	4	1.7922	1.7922	0.0000	stopped before the end	
+460	7	0.9172	25	4	2.3781	2.3781	0.0000	taper enumeration	174
+505	7	0.9305	25	4	2.5582	2.5582	0.0000	library zone 552h11c.F2 carried to f	158
+505	8	0.9305	53	5	2.7134	2.7134	0.0000	library zone 504h.F2~ carried to f	115
+552	8	0.9399	39	7	3.0713	3.0713	0.0000	taper enumeration	175
+587	11	0.7492	45	1	4.1030	4.1030	0.0000	library zone 587h14.F2 carried to f	175
+598	8		37	5	2.8275	2.8275	0.0000	library zone 549h14.F1d carried to f	115
+601	7		32	4	2.6070	2.6070	0.0000	library zone 815fa14.F1 carried to f	85
+601	8	0.9540	29	5	2.8717	2.8717	0.0000	library zone 933h11c.F2 carried to f	175
+601	8	0.9540	47	7	3.1797	3.1797	0.0000	taper enumeration	175
+634	7	0.7036	16	2	2.4354	2.4354	0.0000	taper enumeration	174
+649	8		37	5	2.7988	2.7988	0.0000	library zone 649fa16a.F1 carried to f	115
+652	8	0.9608	29	5	2.8232	2.8232	0.0000	library zone 652f13.F1 carried to f	175
+703	8	0.9464	39	7	3.0504	3.0504	0.0000	taper enumeration	125
+758	8	0.9549	47	7	3.1953	3.1953	0.0000	taper enumeration	115
+921	9	0.8160	43	7	3.3590	3.3590	0.0000	library zone 984b14.F1d carried to f	176
+936	7	0.9926	26	5	2.7474	2.7474	0.0000	library zone 999fa14.F1 carried to f	175
+974	8	0.7034	46	6				no seed of this count	
+974	8	0.7034	54	6				no seed of this count	
+993	8	0.9248	53	5	2.7458	2.7458	0.0000	stopped before the end	
+994	8	0.9387	53	5	2.7159	2.7159	0.0000	stopped before the end	
+995	8	0.9458	29	5	2.7184	2.7184	0.0000	taper enumeration	176

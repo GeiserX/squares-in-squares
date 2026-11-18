@@ -1,0 +1,784 @@
+part	box	target	donor	source_lane	direction	step	after_step	after_slp	after_squeeze	bar	delta_vs_bar	certified	state
+follow loop: walk from a new design	boxC	302	378-mmx17	midm (handoff log)	down	2	17.907889858	17.893966537	17.893966537	17.870013851	2.395e-02	no	ok
+follow loop: walk from a new design	boxC	302	378-mx17	modules (handoff log)	down	2	17.907889858	17.893969466	17.893969466	17.870013851	2.396e-02	no	ok
+follow loop: walk from a new design	boxD	335	374-mm17	midm-r17	down	1	18.826147191	18.794819572	18.794815920	18.794900867	-8.495e-05	yes	below held
+follow loop: walk from a new design	boxD	339	378-cfx17	classfill (handoff log)	down	1	18.922373984	18.907890051	18.907889858	18.906198209	1.692e-03	no	ok
+follow loop: walk from a new design	boxC	339	378-mmx17	midm (handoff log)	down	1	18.922374135	18.907890098	18.907889858	18.906198209	1.692e-03	no	ok
+follow loop: walk from a new design	boxC	339	378-mn17	modules-r17 near/	down	1	18.922374109	18.907894821	18.907894327	18.906198209	1.696e-03	no	ok
+follow loop: walk from a new design	boxC	339	378-mx17	modules (handoff log)	down	1	18.922374120	18.907889863	18.907889858	18.906198209	1.692e-03	no	ok
+follow loop: walk from a new design	boxD	339	419-f17	family-r17 (own results)	down	2	18.922373932	18.907889863	18.907889858	18.906198209	1.692e-03	no	ok
+follow loop: walk from a new design	boxC	374	335-f17	family-r17 (own results)	up	1	19.916212369	19.826319399	19.826148503	19.826147191	1.312e-06	no	ok
+follow loop: walk from a new design	boxC	377	418-mn17	modules-r17 near/	down	1	19.920094086	19.907644026	19.907644026	19.900890352	6.754e-03	no	ok
+follow loop: walk from a new design	boxC	378	419-c17	corners-r17	down	1	19.934128625	19.922961285	19.922961282	19.922374110	5.872e-04	no	ok
+follow loop: walk from a new design	boxD	378	419-f17	family-r17 (own results)	down	1	19.934722595	19.922376664	19.922373932	19.922373984	-5.200e-08	no (under 1e-10)	below held
+follow loop: walk from a new design	boxC	378	419-mn17	modules-r17 near/	down	1	19.934962715	19.923669824	19.923669820	19.922373984	1.296e-03	no	ok
+follow loop: walk from a new design	boxC	415	335-f17	family-r17 (own results)	up	2	20.940312659	20.859516011	20.859352154	20.859318178	3.398e-05	no	ok
+follow loop: walk from a new design	boxC	415	374-mm17	midm-r17	up	1	20.940311758	20.859455939	20.859381691	20.859318178	6.351e-05	no	ok
+follow loop: walk from a new design	boxC	417	552-mn17	modules-r17 near/	down	3	20.921297087	20.910230069	20.910230069	20.897143045	1.309e-02	no	ok
+follow loop: walk from a new design	boxC	419	378-cf17	classfill-r17	up	1	21.005936419	20.935211742	20.935202561	20.934128625	1.074e-03	no	ok
+follow loop: walk from a new design	boxC	419	378-cfx17	classfill (handoff log)	up	1	21.005936417	20.934733872	20.934723177	20.934128625	5.946e-04	no	ok
+follow loop: walk from a new design	boxE	419	378-m17	modules-r17	up	1	21.005936503	20.935145845	20.935145841	20.934128625	1.017e-03	no	ok
+follow loop: walk from a new design	boxC	419	378-m17a	modules-r17	up	1	21.005936373	20.934733878	20.934723177	20.934128625	5.946e-04	no	ok
+follow loop: walk from a new design	boxC	419	378-m17b	modules-r17	up	1	21.005936372	20.935199773	20.935199701	20.934128625	1.071e-03	no	ok
+follow loop: walk from a new design	boxC	419	378-mmx17	midm (handoff log)	up	1	21.005936519	20.934722730	20.934722594	20.934767920	-4.533e-05	no (under 1e-10)	below held
+follow loop: walk from a new design	boxD	419	378-mn17	modules-r17 near/	up	1	21.005936502	20.935199707	20.935199701	20.934128625	1.071e-03	no	ok
+follow loop: walk from a new design	boxD	419	378-mx17	modules (handoff log)	up	1	21.005936509	20.935199705	20.935199701	20.934767920	4.318e-04	no	ok
+follow loop: walk from a new design	boxC	458	374-mm17	midm-r17	up	2	nan	nan	nan	21.877799458		no	refused: the opened layout overlaps: smallest gap -8.63e-02 at side 21.961322
+follow loop: walk from a new design	boxC	460	552-mn17	modules-r17 near/	down	2	21.930451432	21.921297087	21.921297087	21.917181479	4.116e-03	no	ok
+follow loop: walk from a new design	boxC	461	418-mn17	modules-r17 near/	up	1	22.004398754	21.932004716	21.932003525	21.932001960	1.565e-06	no	ok
+follow loop: walk from a new design	boxC	462	378-mmx17	midm (handoff log)	up	2	22.014241769	21.957899611	21.957894896	21.948753360	9.142e-03	no	ok
+follow loop: walk from a new design	boxD	462	378-mx17	modules (handoff log)	up	2	22.014561817	21.958976434	21.958013541	21.948753360	9.260e-03	no	ok
+follow loop: walk from a new design	boxC	462	419-c17	corners-r17	up	1	22.013843234	21.952979518	21.952976938	21.948753360	4.224e-03	no	ok
+follow loop: walk from a new design	boxC	462	419-mn17	modules-r17 near/	up	1	22.014402853	21.954542679	21.954540712	21.948753360	5.787e-03	no	ok
+follow loop: walk from a new design	boxC	465	510-mm17	midm-r17	down	1	21.997302124	21.993321378	21.993321378	21.990557338	2.764e-03	no	ok
+follow loop: walk from a new design	boxD	465	510-mmx17	midm (handoff log)	down	1	21.997588202	21.993667983	21.993667983	21.990557338	3.111e-03	no	ok
+follow loop: walk from a new design	boxC	465	510-rdx17	readers (handoff log)	down	1	21.997597916	21.993703735	21.993703735	21.990557338	3.146e-03	no	ok
+follow loop: walk from a new design	boxD	502	549-c17	corners-r17	down	1	22.891122317	22.880524285	22.880524285	22.877574315	2.950e-03	no	ok
+follow loop: walk from a new design	boxC	502	549-h17	round 16 held, by family	down	1	22.891938960	22.881518803	22.881518803	22.877574315	3.944e-03	no	ok
+follow loop: walk from a new design	boxE	502	549-m17	modules-r17	down	1	22.891145229	22.880568774	22.880568774	22.877574315	2.994e-03	no	ok
+follow loop: walk from a new design	boxD	502	549-m17a	modules-r17	down	1	22.891143535	22.880566533	22.880566533	22.877574315	2.992e-03	no	ok
+follow loop: walk from a new design	boxC	502	549-mn17	modules-r17 near/	down	1	22.891145191	22.880605084	22.880605084	22.877574315	3.031e-03	no	ok
+follow loop: walk from a new design	boxD	502	549-mx17	modules (handoff log)	down	1	22.891924804	22.881632768	22.881632768	22.877574315	4.058e-03	no	ok
+follow loop: walk from a new design	boxD	502	598-h17	round 16 held, by family	down	2	22.891938959	22.881520271	22.881520271	22.877574315	3.946e-03	no	ok
+follow loop: walk from a new design	boxC	502	649-mn17	modules-r17 near/	down	3	22.892025374	22.881676475	22.881676475	22.877574315	4.102e-03	no	ok
+follow loop: walk from a new design	boxC	503	599-mn17	modules-r17 near/	down	2	22.910299093	22.900114728	22.900114718	22.898243640	1.871e-03	no	ok
+follow loop: walk from a new design	boxC	504	551-mn17	modules-r17 near/	down	1	22.923696050	22.914704028	22.914704028	22.911414565	3.289e-03	no	ok
+follow loop: walk from a new design	boxD	504	600-h17	round 16 held, by zones-corner	down	2	22.924218494	22.915880088	22.915880088	22.911414565	4.466e-03	no	ok
+follow loop: walk from a new design	boxC	505	552-mn17	modules-r17 near/	down	1	22.940134514	22.930451436	22.930451432	22.930451433	-1.000e-09	no (floatsafe)	below held
+follow loop: walk from a new design	boxC	505	652-mn17	modules-r17 near/	down	3	22.946534977	22.933372490	22.933372490	22.930451433	2.921e-03	no	ok
+follow loop: walk from a new design	boxC	507	378-mmx17	midm (handoff log)	up	3	23.029700011	22.973363010	22.973362208	22.960284459	1.308e-02	no	ok
+follow loop: walk from a new design	boxD	538	587-sb17	stair-b-r17	down	1	23.743772226	23.725036945	23.725036945	23.707106782	1.793e-02	no	ok
+follow loop: walk from a new design	boxD	538	587-ts17	twoshort-r17	down	1	23.744919887	23.725205533	23.725205533	23.707106782	1.810e-02	no	ok
+follow loop: walk from a new design	boxD	538	587-ts17a	twoshort-r17	down	1	23.744474545	23.725321334	23.725321334	23.707106782	1.821e-02	no	ok
+follow loop: walk from a new design	boxC	544	593-mm17	midm-r17	down	1	23.826203001	23.815071578	23.815071578	23.799033591	1.604e-02	no	ok
+follow loop: walk from a new design	boxD	544	593-p17	polish-r17	down	1	23.826202915	23.815814851	23.815814851	23.799033591	1.678e-02	no	ok
+follow loop: walk from a new design	boxD	549	598-h17	round 16 held, by family	down	1	23.901501979	23.891939094	23.891938959	23.891938960	-1.000e-09	no (floatsafe)	below held
+follow loop: walk from a new design	boxD	549	598-m17	modules-r17	down	1	23.901216371	23.891243240	23.891242312	23.891145192	9.712e-05	no	ok
+follow loop: walk from a new design	boxE	549	598-mn17	modules-r17 near/	down	1	23.901743804	23.892204810	23.892195597	23.891143535	1.052e-03	no	ok
+follow loop: walk from a new design	boxC	549	649-h17	round 16 held, by modules	down	2	23.901502268	23.892031945	23.892025459	23.891938960	8.650e-05	no	ok
+follow loop: walk from a new design	boxC	549	649-mn17	modules-r17 near/	down	2	23.901501981	23.892025405	23.892025374	23.891938960	8.641e-05	no	ok
+follow loop: walk from a new design	boxC	550	599-mn17	modules-r17 near/	down	1	23.921794275	23.910322984	23.910299093	23.910016068	2.830e-04	no	ok
+follow loop: walk from a new design	boxD	551	600-h17	round 16 held, by zones-corner	down	1	23.932171000	23.924222213	23.924218494	23.923695940	5.226e-04	no	ok
+follow loop: walk from a new design	boxD	551	651-mn17	modules-r17 near/	down	2	23.933421979	23.925683857	23.925683016	23.923695940	1.987e-03	no	ok
+follow loop: walk from a new design	boxC	552	652-mn17	modules-r17 near/	down	2	23.953958324	23.946534977	23.946534977	23.939867893	6.667e-03	no	ok
+follow loop: walk from a new design	boxD	557	510-mm17	midm-r17	up	1	24.039606561	24.006378670	24.006265708	24.000000001	6.266e-03	no	ok
+follow loop: walk from a new design	boxC	557	510-mmx17	midm (handoff log)	up	1	24.039560142	24.006178905	24.006168056	24.000000001	6.168e-03	no	ok
+follow loop: walk from a new design	boxD	557	510-rdx17	readers (handoff log)	up	1	24.039759458	24.006209609	24.006166277	24.000000001	6.166e-03	no	ok
+follow loop: walk from a new design	boxC	592	696-h17	round 16 held, by other	down	2	24.837567965	24.832796346	24.832796346	24.799033591	3.376e-02	no	ok
+follow loop: walk from a new design	boxC	592	696-mmx17	midm (handoff log)	down	2	24.837455203	24.832898223	24.832898223	24.799033591	3.386e-02	no	ok
+follow loop: walk from a new design	boxC	596	647-h17	round 16 held, by family	down	1	nan	nan	nan	24.870828695		no	refused: arm 2: no border square beside the cut
+follow loop: walk from a new design	boxD	596	700-mn17	modules-r17 near/	down	2	24.890233705	24.876787252	24.876787252	24.870828695	5.959e-03	no	ok
+follow loop: walk from a new design	boxD	598	549-c17	corners-r17	up	1	24.948740004	24.901217023	24.901216995	24.901216370	6.250e-07	no	ok
+follow loop: walk from a new design	boxC	598	549-h17	round 16 held, by family	up	1	24.949638867	24.901503449	24.901503444	24.901501979	1.465e-06	no	ok
+follow loop: walk from a new design	boxD	598	549-m17	modules-r17	up	1	24.949096541	24.901217131	24.901216396	24.901501979	-2.856e-04	no (under 1e-10)	below held
+follow loop: walk from a new design	boxD	598	549-m17a	modules-r17	up	1	24.949094808	24.901216433	24.901216370	24.901216371	-1.000e-09	no (under 1e-10)	below held
+follow loop: walk from a new design	boxE	598	549-mn17	modules-r17 near/	up	1	24.949096605	24.901217183	24.901216445	24.901216370	7.500e-08	no	ok
+follow loop: walk from a new design	boxC	598	549-mx17	modules (handoff log)	up	1	24.949481406	24.901532480	24.901501977	24.901216371	2.856e-04	no	ok
+follow loop: walk from a new design	boxC	598	649-h17	round 16 held, by modules	down	1	24.910536102	24.901502518	24.901502268	24.901501979	2.890e-07	no	ok
+follow loop: walk from a new design	boxC	598	649-mn17	modules-r17 near/	down	1	24.910536115	24.901502584	24.901501981	24.901501979	2.000e-09	no	ok
+follow loop: walk from a new design	boxC	599	650-mn17	modules-r17 near/	down	1	24.932813805	24.924782424	24.924782424	24.921794194	2.988e-03	no	ok
+follow loop: walk from a new design	boxC	599	703-cf17	classfill-r17	down	2	24.937867876	24.930272769	24.930272769	24.921794194	8.479e-03	no	ok
+follow loop: walk from a new design	boxC	599	703-cf17a	classfill-r17	down	2	24.937725202	24.930195548	24.930195548	24.921794194	8.401e-03	no	ok
+follow loop: walk from a new design	boxD	599	703-h17	round 16 held, by zones-corner	down	2	24.937913283	24.930345659	24.930345659	24.921794194	8.551e-03	no	ok
+follow loop: walk from a new design	boxC	599	703-mn17	modules-r17 near/	down	2	24.937725209	24.930195208	24.930195208	24.921794194	8.401e-03	no	ok
+follow loop: walk from a new design	boxC	600	551-mn17	modules-r17 near/	up	1	24.986852768	24.934889633	24.932333443	24.932171000	1.624e-04	no	ok
+follow loop: walk from a new design	boxD	600	651-mn17	modules-r17 near/	down	1	24.941426494	24.933429250	24.933421979	24.932171000	1.251e-03	no	ok
+follow loop: walk from a new design	boxD	600	704-h17	round 16 held, by family	down	2	24.948761396	24.939784840	24.939784840	24.932171000	7.614e-03	no	ok
+follow loop: walk from a new design	boxC	600	704-mn17	modules-r17 near/	down	2	24.948778270	24.939794033	24.939794033	24.932171000	7.623e-03	no	ok
+follow loop: walk from a new design	boxD	601	552-mn17	modules-r17 near/	up	1	24.998862308	24.954451423	24.954451079	24.953958325	4.928e-04	no	ok
+follow loop: walk from a new design	boxC	601	652-mn17	modules-r17 near/	down	1	24.960802857	24.953958335	24.953958324	24.953958325	-1.000e-09	no (under 1e-10)	below held
+follow loop: walk from a new design	boxD	634	687-h17	round 16 held, by family	down	1	25.724034085	25.715745610	25.715745610	25.703583890	1.216e-02	no	ok
+follow loop: walk from a new design	boxC	636	744-h17	round 16 held, by other	down	2	25.745803454	25.738646699	25.738646699	25.727922063	1.072e-02	no	ok
+follow loop: walk from a new design	boxC	638	587-sb17	stair-b-r17	up	1	25.832410516	25.764871872	25.764848561	25.761536403	3.312e-03	no	ok
+follow loop: walk from a new design	boxC	638	587-ts17	twoshort-r17	up	1	25.833198684	25.770791438	25.769435963	25.761536403	7.900e-03	no	ok
+follow loop: walk from a new design	boxC	638	587-ts17a	twoshort-r17	up	1	25.832917346	25.769467236	25.769435811	25.761536403	7.899e-03	no	ok
+follow loop: walk from a new design	boxC	643	696-h17	round 16 held, by other	down	1	25.847630368	25.837567965	25.837567965	25.831781698	5.786e-03	no	ok
+follow loop: walk from a new design	boxC	643	696-mmx17	midm (handoff log)	down	1	25.847630348	25.837455203	25.837455203	25.831781698	5.674e-03	no	ok
+follow loop: walk from a new design	boxC	643	751-h17	round 16 held, by family	down	2	25.851747733	25.847050452	25.847050452	25.831781698	1.527e-02	no	ok
+follow loop: walk from a new design	boxD	644	593-mm17	midm-r17	up	1	25.938280764	25.863281600	25.863277741	25.846247578	1.703e-02	no	ok
+follow loop: walk from a new design	boxD	644	593-p17	polish-r17	up	1	25.938280701	25.862854523	25.862837474	25.846247578	1.659e-02	no	ok
+follow loop: walk from a new design	boxD	647	700-h17	round 16 held, by polish	down	1	25.898371496	25.890225579	25.890225579	25.886528168	3.697e-03	no	ok
+follow loop: walk from a new design	boxD	647	700-m17	modules-r17	down	1	25.897978581	25.889509767	25.889509767	25.886456208	3.054e-03	no	ok
+follow loop: walk from a new design	boxD	647	700-mn17	modules-r17 near/	down	1	25.898371593	25.890233705	25.890233705	25.886456208	3.777e-03	no	ok
+follow loop: walk from a new design	boxC	647	700-rd17	readers-r17	down	1	25.897978993	25.889488770	25.889488770	25.886456208	3.033e-03	no	ok
+follow loop: walk from a new design	boxC	649	549-h17	round 16 held, by family	up	2	25.956525648	25.910542049	25.910542041	25.910536102	5.939e-06	no	ok
+follow loop: walk from a new design	boxD	649	549-m17	modules-r17	up	2	25.956380136	25.910776020	25.910756886	25.910536102	2.208e-04	no	ok
+follow loop: walk from a new design	boxD	649	549-m17a	modules-r17	up	2	25.956380122	25.910609720	25.910600996	25.910536102	6.489e-05	no	ok
+follow loop: walk from a new design	boxE	649	549-mn17	modules-r17 near/	up	2	25.956380161	25.910612428	25.910604967	25.910536102	6.887e-05	no	ok
+follow loop: walk from a new design	boxD	649	598-h17	round 16 held, by family	up	1	25.956524508	25.910545240	25.910536101	25.910536102	-1.000e-09	no (floatsafe)	below held
+follow loop: walk from a new design	boxC	649	598-m17	modules-r17	up	1	25.956380123	25.910563816	25.910561865	25.910536102	2.576e-05	no	ok
+follow loop: walk from a new design	boxC	649	598-mn17	modules-r17 near/	up	1	25.956712774	25.910687961	25.910687919	25.910536102	1.518e-04	no	ok
+follow loop: walk from a new design	boxC	649	702-mmx17	midm (handoff log)	down	1	25.920341707	25.911767363	25.911766556	25.910536102	1.230e-03	no	ok
+follow loop: walk from a new design	boxC	650	599-mn17	modules-r17 near/	up	1	26.005545554	25.938569034	25.936328056	25.932813790	3.514e-03	no	ok
+follow loop: walk from a new design	boxC	650	703-cf17	classfill-r17	down	1	25.945509916	25.937867876	25.937867876	25.932813790	5.054e-03	no	ok
+follow loop: walk from a new design	boxC	650	703-cf17a	classfill-r17	down	1	25.945162813	25.937725202	25.937725202	25.932813790	4.911e-03	no	ok
+follow loop: walk from a new design	boxD	650	703-h17	round 16 held, by zones-corner	down	1	25.945777451	25.937913283	25.937913283	25.932813790	5.099e-03	no	ok
+follow loop: walk from a new design	boxC	650	703-m17	modules-r17	down	1	25.944106511	25.936245793	25.936245793	25.932813790	3.432e-03	no	ok
+follow loop: walk from a new design	boxC	650	703-mn17	modules-r17 near/	down	1	25.945162811	25.937725209	25.937725209	25.932813790	4.911e-03	no	ok
+follow loop: walk from a new design	boxC	650	758-mn17	modules-r17 near/	down	2	25.948875842	25.942480531	25.942480531	25.932813790	9.667e-03	no	ok
+follow loop: walk from a new design	boxC	651	551-mn17	modules-r17 near/	up	2	25.993172401	25.943072615	25.943072610	25.941138861	1.934e-03	no	ok
+follow loop: walk from a new design	boxD	651	600-h17	round 16 held, by zones-corner	up	1	25.993053733	25.943072615	25.943072610	25.941138861	1.934e-03	no	ok
+follow loop: walk from a new design	boxD	651	704-h17	round 16 held, by family	down	1	25.958179575	25.948761396	25.948761396	25.941138861	7.623e-03	no	ok
+follow loop: walk from a new design	boxC	651	704-mn17	modules-r17 near/	down	1	25.958200040	25.948778270	25.948778270	25.941138861	7.639e-03	no	ok
+follow loop: walk from a new design	boxD	652	552-mn17	modules-r17 near/	up	2	26.007322254	25.966290265	25.960802857	25.960793179	9.678e-06	no	ok
+follow loop: walk from a new design	boxC	652	705-f17	family-r17 (own results)	down	1	25.970685045	25.964905378	25.964905378	25.960793179	4.112e-03	no	ok
+follow loop: walk from a new design	boxE	652	760-mm17	midm-r17	down	2	25.970685044	25.964905378	25.964905378	25.960793179	4.112e-03	no	ok
+follow loop: walk from a new design	boxD	684	796-ts17	twoshort-r17	down	2	26.703873325	26.684833945	26.684833945	26.642569707	4.226e-02	no	ok
+follow loop: walk from a new design	boxC	684	796-ts17a	twoshort-r17	down	2	26.702154575	26.683611622	26.683611622	26.642569707	4.104e-02	no	ok
+follow loop: walk from a new design	boxD	688	800-mmx17	midm (handoff log)	down	2	26.760886020	26.738649611	26.738649611	26.727922063	1.073e-02	no	ok
+follow loop: walk from a new design	boxC	689	744-h17	round 16 held, by other	down	1	26.760006229	26.745804423	26.745803454	26.745616471	1.870e-04	no	ok
+follow loop: walk from a new design	boxC	691	587-ts17	twoshort-r17	up	2	26.852726293	26.796885588	26.796884597	26.784148399	1.274e-02	no	ok
+follow loop: walk from a new design	boxD	691	803-scn17	stair-c-r17 near/	down	2	26.805040074	26.792833056	26.792833056	26.784148399	8.685e-03	no	ok
+follow loop: walk from a new design	boxD	691	803-scn17a	stair-c-r17 near/	down	2	26.808375390	26.795200548	26.795200548	26.784148399	1.105e-02	no	ok
+follow loop: walk from a new design	boxD	691	803-stx17	stair-c (handoff log)	down	2	26.805030469	26.792819335	26.792819335	26.784148399	8.671e-03	no	ok
+follow loop: walk from a new design	boxC	692	804-sc17	stair-c-r17	down	2	26.816022099	26.802961024	26.802961024	26.791755906	1.121e-02	no	ok
+follow loop: walk from a new design	boxD	692	804-scn17	stair-c-r17 near/	down	2	26.818607088	26.805562447	26.805562447	26.791755906	1.381e-02	no	ok
+follow loop: walk from a new design	boxC	696	751-h17	round 16 held, by family	down	1	26.860400738	26.851747733	26.851747733	26.847630348	4.117e-03	no	ok
+follow loop: walk from a new design	boxC	699	754-m17	modules-r17	down	1	26.901249118	26.893008974	26.893008974	26.889968238	3.041e-03	no	ok
+follow loop: walk from a new design	boxC	700	647-h17	round 16 held, by family	up	1	nan	nan	nan	26.898371496		no	refused: arm 2: no border square beside the cut
+follow loop: walk from a new design	boxD	700	812-f17	family-r17 (own results)	down	2	26.917043845	26.909768670	26.909768670	26.897978993	1.179e-02	no	ok
+follow loop: walk from a new design	boxD	700	812-f17a	family-r17 (own results)	down	2	26.916262798	26.908601962	26.908601962	26.897978993	1.062e-02	no	ok
+follow loop: walk from a new design	boxC	700	812-h17	round 16 held, by family	down	2	26.916900746	26.910142346	26.910142346	26.897978993	1.216e-02	no	ok
+follow loop: walk from a new design	boxD	700	932-h17	round 16 held, by zones-corner	down	4	26.917044742	26.909728252	26.909728252	26.897978993	1.175e-02	no	ok
+follow loop: walk from a new design	boxD	701	756-mmx17	midm (handoff log)	down	1	26.921414204	26.913016896	26.913010227	26.912526256	4.840e-04	no	ok
+follow loop: walk from a new design	boxD	701	756-mn17	modules-r17 near/	down	1	26.921485506	26.913103007	26.912868964	26.912526256	3.427e-04	no	ok
+follow loop: walk from a new design	boxD	702	549-m17	modules-r17	up	3	26.963721933	26.925931586	26.922276040	26.920341707	1.934e-03	no	ok
+follow loop: walk from a new design	boxD	702	598-h17	round 16 held, by family	up	2	26.963550423	26.926672216	26.922608769	26.920353889	2.255e-03	no	ok
+follow loop: walk from a new design	boxD	702	649-h17	round 16 held, by modules	up	1	26.963550424	26.924349032	26.922569473	26.920353889	2.216e-03	no	ok
+follow loop: walk from a new design	boxC	702	649-mn17	modules-r17 near/	up	1	26.963550434	26.924341567	26.922570496	26.920353889	2.217e-03	no	ok
+follow loop: walk from a new design	boxC	703	599-mn17	modules-r17 near/	up	2	27.015318467	26.954369900	26.954369219	26.945162813	9.206e-03	no	ok
+follow loop: walk from a new design	boxD	703	650-mn17	modules-r17 near/	up	1	27.012960671	26.947886243	26.947883828	26.945162813	2.721e-03	no	ok
+follow loop: walk from a new design	boxC	703	758-mn17	modules-r17 near/	down	1	26.954902788	26.948875842	26.948875842	26.945162813	3.713e-03	no	ok
+follow loop: walk from a new design	boxC	703	815-stx17	stair-c (handoff log)	down	2	26.954879758	26.948853085	26.948853085	26.945162813	3.690e-03	no	ok
+follow loop: walk from a new design	boxD	704	600-h17	round 16 held, by zones-corner	up	2	27.001000478	26.963276395	26.958179574	26.958179575	-1.000e-09	no (floatsafe)	below held
+follow loop: walk from a new design	boxC	704	651-mn17	modules-r17 near/	up	1	26.999802872	26.963266367	26.958200040	26.958179575	2.047e-05	no	ok
+follow loop: walk from a new design	boxC	705	652-mn17	modules-r17 near/	up	1	27.013839122	26.974540856	26.971497863	26.970828618	6.692e-04	no	ok
+follow loop: walk from a new design	boxE	705	760-mm17	midm-r17	down	1	26.976209805	26.970685628	26.970685044	26.970828618	-1.436e-04	yes	below held
+follow loop: walk from a new design	boxD	736	793-ts17	twoshort-r17	down	1	27.673443927	27.653447987	27.653447987	27.637029403	1.642e-02	no	ok
+follow loop: walk from a new design	boxC	736	852-f17	family-r17 (own results)	down	2	27.673443925	27.658361901	27.658361901	27.637029403	2.133e-02	no	ok
+follow loop: walk from a new design	boxC	736	852-o17	soft-r17	down	2	27.673443925	27.658361901	27.658361901	27.637029403	2.133e-02	no	ok
+follow loop: walk from a new design	boxC	736	852-ts17	twoshort-r17	down	2	27.673443925	27.658361901	27.658361901	27.637029403	2.133e-02	no	ok
+follow loop: walk from a new design	boxD	739	796-ts17	twoshort-r17	down	1	27.721423798	27.703873325	27.703873325	27.684143608	1.973e-02	no	ok
+follow loop: walk from a new design	boxC	739	796-ts17a	twoshort-r17	down	1	27.720309004	27.702154575	27.702154575	27.684143608	1.801e-02	no	ok
+follow loop: walk from a new design	boxC	742	687-h17	round 16 held, by family	up	1	27.817744314	27.742225623	27.741988886	27.741940438	4.845e-05	no	ok
+follow loop: walk from a new design	boxE	742	799-mmx17	midm (handoff log)	down	1	27.756868146	27.743639566	27.743639498	27.741940438	1.699e-03	no	ok
+follow loop: walk from a new design	boxD	743	800-mmx17	midm (handoff log)	down	1	27.776379854	27.760886020	27.760886020	27.753898762	6.987e-03	no	ok
+follow loop: walk from a new design	boxC	744	921-c17	corners-r17	down	3	27.788659657	27.776182585	27.776182585	27.760006229	1.618e-02	no	ok
+follow loop: walk from a new design	boxC	744	984-c17	corners-r17	down	4	27.788584695	27.775919834	27.775919834	27.760006229	1.591e-02	no	ok
+follow loop: walk from a new design	boxC	744	984-c17a	corners-r17	down	4	27.788659917	27.776183100	27.776183100	27.760006229	1.618e-02	no	ok
+follow loop: walk from a new design	boxC	745	861-sc17	stair-c-r17	down	2	27.803317176	27.790391939	27.790391939	27.784148399	6.244e-03	no	ok
+follow loop: walk from a new design	boxD	745	861-sc17a	stair-c-r17	down	2	27.802060827	27.790269477	27.790269477	27.784148399	6.121e-03	no	ok
+follow loop: walk from a new design	boxD	746	803-scn17	stair-c-r17 near/	down	1	27.818928106	27.805040074	27.805040074	27.794417275	1.062e-02	no	ok
+follow loop: walk from a new design	boxD	746	803-scn17a	stair-c-r17 near/	down	1	27.820638081	27.808375390	27.808375390	27.794417275	1.396e-02	no	ok
+follow loop: walk from a new design	boxD	746	803-stx17	stair-c (handoff log)	down	1	27.817701165	27.805030469	27.805030469	27.794417122	1.061e-02	no	ok
+follow loop: walk from a new design	boxE	747	804-c17	corners-r17	down	1	27.827946681	27.815715993	27.815715993	27.811200401	4.516e-03	no	ok
+follow loop: walk from a new design	boxC	747	804-sc17	stair-c-r17	down	1	27.828410967	27.816022099	27.816022099	27.811200401	4.822e-03	no	ok
+follow loop: walk from a new design	boxD	747	804-scn17	stair-c-r17 near/	down	1	27.830766070	27.818607088	27.818607088	27.811200401	7.407e-03	no	ok
+follow loop: walk from a new design	boxD	747	863-h17	round 16 held, by polish	down	2	27.832028277	27.822875661	27.822875661	27.811200401	1.168e-02	no	ok
+follow loop: walk from a new design	boxC	747	863-sc17	stair-c-r17	down	2	27.830601046	27.819348726	27.819348726	27.811200401	8.148e-03	no	ok
+follow loop: walk from a new design	boxE	747	863-sc17a	stair-c-r17	down	2	27.830592387	27.819346960	27.819346960	27.811200401	8.147e-03	no	ok
+follow loop: walk from a new design	boxD	748	805-sc17	stair-c-r17	down	1	27.843254116	27.831944875	27.831944875	27.827151956	4.793e-03	no	ok
+follow loop: walk from a new design	boxC	751	696-h17	round 16 held, by other	up	1	27.930586908	27.860415794	27.860410184	27.860400738	9.446e-06	no	ok
+follow loop: walk from a new design	boxC	751	696-mmx17	midm (handoff log)	up	1	27.930586877	27.860410188	27.860410182	27.860400738	9.444e-06	no	ok
+follow loop: walk from a new design	boxD	754	811-f17	family-r17 (own results)	down	1	nan	nan	nan	27.901249118		no	refused: arm 2: no border square beside the cut
+follow loop: walk from a new design	boxD	755	700-h17	round 16 held, by polish	up	1	27.954870688	27.908439308	27.908427068	27.908429775	-2.707e-06	no (under 1e-10)	below held
+follow loop: walk from a new design	boxD	755	700-m17	modules-r17	up	1	27.954644527	27.907947563	27.907946653	27.907937824	8.829e-06	no	ok
+follow loop: walk from a new design	boxD	755	700-mn17	modules-r17 near/	up	1	27.954773694	27.908520669	27.908517010	27.907937825	5.792e-04	no	ok
+follow loop: walk from a new design	boxC	755	700-rd17	readers-r17	up	1	27.954618588	27.907945422	27.907939800	27.907937825	1.975e-06	no	ok
+follow loop: walk from a new design	boxD	755	812-f17	family-r17 (own results)	down	1	27.923384051	27.917043845	27.917043845	27.907937825	9.106e-03	no	ok
+follow loop: walk from a new design	boxD	755	812-f17a	family-r17 (own results)	down	1	27.923271604	27.916262798	27.916262798	27.907937825	8.325e-03	no	ok
+follow loop: walk from a new design	boxC	755	812-f17b	family-r17 (own results)	down	1	27.923270829	27.916243065	27.916243065	27.907888451	8.355e-03	no	ok
+follow loop: walk from a new design	boxC	755	812-h17	round 16 held, by family	down	1	27.923397713	27.916900746	27.916900746	27.907937825	8.963e-03	no	ok
+follow loop: walk from a new design	boxE	755	871-f17	family-r17 (own results)	down	2	27.923384050	27.916243054	27.916243054	27.907937824	8.305e-03	no	ok
+follow loop: walk from a new design	boxE	755	871-f17a	family-r17 (own results)	down	2	27.923384169	27.917050167	27.917050167	27.907937788	9.112e-03	no	ok
+follow loop: walk from a new design	boxD	755	932-h17	round 16 held, by zones-corner	down	3	27.923384050	27.917044742	27.917044742	27.907937825	9.107e-03	no	ok
+follow loop: walk from a new design	boxC	756	813-mmx17	midm (handoff log)	down	1	27.928877855	27.921992681	27.921926214	27.921414204	5.120e-04	no	ok
+follow loop: walk from a new design	boxD	757	598-h17	round 16 held, by family	up	3	27.974723534	27.938052708	27.938050398	27.931788175	6.262e-03	no	ok
+follow loop: walk from a new design	boxD	757	649-h17	round 16 held, by modules	up	2	27.974693361	27.951824834	27.951824834	27.931788175	2.004e-02	no	ok
+follow loop: walk from a new design	boxC	757	649-mn17	modules-r17 near/	up	2	27.974683118	27.937876290	27.937853510	27.931788175	6.065e-03	no	ok
+follow loop: walk from a new design	boxD	757	702-mmx17	midm (handoff log)	up	1	27.971309662	27.932181444	27.932181439	27.931788175	3.933e-04	no	ok
+follow loop: walk from a new design	boxC	758	703-cf17	classfill-r17	up	1	28.002772077	27.959195336	27.959008696	27.954879607	4.129e-03	no	ok
+follow loop: walk from a new design	boxC	758	703-cf17a	classfill-r17	up	1	28.002519899	27.960708569	27.959008989	27.954879607	4.129e-03	no	ok
+follow loop: walk from a new design	boxD	758	703-h17	round 16 held, by zones-corner	up	1	28.002966418	27.959026239	27.957905886	27.954879607	3.026e-03	no	ok
+follow loop: walk from a new design	boxC	758	703-m17	modules-r17	up	1	28.004116809	27.957577729	27.954905667	27.954879607	2.606e-05	no	ok
+follow loop: walk from a new design	boxC	758	703-mn17	modules-r17 near/	up	1	28.002519898	27.959194455	27.959008989	27.954879607	4.129e-03	no	ok
+follow loop: walk from a new design	boxC	758	815-stx17	stair-c (handoff log)	down	1	27.960907619	27.954879761	27.954879758	27.954879607	1.510e-07	no	ok
+follow loop: walk from a new design	boxD	759	600-h17	round 16 held, by zones-corner	up	3	28.011947206	27.974812822	27.974562753	27.970237656	4.325e-03	no	ok
+follow loop: walk from a new design	boxC	759	651-mn17	modules-r17 near/	up	2	28.011961977	27.974804140	27.973366646	27.970237656	3.129e-03	no	ok
+follow loop: walk from a new design	boxD	759	704-h17	round 16 held, by family	up	1	28.011947207	27.978580174	27.978291897	27.970237656	8.054e-03	no	ok
+follow loop: walk from a new design	boxC	759	704-mn17	modules-r17 near/	up	1	28.011961977	27.978375570	27.978354351	27.970237656	8.117e-03	no	ok
+follow loop: walk from a new design	boxC	760	652-mn17	modules-r17 near/	up	2	28.021520466	27.977286579	27.977286574	27.976310656	9.759e-04	no	ok
+follow loop: walk from a new design	boxC	760	817-mm17	midm-r17	down	1	27.987107228	27.980688541	27.980688541	27.976209805	4.479e-03	no	ok
+follow loop: walk from a new design	boxC	791	911-f17	family-r17 (own results)	down	2	28.667295231	28.652903848	28.652903848	28.634070749	1.883e-02	no	ok
+follow loop: walk from a new design	boxD	791	911-p17	polish-r17	down	2	28.666615914	28.651100581	28.651100581	28.634070749	1.703e-02	no	ok
+follow loop: walk from a new design	boxC	791	911-ts17a	twoshort-r17	down	2	28.667293713	28.652543485	28.652543485	28.634070749	1.847e-02	no	ok
+follow loop: walk from a new design	boxC	791	974-ts17	twoshort-r17	down	3	28.667296393	28.651077577	28.651077577	28.634070754	1.701e-02	no	ok
+follow loop: walk from a new design	boxC	792	851-f17	family-r17 (own results)	down	1	28.678989551	28.664875657	28.664875657	28.637029403	2.785e-02	no	ok
+follow loop: walk from a new design	boxD	792	851-ts17	twoshort-r17	down	1	28.681748471	28.667051151	28.667051151	28.637029403	3.002e-02	no	ok
+follow loop: walk from a new design	boxD	792	851-ts17a	twoshort-r17	down	1	28.679907595	28.665782207	28.665782207	28.637029403	2.875e-02	no	ok
+follow loop: walk from a new design	boxD	792	851-ts17b	twoshort-r17	down	1	28.679002512	28.664911089	28.664911089	28.637029403	2.788e-02	no	ok
+follow loop: walk from a new design	boxC	792	912-f17	family-r17 (own results)	down	2	28.680005744	28.665834487	28.665834487	28.637029403	2.881e-02	no	ok
+follow loop: walk from a new design	boxC	792	912-h17	round 16 held, by family	down	2	28.684317214	28.663740714	28.663740714	28.637029403	2.671e-02	no	ok
+follow loop: walk from a new design	boxC	792	912-ts17	twoshort-r17	down	2	28.681748470	28.666932944	28.666932944	28.637029403	2.990e-02	no	ok
+follow loop: walk from a new design	boxC	793	852-f17	family-r17 (own results)	down	1	28.690130705	28.673443931	28.673443925	28.673443927	-2.000e-09	no (under 1e-10)	below held
+follow loop: walk from a new design	boxC	793	852-o17	soft-r17	down	1	28.690130705	28.673443931	28.673443925	28.673443927	-2.000e-09	no (under 1e-10)	below held
+follow loop: walk from a new design	boxC	793	852-ts17	twoshort-r17	down	1	28.694283539	28.677579784	28.673443925	28.677242857	-3.799e-03	no (under 1e-10)	below held
+follow loop: walk from a new design	boxC	793	913-ts17	twoshort-r17	down	2	28.695693517	28.677088050	28.677088050	28.673443927	3.644e-03	no	ok
+follow loop: walk from a new design	boxC	793	913-ts17a	twoshort-r17	down	2	28.690163759	28.674687380	28.674687369	28.673443927	1.243e-03	no	ok
+follow loop: walk from a new design	boxD	794	914-c17	corners-r17	down	2	28.715719958	28.701327870	28.701327870	28.684143608	1.718e-02	no	ok
+follow loop: walk from a new design	boxC	794	914-o17	soft-r17	down	2	28.714136858	28.699449853	28.699449853	28.684143608	1.531e-02	no	ok
+follow loop: walk from a new design	boxC	794	914-ts17	twoshort-r17	down	2	28.714963955	28.697732176	28.697732176	28.684143608	1.359e-02	no	ok
+follow loop: walk from a new design	boxC	795	915-c17	corners-r17	down	2	28.723322392	28.705887458	28.705887458	28.697749709	8.138e-03	no	ok
+follow loop: walk from a new design	boxC	795	915-c17a	corners-r17	down	2	28.723874598	28.705914549	28.705914549	28.697749709	8.165e-03	no	ok
+follow loop: walk from a new design	boxC	799	687-h17	round 16 held, by family	up	2	28.831019495	28.766104744	28.766104414	28.756868185	9.236e-03	no	ok
+follow loop: walk from a new design	boxD	799	858-f17	family-r17 (own results)	down	1	nan	nan	nan	28.756868146		no	refused: arm 2: no border square beside the cut
+follow loop: walk from a new design	boxC	800	859-f17	family-r17 (own results)	down	1	nan	nan	nan	28.776379854		no	refused: no grid line with full neighbours at the cut
+follow loop: walk from a new design	boxD	800	859-f17a	family-r17 (own results)	down	1	28.788309553	28.777084602	28.776503672	28.776379854	1.238e-04	no	ok
+follow loop: walk from a new design	boxE	800	859-sc17	stair-c-r17	down	1	28.791185154	28.780045514	28.780045514	28.776379854	3.666e-03	no	ok
+follow loop: walk from a new design	boxD	800	920-f17	family-r17 (own results)	down	2	nan	nan	nan	28.776379854		no	refused: no grid line with full neighbours at the cut
+follow loop: walk from a new design	boxC	800	920-f17a	family-r17 (own results)	down	2	28.788309553	28.777084201	28.774176382	28.776379854	-2.203e-03	yes	below held
+follow loop: walk from a new design	boxC	800	983-b17	border-r17	down	3	28.788309551	28.777084040	28.774176318	28.776379854	-2.204e-03	yes	below held
+follow loop: walk from a new design	boxD	801	744-h17	round 16 held, by other	up	1	28.895434355	28.781756068	28.781136521	28.781136523	-2.000e-09	no (floatsafe)	below held
+follow loop: walk from a new design	boxC	801	860-c17	corners-r17	down	1	28.800484792	28.788597528	28.788597528	28.781136523	7.461e-03	no	ok
+follow loop: walk from a new design	boxC	801	860-f17	family-r17 (own results)	down	1	28.800344105	28.788658542	28.788658542	28.781136523	7.522e-03	no	ok
+follow loop: walk from a new design	boxC	801	860-f17a	family-r17 (own results)	down	1	28.800288246	28.788563230	28.788563230	28.781136523	7.427e-03	no	ok
+follow loop: walk from a new design	boxD	801	860-h17	round 16 held, by family	down	1	28.801895560	28.792154302	28.792154302	28.781136523	1.102e-02	no	ok
+follow loop: walk from a new design	boxE	801	860-scn17	stair-c-r17 near/	down	1	28.800713088	28.788722773	28.788722773	28.781136523	7.586e-03	no	ok
+follow loop: walk from a new design	boxD	801	860-scn17a	stair-c-r17 near/	down	1	28.800429216	28.788700712	28.788700712	28.781136523	7.564e-03	no	ok
+follow loop: walk from a new design	boxC	801	921-c17	corners-r17	down	2	28.800484885	28.788659657	28.788659657	28.781136523	7.523e-03	no	ok
+follow loop: walk from a new design	boxD	801	921-f17	family-r17 (own results)	down	2	28.801895569	28.792159685	28.792159685	28.781136523	1.102e-02	no	ok
+follow loop: walk from a new design	boxC	801	921-f17a	family-r17 (own results)	down	2	28.800484853	28.788699971	28.788699971	28.781136523	7.563e-03	no	ok
+follow loop: walk from a new design	boxC	801	921-f17b	family-r17 (own results)	down	2	28.800344097	28.788583426	28.788583426	28.781136523	7.447e-03	no	ok
+follow loop: walk from a new design	boxC	801	921-h17	round 16 held, by modules	down	2	28.801895558	28.792154855	28.792154855	28.781136523	1.102e-02	no	ok
+follow loop: walk from a new design	boxC	801	921-mm17	midm-r17	down	2	28.801896533	28.792158729	28.792158729	28.781136523	1.102e-02	no	ok
+follow loop: walk from a new design	boxD	801	921-p17	polish-r17	down	2	28.800484865	28.788562693	28.788562693	28.781136523	7.426e-03	no	ok
+follow loop: walk from a new design	boxC	801	921-rd17	readers-r17	down	2	28.800429420	28.788661217	28.788661217	28.781136523	7.525e-03	no	ok
+follow loop: walk from a new design	boxC	801	921-rd17a	readers-r17	down	2	28.800288245	28.788572677	28.788572677	28.781136523	7.436e-03	no	ok
+follow loop: walk from a new design	boxC	801	921-scn17a	stair-c-r17 near/	down	2	28.800484856	28.788656801	28.788656801	28.781136523	7.520e-03	no	ok
+follow loop: walk from a new design	boxE	801	921-scn17b	stair-c-r17 near/	down	2	28.800713274	28.788641586	28.788641586	28.781136523	7.505e-03	no	ok
+follow loop: walk from a new design	boxC	801	921-scn17c	stair-c-r17 near/	down	2	28.800288226	28.788561451	28.788561451	28.781136523	7.425e-03	no	ok
+follow loop: walk from a new design	boxC	801	984-c17	corners-r17	down	3	28.800344104	28.788584695	28.788584695	28.781136523	7.448e-03	no	ok
+follow loop: walk from a new design	boxC	801	984-c17a	corners-r17	down	3	28.800484881	28.788659917	28.788659917	28.781136523	7.523e-03	no	ok
+follow loop: walk from a new design	boxC	801	984-rd17	readers-r17	down	3	28.800429471	28.788661890	28.788661890	28.781136523	7.525e-03	no	ok
+follow loop: walk from a new design	boxC	802	861-sc17	stair-c-r17	down	1	28.816352827	28.803317176	28.803317176	28.794880646	8.437e-03	no	ok
+follow loop: walk from a new design	boxD	802	861-sc17a	stair-c-r17	down	1	28.814074572	28.802060827	28.802060827	28.794880646	7.180e-03	no	ok
+follow loop: walk from a new design	boxD	802	861-sc17b	stair-c-r17	down	1	28.810878359	28.799700284	28.799700284	28.794295843	5.404e-03	no	ok
+follow loop: walk from a new design	boxD	802	861-scn17	stair-c-r17 near/	down	1	28.817439065	28.805299707	28.805299707	28.794295843	1.100e-02	no	ok
+follow loop: walk from a new design	boxE	802	861-scn17a	stair-c-r17 near/	down	1	28.817493169	28.802775018	28.802775018	28.794295843	8.479e-03	no	ok
+follow loop: walk from a new design	boxD	802	922-f17	family-r17 (own results)	down	2	28.810823933	28.799675728	28.799675728	28.794295843	5.380e-03	no	ok
+follow loop: walk from a new design	boxC	802	922-rd17	readers-r17	down	2	28.810706534	28.799555265	28.799555265	28.794295843	5.259e-03	no	ok
+follow loop: walk from a new design	boxC	802	922-sc17	stair-c-r17	down	2	28.810823933	28.799672406	28.799672406	28.794295843	5.377e-03	no	ok
+follow loop: walk from a new design	boxD	804	863-c17	corners-r17	down	1	28.841418068	28.829996264	28.829996264	28.827946681	2.050e-03	no	ok
+follow loop: walk from a new design	boxD	804	863-h17	round 16 held, by polish	down	1	28.843530103	28.832028277	28.832028277	28.829715540	2.313e-03	no	ok
+follow loop: walk from a new design	boxE	804	863-p17	polish-r17	down	1	28.841559006	28.830601080	28.830601080	28.828410967	2.190e-03	no	ok
+follow loop: walk from a new design	boxD	804	863-rd17	readers-r17	down	1	28.842102157	28.831087925	28.831087925	28.828410967	2.677e-03	no	ok
+follow loop: walk from a new design	boxC	804	863-sc17	stair-c-r17	down	1	28.841559056	28.830620478	28.830601046	28.829715540	8.855e-04	no	ok
+follow loop: walk from a new design	boxE	804	863-sc17a	stair-c-r17	down	1	28.841547388	28.830592387	28.830592387	28.828410967	2.181e-03	no	ok
+follow loop: walk from a new design	boxC	804	863-scn17	stair-c-r17 near/	down	1	28.843561773	28.831858770	28.831858770	28.827946681	3.912e-03	no	ok
+follow loop: walk from a new design	boxC	804	924-rd17	readers-r17	down	2	28.842041015	28.830625691	28.830625685	28.829715540	9.101e-04	no	ok
+follow loop: walk from a new design	boxC	808	696-h17	round 16 held, by other	up	2	28.941486985	28.880269802	28.880269746	28.873577814	6.692e-03	no	ok
+follow loop: walk from a new design	boxC	808	696-mmx17	midm (handoff log)	up	2	nan	nan	nan	28.873577814		no	refused: the nearest full grid line is 7.6 from the cut
+follow loop: walk from a new design	boxC	808	751-h17	round 16 held, by family	up	1	28.941489949	28.880269752	28.880269746	28.873577814	6.692e-03	no	ok
+follow loop: walk from a new design	boxC	811	754-m17	modules-r17	up	1	28.957427352	28.911769741	28.911740903	28.915901329	-4.160e-03	yes	below held
+follow loop: walk from a new design	boxE	812	871-f17	family-r17 (own results)	down	1	28.929338379	28.923385051	28.923384050	28.923397713	-1.366e-05	yes	below held
+follow loop: walk from a new design	boxE	812	871-f17a	family-r17 (own results)	down	1	28.929338354	28.923384517	28.923384169	28.923397713	-1.354e-05	yes	below held
+follow loop: walk from a new design	boxD	812	932-h17	round 16 held, by zones-corner	down	2	28.929708033	28.923459486	28.923384050	28.923397713	-1.366e-05	yes	below held
+follow loop: walk from a new design	boxC	813	756-mmx17	midm (handoff log)	up	1	28.971978965	28.928880555	28.928880118	28.928877855	2.263e-06	no	ok
+follow loop: walk from a new design	boxD	813	756-mn17	modules-r17 near/	up	1	28.972231089	28.929218599	28.928915982	28.928878048	3.793e-05	no	ok
+follow loop: walk from a new design	boxC	815	703-cf17	classfill-r17	up	2	29.012545481	28.972001377	28.972000691	28.960926051	1.107e-02	no	ok
+follow loop: walk from a new design	boxC	815	703-cf17a	classfill-r17	up	2	29.012545692	28.972026122	28.972017055	28.960926051	1.109e-02	no	ok
+follow loop: walk from a new design	boxD	815	703-h17	round 16 held, by zones-corner	up	2	29.011749657	28.970931019	28.970931013	28.960926051	1.000e-02	no	ok
+follow loop: walk from a new design	boxC	815	703-mn17	modules-r17 near/	up	2	29.012545692	28.971976709	28.971975007	28.960926051	1.105e-02	no	ok
+follow loop: walk from a new design	boxC	815	758-mn17	modules-r17 near/	up	1	29.009580030	28.960945885	28.960945721	28.960926051	1.967e-05	no	ok
+follow loop: walk from a new design	boxD	815	874-cf17	classfill-r17	down	1	28.971687925	28.965926863	28.965926863	28.960907619	5.019e-03	no	ok
+follow loop: walk from a new design	boxE	815	874-mm17	midm-r17	down	1	28.971700666	28.966214567	28.966214567	28.960907619	5.307e-03	no	ok
+follow loop: walk from a new design	boxD	816	600-h17	round 16 held, by zones-corner	up	4	29.024551706	28.984372944	28.984339369	28.978162933	6.176e-03	no	ok
+follow loop: walk from a new design	boxE	816	875-mmx17	midm (handoff log)	down	1	28.987142234	28.981750807	28.981750807	28.978162933	3.588e-03	no	ok
+follow loop: walk from a new design	boxD	817	760-mm17	midm-r17	up	1	29.024886650	28.999242153	28.991114696	28.987584873	3.530e-03	no	ok
+follow loop: walk from a new design	boxC	848	972-h17	round 16 held, by border	down	2	29.661096494	29.645009509	29.645009509	29.623065214	2.194e-02	no	ok
+follow loop: walk from a new design	boxD	849	910-c17	corners-r17	down	1	29.676529690	29.663403520	29.663403520	29.637029403	2.637e-02	no	ok
+follow loop: walk from a new design	boxC	849	910-f17	family-r17 (own results)	down	1	29.677191432	29.664023082	29.664023082	29.637029403	2.699e-02	no	ok
+follow loop: walk from a new design	boxC	849	910-f17a	family-r17 (own results)	down	1	29.676529569	29.663408819	29.663408819	29.637029403	2.638e-02	no	ok
+follow loop: walk from a new design	boxD	849	910-p17	polish-r17	down	1	29.677188564	29.664021697	29.664021697	29.637029403	2.699e-02	no	ok
+follow loop: walk from a new design	boxD	849	910-ts17	twoshort-r17	down	1	29.677192278	29.664021713	29.664021713	29.637029403	2.699e-02	no	ok
+follow loop: walk from a new design	boxC	849	910-ts17a	twoshort-r17	down	1	29.676556262	29.659656243	29.659656243	29.637029403	2.263e-02	no	ok
+follow loop: walk from a new design	boxD	849	973-cox17	corners (handoff log)	down	2	29.677188562	29.664030480	29.664030480	29.637029403	2.700e-02	no	ok
+follow loop: walk from a new design	boxD	849	973-f17	family-r17 (own results)	down	2	29.677188597	29.664021634	29.664021634	29.637029403	2.699e-02	no	ok
+follow loop: walk from a new design	boxC	849	973-f17a	family-r17 (own results)	down	2	29.676529567	29.663401704	29.663401704	29.637029403	2.637e-02	no	ok
+follow loop: walk from a new design	boxD	849	973-p17	polish-r17	down	2	29.677191437	29.664036854	29.664036854	29.637029403	2.701e-02	no	ok
+follow loop: walk from a new design	boxC	849	973-ts17	twoshort-r17	down	2	29.677191430	29.664023064	29.664023064	29.637029403	2.699e-02	no	ok
+follow loop: walk from a new design	boxC	850	911-f17	family-r17 (own results)	down	1	29.682866159	29.667295231	29.667295231	29.656854251	1.044e-02	no	ok
+follow loop: walk from a new design	boxD	850	911-p17	polish-r17	down	1	29.682866573	29.666615914	29.666615914	29.656854251	9.762e-03	no	ok
+follow loop: walk from a new design	boxD	850	911-ts17	twoshort-r17	down	1	29.682866597	29.667297963	29.667297963	29.656854251	1.044e-02	no	ok
+follow loop: walk from a new design	boxC	850	911-ts17a	twoshort-r17	down	1	29.682866307	29.667293713	29.667293713	29.656854251	1.044e-02	no	ok
+follow loop: walk from a new design	boxC	850	974-h17	round 16 held, by modules	down	2	29.689169397	29.674017616	29.674017616	29.656854251	1.716e-02	no	ok
+follow loop: walk from a new design	boxC	850	974-ts17	twoshort-r17	down	2	29.682866158	29.667296393	29.667296393	29.656854251	1.044e-02	no	ok
+follow loop: walk from a new design	boxC	851	912-f17	family-r17 (own results)	down	1	29.695109484	29.680068525	29.680005744	29.679907595	9.815e-05	no	ok
+follow loop: walk from a new design	boxC	851	912-f17a	family-r17 (own results)	down	1	29.694827568	29.679022955	29.679019301	29.679002512	1.679e-05	no	ok
+follow loop: walk from a new design	boxC	851	912-h17	round 16 held, by family	down	1	29.703184402	29.684317214	29.684317214	29.681748471	2.569e-03	no	ok
+follow loop: walk from a new design	boxC	851	912-ts17	twoshort-r17	down	1	29.696126947	29.681858715	29.681748470	29.681748471	-1.000e-09	no (under 1e-10)	below held
+follow loop: walk from a new design	boxD	851	975-c17	corners-r17	down	2	29.700821122	29.686671116	29.686671116	29.681748471	4.923e-03	no	ok
+follow loop: walk from a new design	boxC	851	975-h17	round 16 held, by readers	down	2	29.703184977	29.684316897	29.684316897	29.681748471	2.568e-03	no	ok
+follow loop: walk from a new design	boxC	851	975-ts17	twoshort-r17	down	2	29.700821487	29.686672473	29.686672473	29.681748471	4.924e-03	no	ok
+follow loop: walk from a new design	boxD	852	793-ts17	twoshort-r17	up	1	29.760129503	29.690130709	29.690130703	29.694283539	-4.153e-03	yes	below held
+follow loop: walk from a new design	boxC	852	913-ts17	twoshort-r17	down	1	29.713517144	29.695693523	29.695693517	29.694283539	1.410e-03	no	ok
+follow loop: walk from a new design	boxC	852	913-ts17a	twoshort-r17	down	1	29.710251303	29.690163765	29.690163759	29.694283539	-4.120e-03	yes	below held
+follow loop: walk from a new design	boxD	852	976-ts17	twoshort-r17	down	2	29.714695650	29.701510079	29.701510079	29.694283539	7.227e-03	no	ok
+follow loop: walk from a new design	boxD	853	914-c17	corners-r17	down	1	29.729163923	29.715719958	29.715719958	29.707106783	8.613e-03	no	ok
+follow loop: walk from a new design	boxC	853	914-o17	soft-r17	down	1	29.728567066	29.714136858	29.714136858	29.707106783	7.030e-03	no	ok
+follow loop: walk from a new design	boxC	853	914-ts17	twoshort-r17	down	1	29.730792429	29.714963955	29.714963955	29.707106783	7.857e-03	no	ok
+follow loop: walk from a new design	boxC	853	977-c17	corners-r17	down	2	29.730777596	29.716671240	29.716671240	29.707106783	9.564e-03	no	ok
+follow loop: walk from a new design	boxC	854	915-c17	corners-r17	down	1	29.740125175	29.723322392	29.723322392	29.720685750	2.637e-03	no	ok
+follow loop: walk from a new design	boxC	854	915-c17a	corners-r17	down	1	29.739964705	29.723874598	29.723874598	29.720685750	3.189e-03	no	ok
+follow loop: walk from a new design	boxC	854	978-ts17	twoshort-r17	down	2	29.744348031	29.729545056	29.729545056	29.720685750	8.859e-03	no	ok
+follow loop: walk from a new design	boxC	855	796-ts17	twoshort-r17	up	1	29.814742948	29.741893108	29.741878807	29.733979870	7.899e-03	no	ok
+follow loop: walk from a new design	boxD	855	796-ts17a	twoshort-r17	up	1	29.813860401	29.751794051	29.751544119	29.733979870	1.756e-02	no	ok
+follow loop: walk from a new design	boxC	858	799-mmx17	midm (handoff log)	up	1	29.889715641	29.781832029	29.779484534	29.779484536	-2.000e-09	no (floatsafe)	below held
+follow loop: walk from a new design	boxC	858	919-b17	border-r17	down	1	nan	nan	nan	29.779484536		no	refused: arm 1: no border square beside the cut
+follow loop: walk from a new design	boxC	858	919-b17a	border-r17	down	1	nan	nan	nan	29.779484536		no	refused: arm 1: no border square beside the cut
+follow loop: walk from a new design	boxE	858	919-b17b	border-r17	down	1	29.790723834	29.779111816	29.779107404	29.779484536	-3.771e-04	yes	below held
+follow loop: walk from a new design	boxC	858	919-f17	family-r17 (own results)	down	1	29.790713271	29.779113077	29.779112788	29.779484536	-3.717e-04	yes	below held
+follow loop: walk from a new design	boxE	858	919-rd17	readers-r17	down	1	29.790280876	29.779032313	29.779023733	29.779484536	-4.608e-04	yes	below held
+follow loop: walk from a new design	boxD	858	982-b17	border-r17	down	2	29.790713269	29.779112898	29.779112788	29.779484536	-3.717e-04	yes	below held
+follow loop: walk from a new design	boxC	858	982-c17	corners-r17	down	2	29.798080218	29.787158229	29.787158229	29.779484536	7.674e-03	no	ok
+follow loop: walk from a new design	boxD	858	982-c17a	corners-r17	down	2	29.797753799	29.786696818	29.786696818	29.779484536	7.212e-03	no	ok
+follow loop: walk from a new design	boxC	858	982-p17	polish-r17	down	2	29.798089984	29.787154277	29.787154277	29.779484536	7.670e-03	no	ok
+follow loop: walk from a new design	boxC	859	800-mmx17	midm (handoff log)	up	1	29.902403168	29.796705088	29.796666961	29.792137063	4.530e-03	no	ok
+follow loop: walk from a new design	boxD	859	920-f17	family-r17 (own results)	down	1	29.803882471	29.791185245	29.791185099	29.791185154	-5.500e-08	yes	below held
+follow loop: walk from a new design	boxC	859	920-f17a	family-r17 (own results)	down	1	29.799201637	29.788314775	29.788309553	29.791185154	-2.876e-03	yes	below held
+follow loop: walk from a new design	boxD	859	920-sc17	stair-c-r17	down	1	29.803882615	29.791392164	29.791383874	29.791185154	1.987e-04	no	ok
+follow loop: walk from a new design	boxC	859	920-scn17	stair-c-r17 near/	down	1	29.806133183	29.795068372	29.795068372	29.792137063	2.931e-03	no	ok
+follow loop: walk from a new design	boxC	859	983-b17	border-r17	down	2	29.799201636	29.788316237	29.788309551	29.791185154	-2.876e-03	yes	below held
+follow loop: walk from a new design	boxC	859	983-h17	round 16 held, by modules	down	2	29.805591852	29.796033570	29.796033570	29.792137063	3.897e-03	no	ok
+follow loop: walk from a new design	boxD	860	744-h17	round 16 held, by other	up	2	29.909352567	29.808680096	29.808679999	29.801895560	6.784e-03	no	ok
+follow loop: walk from a new design	boxC	860	921-c17	corners-r17	down	1	29.813122484	29.800485277	29.800484885	29.800484792	9.300e-08	no	ok
+follow loop: walk from a new design	boxD	860	921-f17	family-r17 (own results)	down	1	29.815574390	29.801901962	29.801895569	29.801895560	9.000e-09	no	ok
+follow loop: walk from a new design	boxC	860	921-f17a	family-r17 (own results)	down	1	29.813122469	29.800484859	29.800484853	29.800484792	6.100e-08	no	ok
+follow loop: walk from a new design	boxC	860	921-f17b	family-r17 (own results)	down	1	29.812998681	29.800344966	29.800344097	29.800484792	-1.407e-04	no (under 1e-10)	below held
+follow loop: walk from a new design	boxC	860	921-h17	round 16 held, by modules	down	1	29.815577970	29.801943312	29.801895558	29.801895560	-2.000e-09	no (floatsafe)	below held
+follow loop: walk from a new design	boxC	860	921-mm17	midm-r17	down	1	29.815574390	29.801905652	29.801896533	29.801895560	9.730e-07	no	ok
+follow loop: walk from a new design	boxD	860	921-p17	polish-r17	down	1	29.813122471	29.800486099	29.800484865	29.800484792	7.300e-08	no	ok
+follow loop: walk from a new design	boxC	860	921-rd17	readers-r17	down	1	29.813077862	29.800462930	29.800429420	29.800484792	-5.537e-05	no (under 1e-10)	below held
+follow loop: walk from a new design	boxC	860	921-rd17a	readers-r17	down	1	29.812953796	29.800288369	29.800288245	29.801895560	-1.607e-03	no (under 1e-10)	below held
+follow loop: walk from a new design	boxC	860	921-scn17	stair-c-r17 near/	down	1	29.817190686	29.807145187	29.807145187	29.800484792	6.660e-03	no	ok
+follow loop: walk from a new design	boxC	860	921-scn17a	stair-c-r17 near/	down	1	29.813122461	29.800484971	29.800484856	29.801895560	-1.411e-03	no (under 1e-10)	below held
+follow loop: walk from a new design	boxE	860	921-scn17b	stair-c-r17 near/	down	1	29.813419767	29.800730677	29.800713274	29.801895560	-1.182e-03	no (under 1e-10)	below held
+follow loop: walk from a new design	boxC	860	921-scn17c	stair-c-r17 near/	down	1	29.813039980	29.800292771	29.800288226	29.801895560	-1.607e-03	no (under 1e-10)	below held
+follow loop: walk from a new design	boxC	860	984-c17	corners-r17	down	2	29.812998679	29.800345515	29.800344104	29.800484792	-1.407e-04	no (under 1e-10)	below held
+follow loop: walk from a new design	boxC	860	984-c17a	corners-r17	down	2	29.813122467	29.800485593	29.800484881	29.800484792	8.900e-08	no	ok
+follow loop: walk from a new design	boxC	860	984-h17	round 16 held, by modules	down	2	29.815759555	29.802976068	29.802976047	29.801895560	1.080e-03	no	ok
+follow loop: walk from a new design	boxC	860	984-rd17	readers-r17	down	2	29.813077858	29.800429477	29.800429471	29.801895560	-1.466e-03	no (under 1e-10)	below held
+follow loop: walk from a new design	boxD	861	922-f17	family-r17 (own results)	down	1	29.821509062	29.810833548	29.810823933	29.810878359	-5.443e-05	yes	below held
+follow loop: walk from a new design	boxC	861	922-rd17	readers-r17	down	1	29.821430315	29.810706540	29.810706534	29.810878359	-1.718e-04	yes	below held
+follow loop: walk from a new design	boxC	861	922-sc17	stair-c-r17	down	1	29.821535787	29.810823939	29.810823933	29.810878359	-5.443e-05	yes	below held
+follow loop: walk from a new design	boxD	862	803-scn17	stair-c-r17 near/	up	1	29.891789836	29.837310704	29.837310698	29.827133252	1.018e-02	no	ok
+follow loop: walk from a new design	boxC	862	803-scn17a	stair-c-r17 near/	up	1	29.880929280	29.855433670	29.855433670	29.827133252	2.830e-02	no	ok
+follow loop: walk from a new design	boxE	862	803-stx17	stair-c (handoff log)	up	1	29.890823078	29.830451962	29.829320642	29.827133252	2.187e-03	no	ok
+follow loop: walk from a new design	boxC	862	986-scn17	stair-c-r17 near/	down	2	29.842489955	29.833565658	29.833565658	29.827133252	6.432e-03	no	ok
+follow loop: walk from a new design	boxD	862	986-scn17a	stair-c-r17 near/	down	2	29.842490218	29.833564783	29.833564783	29.827133252	6.432e-03	no	ok
+follow loop: walk from a new design	boxC	863	804-c17	corners-r17	up	1	29.915911181	29.843207818	29.841454954	29.841418068	3.689e-05	no	ok
+follow loop: walk from a new design	boxC	863	804-sc17	stair-c-r17	up	1	29.916257695	29.843813338	29.841877000	29.841547388	3.296e-04	no	ok
+follow loop: walk from a new design	boxC	863	804-scn17	stair-c-r17 near/	up	1	29.918054471	29.846560417	29.844298058	29.843530103	7.680e-04	no	ok
+follow loop: walk from a new design	boxC	863	924-rd17	readers-r17	down	1	29.852759708	29.842060274	29.842041015	29.841559056	4.820e-04	no	ok
+follow loop: walk from a new design	boxD	863	924-scn17	stair-c-r17 near/	down	1	29.854919568	29.843588119	29.843588119	29.841418068	2.170e-03	no	ok
+follow loop: walk from a new design	boxC	864	805-sc17	stair-c-r17	up	1	29.927326885	29.857607524	29.857607518	29.851918339	5.689e-03	no	ok
+follow loop: walk from a new design	boxC	867	751-h17	round 16 held, by family	up	2	nan	nan	nan	29.883529906		no	refused: no grid line with full neighbours at the cut
+follow loop: walk from a new design	boxC	868	929-mmx17	midm (handoff log)	down	1	nan	nan	nan	29.898591944		no	refused: arm 2: no border square beside the cut
+follow loop: walk from a new design	boxC	870	754-m17	modules-r17	up	2	nan	nan	nan	29.923030157		no	refused: arm 2: no border square beside the cut
+follow loop: walk from a new design	boxC	871	812-f17	family-r17 (own results)	up	1	29.973513840	29.929339396	29.929338377	29.929518695	-1.803e-04	yes	below held
+follow loop: walk from a new design	boxD	871	812-f17a	family-r17 (own results)	up	1	29.973461159	29.929345009	29.929340443	29.929518695	-1.783e-04	yes	below held
+follow loop: walk from a new design	boxC	871	812-h17	round 16 held, by family	up	1	29.973578609	29.929533771	29.929518694	29.929518695	-1.000e-09	no	ok
+follow loop: walk from a new design	boxD	871	932-h17	round 16 held, by zones-corner	down	1	29.937941886	29.929708097	29.929708033	29.929518695	1.893e-04	no	ok
+follow loop: walk from a new design	boxC	871	995-h17	round 16 held, by modules	down	2	29.938749520	29.931997490	29.931997490	29.929518695	2.479e-03	no	ok
+follow loop: walk from a new design	boxD	871	995-mm17	midm-r17	down	2	29.938378999	29.931586822	29.931586822	29.929518695	2.068e-03	no	ok
+follow loop: walk from a new design	boxD	872	756-mn17	modules-r17 near/	up	2	29.977831908	29.936670988	29.936667342	29.936306433	3.609e-04	no	ok
+follow loop: walk from a new design	boxD	872	813-mmx17	midm (handoff log)	up	1	29.977804379	29.936306437	29.936306431	29.936306433	-2.000e-09	no (under 1e-10)	below held
+follow loop: walk from a new design	boxC	874	758-mn17	modules-r17 near/	up	2	30.013942072	29.989687287	29.971914912	29.971914912	0.000e+00	no	ok
+follow loop: walk from a new design	boxD	874	815-stx17	stair-c (handoff log)	up	1	30.013914616	29.981308659	29.972700521	29.971914912	7.856e-04	no	ok
+follow loop: walk from a new design	boxC	875	999-mm17	midm-r17	down	2	29.992553201	29.987736775	29.987736018	29.987142234	5.938e-04	no	ok
+follow loop: walk from a new design	boxC	909	972-h17	round 16 held, by border	down	1	30.676523629	30.661096494	30.661096494	30.652396539	8.700e-03	no	ok
+follow loop: walk from a new design	boxD	910	973-cox17	corners (handoff log)	down	1	30.689752472	30.677188703	30.677188562	30.676529690	6.589e-04	no	ok
+follow loop: walk from a new design	boxD	910	973-f17	family-r17 (own results)	down	1	30.689752320	30.677188608	30.677188597	30.676529690	6.589e-04	no	ok
+follow loop: walk from a new design	boxC	910	973-f17a	family-r17 (own results)	down	1	30.689144737	30.676529836	30.676529567	30.676529690	-1.230e-07	yes	below held
+follow loop: walk from a new design	boxD	910	973-p17	polish-r17	down	1	30.689752500	30.677191449	30.677191437	30.677192278	-8.410e-07	no (under 1e-10)	below held
+follow loop: walk from a new design	boxC	910	973-ts17	twoshort-r17	down	1	30.689752758	30.677191658	30.677191430	30.677192278	-8.480e-07	no (under 1e-10)	below held
+follow loop: walk from a new design	boxC	911	974-h17	round 16 held, by modules	down	1	30.703430110	30.689169397	30.689169397	30.682866573	6.303e-03	no	ok
+follow loop: walk from a new design	boxC	911	974-ts17	twoshort-r17	down	1	30.697896727	30.682867392	30.682866158	30.682866597	-4.390e-07	no (under 1e-10)	below held
+follow loop: walk from a new design	boxC	912	851-ts17	twoshort-r17	up	1	30.783324102	30.698335363	30.697620468	30.696126947	1.494e-03	no	ok
+follow loop: walk from a new design	boxC	912	851-ts17a	twoshort-r17	up	1	30.765444962	30.695109876	30.695109483	30.696126947	-1.017e-03	yes	below held
+follow loop: walk from a new design	boxD	912	851-ts17b	twoshort-r17	up	1	30.764700682	30.696565228	30.694827567	30.696126947	-1.299e-03	yes	below held
+follow loop: walk from a new design	boxD	912	975-c17	corners-r17	down	1	30.714573394	30.700821122	30.700821122	30.696126947	4.694e-03	no	ok
+follow loop: walk from a new design	boxC	912	975-h17	round 16 held, by readers	down	1	30.720991746	30.703184977	30.703184977	30.696126947	7.058e-03	no	ok
+follow loop: walk from a new design	boxC	912	975-mm17	midm-r17	down	1	30.714571208	30.701190921	30.701190921	30.696126947	5.064e-03	no	ok
+follow loop: walk from a new design	boxE	912	975-mm17a	midm-r17	down	1	30.714568601	30.700844823	30.700844823	30.696126947	4.718e-03	no	ok
+follow loop: walk from a new design	boxC	912	975-ts17	twoshort-r17	down	1	30.714583983	30.700821487	30.700821487	30.696126947	4.695e-03	no	ok
+follow loop: walk from a new design	boxD	913	793-ts17	twoshort-r17	up	2	30.773851117	30.714511700	30.714508513	30.713517144	9.914e-04	no	ok
+follow loop: walk from a new design	boxC	913	852-f17	family-r17 (own results)	up	1	30.773851119	30.714188869	30.714157969	30.713517144	6.408e-04	no	ok
+follow loop: walk from a new design	boxD	913	852-o17	soft-r17	up	1	30.773851119	30.715414199	30.715412213	30.713517144	1.895e-03	no	ok
+follow loop: walk from a new design	boxC	913	852-ts17	twoshort-r17	up	1	30.777265501	30.723018631	30.723018595	30.713517144	9.501e-03	no	ok
+follow loop: walk from a new design	boxC	913	976-mm17	midm-r17	down	1	30.727108426	30.714717819	30.714717417	30.713517144	1.200e-03	no	ok
+follow loop: walk from a new design	boxD	913	976-ts17	twoshort-r17	down	1	30.727108473	30.714695666	30.714695650	30.713517144	1.179e-03	no	ok
+follow loop: walk from a new design	boxE	913	976-ts17a	twoshort-r17	down	1	30.727038267	30.714470362	30.714470362	30.710251303	4.219e-03	no	ok
+follow loop: walk from a new design	boxC	914	977-c17	corners-r17	down	1	30.743573465	30.730777602	30.730777596	30.729163923	1.614e-03	no	ok
+follow loop: walk from a new design	boxC	915	978-scn17	stair-c-r17 near/	down	1	30.759557659	30.742538867	30.742538867	30.739964705	2.574e-03	no	ok
+follow loop: walk from a new design	boxC	915	978-ts17	twoshort-r17	down	1	30.759462878	30.744348044	30.744348031	30.743639561	7.085e-04	no	ok
+follow loop: walk from a new design	boxC	915	978-ts17a	twoshort-r17	down	1	30.759462696	30.744354895	30.744354895	30.739964705	4.390e-03	no	ok
+follow loop: walk from a new design	boxC	916	796-ts17	twoshort-r17	up	2	30.830727751	30.771023109	30.757112167	30.752189774	4.922e-03	no	ok
+follow loop: walk from a new design	boxD	916	796-ts17a	twoshort-r17	up	2	30.836910137	30.797856345	30.797856345	30.752189774	4.567e-02	no	ok
+follow loop: walk from a new design	boxD	919	982-b17	border-r17	down	1	30.801271206	30.790713276	30.790713269	30.792788024	-2.075e-03	no (under 1e-10)	below held
+follow loop: walk from a new design	boxC	919	982-c17	corners-r17	down	1	30.807831290	30.798093615	30.798080218	30.796505607	1.575e-03	no	ok
+follow loop: walk from a new design	boxD	919	982-c17a	corners-r17	down	1	30.807520300	30.797753799	30.797753799	30.792986159	4.768e-03	no	ok
+follow loop: walk from a new design	boxC	919	982-cf17	classfill-r17	down	1	30.807405694	30.797653660	30.797653660	30.792788024	4.866e-03	no	ok
+follow loop: walk from a new design	boxC	919	982-p17	polish-r17	down	1	30.807831274	30.798089984	30.798089984	30.792986159	5.104e-03	no	ok
+follow loop: walk from a new design	boxD	919	982-rd17	readers-r17	down	1	30.801262053	30.790719455	30.790713269	30.790280876	4.324e-04	no	ok
+follow loop: walk from a new design	boxC	919	982-scn17	stair-c-r17 near/	down	1	30.811341033	30.801352717	30.801352717	30.792788024	8.565e-03	no	ok
+follow loop: walk from a new design	boxC	919	982-stx17	stair-c (handoff log)	down	1	30.808517036	30.799027209	30.799027209	30.796505607	2.522e-03	no	ok
+follow loop: walk from a new design	boxC	920	859-sc17	stair-c-r17	up	1	30.856822618	30.803884914	30.803884908	30.805316663	-1.432e-03	yes	below held
+follow loop: walk from a new design	boxC	920	983-b17	border-r17	down	1	30.811885384	30.799202743	30.799201636	30.803882615	-4.681e-03	yes	below held
+follow loop: walk from a new design	boxD	920	983-c17	corners-r17	down	1	30.815908827	30.806346143	30.806346143	30.803882615	2.464e-03	no	ok
+follow loop: walk from a new design	boxD	920	983-c17a	corners-r17	down	1	30.814797300	30.804978682	30.804975971	30.803882615	1.093e-03	no	ok
+follow loop: walk from a new design	boxD	920	983-cf17	classfill-r17	down	1	30.814633711	30.804828996	30.804828510	30.803882615	9.459e-04	no	ok
+follow loop: walk from a new design	boxC	920	983-h17	round 16 held, by modules	down	1	30.816325821	30.805592519	30.805591852	30.805316663	2.752e-04	no	ok
+follow loop: walk from a new design	boxC	920	983-scn17	stair-c-r17 near/	down	1	30.816495504	30.804646613	30.804646607	30.803882615	7.640e-04	no	ok
+follow loop: walk from a new design	boxD	921	860-c17	corners-r17	up	1	30.865124358	30.813122807	30.813122467	30.815574390	-2.452e-03	no (under 1e-10)	below held
+follow loop: walk from a new design	boxC	921	860-h17	round 16 held, by family	up	1	30.896445959	30.815574398	30.815574389	30.815577970	-3.581e-06	no (under 1e-10)	below held
+follow loop: walk from a new design	boxD	921	860-scn17	stair-c-r17 near/	up	1	30.867613628	30.813406873	30.813406867	30.812953796	4.531e-04	no	ok
+follow loop: walk from a new design	boxE	921	860-scn17a	stair-c-r17 near/	up	1	30.864858896	30.813078928	30.813077845	30.812953796	1.240e-04	no	ok
+follow loop: walk from a new design	boxC	921	984-c17	corners-r17	down	1	30.825494995	30.812998777	30.812998679	30.815574390	-2.576e-03	no (under 1e-10)	below held
+follow loop: walk from a new design	boxC	921	984-c17a	corners-r17	down	1	30.825494467	30.813131753	30.813122467	30.815574390	-2.452e-03	no (under 1e-10)	below held
+follow loop: walk from a new design	boxE	921	984-c17b	corners-r17	down	1	30.824095681	30.814042506	30.814026496	30.812953796	1.073e-03	no	ok
+follow loop: walk from a new design	boxE	921	984-f17	family-r17 (own results)	down	1	30.825494395	30.813122599	30.813122468	30.813077862	4.461e-05	no	ok
+follow loop: walk from a new design	boxC	921	984-h17	round 16 held, by modules	down	1	30.827466851	30.815759571	30.815759555	30.815577970	1.816e-04	no	ok
+follow loop: walk from a new design	boxC	921	984-rd17	readers-r17	down	1	30.825494034	30.813080594	30.813077858	30.813122471	-4.461e-05	no (under 1e-10)	below held
+follow loop: walk from a new design	boxC	921	984-sc17	stair-c-r17	down	1	30.824749461	30.815112030	30.815112030	30.812953796	2.158e-03	no	ok
+follow loop: walk from a new design	boxC	921	984-scn17	stair-c-r17 near/	down	1	30.829187983	30.817190918	30.817190918	30.813077862	4.113e-03	no	ok
+follow loop: walk from a new design	boxD	921	984-scn17a	stair-c-r17 near/	down	1	30.825494974	30.813125724	30.813122471	30.812953796	1.687e-04	no	ok
+follow loop: walk from a new design	boxC	922	861-f17	family-r17 (own results)	up	1	30.872902301	30.821509066	30.821509060	30.821535787	-2.673e-05	no (under 1e-10)	below held
+follow loop: walk from a new design	boxC	922	861-sc17	stair-c-r17	up	1	30.877425143	30.830960472	30.830960466	30.827151956	3.809e-03	no	ok
+follow loop: walk from a new design	boxE	922	861-sc17a	stair-c-r17	up	1	30.875561678	30.831294236	30.831289808	30.827151956	4.138e-03	no	ok
+follow loop: walk from a new design	boxD	922	861-sc17b	stair-c-r17	up	1	30.872946832	30.822338268	30.822338262	30.827151956	-4.814e-03	no (under 1e-10)	below held
+follow loop: walk from a new design	boxD	922	861-scn17	stair-c-r17 near/	up	1	30.878313496	30.831519904	30.831519898	30.821535787	9.984e-03	no	ok
+follow loop: walk from a new design	boxD	922	861-scn17a	stair-c-r17 near/	up	1	30.878573056	30.837135922	30.837135916	30.821535787	1.560e-02	no	ok
+follow loop: walk from a new design	boxC	922	985-c17	corners-r17	down	1	30.834437558	30.824816415	30.824816415	30.821535787	3.281e-03	no	ok
+follow loop: walk from a new design	boxC	922	985-sc17	stair-c-r17	down	1	30.834483053	30.824841227	30.824841227	30.821535787	3.305e-03	no	ok
+follow loop: walk from a new design	boxD	923	803-scn17	stair-c-r17 near/	up	2	30.906261199	30.853663472	30.853663466	30.837101199	1.656e-02	no	ok
+follow loop: walk from a new design	boxE	923	803-stx17	stair-c (handoff log)	up	2	30.899974314	30.846438456	30.846438015	30.837101199	9.337e-03	no	ok
+follow loop: walk from a new design	boxC	923	986-scn17	stair-c-r17 near/	down	1	30.853327219	30.842489955	30.842489955	30.837101199	5.389e-03	no	ok
+follow loop: walk from a new design	boxD	923	986-scn17a	stair-c-r17 near/	down	1	30.853296013	30.842490218	30.842490218	30.837101199	5.389e-03	no	ok
+follow loop: walk from a new design	boxC	924	804-sc17	stair-c-r17	up	2	30.926300673	30.853453296	30.853453290	30.852759708	6.936e-04	no	ok
+follow loop: walk from a new design	boxC	924	804-scn17	stair-c-r17 near/	up	2	30.928104707	30.855429341	30.855429335	30.854910472	5.189e-04	no	ok
+follow loop: walk from a new design	boxD	924	863-c17	corners-r17	up	1	30.925958646	30.852915776	30.852915770	30.852759708	1.561e-04	no	ok
+follow loop: walk from a new design	boxC	924	863-h17	round 16 held, by polish	up	1	30.927532527	30.855824257	30.855824251	30.854910472	9.138e-04	no	ok
+follow loop: walk from a new design	boxD	924	863-p17	polish-r17	up	1	30.909601788	30.853714771	30.853714765	30.852759708	9.551e-04	no	ok
+follow loop: walk from a new design	boxC	924	863-rd17	readers-r17	up	1	30.926468470	30.852889475	30.852879741	30.852759708	1.200e-04	no	ok
+follow loop: walk from a new design	boxD	924	863-sc17	stair-c-r17	up	1	30.909601827	30.853716467	30.853714765	30.852759708	9.551e-04	no	ok
+follow loop: walk from a new design	boxC	924	863-sc17a	stair-c-r17	up	1	30.909592654	30.853716468	30.853714765	30.852759708	9.551e-04	no	ok
+follow loop: walk from a new design	boxC	924	863-scn17	stair-c-r17 near/	up	1	30.927556125	30.855001713	30.855001706	30.852759708	2.242e-03	no	ok
+follow loop: walk from a new design	boxC	924	987-scn17	stair-c-r17 near/	down	1	30.865459299	30.854924098	30.854924098	30.852759708	2.164e-03	no	ok
+follow loop: walk from a new design	boxC	927	990-mmx17	midm (handoff log)	down	1	nan	nan	nan	30.886964471		no	refused: arm 1: no border square beside the cut
+follow loop: walk from a new design	boxD	931	994-mm17	midm-r17	down	1	30.938684024	30.933457319	30.933457319	30.929561461	3.896e-03	no	ok
+follow loop: walk from a new design	boxC	932	812-f17	family-r17 (own results)	up	2	30.978118501	30.937941890	30.937941884	30.937941886	-2.000e-09	no (under 1e-10)	below held
+follow loop: walk from a new design	boxD	932	812-f17a	family-r17 (own results)	up	2	30.978120097	30.937941890	30.937941884	30.937941886	-2.000e-09	no (floatsafe)	below held
+follow loop: walk from a new design	boxC	932	812-h17	round 16 held, by family	up	2	30.978259582	30.939162901	30.939155837	30.937941886	1.214e-03	no	ok
+follow loop: walk from a new design	boxC	932	995-cf17	classfill-r17	down	1	30.945236095	30.938306034	30.938306029	30.937941886	3.641e-04	no	ok
+follow loop: walk from a new design	boxC	932	995-h17	round 16 held, by modules	down	1	30.945474671	30.938749528	30.938749520	30.937941886	8.076e-04	no	ok
+follow loop: walk from a new design	boxD	932	995-mm17	midm-r17	down	1	30.945414209	30.938379005	30.938378999	30.937941886	4.371e-04	no	ok
+follow loop: walk from a new design	boxD	933	813-mmx17	midm (handoff log)	up	2	30.983495504	30.943773315	30.943773309	30.943773310	-1.000e-09	no (floatsafe)	below held
+follow loop: walk from a new design	boxC	935	758-mn17	modules-r17 near/	up	3	31.021818877	30.982247853	30.982246827	30.978490764	3.756e-03	no	ok
+follow loop: walk from a new design	boxD	935	815-stx17	stair-c (handoff log)	up	2	31.022380759	30.982833886	30.982830860	30.978490764	4.340e-03	no	ok
+follow loop: walk from a new design	boxE	935	874-cf17	classfill-r17	up	1	31.021656473	30.982046901	30.982046894	30.978490764	3.556e-03	no	ok
+follow loop: walk from a new design	boxC	935	874-mm17	midm-r17	up	1	31.021665590	30.982163996	30.982074082	30.978490764	3.583e-03	no	ok
+follow loop: walk from a new design	boxD	936	875-mmx17	midm (handoff log)	up	1	31.032647000	30.993940131	30.992563516	30.992553201	1.032e-05	no	ok
+follow loop: walk from a new design	boxC	936	999-mm17	midm-r17	down	1	30.997718598	30.992622368	30.992553201	30.992553201	0.000e+00	no	ok
+follow loop: walk from a new design	boxD	973	910-c17	corners-r17	up	1	31.762667160	31.689173592	31.689144736	31.689752472	-6.077e-04	yes	below held
+follow loop: walk from a new design	boxC	973	910-f17	family-r17 (own results)	up	1	31.763211348	31.689752796	31.689752790	31.689752500	2.900e-07	no	ok
+follow loop: walk from a new design	boxD	973	910-f17a	family-r17 (own results)	up	1	31.762667060	31.689144494	31.689144486	31.689752500	-6.080e-04	yes	below held
+follow loop: walk from a new design	boxD	973	910-p17	polish-r17	up	1	31.763208990	31.689764657	31.689752555	31.689752500	5.500e-08	no	ok
+follow loop: walk from a new design	boxC	973	910-ts17	twoshort-r17	up	1	31.763212044	31.689752668	31.689752654	31.689752758	-1.040e-07	no (under 1e-10)	below held
+follow loop: walk from a new design	boxD	973	910-ts17a	twoshort-r17	up	1	31.762689011	31.698369237	31.698369226	31.689752500	8.617e-03	no	ok
+follow loop: walk from a new design	boxC	974	911-f17	family-r17 (own results)	up	1	31.767877823	31.697896732	31.697896726	31.697896727	-1.000e-09	no (under 1e-10)	below held
+follow loop: walk from a new design	boxC	974	911-p17	polish-r17	up	1	31.767878163	31.697896732	31.697896726	31.697896727	-1.000e-09	no (under 1e-10)	below held
+follow loop: walk from a new design	boxC	974	911-ts17	twoshort-r17	up	1	31.767878183	31.697896732	31.697896726	31.697896727	-1.000e-09	no (under 1e-10)	below held
+follow loop: walk from a new design	boxC	974	911-ts17a	twoshort-r17	up	1	31.767877944	31.697896732	31.697896726	31.697896727	-1.000e-09	no (under 1e-10)	below held
+follow loop: walk from a new design	boxC	975	851-ts17	twoshort-r17	up	2	31.795894931	31.721280475	31.721272858	31.714583983	6.689e-03	no	ok
+follow loop: walk from a new design	boxC	975	851-ts17a	twoshort-r17	up	2	31.777944549	31.732274824	31.732198890	31.714573394	1.763e-02	no	ok
+follow loop: walk from a new design	boxD	975	851-ts17b	twoshort-r17	up	2	31.777547670	31.731778322	31.731777860	31.714568601	1.721e-02	no	ok
+follow loop: walk from a new design	boxD	975	912-h17	round 16 held, by family	up	1	31.800301195	31.720992319	31.720991726	31.714573394	6.418e-03	no	ok
+follow loop: walk from a new design	boxD	975	912-ts17	twoshort-r17	up	1	31.794712119	31.719167015	31.719163088	31.714583983	4.579e-03	no	ok
+follow loop: walk from a new design	boxD	976	793-ts17	twoshort-r17	up	3	31.793890334	31.749147394	31.749147394	31.727108473	2.204e-02	no	ok
+follow loop: walk from a new design	boxC	976	852-f17	family-r17 (own results)	up	2	31.793674440	31.739298894	31.739298856	31.727108473	1.219e-02	no	ok
+follow loop: walk from a new design	boxD	976	852-o17	soft-r17	up	2	31.796544012	31.739298862	31.739298856	31.727108473	1.219e-02	no	ok
+follow loop: walk from a new design	boxC	976	852-ts17	twoshort-r17	up	2	31.800883349	31.744665331	31.742577045	31.727108473	1.547e-02	no	ok
+follow loop: walk from a new design	boxD	976	913-ts17	twoshort-r17	up	1	31.793075598	31.729968032	31.729968026	31.727108473	2.860e-03	no	ok
+follow loop: walk from a new design	boxC	976	913-ts17a	twoshort-r17	up	1	31.790391507	31.739298862	31.739298856	31.727038267	1.226e-02	no	ok
+follow loop: walk from a new design	boxC	977	914-c17	corners-r17	up	1	31.805932195	31.751304283	31.751111798	31.745619381	5.492e-03	no	ok
+follow loop: walk from a new design	boxC	977	914-o17	soft-r17	up	1	31.805441871	31.747026843	31.747026837	31.743573465	3.453e-03	no	ok
+follow loop: walk from a new design	boxD	977	914-ts17	twoshort-r17	up	1	31.822158942	31.750995220	31.750937955	31.745619381	5.319e-03	no	ok
+follow loop: walk from a new design	boxC	978	915-c17	corners-r17	up	1	31.829544804	31.761339995	31.761339989	31.759462878	1.877e-03	no	ok
+follow loop: walk from a new design	boxD	978	915-c17a	corners-r17	up	1	31.829417825	31.761339995	31.761339989	31.759462878	1.877e-03	no	ok
+follow loop: walk from a new design	boxC	982	919-b17	border-r17	up	1	nan	nan	nan	31.807831290		no	refused: arm 1: no border square beside the cut
+follow loop: walk from a new design	boxC	982	919-b17a	border-r17	up	1	nan	nan	nan	31.807520300		no	refused: arm 1: no border square beside the cut
+follow loop: walk from a new design	boxE	982	919-b17b	border-r17	up	1	31.856444655	31.804109490	31.804109249	31.801271206	2.838e-03	no	ok
+follow loop: walk from a new design	boxD	982	919-rd17	readers-r17	up	1	31.856081726	31.801795640	31.801270285	31.801262053	8.232e-06	no	ok
+follow loop: walk from a new design	boxE	983	920-sc17	stair-c-r17	up	1	31.867221401	31.817544385	31.817020726	31.814797300	2.223e-03	no	ok
+follow loop: walk from a new design	boxC	983	920-scn17	stair-c-r17 near/	up	1	31.881703439	31.822689750	31.822676183	31.816325821	6.350e-03	no	ok
+follow loop: walk from a new design	boxD	984	860-c17	corners-r17	up	2	31.875076511	31.825495090	31.825495084	31.825494995	8.900e-08	no	ok
+follow loop: walk from a new design	boxC	984	860-h17	round 16 held, by family	up	2	31.906671825	31.828436709	31.828436703	31.827466851	9.699e-04	no	ok
+follow loop: walk from a new design	boxC	984	921-c17	corners-r17	up	1	31.875068406	31.825495090	31.825495084	31.825494995	8.900e-08	no	ok
+follow loop: walk from a new design	boxC	984	921-f17	family-r17 (own results)	up	1	31.906671826	31.840539719	31.828436773	31.827466851	9.699e-04	no	ok
+follow loop: walk from a new design	boxC	984	921-h17	round 16 held, by modules	up	1	31.906674502	31.828436709	31.828436703	31.827466851	9.699e-04	no	ok
+follow loop: walk from a new design	boxC	984	921-mm17	midm-r17	up	1	31.906671826	31.828436709	31.828436703	31.827466851	9.699e-04	no	ok
+follow loop: walk from a new design	boxD	984	921-p17	polish-r17	up	1	31.875076515	31.825495090	31.825494668	31.825494467	2.010e-07	no	ok
+follow loop: walk from a new design	boxC	984	921-rd17	readers-r17	up	1	31.875038748	31.825495090	31.825494331	31.825494467	-1.360e-07	no (under 1e-10)	below held
+follow loop: walk from a new design	boxC	984	921-rd17a	readers-r17	up	1	31.874938064	31.825884813	31.825495471	31.824749461	7.460e-04	no	ok
+follow loop: walk from a new design	boxD	984	921-scn17	stair-c-r17 near/	up	1	31.890420820	31.829193167	31.829187983	31.825494467	3.694e-03	no	ok
+follow loop: walk from a new design	boxD	984	921-scn17a	stair-c-r17 near/	up	1	31.875076506	31.825495090	31.825495084	31.824095681	1.399e-03	no	ok
+follow loop: walk from a new design	boxC	984	921-scn17b	stair-c-r17 near/	up	1	31.875026029	31.831853489	31.831154348	31.824095681	7.059e-03	no	ok
+follow loop: walk from a new design	boxC	984	921-scn17c	stair-c-r17 near/	up	1	31.874715341	31.827028130	31.827027798	31.824095681	2.932e-03	no	ok
+follow loop: walk from a new design	boxC	985	861-f17	family-r17 (own results)	up	2	31.881641346	31.835050219	31.835050213	31.834483053	5.672e-04	no	ok
+follow loop: walk from a new design	boxC	985	861-sc17	stair-c-r17	up	2	31.889364860	31.847853066	31.842210788	31.837106280	5.105e-03	no	ok
+follow loop: walk from a new design	boxE	985	861-sc17a	stair-c-r17	up	2	31.889633873	31.853084505	31.846569259	31.837106280	9.463e-03	no	time limit
+follow loop: walk from a new design	boxD	985	861-sc17b	stair-c-r17	up	2	31.882319209	31.836287309	31.836067042	31.837106280	-1.039e-03	no (under 1e-10)	below held
+follow loop: walk from a new design	boxC	985	922-rd17	readers-r17	up	1	31.881576970	31.835050219	31.835050213	31.834437558	6.127e-04	no	ok
+follow loop: walk from a new design	boxC	985	922-sc17	stair-c-r17	up	1	31.881663196	31.835050219	31.835050213	31.834483053	5.672e-04	no	ok
+follow loop: walk from a new design	boxC	987	863-h17	round 16 held, by polish	up	2	31.936685874	31.868848106	31.868846489	31.864441754	4.405e-03	no	ok
+follow loop: walk from a new design	boxC	987	863-rd17	readers-r17	up	2	31.934494941	31.865440402	31.865440393	31.864441754	9.986e-04	no	ok
+follow loop: walk from a new design	boxD	987	863-sc17	stair-c-r17	up	2	31.919151239	31.868251623	31.868251617	31.864441754	3.810e-03	no	ok
+follow loop: walk from a new design	boxC	987	863-sc17a	stair-c-r17	up	2	31.919151239	31.868251623	31.868251617	31.864441754	3.810e-03	no	ok
+follow loop: walk from a new design	boxD	987	924-rd17	readers-r17	up	1	31.934405610	31.865396554	31.865373288	31.864441754	9.315e-04	no	ok
+follow loop: walk from a new design	boxE	987	924-scn17	stair-c-r17 near/	up	1	31.936012817	31.865454911	31.865454495	31.864441754	1.013e-03	no	ok
+follow loop: walk from a new design	boxE	992	929-mmx17	midm (handoff log)	up	1	nan	nan	nan	31.915984769		no	refused: arm 2: no border square beside the cut
+follow loop: walk from a new design	boxC	995	812-f17	family-r17 (own results)	up	3	31.984755585	31.948685069	31.948107244	31.945414209	2.693e-03	no	ok
+follow loop: walk from a new design	boxD	995	812-f17a	family-r17 (own results)	up	3	31.984755585	31.948110790	31.945897138	31.945414209	4.829e-04	no	ok
+follow loop: walk from a new design	boxC	995	812-h17	round 16 held, by family	up	3	31.985953930	31.948498840	31.948498834	31.945414209	3.085e-03	no	ok
+follow loop: walk from a new design	boxD	995	932-h17	round 16 held, by zones-corner	up	1	31.984755586	31.948117352	31.948107244	31.945474671	2.633e-03	no	ok
+follow loop: walk from a new design	boxD	996	813-mmx17	midm (handoff log)	up	3	31.989242127	31.956000016	31.955999870	31.955104159	8.957e-04	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxC	374	335-f17	family-r17 (own results)	up	1	19.916212369	19.826319399	19.826148503	19.826147191	1.312e-06	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxD	415	374-k77405a	a walk step of this round	up	1	20.940312659	20.859468180	20.859352154	20.859318178	3.398e-05	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxC	415	374-mm17	midm-r17	up	1	20.940311758	20.860200745	20.860028842	20.859318178	7.107e-04	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxE	549	598-h17	round 16 held, by family	down	1	23.901501979	23.891939043	23.891939036	23.891143535	7.955e-04	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxC	549	598-kfd84b0	a walk step of this round	down	1	23.901502268	23.892025473	23.892025467	23.891938960	8.651e-05	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxD	549	598-kfd84b0	a walk step of this round	down	1	23.901502268	23.892025473	23.892025467	23.891938960	8.651e-05	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxD	598	549-c17	corners-r17	up	1	24.948740004	24.905097361	24.901501985	24.901216370	2.856e-04	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxC	598	549-h17	round 16 held, by family	up	1	24.949638867	24.901503457	24.901501977	24.901501979	-2.000e-09	no (floatsafe)	below held
+second draw of a near miss (SQ_DRAW=1)	boxC	598	649-h17	round 16 held, by modules	down	1	24.910536102	24.901503853	24.901502268	24.901501979	2.890e-07	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxD	598	649-h17	round 16 held, by modules	down	1	24.910536102	24.901503853	24.901502268	24.901501979	2.890e-07	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxE	598	649-mn17	modules-r17 near/	down	1	24.910536115	24.901502519	24.901502268	24.901216371	2.859e-04	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxC	649	598-k5c86f6	a walk step of this round	up	1	25.956525648	25.910543164	25.910536109	25.910536102	7.000e-09	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxC	649	598-m17	modules-r17	up	1	25.956380123	25.910776200	25.910756886	25.910536102	2.208e-04	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxD	652	601-k222c1b	a walk step of this round	up	1	26.007322254	25.966530052	25.960802857	25.960793179	9.678e-06	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxD	704	651-mn17	modules-r17 near/	up	1	26.999802872	26.963269587	26.958200040	26.958179575	2.047e-05	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxD	742	687-h17	round 16 held, by family	up	1	27.817744314	27.742023840	27.742013220	27.741940438	7.278e-05	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxC	751	696-h17	round 16 held, by other	up	1	27.930586908	27.860417023	27.860410184	27.860400738	9.446e-06	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxD	751	696-h17	round 16 held, by other	up	1	27.930586908	27.860417023	27.860410184	27.860400738	9.446e-06	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxC	751	696-mmx17	midm (handoff log)	up	1	27.930586877	27.860615161	27.860404098	27.860400738	3.360e-06	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxE	751	696-mmx17	midm (handoff log)	up	1	27.930586877	27.860615161	27.860404098	27.860400738	3.360e-06	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxC	755	700-m17	modules-r17	up	1	27.954644527	27.907948053	27.907947329	27.907888451	5.888e-05	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxD	755	700-m17	modules-r17	up	1	27.954644527	27.907948053	27.907947329	27.907888451	5.888e-05	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxC	755	700-rd17	readers-r17	up	1	27.954618588	27.908062802	27.907937824	27.907888451	4.937e-05	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxD	755	700-rd17	readers-r17	up	1	27.954618588	27.908062802	27.907937824	27.907937825	-1.000e-09	no (under 1e-10)	below held
+second draw of a near miss (SQ_DRAW=1)	boxC	758	703-m17	modules-r17	up	1	28.004116809	27.957580494	27.954905667	27.954879607	2.606e-05	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxC	758	815-stx17	stair-c (handoff log)	down	1	27.960907619	27.954879761	27.954879758	27.954879607	1.510e-07	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxC	812	871-k5c3e8f	a walk step of this round	down	1	28.929708033	28.923284052	28.923283806	28.923397713	-1.139e-04	yes	below held
+second draw of a near miss (SQ_DRAW=1)	boxC	813	756-mmx17	midm (handoff log)	up	1	28.971978965	28.928880380	28.928880118	28.928877855	2.263e-06	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxE	813	756-mmx17	midm (handoff log)	up	1	28.971978965	28.928880380	28.928880118	28.928877855	2.263e-06	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxC	813	756-mn17	modules-r17 near/	up	1	28.972231089	28.929287827	28.929231567	28.928877855	3.537e-04	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxD	813	756-mn17	modules-r17 near/	up	1	28.972231089	28.929287827	28.929231567	28.928877855	3.537e-04	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxC	815	758-mn17	modules-r17 near/	up	1	29.009580030	28.960945805	28.960945721	28.960907619	3.810e-05	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxE	815	758-mn17	modules-r17 near/	up	1	29.009580030	28.960945805	28.960945721	28.960907619	3.810e-05	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxC	851	912-f17a	family-r17 (own results)	down	1	29.694827568	29.679022839	29.679019301	29.679002512	1.679e-05	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxD	852	913-ts17a	twoshort-r17	down	1	29.710251303	29.690163765	29.690163759	29.694283539	-4.120e-03	yes	below held
+second draw of a near miss (SQ_DRAW=1)	boxC	858	919-f17	family-r17 (own results)	down	1	29.790713271	29.778938189	29.778936891	29.779484536	-5.476e-04	yes	below held
+second draw of a near miss (SQ_DRAW=1)	boxE	858	919-k1f880f	a walk step of this round	down	1	29.790713269	29.778937048	29.778936891	29.779484536	-5.476e-04	yes	below held
+second draw of a near miss (SQ_DRAW=1)	boxD	860	921-f17a	family-r17 (own results)	down	1	29.813122469	29.800488128	29.800484877	29.800484792	8.500e-08	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxE	860	921-f17b	family-r17 (own results)	down	1	29.812998681	29.800344422	29.800344123	29.801895560	-1.551e-03	no (under 1e-10)	below held
+second draw of a near miss (SQ_DRAW=1)	boxC	860	921-kee29d9	a walk step of this round	down	1	29.812998679	29.800345757	29.800344121	29.801895560	-1.551e-03	no (under 1e-10)	below held
+second draw of a near miss (SQ_DRAW=1)	boxC	863	804-c17	corners-r17	up	1	29.915911181	29.843206434	29.841440170	29.841418068	2.210e-05	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxC	871	812-f17a	family-r17 (own results)	up	1	29.973461159	29.929371465	29.929340443	29.929518695	-1.783e-04	yes	below held
+second draw of a near miss (SQ_DRAW=1)	boxC	871	932-h17	round 16 held, by zones-corner	down	1	29.937941886	29.930453374	29.930445127	29.929518695	9.264e-04	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxD	920	859-sc17	stair-c-r17	up	1	30.856822618	30.803902408	30.803882470	30.803882615	-1.450e-07	yes	below held
+second draw of a near miss (SQ_DRAW=1)	boxD	921	860-c17	corners-r17	up	1	30.865124358	30.813122473	30.813122467	30.812953796	1.687e-04	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxD	921	984-c17	corners-r17	down	1	30.825494995	30.813122616	30.813122469	30.812953796	1.687e-04	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxC	921	984-h17	round 16 held, by modules	down	1	30.827466851	30.815760217	30.815759555	30.815574390	1.852e-04	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxC	936	875-mmx17	midm (handoff log)	up	1	31.032647000	30.993939769	30.992554459	30.992553201	1.258e-06	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxD	936	875-mmx17	midm (handoff log)	up	1	31.032647000	30.993939769	30.992554459	30.992553201	1.258e-06	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxC	973	910-c17	corners-r17	up	1	31.762667160	31.689173592	31.689173586	31.689752500	-5.789e-04	yes	below held
+second draw of a near miss (SQ_DRAW=1)	boxC	973	910-f17	family-r17 (own results)	up	1	31.763211348	31.689763382	31.689752790	31.689752500	2.900e-07	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxC	973	910-ts17	twoshort-r17	up	1	31.763212044	31.689752667	31.689752619	31.689752500	1.190e-07	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxC	984	921-c17	corners-r17	up	1	31.875068406	31.825495090	31.825495084	31.825494467	6.170e-07	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxD	984	921-c17	corners-r17	up	1	31.875068406	31.825495090	31.825495084	31.825494467	6.170e-07	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxD	984	921-k4ac719	a walk step of this round	up	1	31.875076511	31.825495090	31.825495084	31.825494467	6.170e-07	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxC	984	921-p17	polish-r17	up	1	31.875076515	31.825494408	31.825494293	31.827466851	-1.973e-03	no (under 1e-10)	below held
+second draw of a near miss (SQ_DRAW=1)	boxE	984	921-rd17	readers-r17	up	1	31.875038748	31.825494411	31.825494284	31.825494034	2.500e-07	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	374	335-f17	family-r17 (own results)	up	1	19.916212369	19.826409788	19.826148313	19.826147191	1.122e-06	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	415	374-k77405a	a walk step of this round	up	1	20.940312659	20.867762303	20.859352154	20.859318178	3.398e-05	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	415	374-mm17	midm-r17	up	1	20.940311758	20.867621350	20.859352156	20.859318178	3.398e-05	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxD	415	374-mm17	midm-r17	up	1	20.940311758	20.867621350	20.859352156	20.859318178	3.398e-05	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	549	598-h17	round 16 held, by family	down	1	23.901501979	23.891939041	23.891939036	23.891122317	8.167e-04	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	549	598-kfd84b0	a walk step of this round	down	1	23.901502268	23.892034099	23.892025374	23.891938960	8.641e-05	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxD	549	598-kfd84b0	a walk step of this round	down	1	23.901502268	23.892034099	23.892025374	23.891938960	8.641e-05	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	598	549-c17	corners-r17	up	1	24.948740004	24.901217122	24.901217001	24.901216370	6.310e-07	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxD	598	549-c17	corners-r17	up	1	24.948740004	24.901217122	24.901217001	24.901216370	6.310e-07	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	598	549-h17	round 16 held, by family	up	1	24.949638867	24.901506543	24.901501983	24.901501979	4.000e-09	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	598	649-h17	round 16 held, by modules	down	1	24.910536102	24.901502515	24.901502268	24.901501979	2.890e-07	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxD	598	649-h17	round 16 held, by modules	down	1	24.910536102	24.901502515	24.901502268	24.901501979	2.890e-07	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	598	649-mn17	modules-r17 near/	down	1	24.910536115	24.901502481	24.901501985	24.901216371	2.856e-04	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	649	598-k5c86f6	a walk step of this round	up	1	25.956525648	25.910536106	25.910536101	25.910536102	-1.000e-09	no (under 1e-10)	below held
+second draw of a near miss (SQ_DRAW=2)	boxC	649	598-k5c86f6	a walk step of this round	up	1	25.956525648	25.910536106	25.910536101	25.910536102	-1.000e-09	no (under 1e-10)	below held
+second draw of a near miss (SQ_DRAW=2)	boxD	649	598-m17	modules-r17	up	1	25.956380123	25.910776020	25.910685125	25.910536102	1.490e-04	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	652	601-k222c1b	a walk step of this round	up	1	26.007322254	25.966273955	25.960802857	25.960793179	9.678e-06	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	704	651-mn17	modules-r17 near/	up	1	26.999802872	26.967915204	26.961276160	26.958179575	3.097e-03	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxD	742	687-h17	round 16 held, by family	up	1	27.817744314	27.742066177	27.741988149	27.741940438	4.771e-05	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxE	742	687-h17	round 16 held, by family	up	1	27.817744314	27.742066177	27.741988149	27.741940438	4.771e-05	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	751	696-h17	round 16 held, by other	up	1	27.930586908	27.860432324	27.860410184	27.860400738	9.446e-06	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxD	751	696-h17	round 16 held, by other	up	1	27.930586908	27.860432324	27.860410184	27.860400738	9.446e-06	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxD	751	696-mmx17	midm (handoff log)	up	1	27.930586877	27.860410190	27.860410184	27.860400738	9.446e-06	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	755	700-m17	modules-r17	up	1	27.954644527	27.907946148	27.907946026	27.907888451	5.757e-05	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxD	755	700-m17	modules-r17	up	1	27.954644527	27.907946148	27.907946026	27.907888451	5.757e-05	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	755	700-rd17	readers-r17	up	1	27.954618588	27.907950977	27.907938819	27.907937825	9.940e-07	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxD	755	700-rd17	readers-r17	up	1	27.954618588	27.907950977	27.907938819	27.907888451	5.037e-05	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxD	758	703-m17	modules-r17	up	1	28.004116809	27.957577918	27.954905520	27.954879607	2.591e-05	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	758	815-stx17	stair-c (handoff log)	down	1	27.960907619	27.954883858	27.954879758	27.954879607	1.510e-07	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxD	812	871-k5c3e8f	a walk step of this round	down	1	28.929708033	28.923271833	28.923270828	28.923397713	-1.269e-04	yes	below held
+second draw of a near miss (SQ_DRAW=2)	boxD	813	756-mmx17	midm (handoff log)	up	1	28.971978965	28.928881003	28.928880118	28.928877855	2.263e-06	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	813	756-mn17	modules-r17 near/	up	1	28.972231089	28.929171877	28.928915975	28.928877855	3.812e-05	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxE	813	756-mn17	modules-r17 near/	up	1	28.972231089	28.929171877	28.928915975	28.928877855	3.812e-05	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	815	758-mn17	modules-r17 near/	up	1	29.009580030	28.960926062	28.960926056	28.960907619	1.844e-05	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxD	815	758-mn17	modules-r17 near/	up	1	29.009580030	28.960926062	28.960926056	28.960907619	1.844e-05	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxD	851	912-f17a	family-r17 (own results)	down	1	29.694827568	29.679023090	29.678989550	29.679002512	-1.296e-05	yes	below held
+second draw of a near miss (SQ_DRAW=2)	boxC	852	913-ts17a	twoshort-r17	down	1	29.710251303	29.690163765	29.690163759	29.694283539	-4.120e-03	yes	below held
+second draw of a near miss (SQ_DRAW=2)	boxD	858	919-f17	family-r17 (own results)	down	1	29.790713271	29.779112903	29.779112788	29.779484536	-3.717e-04	yes	below held
+second draw of a near miss (SQ_DRAW=2)	boxC	858	919-k1f880f	a walk step of this round	down	1	29.790713269	29.779037882	29.779023769	29.779484536	-4.608e-04	yes	below held
+second draw of a near miss (SQ_DRAW=2)	boxE	860	921-f17a	family-r17 (own results)	down	1	29.813122469	29.800344191	29.800344091	29.800484792	-1.407e-04	no (under 1e-10)	below held
+second draw of a near miss (SQ_DRAW=2)	boxD	860	921-f17b	family-r17 (own results)	down	1	29.812998681	29.800344426	29.800344136	29.801895560	-1.551e-03	no (under 1e-10)	below held
+second draw of a near miss (SQ_DRAW=2)	boxC	860	921-kee29d9	a walk step of this round	down	1	29.812998679	29.800345507	29.800344117	29.801895560	-1.551e-03	no (under 1e-10)	below held
+second draw of a near miss (SQ_DRAW=2)	boxD	863	804-c17	corners-r17	up	1	29.915911181	29.843206412	29.841440155	29.841418068	2.209e-05	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxD	871	812-f17a	family-r17 (own results)	up	1	29.973461159	29.929369596	29.929338352	29.929518695	-1.803e-04	yes	below held
+second draw of a near miss (SQ_DRAW=2)	boxD	871	932-h17	round 16 held, by zones-corner	down	1	29.937941886	29.930447340	29.930445127	29.929518695	9.264e-04	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxD	920	859-sc17	stair-c-r17	up	1	30.856822618	30.803883805	30.803882470	30.803882615	-1.450e-07	yes	below held
+second draw of a near miss (SQ_DRAW=2)	boxE	921	860-c17	corners-r17	up	1	30.865124358	30.813122518	30.813122467	30.812953796	1.687e-04	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxE	921	984-c17	corners-r17	down	1	30.825494995	30.813125697	30.813122476	30.812953796	1.687e-04	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	921	984-h17	round 16 held, by modules	down	1	30.827466851	30.815759572	30.815759555	30.815574390	1.852e-04	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	936	875-mmx17	midm (handoff log)	up	1	31.032647000	30.993940070	30.992554563	30.992553201	1.362e-06	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxE	936	875-mmx17	midm (handoff log)	up	1	31.032647000	30.993940070	30.992554563	30.992553201	1.362e-06	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	973	910-c17	corners-r17	up	1	31.762667160	31.689144546	31.689144492	31.689752500	-6.080e-04	yes	below held
+second draw of a near miss (SQ_DRAW=2)	boxD	973	910-f17	family-r17 (own results)	up	1	31.763211348	31.689754983	31.689752555	31.689752472	8.300e-08	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	973	910-ts17	twoshort-r17	up	1	31.763212044	31.689752662	31.689752654	31.689752500	1.540e-07	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	984	921-c17	corners-r17	up	1	31.875068406	31.825495090	31.825495084	31.825494034	1.050e-06	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxE	984	921-c17	corners-r17	up	1	31.875068406	31.825495090	31.825495084	31.825494467	6.170e-07	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	984	921-k4ac719	a walk step of this round	up	1	31.875076511	31.825495090	31.825494559	31.825494467	9.200e-08	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxD	984	921-k4ac719	a walk step of this round	up	1	31.875076511	31.825495090	31.825494559	31.825494034	5.250e-07	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxD	984	921-p17	polish-r17	up	1	31.875076515	31.825495090	31.825494213	31.825494034	1.790e-07	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxE	984	921-rd17	readers-r17	up	1	31.875038748	31.825494078	31.825493967	31.825494034	-6.700e-08	no (under 1e-10)	below held
+second draw of a near miss (SQ_DRAW=3)	boxD	374	335-f17	family-r17 (own results)	up	1	19.916212369	19.839585114	19.826148499	19.826147191	1.308e-06	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	415	374-k77405a	a walk step of this round	up	1	20.940312659	20.859455938	20.859318177	20.859318178	-1.000e-09	no (under 1e-10)	below held
+second draw of a near miss (SQ_DRAW=3)	boxC	415	374-mm17	midm-r17	up	1	20.940311758	20.859420019	20.859318177	20.859318178	-1.000e-09	no (under 1e-10)	below held
+second draw of a near miss (SQ_DRAW=3)	boxD	415	374-mm17	midm-r17	up	1	20.940311758	20.859420019	20.859318177	20.859318178	-1.000e-09	no (under 1e-10)	below held
+second draw of a near miss (SQ_DRAW=3)	boxD	549	598-h17	round 16 held, by family	down	1	23.901501979	23.891939082	23.891939077	23.891143535	7.955e-04	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	549	598-kfd84b0	a walk step of this round	down	1	23.901502268	23.892031183	23.892025498	23.891938960	8.654e-05	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxD	549	598-kfd84b0	a walk step of this round	down	1	23.901502268	23.892031183	23.892025498	23.891938960	8.654e-05	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxE	549	598-m17	modules-r17	down	1	23.901216371	23.891242844	23.891242316	23.891122317	1.200e-04	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	598	549-c17	corners-r17	up	1	24.948740004	24.901220283	24.901220260	24.901216370	3.890e-06	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxD	598	549-c17	corners-r17	up	1	24.948740004	24.901220283	24.901220260	24.901216370	3.890e-06	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxD	598	549-h17	round 16 held, by family	up	1	24.949638867	24.901503450	24.901503444	24.901501979	1.465e-06	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	598	649-h17	round 16 held, by modules	down	1	24.910536102	24.901504103	24.901503837	24.901501979	1.858e-06	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxD	598	649-h17	round 16 held, by modules	down	1	24.910536102	24.901504103	24.901503837	24.901501979	1.858e-06	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxD	598	649-mn17	modules-r17 near/	down	1	24.910536115	24.901502482	24.901502268	24.901216371	2.859e-04	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxD	649	598-k5c86f6	a walk step of this round	up	1	25.956525648	25.910542432	25.910536110	25.910536102	8.000e-09	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxD	649	598-k5c86f6	a walk step of this round	up	1	25.956525648	25.910542432	25.910536110	25.910536102	8.000e-09	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxE	649	598-k6d28f7	a walk step of this round	up	1	25.956380122	25.910837233	25.910812593	25.910536102	2.765e-04	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxE	649	598-ke604f8	a walk step of this round	up	1	25.956380161	25.910878680	25.910812278	25.910536102	2.762e-04	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	649	598-m17	modules-r17	up	1	25.956380123	25.910776227	25.910660624	25.910536102	1.245e-04	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	652	601-k222c1b	a walk step of this round	up	1	26.007322254	25.966193889	25.960802857	25.960793179	9.678e-06	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	704	651-mn17	modules-r17 near/	up	1	26.999802872	26.968036326	26.961276224	26.958179575	3.097e-03	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	742	687-h17	round 16 held, by family	up	1	27.817744314	27.742001540	27.741988860	27.741940438	4.842e-05	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxD	742	687-h17	round 16 held, by family	up	1	27.817744314	27.742001540	27.741988860	27.741940438	4.842e-05	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	751	696-h17	round 16 held, by other	up	1	27.930586908	27.860411124	27.860400736	27.860400738	-2.000e-09	no (floatsafe)	below held
+second draw of a near miss (SQ_DRAW=3)	boxC	751	696-mmx17	midm (handoff log)	up	1	27.930586877	27.860415991	27.860410182	27.860400738	9.444e-06	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	755	700-m17	modules-r17	up	1	27.954644527	27.907947713	27.907947705	27.907888451	5.925e-05	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxE	755	700-m17	modules-r17	up	1	27.954644527	27.907947713	27.907947705	27.907937788	9.917e-06	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	755	700-rd17	readers-r17	up	1	27.954618588	27.907940977	27.907938259	27.907937825	4.340e-07	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	758	703-m17	modules-r17	up	1	28.004116809	27.957578028	27.955080738	27.954879607	2.011e-04	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxD	758	815-stx17	stair-c (handoff log)	down	1	27.960907619	27.954879761	27.954879758	27.954879607	1.510e-07	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	812	871-k5c3e8f	a walk step of this round	down	1	28.929708033	28.923273120	28.923271773	28.923397713	-1.259e-04	yes	below held
+second draw of a near miss (SQ_DRAW=3)	boxC	813	756-mmx17	midm (handoff log)	up	1	28.971978965	28.928885970	28.928880231	28.928877855	2.376e-06	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxD	813	756-mmx17	midm (handoff log)	up	1	28.971978965	28.928885970	28.928880231	28.928877855	2.376e-06	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	813	756-mn17	modules-r17 near/	up	1	28.972231089	28.929161570	28.928915984	28.928877855	3.813e-05	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	815	758-mn17	modules-r17 near/	up	1	29.009580030	28.960945727	28.960945721	28.960907619	3.810e-05	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxE	851	912-f17	family-r17 (own results)	down	1	29.695109484	29.680003385	29.679907592	29.679002512	9.051e-04	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	851	912-f17a	family-r17 (own results)	down	1	29.694827568	29.679019623	29.678989549	29.679002512	-1.296e-05	yes	below held
+second draw of a near miss (SQ_DRAW=3)	boxC	852	913-ts17a	twoshort-r17	down	1	29.710251303	29.690163765	29.690163759	29.694283539	-4.120e-03	yes	below held
+second draw of a near miss (SQ_DRAW=3)	boxC	858	919-f17	family-r17 (own results)	down	1	29.790713271	29.779121024	29.778692275	29.779484536	-7.923e-04	yes	below held
+second draw of a near miss (SQ_DRAW=3)	boxD	858	919-k1f880f	a walk step of this round	down	1	29.790713269	29.779123392	29.779112789	29.779484536	-3.717e-04	yes	below held
+second draw of a near miss (SQ_DRAW=3)	boxC	860	921-f17a	family-r17 (own results)	down	1	29.813122469	29.800486494	29.800484860	29.800484792	6.800e-08	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	860	921-f17b	family-r17 (own results)	down	1	29.812998681	29.800356052	29.800344126	29.801895560	-1.551e-03	no (under 1e-10)	below held
+second draw of a near miss (SQ_DRAW=3)	boxE	860	921-kfd0b6a	a walk step of this round	down	1	29.813077858	29.800435247	29.800429420	29.801895560	-1.466e-03	no (under 1e-10)	below held
+second draw of a near miss (SQ_DRAW=3)	boxE	863	804-c17	corners-r17	up	1	29.915911181	29.843411010	29.841684175	29.841418068	2.661e-04	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxE	871	812-f17a	family-r17 (own results)	up	1	29.973461159	29.929338645	29.929338363	29.929518695	-1.803e-04	yes	below held
+second draw of a near miss (SQ_DRAW=3)	boxC	871	932-h17	round 16 held, by zones-corner	down	1	29.937941886	29.930445133	29.930445127	29.929518695	9.264e-04	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	920	859-sc17	stair-c-r17	up	1	30.856822618	30.803884914	30.803884908	30.803882615	2.293e-06	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	921	860-c17	corners-r17	up	1	30.865124358	30.813135543	30.813122468	30.812953796	1.687e-04	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	921	984-c17	corners-r17	down	1	30.825494995	30.813122667	30.813122469	30.812953796	1.687e-04	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxD	921	984-h17	round 16 held, by modules	down	1	30.827466851	30.815759782	30.815759555	30.815574390	1.852e-04	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxE	922	861-f17	family-r17 (own results)	up	1	30.872902301	30.822951606	30.821509060	30.821430315	7.874e-05	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	936	875-mmx17	midm (handoff log)	up	1	31.032647000	30.993939769	30.992554467	30.992553201	1.266e-06	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxD	936	875-mmx17	midm (handoff log)	up	1	31.032647000	30.993939769	30.992554467	30.992553201	1.266e-06	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	973	910-c17	corners-r17	up	1	31.762667160	31.689173592	31.689144714	31.689752500	-6.078e-04	yes	below held
+second draw of a near miss (SQ_DRAW=3)	boxC	973	910-f17	family-r17 (own results)	up	1	31.763211348	31.689759043	31.689752790	31.689752472	3.180e-07	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxD	973	910-ts17	twoshort-r17	up	1	31.763212044	31.689752567	31.689752555	31.689752500	5.500e-08	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	984	921-c17	corners-r17	up	1	31.875068406	31.825495090	31.825495084	31.825494034	1.050e-06	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxD	984	921-c17	corners-r17	up	1	31.875068406	31.825495090	31.825495084	31.825494467	6.170e-07	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	984	921-k4ac719	a walk step of this round	up	1	31.875076511	31.825496014	31.825496014	31.825494467	1.547e-06	no	time limit
+second draw of a near miss (SQ_DRAW=3)	boxE	984	921-k4ac719	a walk step of this round	up	1	31.875076511	31.825496014	31.825494450	31.824749461	7.450e-04	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	984	921-p17	polish-r17	up	1	31.875076515	31.825495090	31.825494381	31.827466851	-1.972e-03	no (under 1e-10)	below held
+second draw of a near miss (SQ_DRAW=3)	boxE	984	921-rd17	readers-r17	up	1	31.875038748	31.825494365	31.825494023	31.824749461	7.446e-04	no	ok
+second build of a near miss of this round	boxD	374	335-f17	family-r17 (own results)	up	1	19.916212369	19.833424473	19.827549543	19.826147191	1.402e-03	no	ok
+second build of a near miss of this round	boxC	415	374-k77405a	a walk step of this round	up	1	20.940312659	20.867852652	20.859318177	20.859318178	-1.000e-09	no (under 1e-10)	below held
+second build of a near miss of this round	boxC	415	374-mm17	midm-r17	up	1	20.940311758	20.859516011	20.859352154	20.859318178	3.398e-05	no	ok
+second build of a near miss of this round	boxD	549	598-kbc2944	a walk step of this round	down	1	23.901501981	23.892035476	23.892025374	23.891924804	1.006e-04	no	ok
+second build of a near miss of this round	boxC	549	598-kfd84b0	a walk step of this round	down	1	23.901502268	23.892025616	23.892025433	23.891938960	8.647e-05	no	ok
+second build of a near miss of this round	boxC	549	598-m17	modules-r17	down	1	23.901216371	23.891253080	23.891242308	23.891143535	9.877e-05	no	ok
+second build of a near miss of this round	boxD	598	549-c17	corners-r17	up	1	24.948740004	24.901217112	24.901216989	24.901216370	6.190e-07	no	ok
+second build of a near miss of this round	boxD	598	549-h17	round 16 held, by family	up	1	24.949638867	24.901532655	24.901501977	24.901501979	-2.000e-09	no (floatsafe)	below held
+second build of a near miss of this round	boxD	598	549-mn17	modules-r17 near/	up	1	24.949096605	24.901217215	24.901216371	24.901216370	1.000e-09	no	ok
+second build of a near miss of this round	boxD	598	649-h17	round 16 held, by modules	down	1	24.910536102	24.901503898	24.901502268	24.901501979	2.890e-07	no	ok
+second build of a near miss of this round	boxC	598	649-mn17	modules-r17 near/	down	1	24.910536115	24.901502400	24.901502268	24.901501979	2.890e-07	no	ok
+second build of a near miss of this round	boxE	600	551-mn17	modules-r17 near/	up	1	24.986852768	24.934891677	24.934617255	24.932171000	2.446e-03	no	ok
+second build of a near miss of this round	boxD	649	598-k5c86f6	a walk step of this round	up	1	25.956525648	25.910544787	25.910544764	25.910536102	8.662e-06	no	ok
+second build of a near miss of this round	boxD	649	598-k6d28f7	a walk step of this round	up	1	25.956380122	25.910609350	25.910607626	25.910536102	7.152e-05	no	ok
+second build of a near miss of this round	boxD	649	598-ke604f8	a walk step of this round	up	1	25.956380161	25.910818970	25.910601599	25.910536102	6.550e-05	no	ok
+second build of a near miss of this round	boxC	649	598-m17	modules-r17	up	1	25.956380123	25.910850244	25.910684767	25.910536102	1.487e-04	no	ok
+second build of a near miss of this round	boxE	649	598-mn17	modules-r17 near/	up	1	25.956712774	25.910689594	25.910687918	25.910536102	1.518e-04	no	ok
+second build of a near miss of this round	boxC	652	601-k222c1b	a walk step of this round	up	1	26.007322254	25.970956832	25.962023020	25.960793179	1.230e-03	no	ok
+second build of a near miss of this round	boxC	689	744-h17	round 16 held, by other	down	1	26.760006229	26.745804426	26.745803495	26.745616471	1.870e-04	no	ok
+second build of a near miss of this round	boxC	704	651-mn17	modules-r17 near/	up	1	26.999802872	26.967953870	26.961276194	26.958179575	3.097e-03	no	ok
+second build of a near miss of this round	boxD	742	687-h17	round 16 held, by family	up	1	27.817744314	27.742001804	27.741980156	27.741940438	3.972e-05	no	ok
+second build of a near miss of this round	boxE	751	696-h17	round 16 held, by other	up	1	27.930586908	27.860415530	27.860410184	27.860400738	9.446e-06	no	ok
+second build of a near miss of this round	boxD	751	696-mmx17	midm (handoff log)	up	1	27.930586877	27.860415309	27.860410184	27.860400738	9.446e-06	no	ok
+second build of a near miss of this round	boxC	755	700-m17	modules-r17	up	1	27.954644527	27.907951287	27.907947322	27.907937824	9.498e-06	no	ok
+second build of a near miss of this round	boxC	755	700-rd17	readers-r17	up	1	27.954618588	27.907943535	27.907937828	27.907937825	3.000e-09	no	ok
+second build of a near miss of this round	boxD	758	703-m17	modules-r17	up	1	28.004116809	27.957580042	27.954905520	27.954879607	2.591e-05	no	ok
+second build of a near miss of this round	boxE	758	815-stx17	stair-c (handoff log)	down	1	27.960907619	27.954879611	27.954879605	27.954879607	-2.000e-09	no (floatsafe)	below held
+second build of a near miss of this round	boxE	813	756-mmx17	midm (handoff log)	up	1	28.971978965	28.928886046	28.928880118	28.928877855	2.263e-06	no	ok
+second build of a near miss of this round	boxD	813	756-mn17	modules-r17 near/	up	1	28.972231089	28.929169609	28.928915977	28.928878048	3.793e-05	no	ok
+second build of a near miss of this round	boxC	815	758-mn17	modules-r17 near/	up	1	29.009580030	28.960945731	28.960945721	28.960907619	3.810e-05	no	ok
+second build of a near miss of this round	boxD	851	912-f17	family-r17 (own results)	down	1	29.695109484	29.679929853	29.679907594	29.679907595	-1.000e-09	no (under 1e-10)	below held
+second build of a near miss of this round	boxD	851	912-f17a	family-r17 (own results)	down	1	29.694827568	29.679023717	29.678989549	29.679002512	-1.296e-05	yes	below held
+second build of a near miss of this round	boxC	859	920-sc17	stair-c-r17	down	1	29.803882615	29.791384476	29.791383874	29.791185154	1.987e-04	no	ok
+second build of a near miss of this round	boxD	860	921-c17	corners-r17	down	1	29.813122484	29.800485518	29.800484906	29.800484792	1.140e-07	no	ok
+second build of a near miss of this round	boxE	860	921-f17	family-r17 (own results)	down	1	29.815574390	29.801898039	29.801897047	29.800484792	1.412e-03	no	ok
+second build of a near miss of this round	boxE	860	921-f17a	family-r17 (own results)	down	1	29.813122469	29.800485161	29.800484931	29.800484792	1.390e-07	no	ok
+second build of a near miss of this round	boxD	860	921-mm17	midm-r17	down	1	29.815574390	29.801917474	29.801897047	29.800484792	1.412e-03	no	ok
+second build of a near miss of this round	boxD	863	804-c17	corners-r17	up	1	29.915911181	29.843206412	29.841439655	29.841418068	2.159e-05	no	ok
+second build of a near miss of this round	boxD	871	932-h17	round 16 held, by zones-corner	down	1	29.937941886	29.929709061	29.929707744	29.929518695	1.890e-04	no	ok
+second build of a near miss of this round	boxE	921	860-scn17a	stair-c-r17 near/	up	1	30.864858896	30.813122871	30.813122461	30.812953796	1.687e-04	no	ok
+second build of a near miss of this round	boxC	921	984-f17	family-r17 (own results)	down	1	30.825494395	30.813122504	30.813122467	30.812953796	1.687e-04	no	ok
+second build of a near miss of this round	boxD	921	984-h17	round 16 held, by modules	down	1	30.827466851	30.815759563	30.815759555	30.815574390	1.852e-04	no	ok
+second build of a near miss of this round	boxC	921	984-scn17a	stair-c-r17 near/	down	1	30.825494974	30.813122648	30.813122468	30.812953796	1.687e-04	no	ok
+second build of a near miss of this round	boxD	924	863-c17	corners-r17	up	1	30.925958646	30.852915776	30.852915770	30.852759708	1.561e-04	no	ok
+second build of a near miss of this round	boxD	924	863-rd17	readers-r17	up	1	30.926468470	30.852879750	30.852879744	30.852759708	1.200e-04	no	ok
+second build of a near miss of this round	boxD	936	875-mmx17	midm (handoff log)	up	1	31.032647000	30.993940152	30.992554482	30.992553201	1.281e-06	no	ok
+second build of a near miss of this round	boxC	973	910-f17	family-r17 (own results)	up	1	31.763211348	31.689752799	31.689752318	31.689752472	-1.540e-07	yes	below held
+second build of a near miss of this round	boxC	984	921-c17	corners-r17	up	1	31.875068406	31.825495090	31.825495084	31.825494467	6.170e-07	no	ok
+second build of a near miss of this round	boxC	984	921-k4ac719	a walk step of this round	up	1	31.875076511	31.825495090	31.825494395	31.825494467	-7.200e-08	no (under 1e-10)	below held
+second build of a near miss of this round	boxC	984	921-p17	polish-r17	up	1	31.875076515	31.825495090	31.825495084	31.825494034	1.050e-06	no	ok

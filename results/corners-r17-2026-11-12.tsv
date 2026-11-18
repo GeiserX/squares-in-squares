@@ -1,0 +1,89 @@
+n	corner	far1	far2	predicted_minus_bar	built_minus_bar	box	log	certified_new	gain_on_held
+339	zc6x6-74f9224ap17.C	338h.F1	378h11.F2	+2.37e-03	+1.584e-03	boxC	build-p2-339.log		
+378	zc6x6-74f9224ap17.C	304h.F1	599h.F1	+9.45e-04	+1.212e-04	boxC	build-p1-378.log		
+419	zc6x6-78f9350aq17.C	304h.F2	419h.F2d	-3.36e-05	-5.940e-04	boxC	build-q5-419-s1.log		
+419	zc6x6-78f9350aq17.C	304h.F1	419h.F2d	-3.36e-05	-5.940e-04	boxD	build-q1-419.log	0.022699107099948046	3.123e-05
+549	zc8x8-139f8980ax17.C	598h13.F2	598fa16.F1d	+1.10e-03	-2.122e-05	boxD	build-x-549.log	0.019648253180699404	3.485e-05
+549	zc8x8-139f8980ax17.C	598h13.F2	598mo16.F1d	+1.10e-03	-2.114e-05	boxC	build-x4-549-s1.log		
+598	zc8x8-139f9012ax17.C	756h09.F2	503h.F2	+9.66e-04	+1.738e-04	boxD	build-x-598.log		
+700	zc8x8-139f8980ax17.C	700h17.F2	700so16.F1	+4.79e-04	+7.310e-07	boxD	build-x-700.log		
+703	703h17.C	995b14.F1d	703cf17.F2	+2.66e-04	-3.471e-04	boxA	build-g1a-703.log		
+758	zc7x7-113f9549aq17.C	505h.F2	758b14.F2d	+5.05e-04	+1.765e-04	boxC	build-q2-758.log		
+796	796ts17.C	z9-19f720.F1	911h.F2d	+2.42e-04	-1.000e-09	boxA	build-g1a-796.log		
+804	zc7x7-95f8421aq17.C	803h.F1	984mo16.F2d	+1.19e-03	-1.769e-03	boxD	build-q1-804.log	0.016683290289828845	6.238e-05
+804	zc7x7-95f8421aq17.C	803h.F2	984mo16.F2d	+1.19e-03	-1.767e-03	boxD	build-q4-804-s1.log		
+804	zc7x7-88f8284av17.C	803h.F2	862q1.F2	+7.82e-04	+3.972e-04	boxC	build-v3-804-s1.log		
+804	zc7x7-88f8284av17.C	803h.F1	862q1.F2	+7.82e-04	+3.972e-04	boxE	build-v1-804.log		
+804	zc7x7-81f8308ag17.C	862b14.F2d	803h.F1	+9.92e-04	+6.666e-04	boxC	build-g17a-804.log		
+813	zc8x8-130f9289av17.C	503h.F2	995h12.F2d	+8.12e-04	+1.255e-04	boxC	build-v2-813.log		
+815	zc7x7-113f9549aq17.C	462h10.F2	815fa14.F1d	+1.20e-03	+1.970e-05	boxC	build-q2-815.log		
+815	zc7x7-113f9549aq17.C	704r10.F1	815fa14.F1d	+1.20e-03	+1.976e-05	boxC	build-q5-815-s1.log		
+851	zc9x9-104f6799av17.C	z9-36f680.F1	910ts17.F2	+1.66e-03	+6.719e-05	boxC	build-v4-851-s1.log		
+851	zc9x9-104f6799av17.C	z9-27f720.F1	910ts17.F2	+1.66e-03	+6.735e-05	boxE	build-v1-851.log		
+860	zc9x9-108f8164ag17.C	921h13.F2	860fa16.F2	-1.10e-03	-1.411e-03	boxC	build-g17-860.log		
+860	zc9x9-108f8164ag17.C	983h13.F2	860fa16.F2	-1.10e-03	-1.411e-03	boxC	build-g3b-860-s1.log		
+860	zc9x9-108f8164ag17.C	921h13.F2d	860fa16.F2	+3.11e-04	+1.800e-08	boxC	build-g3d-860-s2.log		
+860	zc9x9-135f8003ap17.C	921mo16.F1d	983h.F1	+2.71e-03	+4.248e-04	boxD	build-p0-860.log		
+863	zc7x7-95f8421aq17.C	803h.F1	863po16.F1	+9.27e-04	-1.410e-04	boxD	build-q1-863.log	0.015813684594741195	7.189e-05
+863	zc7x7-95f8421aq17.C	803h.F2	863po16.F1	+9.27e-04	-1.405e-04	boxD	build-q4-863-s1.log		
+863	zc7x7-81f8308ag17.C	863h.F1	863h.F1	+1.03e-03	+8.274e-04	boxC	build-g17b-863.log		
+871	zc8x8-146f9293aq17.C	812h14.F1	503h.F2	+9.01e-04	+6.198e-05	boxC	build-q3-871.log		
+875	zc7x7-99f9871ax17.C	704h.F1d	462h10.F2	+1.36e-03	+5.454e-04	boxD	build-x-875.log		
+910	zc9x9-129f6772ak17.C	z9-36f680.F1	973ts17.F2	+4.43e-04	-6.626e-04	boxC	build-k-910.log		
+910	zc9x9-129f6772am17.C	852ts17.F1	973ts17.F2	+4.44e-04	-6.617e-04	boxD	build-s1-910-s1.log		
+910	zc9x9-129f6772am17.C	852ts17.F2	973ts17.F2	+4.44e-04	-6.617e-04	boxD	build-s2-910-s2.log		
+910	zc9x9-156f6765aq17.C	z9-36f680.F1	973fy17.F2	+7.27e-04	-2.000e-09	boxC	build-q3-910.log		
+912	zc9x9-96f6943ak17.C	z9-36f680.F1	z9-44f680.F1	+2.13e-03	+1.788e-03	boxA	build-kl3-912.log		
+914	zc9x9-86f7595ak17.C	z9-46f740.F1	z9-19f720.F1	-1.21e-03	-1.629e-03	boxC	build-k-914.log		
+914	zc9x9-86f7595am17.C	z9-46f740.F1	z9-28f760.F1	+4.20e-04	-1.000e-09	boxD	build-s1-914-s1.log		
+914	zc9x9-86f7595am17.C	z9-46f740.F1	z9-46f740.F1	+4.20e-04	-1.000e-09	boxD	build-s2-914-s2.log		
+914	zc9x9-104f7595az17.C	z9-19f720.F1	z9-46f740.F1	+1.02e-03	+5.969e-04	boxC	build-z3-914.log		
+915	zc8x9-68f7308am17.C	z8-40f800.F1	z9-46f740.F1	+9.35e-04	-1.605e-04	boxD	build-s1-915-s1.log	0.016231885932412204	1.215e-04
+915	zc8x9-68f7308am17.C	z8-40f800.F1	z9-28f780.F1	+9.35e-04	-1.605e-04	boxD	build-s2-915-s2.log		
+916	zc8x9-68f7308ak17.C	z8-33f750.F1d	z9-28f760.F1	+1.55e-03	+1.102e-03	boxA	build-kl3-916.log		
+920	zc9x9-126f8131av17.C	z9-51f820.F1	z9-43f800.F1	-6.60e-04	-1.434e-03	boxC	build-v3-920-s1.log		
+920	zc9x9-126f8131av17.C	z9-51f820.F1	z9-43f760.F1	-6.60e-04	-1.434e-03	boxE	build-v1-920.log		
+920	zc9x9-135f8130az17.C	z9-51f820.F1	860fa16.F2d	+2.22e-03	+1.537e-03	boxC	build-z1-920.log		
+921	zc9x9-108f8164ag17.C	983h13.F2	860fa16.F2	-1.65e-04	-2.452e-03	boxC	build-g3c-921-s1.log		
+921	zc9x9-108f8164ag17.C	921h13.F2	860fa16.F2	-1.65e-04	-2.452e-03	boxD	build-g3a-921.log		
+921	921mo16.C	z9-43f840.F1	983h.F2d	+2.42e-04	-1.000e-09	boxA	build-g1a-921.log		
+921	zc9x9-100f8215az17.C	z9-42f840.F1	860fa16.F2	+2.51e-03	+2.189e-03	boxC	build-z6-921.log		
+931	zc8x8-130f9289av17.C	995z11.F2	871fa14.F1d	+1.11e-03	+1.693e-04	boxC	build-v2-931.log		
+936	zc7x7-99f9871ax17.C	936t13.F1	760h12.F2	+2.19e-03	+9.496e-04	boxC	build-x3-936.log		
+973	973ts17.C	910ts17.F2	910ts17.F2	+6.92e-05	-2.860e-07	boxA	build-g1a-973.log		
+973	zc9x9-156f6765aq17.C	852ts17.F1	910ts17.F2	+1.02e-03	+2.000e-09	boxD	build-q4-973-s1.log		
+973	zc9x9-156f6765aq17.C	z9-36f680.F1	910ts17.F2	+1.02e-03	+4.180e-06	boxC	build-q2-973.log		
+973	zc9x9-129f6898ak17.C	z9-36f680.F1	910ts17.F2	+1.04e-03	+6.864e-05	boxC	build-k2-973.log		
+973	zc9x9-129f6898ag17.C	z9-36f680.F1	910ts17.F2	+1.53e-03	+6.088e-04	boxD	build-g3a-973.log		
+975	975ts17.C	z9-19f720.F1	z9-46f740.F1	+1.33e-04	-1.059e-05	boxD	build-c-975.log		
+975	zc9x9-129f7146ax17.C	z9-46f740.F1	z9-19f720.F1	+8.73e-04	+1.827e-06	boxD	build-x-975.log		
+975	zc9x9-129f7146av17.C	z9-46f740.F1	z9-28f760.F1	+8.75e-04	+2.607e-06	boxC	build-v4-975-s1.log		
+975	zc9x9-129f7146av17.C	z9-46f740.F1	z9-19f720.F1	+8.75e-04	+3.769e-06	boxC	build-v2-975.log		
+975	zc9x9-129f7146ak17.C	z9-19f720.F1	z9-46f740.F1	+8.52e-04	+8.278e-06	boxC	build-k2-975.log		
+976	zc9x9-121f7271av17.C	z9-19f720.F1	z9-46f740.F1	+3.38e-04	-6.999e-05	boxE	build-v1-976.log		
+976	zc9x9-121f7271av17.C	z9-28f760.F1	z9-46f740.F1	+4.08e-04	+1.980e-07	boxC	build-v4-976-s1.log		
+976	zc9x9-103f7271ak17.C	z9-46f740.F1	z9-19f720.F1	+4.61e-04	+7.779e-06	boxC	build-k2-976.log		
+976	zc9x9-103f7271ak17.C	z9-46f740.F1	z9-28f760.F1	+4.61e-04	+7.798e-06	boxA	build-ls1-976-s1.log		
+977	zc9x9-86f7595ak17.C	z9-19f720.F1	z9-46f740.F1	+5.50e-04	-2.046e-03	boxA	build-kl-977.log	0.01556688936869044	6.545e-05
+977	zc9x9-86f7595am17.C	z9-28f760.F1	z9-46f740.F1	+5.50e-04	-2.046e-03	boxD	build-s1-977-s1.log		
+977	zc9x9-86f7595am17.C	z9-46f740.F1	z9-46f740.F1	+5.50e-04	-2.046e-03	boxD	build-s2-977-s2.log		
+977	zc9x9-104f7595az17.C	z9-46f740.F1	z9-19f720.F1	+2.60e-03	+0.000e+00	boxC	build-z3-977.log		
+982	zc9x9-133f8085ag17.C	921h13.F2d	983h.F1	+8.42e-04	-9.967e-04	boxC	build-g3b-982-s1.log		
+982	zc9x9-133f8085ag17.C	921h13.F2d	984h.F2	+8.42e-04	-6.858e-04	boxC	build-g3d-982-s2.log		
+982	zc9x9-133f8085ag17.C	921h13.F2d	921h.F2	+8.42e-04	-6.857e-04	boxC	build-g17a-982.log		
+982	zc9x9-151f8078aq17.C	983h13.F2	921h.F2	+1.26e-03	+1.800e-08	boxC	build-q3-982.log		
+983	zc9x9-125f8131av17.C	860fa16.F2	983h.F1	+4.45e-04	-1.112e-03	boxE	build-v1-983.log		
+983	zc9x9-125f8131av17.C	860fa16.F2	921m10.F2	+4.45e-04	-1.111e-03	boxC	build-v3-983-s1.log		
+983	zc9x9-98f8255aq17.C	921mo16.F1	921mo16.F1	+1.38e-03	-4.170e-04	boxD	build-q1-983.log		
+983	zc9x9-98f8255aq17.C	921mo16.F1	860fa16.F2	+1.38e-03	-4.087e-04	boxC	build-q5-983-s1.log		
+983	zc9x9-98f8255aw17.C	983h.F1	860fa16.F2	+1.79e-03	-5.491e-05	boxC	build-w1-983.log		
+983	zc9x9-134f8146az17.C	921h13.F2	860fa16.F2	+6.74e-04	+7.600e-08	boxA	build-z2-983.log		
+983	zc9x9-108f8164ag17.C	860fa16.F2	z9-42f840.F1	+1.38e-03	+4.045e-04	boxC	build-g17a-983.log		
+984	zc9x9-108f8164ag17.C	z9-43f840.F1	921mo16.F1d	+7.01e-05	-1.972e-03	boxC	build-g17b-984.log		
+984	zc9x9-108f8164ag17.C	921h13.F2	921mo16.F1d	+7.01e-05	-1.972e-03	boxC	build-g3c-984-s1.log		
+984	zc9x9-91f8108az17.C	z9-42f840.F1	z9-43f840.F1	-2.68e-04	-6.538e-04	boxC	build-z1-984.log	0.014515116030935582	1.075e-04
+984	zc9x9-91f8108az17.C	z9-42f840.F1	921h13.F2	-2.68e-04	-6.538e-04	boxC	build-z5-984-s1.log		
+984	zc9x9-108f8164ag17.C	983h13.F2	921mo16.F1d	+2.04e-03	-5.100e-07	boxC	build-g3d-984-s2.log		
+984	zc9x9-90f8108ah17.C	983h13.F2d	921h13.F2	+1.82e-03	+1.098e-03	boxC	build-h-984.log		
+985	zc9x9-91f8108az17.C	984h.F2	921h.F2	+1.41e-03	-4.549e-05	boxD	build-z0-985.log	0.014329522572834597	8.503e-05
+996	zc8x8-122f9454aq17.C	704r10.F2d	758h.F1	+1.04e-03	+8.754e-04	boxC	build-q3-996.log		

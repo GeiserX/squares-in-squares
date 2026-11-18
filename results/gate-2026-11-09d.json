@@ -1,0 +1,298 @@
+{
+ "file": "<scratch>/bounties-squares/gather/assembled-2026-11-09d-safe.csv",
+ "sha256": "1d4ca5e17c23e9dc14d428528a2672c0b53b5bd177260029180f4ad17a5b7ccb",
+ "total": 22.21492399051822,
+ "verdict": "GREEN",
+ "reasons": [],
+ "last_total": 22.215619083689464,
+ "min_gap": 2.2003732169650903e-11,
+ "moved": [
+  {
+   "n": 335,
+   "old": 0.027355628899358164,
+   "new": 0.027062943318995503,
+   "source": "samanyu1808/sis-final-packings :: data.zip!submission.csv",
+   "licence": "CC0: Public Domain"
+  },
+  {
+   "n": 463,
+   "old": 0.02096532048541566,
+   "new": 0.020964888317259067,
+   "source": "jazivxt/boxed-in-sub :: submission.csv",
+   "licence": "Apache 2.0 (Kaggle default for public notebooks)"
+  },
+  {
+   "n": 465,
+   "old": 0.01978771105891064,
+   "new": 0.019787677871694997,
+   "source": "jazivxt/boxed-in-sub :: submission.csv",
+   "licence": "Apache 2.0 (Kaggle default for public notebooks)"
+  },
+  {
+   "n": 498,
+   "old": 0.022114726447788335,
+   "new": 0.0218631132542062,
+   "source": "samanyu1808/sis-final-packings :: data.zip!submission.csv",
+   "licence": "CC0: Public Domain"
+  },
+  {
+   "n": 508,
+   "old": 0.01953902454788503,
+   "new": 0.019538632035941195,
+   "source": "jazivxt/boxed-in-sub :: submission.csv",
+   "licence": "Apache 2.0 (Kaggle default for public notebooks)"
+  },
+  {
+   "n": 539,
+   "old": 0.02221122239068718,
+   "new": 0.02221121033590845,
+   "source": "jazivxt/boxed-in-sub :: submission.csv",
+   "licence": "Apache 2.0 (Kaggle default for public notebooks)"
+  },
+  {
+   "n": 548,
+   "old": 0.019791379342002813,
+   "new": 0.019791339226741478,
+   "source": "jazivxt/boxed-in-sub :: submission.csv",
+   "licence": "Apache 2.0 (Kaggle default for public notebooks)"
+  },
+  {
+   "n": 591,
+   "old": 0.02029409615755262,
+   "new": 0.020292449514079935,
+   "source": "kirilltym/22-2153-cpu-cuda-mps-eda-island-union-lp :: _closure_inputs__140109664_v26_float64_roundtrip.csv",
+   "licence": "Apache 2.0 (Kaggle default for public notebooks)"
+  },
+  {
+   "n": 632,
+   "old": 0.020010084941552098,
+   "new": 0.020009875228298002,
+   "source": "kmmmvs/squares-public-merge-daily :: submission.csv",
+   "licence": "Apache 2.0 (Kaggle default for public notebooks)"
+  },
+  {
+   "n": 637,
+   "old": 0.020043552858123537,
+   "new": 0.020043551296545337,
+   "source": "jazivxt/boxed-in-sub :: submission.csv",
+   "licence": "Apache 2.0 (Kaggle default for public notebooks)"
+  },
+  {
+   "n": 655,
+   "old": 0.015892766246366374,
+   "new": 0.015887380127449724,
+   "source": "jazivxt/boxed-in-sub :: submission.csv",
+   "licence": "Apache 2.0 (Kaggle default for public notebooks)"
+  },
+  {
+   "n": 684,
+   "old": 0.01870740984007857,
+   "new": 0.01870721862201985,
+   "source": "samanyu1808/sis-final-packings :: data.zip!submission.csv",
+   "licence": "CC0: Public Domain"
+  },
+  {
+   "n": 696,
+   "old": 0.017981800402666615,
+   "new": 0.017981798113626768,
+   "source": "jazivxt/boxed-in-sub :: submission.csv",
+   "licence": "Apache 2.0 (Kaggle default for public notebooks)"
+  },
+  {
+   "n": 698,
+   "old": 0.017464827192762877,
+   "new": 0.01746482609170741,
+   "source": "jazivxt/boxed-in-sub :: submission.csv",
+   "licence": "Apache 2.0 (Kaggle default for public notebooks)"
+  },
+  {
+   "n": 700,
+   "old": 0.016845998334010792,
+   "new": 0.016845997109796285,
+   "source": "jazivxt/boxed-in-sub :: submission.csv",
+   "licence": "Apache 2.0 (Kaggle default for public notebooks)"
+  },
+  {
+   "n": 738,
+   "old": 0.019062916351944903,
+   "new": 0.019062725488350862,
+   "source": "jazivxt/boxed-in-sub :: submission.csv",
+   "licence": "Apache 2.0 (Kaggle default for public notebooks)"
+  },
+  {
+   "n": 742,
+   "old": 0.018439052331837624,
+   "new": 0.01843892309724926,
+   "source": "jazivxt/boxed-in-sub :: submission.csv",
+   "licence": "Apache 2.0 (Kaggle default for public notebooks)"
+  },
+  {
+   "n": 802,
+   "old": 0.017037271572797552,
+   "new": 0.017003177310035422,
+   "source": "jazivxt/boxed-in-sub :: submission.csv",
+   "licence": "Apache 2.0 (Kaggle default for public notebooks)"
+  },
+  {
+   "n": 808,
+   "old": 0.015772633308173356,
+   "new": 0.01577262570515492,
+   "source": "kmmmvs/squares-public-merge-daily :: submission.csv",
+   "licence": "Apache 2.0 (Kaggle default for public notebooks)"
+  },
+  {
+   "n": 810,
+   "old": 0.015684172308507494,
+   "new": 0.015684051791297282,
+   "source": "jazivxt/boxed-in-sub :: submission.csv",
+   "licence": "Apache 2.0 (Kaggle default for public notebooks)"
+  },
+  {
+   "n": 815,
+   "old": 0.014634178368744921,
+   "new": 0.014634149248889505,
+   "source": "jazivxt/boxed-in-sub :: submission.csv",
+   "licence": "Apache 2.0 (Kaggle default for public notebooks)"
+  },
+  {
+   "n": 816,
+   "old": 0.014454540816484895,
+   "new": 0.014438626434597479,
+   "source": "jazivxt/boxed-in-sub :: submission.csv",
+   "licence": "Apache 2.0 (Kaggle default for public notebooks)"
+  },
+  {
+   "n": 856,
+   "old": 0.01668434787330275,
+   "new": 0.016684345350368224,
+   "source": "kirilltym/22-2153-cpu-cuda-mps-eda-island-union-lp :: _closure_inputs__140109664_v26_float64_roundtrip.csv",
+   "licence": "Apache 2.0 (Kaggle default for public notebooks)"
+  },
+  {
+   "n": 859,
+   "old": 0.01649460872862618,
+   "new": 0.016494600448627272,
+   "source": "kmmmvs/squares-public-merge-daily :: submission.csv",
+   "licence": "Apache 2.0 (Kaggle default for public notebooks)"
+  },
+  {
+   "n": 862,
+   "old": 0.016237435793195143,
+   "new": 0.016237428969536394,
+   "source": "kirilltym/22-2153-cpu-cuda-mps-eda-island-union-lp :: _closure_inputs__140109664_v26_float64_roundtrip.csv",
+   "licence": "Apache 2.0 (Kaggle default for public notebooks)"
+  },
+  {
+   "n": 864,
+   "old": 0.015620745863492269,
+   "new": 0.015583325276002702,
+   "source": "jazivxt/boxed-in-sub :: submission.csv",
+   "licence": "Apache 2.0 (Kaggle default for public notebooks)"
+  },
+  {
+   "n": 865,
+   "old": 0.015586959396098221,
+   "new": 0.015586853713474014,
+   "source": "jazivxt/boxed-in-sub :: submission.csv",
+   "licence": "Apache 2.0 (Kaggle default for public notebooks)"
+  },
+  {
+   "n": 866,
+   "old": 0.015331951753669637,
+   "new": 0.015331945851233764,
+   "source": "jazivxt/boxed-in-sub :: submission.csv",
+   "licence": "Apache 2.0 (Kaggle default for public notebooks)"
+  },
+  {
+   "n": 867,
+   "old": 0.0149433506888772,
+   "new": 0.01494333231003031,
+   "source": "kmmmvs/squares-public-merge-daily :: submission.csv",
+   "licence": "Apache 2.0 (Kaggle default for public notebooks)"
+  },
+  {
+   "n": 868,
+   "old": 0.0148453485880502,
+   "new": 0.014845329256790052,
+   "source": "kmmmvs/squares-public-merge-daily :: submission.csv",
+   "licence": "Apache 2.0 (Kaggle default for public notebooks)"
+  },
+  {
+   "n": 918,
+   "old": 0.016113987605545388,
+   "new": 0.016113435076061666,
+   "source": "kmmmvs/squares-public-merge-daily :: submission.csv",
+   "licence": "Apache 2.0 (Kaggle default for public notebooks)"
+  },
+  {
+   "n": 925,
+   "old": 0.014827163477069805,
+   "new": 0.014773787816984907,
+   "source": "jazivxt/boxed-in-sub :: submission.csv",
+   "licence": "Apache 2.0 (Kaggle default for public notebooks)"
+  },
+  {
+   "n": 926,
+   "old": 0.014808223508591789,
+   "new": 0.01480822243584412,
+   "source": "kirilltym/22-2153-cpu-cuda-mps-eda-island-union-lp :: _closure_inputs__140109664_v26_float64_roundtrip.csv",
+   "licence": "Apache 2.0 (Kaggle default for public notebooks)"
+  },
+  {
+   "n": 929,
+   "old": 0.014077050168221916,
+   "new": 0.01407704718910141,
+   "source": "kmmmvs/squares-public-merge-daily :: submission.csv",
+   "licence": "Apache 2.0 (Kaggle default for public notebooks)"
+  },
+  {
+   "n": 933,
+   "old": 0.013358144326787169,
+   "new": 0.01335796109551679,
+   "source": "jazivxt/boxed-in-sub :: submission.csv",
+   "licence": "Apache 2.0 (Kaggle default for public notebooks)"
+  },
+  {
+   "n": 935,
+   "old": 0.013156216432386847,
+   "new": 0.013156211096573722,
+   "source": "kmmmvs/squares-public-merge-daily :: submission.csv",
+   "licence": "Apache 2.0 (Kaggle default for public notebooks)"
+  },
+  {
+   "n": 936,
+   "old": 0.01319177216447076,
+   "new": 0.01319173792735251,
+   "source": "jazivxt/boxed-in-sub :: submission.csv",
+   "licence": "Apache 2.0 (Kaggle default for public notebooks)"
+  },
+  {
+   "n": 973,
+   "old": 0.01616321116381303,
+   "new": 0.016163205093288724,
+   "source": "jazivxt/boxed-in-sub :: submission.csv",
+   "licence": "Apache 2.0 (Kaggle default for public notebooks)"
+  },
+  {
+   "n": 987,
+   "old": 0.014307063532822628,
+   "new": 0.014307043370024308,
+   "source": "kmmmvs/squares-public-merge-daily :: submission.csv",
+   "licence": "Apache 2.0 (Kaggle default for public notebooks)"
+  },
+  {
+   "n": 990,
+   "old": 0.013697073535228421,
+   "new": 0.013697067668873908,
+   "source": "jazivxt/boxed-in-sub :: submission.csv",
+   "licence": "Apache 2.0 (Kaggle default for public notebooks)"
+  },
+  {
+   "n": 991,
+   "old": 0.013399461317822103,
+   "new": 0.013399277464948733,
+   "source": "kmmmvs/squares-public-merge-daily :: submission.csv",
+   "licence": "Apache 2.0 (Kaggle default for public notebooks)"
+  }
+ ]
+}

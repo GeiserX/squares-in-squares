@@ -1,0 +1,44 @@
+{
+  "pins": [
+    {
+      "path": "<scratch>/bounties-squares/take-polish-r7/756.csv",
+      "sha256": "c856eed457942e4ac53d2d57958164e46f85718b9d726ef5a9b69f564631086b"
+    },
+    {
+      "path": "<scratch>/bounties-squares/take-polish-r7/take.tsv",
+      "sha256": "0e99faf3a181a5540f8729a6c7bae4798f40f5800455204553c862a59966301f"
+    },
+    {
+      "path": "results/harvest-best-2026-11-11.tsv",
+      "sha256": "1983bfd90519a2ecf2eebb2094b518056db2a125dc7dc13a5f8afdc1126c18fb"
+    },
+    {
+      "path": "<scratch>/bounties-squares/gate/cand-round8-1111a/details.csv",
+      "sha256": "4a0915af52a3990ffa3dd239560c780a1c0171b1379a690fa29020eb977f2be3"
+    }
+  ],
+  "polish_row": {
+    "n": "756",
+    "held": "0.015585108390914648",
+    "new": "0.015582358928077022",
+    "gain": "2.749e-06",
+    "source": "fq polish r7 of the held packing"
+  },
+  "public_row": {
+    "n": "756",
+    "score": "0.015585108390914648",
+    "L": "27.923973803227785",
+    "source": "jazivxt/boxed-in-sub :: submission.csv",
+    "licence": "Apache 2.0 (Kaggle default for public notebooks)"
+  },
+  "gate_row": {
+    "n": "756",
+    "L": "27.923898205498343",
+    "score": "0.015582358928077022",
+    "min_gap": "5.019984428145108e-11"
+  },
+  "gathered_numeric_sha256": "8b6cc1b9ba309d634eec92b62c1ea72bfe3eaabe53d706539ec202f01c4a6beb",
+  "packing_numeric_sha256": "8b6cc1b9ba309d634eec92b62c1ea72bfe3eaabe53d706539ec202f01c4a6beb",
+  "n": 756,
+  "round": 8
+}

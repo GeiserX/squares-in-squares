@@ -1,0 +1,409 @@
+target	donor	direction	shells	reader	side_as_built	side_after_slp	side_after_squeeze	bar_at_start	delta_vs_bar	seconds	state	kept_at_collection	input_path
+268	340-r22h50cc79269e6da2b3	down	2	layers	16.904737047	16.891497190	16.891497190	16.872029850	0.01946734	5	ok	no	<scratch>/bounties-squares/take-readers-r22/340.csv
+268	340-r22h980d8019918bf068	down	2	layers	16.904777541	16.890994659	16.890994659	16.872029850	0.018964809	5	ok	no	<scratch>/bounties-squares/take-family-r22/340.csv
+268	340-r22h997909a404f26fe1	down	2	layers	16.904750909	16.890994374	16.890994374	16.872029850	0.018964524	4	ok	no	<scratch>/bounties-squares/take-family-r22/340.csv
+268	340-r22h997909a404f26fe1	down	2c1		nan	nan	nan	16.872029850		0	refused: family: 0 arm(s) of flush stacks (walls L); wide reader: no two neighbouring walls with a pair of neighbouring stacks (walls with a pair: L) | layers: the nearest full grid line is 6.7 from the cut	no	<scratch>/bounties-squares/take-family-r22/340.csv
+268	379-r22he25c65cccbfeeb05	down	3	layers	16.904747001	16.891493582	16.891493582	16.872029850	0.019463732	4	ok	no	<scratch>/bounties-squares/take-polish-r22/379.csv
+299	264-r22h9744609427d3b8d4	up	1		nan	nan	nan	17.801004435		0	refused: layers: a layer does not clear its own copy within one more unit | family: 0 arm(s) of flush stacks (walls -); wide reader: no two neighbouring walls with a pair of neighbouring stacks (walls with a pair: -)	no	<scratch>/bounties-squares/take-polish-r22/264.csv
+299	264-r22h9744609427d3b8d4	up	1c1		nan	nan	nan	17.801004435		0	refused: layers: a layer does not clear its own copy within one more unit	no	<scratch>/bounties-squares/take-polish-r22/264.csv
+303	340-r22h50cc79269e6da2b3	down	1	wide	17.916572993	17.904737047	17.904737047	17.901789274	0.002947773	11	ok	no	<scratch>/bounties-squares/take-readers-r22/340.csv
+303	340-r22h980d8019918bf068	down	1	wide	17.916493805	17.904777541	17.904777541	17.901789274	0.002988267	6	ok	no	<scratch>/bounties-squares/take-family-r22/340.csv
+303	340-r22h980d8019918bf068	down	1c1		nan	nan	nan	17.901789274		0	refused: layers: the nearest full grid line is 5.6 from the cut	no	<scratch>/bounties-squares/take-family-r22/340.csv
+303	340-r22h997909a404f26fe1	down	1	layers	17.916574191	17.904750909	17.904750909	17.901789274	0.002961635	7	ok	no	<scratch>/bounties-squares/take-family-r22/340.csv
+303	340-r22h997909a404f26fe1	down	1c1	layers cut 1	17.916574191	17.904778857	17.904778857	17.901789274	0.002989583	8	ok	no	<scratch>/bounties-squares/take-family-r22/340.csv
+303	379-r22he25c65cccbfeeb05	down	2	wide	17.916574006	17.904747001	17.904747001	17.901789274	0.002957727	10	ok	no	<scratch>/bounties-squares/take-polish-r22/379.csv
+305	270-r22h4480c99a83fde3f4	up	1	layers	18.120156116	17.946294236	17.946294233	17.946298111	-3.878e-06	8	below held	yes	<scratch>/bounties-squares/take-polish-r22/270.csv
+340	379-r22he25c65cccbfeeb05	down	1	layers	18.929312326	18.916574486	18.916574006	18.926898901	-0.010324895	30	below held	no	<scratch>/bounties-squares/take-polish-r22/379.csv
+342	270-r22h4480c99a83fde3f4	up	2	layers	19.071305525	18.989987498	18.989987498	18.964334651	0.025652847	8	ok	no	<scratch>/bounties-squares/take-polish-r22/270.csv
+366	327-r22h71325503b1acb1bd	up	1		nan	nan	nan	19.645802048		0	refused: layers: a layer does not clear its own copy within one more unit | family: 0 arm(s) of flush stacks (walls -); wide reader: no two neighbouring walls with a pair of neighbouring stacks (walls with a pair: -)	no	<scratch>/bounties-squares/take-forensics-r22/near/327-rect.csv
+366	327-r22h71325503b1acb1bd	up	1c1		nan	nan	nan	19.645802048		0	refused: layers: a layer does not clear its own copy within one more unit	no	<scratch>/bounties-squares/take-forensics-r22/near/327-rect.csv
+370	331-r22h6a81c2132529dc3e	up	1c1		nan	nan	nan	19.756683830		0	refused: layers: no cut window: a window with the right count on no wall (4 of 4 turns)	no	<scratch>/bounties-squares/take-forensics-r22/near/331-rect.csv
+372	333-r22h1f22762354e5907f	up	1		nan	nan	nan	19.793379814		0	refused: layers: a layer does not clear its own copy within one more unit | family: 0 arm(s) of flush stacks (walls -); wide reader: no two neighbouring walls with a pair of neighbouring stacks (walls with a pair: -)	no	<scratch>/bounties-squares/take-forensics-r22/333.csv
+372	333-r22h1f22762354e5907f	up	1c1		nan	nan	nan	19.793379814		0	refused: layers: a layer does not clear its own copy within one more unit	no	<scratch>/bounties-squares/take-forensics-r22/333.csv
+372	333-r22h61a757b47ae2a1b3	up	1		nan	nan	nan	19.793379814		0	refused: layers: a layer does not clear its own copy within one more unit | family: 0 arm(s) of flush stacks (walls -); wide reader: no two neighbouring walls with a pair of neighbouring stacks (walls with a pair: -)	no	<scratch>/bounties-squares/take-polish-r22/333.csv
+372	333-r22h61a757b47ae2a1b3	up	1c1		nan	nan	nan	19.793379814		0	refused: layers: a layer does not clear its own copy within one more unit	no	<scratch>/bounties-squares/take-polish-r22/333.csv
+372	333-r22hbb987320db5eb10d	up	1c1		nan	nan	nan	19.793379814		0	refused: layers: a layer does not clear its own copy within one more unit	no	<scratch>/bounties-squares/take-forensics-r22/333.csv
+379	340-r22h980d8019918bf068	up	1	wide	20.001435228	19.929391329	19.929312285	19.929312288	-2.9999967e-09	18	below held	yes	<scratch>/bounties-squares/take-family-r22/340.csv
+379	340-r22h980d8019918bf068	up	1c1		nan	nan	nan	19.929312288		0	refused: layers: the nearest full grid line is 5.6 from the cut	no	<scratch>/bounties-squares/take-family-r22/340.csv
+379	340-r22h997909a404f26fe1	up	1	layers	20.002721238	19.929312440	19.929312287	19.929312326	-3.90000032e-08	20	below held	no	<scratch>/bounties-squares/take-family-r22/340.csv
+379	340-r22h997909a404f26fe1	up	1c1	layers cut 1	20.002721238	19.929369921	19.929312288	19.929312326	-3.80000031e-08	14	below held	no	<scratch>/bounties-squares/take-family-r22/340.csv
+381	342-r22h711fdf76080fd907	up	1	layers	20.475391083	19.979829911	19.978071853	19.974739841	0.003332012	31	ok	no	<scratch>/bounties-squares/take-polish-r22/342.csv
+381	342-r22h711fdf76080fd907	up	1c1	layers cut 1	20.465811534	19.982148026	19.979904939	19.974739841	0.005165098	23	ok	no	<scratch>/bounties-squares/take-polish-r22/342.csv
+382	343-r22h8a9537103b01799a	up	1c1	layers cut 1	20.491833101	19.991678410	19.991577803	19.986581714	0.004996089	23	ok	no	<scratch>/bounties-squares/take-polish-r22/343.csv
+413	501-r21h6263bfaa4ab9d896	down	2		nan	nan	nan	20.822875657		0	refused: family: 0 arm(s) of flush stacks (walls -); wide reader: no two neighbouring walls with a pair of neighbouring stacks (walls with a pair: B) | layers: the nearest full grid line is 5.8 from the cut	no	<scratch>/bounties-squares/take-forensics-r21/501.csv
+413	501-r21h6263bfaa4ab9d896	down	2c1	layers	20.852131543	20.841990923	20.841990923	20.822875657	0.019115266	8	ok	no	<scratch>/bounties-squares/take-forensics-r21/501.csv
+415	550-r22h4d382f6988c7ec7f	down	3	layers	20.886263268	20.877500973	20.877500973	20.858948142	0.018552831	20	ok	no	<scratch>/bounties-squares/take-family-r22/550.csv
+415	550-r22h4d382f6988c7ec7f	down	3c1	layers	20.886249336	20.878745503	20.878745503	20.858948142	0.019797361	13	ok	no	<scratch>/bounties-squares/take-family-r22/550.csv
+415	703-r22h7b9fd00e3a141b60	down	6	layers	20.886249541	20.878745426	20.878745426	20.858948142	0.019797284	10	ok	no	<scratch>/bounties-squares/take-polish-r22/703.csv
+415	703-r22h7b9fd00e3a141b60	down	6c1	layers	20.886232603	20.878794768	20.878794768	20.858948142	0.019846626	10	ok	no	<scratch>/bounties-squares/take-polish-r22/703.csv
+416	551-r22h52c2828aaa9bb34a	down	3c1	layers	20.901138984	20.891138330	20.891138330	20.873993585	0.017144745	7	ok	no	<scratch>/bounties-squares/take-polish-r22/551.csv
+420	340-r22h980d8019918bf068	up	2	layers	21.012816665	20.965168081	20.965168077	20.958377715	0.006790362	10	ok	no	<scratch>/bounties-squares/take-family-r22/340.csv
+420	340-r22h997909a404f26fe1	up	2	layers	21.012648291	20.965168081	20.965168077	20.958383904	0.006784173	16	ok	no	<scratch>/bounties-squares/take-family-r22/340.csv
+420	340-r22h997909a404f26fe1	up	2c1	layers	21.013121084	20.965168081	20.965168077	20.958383904	0.006784173	11	ok	no	<scratch>/bounties-squares/take-family-r22/340.csv
+420	379-r22hf6334ca6e522a567	up	1c1	layers cut 1	21.013729373	20.965168081	20.965168077	20.958377715	0.006790362	14	ok	no	<scratch>/bounties-squares/take-family-r22/379.csv
+422	342-r22h711fdf76080fd907	up	2	layers	21.294628754	20.995611573	20.995608747	20.983570195	0.012038552	18	ok	no	<scratch>/bounties-squares/take-polish-r22/342.csv
+422	342-r22h711fdf76080fd907	up	2c1	layers	21.484126289	21.002927143	20.999050741	20.983570195	0.015480546	35	ok	no	<scratch>/bounties-squares/take-polish-r22/342.csv
+423	343-r22h8a9537103b01799a	up	2c1	layers	21.093610580	21.002580504	21.002576724	20.993728477	0.008848247	16	ok	no	<scratch>/bounties-squares/take-polish-r22/343.csv
+455	547-r22h3e1d016f7ca492e1	down	2	layers	21.851068102	21.844540816	21.844540816	21.825061497	0.019479319	8	ok	no	<scratch>/bounties-squares/take-forensics-r22/near/547-rect.csv
+455	547-r22h3e1d016f7ca492e1	down	2c1	layers	21.851065939	21.844540479	21.844540479	21.825061497	0.019478982	7	ok	no	<scratch>/bounties-squares/take-forensics-r22/near/547-rect.csv
+456	501-r21h6263bfaa4ab9d896	down	1	layers	21.859540156	21.852877202	21.852877202	21.846667194	0.006210008	14	ok	no	<scratch>/bounties-squares/take-forensics-r21/501.csv
+456	501-r21h6263bfaa4ab9d896	down	1c1	layers cut 1	21.859540156	21.852131543	21.852131543	21.846667194	0.005464349	25	ok	no	<scratch>/bounties-squares/take-forensics-r21/501.csv
+458	415-r21h19eee8d9ad357edd	up	1c1	layers cut 1	22.050766733	21.876663525	21.876663521	21.877799458	-0.001135937	11	below held	yes	<scratch>/bounties-squares/take-forensics-r21/415.csv
+458	415-r21h9296b9bc63138dd0	up	1c1	layers cut 1	22.052194258	21.876663525	21.876663521	21.876663522	-1.00000008e-09	15	below held	no	<scratch>/bounties-squares/take-midm-r21/415.csv
+458	550-r22h4d382f6988c7ec7f	down	2	layers	21.896701163	21.886263268	21.886263268	21.876663522	0.009599746	8	ok	no	<scratch>/bounties-squares/take-family-r22/550.csv
+458	550-r22h4d382f6988c7ec7f	down	2c1	layers	21.896701175	21.886249337	21.886249337	21.876663522	0.009585815	7	ok	no	<scratch>/bounties-squares/take-family-r22/550.csv
+458	703-r22h7b9fd00e3a141b60	down	5	layers	21.896701174	21.886249541	21.886249541	21.876663522	0.009586019	6	ok	no	<scratch>/bounties-squares/take-polish-r22/703.csv
+458	703-r22h7b9fd00e3a141b60	down	5c1	layers	21.896589178	21.886232603	21.886232603	21.876663522	0.009569081	12	ok	no	<scratch>/bounties-squares/take-polish-r22/703.csv
+459	551-r22h52c2828aaa9bb34a	down	2c1	layers	21.910376116	21.901138984	21.901138984	21.896189308	0.004949676	6	ok	no	<scratch>/bounties-squares/take-polish-r22/551.csv
+463	340-r22h980d8019918bf068	up	3	layers	22.056936174	22.020909920	22.020909920	21.968545409	0.052364511	12	ok	no	<scratch>/bounties-squares/take-family-r22/340.csv
+463	340-r22h997909a404f26fe1	up	3	layers	22.040630393	22.020909919	22.020909919	21.968545409	0.05236451	9	ok	no	<scratch>/bounties-squares/take-family-r22/340.csv
+463	340-r22h997909a404f26fe1	up	3c1	layers	22.058370189	22.020909919	22.020909919	21.968545409	0.05236451	9	ok	no	<scratch>/bounties-squares/take-family-r22/340.csv
+463	379-r22hf6334ca6e522a567	up	2c1	wide	22.039022835	22.027599590	22.027599590	21.968545409	0.059054181	7	ok	no	<scratch>/bounties-squares/take-family-r22/379.csv
+463	420-r22h8bea8cbc15cbaaf6	up	1	layers	22.031586034	22.020915496	22.020915496	21.968545409	0.052370087	7	ok	no	<scratch>/bounties-squares/take-family-r22/420.csv
+463	420-r22h8bea8cbc15cbaaf6	up	1c1	layers cut 1	22.031585755	22.020915496	22.020915496	21.968545409	0.052370087	6	ok	no	<scratch>/bounties-squares/take-family-r22/420.csv
+500	547-r22h3e1d016f7ca492e1	down	1	layers	22.860873026	22.851068102	22.851068102	22.848442626	0.002625476	9	ok	no	<scratch>/bounties-squares/take-forensics-r22/near/547-rect.csv
+500	547-r22h3e1d016f7ca492e1	down	1c1	layers cut 1	22.860873026	22.851065939	22.851065939	22.848442626	0.002623313	13	ok	no	<scratch>/bounties-squares/take-forensics-r22/near/547-rect.csv
+503	415-r21h19eee8d9ad357edd	up	2c1	layers	22.963845214	22.919282513	22.919282513	22.898229054	0.021053459	22	ok	no	<scratch>/bounties-squares/take-forensics-r21/415.csv
+503	415-r21h9296b9bc63138dd0	up	2c1	layers	23.003038337	22.919297919	22.919297919	22.898229054	0.021068865	53	ok	no	<scratch>/bounties-squares/take-midm-r21/415.csv
+503	458-r22h7b1382e056a3fd63	up	1c1	layers cut 1	22.997706473	22.919282513	22.919282513	22.898229054	0.021053459	24	ok	no	<scratch>/bounties-squares/take-forensics-r22/458.csv
+503	458-r22hbaf6caaf0da14c97	up	1	layers	22.963845215	22.919282513	22.919282513	22.898229054	0.021053459	27	ok	no	<scratch>/bounties-squares/take-readers-r22/458.csv
+503	458-r22hbaf6caaf0da14c97	up	1c1	layers cut 1	22.966104103	22.919282513	22.919282513	22.898229054	0.021053459	30	ok	no	<scratch>/bounties-squares/take-readers-r22/458.csv
+503	550-r22h4d382f6988c7ec7f	down	1	layers	22.908510746	22.896715694	22.896701163	22.898229054	-0.001527891	25	below held	no	<scratch>/bounties-squares/take-family-r22/550.csv
+503	550-r22h4d382f6988c7ec7f	down	1c1	layers cut 1	22.908510746	22.896726338	22.896701175	22.898229054	-0.001527879	26	below held	no	<scratch>/bounties-squares/take-family-r22/550.csv
+503	703-r22h7b9fd00e3a141b60	down	4	layers	22.908510764	22.898487659	22.896701174	22.898229054	-0.00152788	39	below held	no	<scratch>/bounties-squares/take-polish-r22/703.csv
+503	703-r22h7b9fd00e3a141b60	down	4c1	layers	22.908571985	22.896647841	22.896589178	22.898229054	-0.001639876	54	below held	yes	<scratch>/bounties-squares/take-polish-r22/703.csv
+504	551-r22h52c2828aaa9bb34a	down	1c1	layers cut 1	22.921057405	22.910376187	22.910376116	22.910376160	-4.40000001e-08	44	below held	yes	<scratch>/bounties-squares/take-polish-r22/551.csv
+508	604-r22h61a9c4ea7bb03635	down	2		nan	nan	nan	22.978961484		0	refused: family: 0 arm(s) of flush stacks (walls -); wide reader: no two neighbouring walls with a pair of neighbouring stacks (walls with a pair: -) | layers: the nearest full grid line is 8.2 from the cut	no	<scratch>/bounties-squares/take-polish-r22/604.csv
+532	485-r22hfd79a3f6053a6053	up	1		nan	nan	nan	23.562384621		0	refused: layers: a layer does not clear its own copy within one more unit | family: 0 arm(s) of flush stacks (walls -); wide reader: no two neighbouring walls with a pair of neighbouring stacks (walls with a pair: -)	no	<scratch>/bounties-squares/take-polish-r22/485.csv
+532	485-r22hfd79a3f6053a6053	up	1c1		nan	nan	nan	23.562384621		0	refused: layers: a layer does not clear its own copy within one more unit	no	<scratch>/bounties-squares/take-polish-r22/485.csv
+540	693-r22hf8dfa8c7ded2ebbd	down	3		nan	nan	nan	23.756097562		0	refused: family: 0 arm(s) of flush stacks (walls -); wide reader: no two neighbouring walls with a pair of neighbouring stacks (walls with a pair: -) | layers: the nearest full grid line is 16.5 from the cut	no	<scratch>/bounties-squares/take-midm-r22/693.csv
+541	494-r22h08ad512bbb926ddc	up	1		nan	nan	nan	23.761536403		0	refused: layers: a layer does not clear its own copy within one more unit | family: 0 arm(s) of flush stacks (walls -); wide reader: no two neighbouring walls with a pair of neighbouring stacks (walls with a pair: -)	no	<scratch>/bounties-squares/take-invent-r22/near/494-f134900x494x32.csv
+541	494-r22h08ad512bbb926ddc	up	1c1		nan	nan	nan	23.761536403		0	refused: layers: a layer does not clear its own copy within one more unit	no	<scratch>/bounties-squares/take-invent-r22/near/494-f134900x494x32.csv
+541	494-r22hb512ca9ddc4307be	up	1		nan	nan	nan	23.761536403		0	refused: layers: a layer does not clear its own copy within one more unit | family: 0 arm(s) of flush stacks (walls -); wide reader: no two neighbouring walls with a pair of neighbouring stacks (walls with a pair: -)	no	<scratch>/bounties-squares/take-soft-r22/494.csv
+541	494-r22hb512ca9ddc4307be	up	1c1		nan	nan	nan	23.761536403		0	refused: layers: a layer does not clear its own copy within one more unit	no	<scratch>/bounties-squares/take-soft-r22/494.csv
+541	494-r22hdf3bc3fb4b3f3279	up	1		nan	nan	nan	23.761536403		0	refused: layers: a layer does not clear its own copy within one more unit | family: 0 arm(s) of flush stacks (walls -); wide reader: no two neighbouring walls with a pair of neighbouring stacks (walls with a pair: -)	no	<scratch>/bounties-squares/take-k123-r22/494.csv
+541	494-r22hdf3bc3fb4b3f3279	up	1c1		nan	nan	nan	23.761536403		0	refused: layers: a layer does not clear its own copy within one more unit	no	<scratch>/bounties-squares/take-k123-r22/494.csv
+541	494-r22he72089b47a5c9604	up	1		nan	nan	nan	23.761536403		0	refused: layers: a layer does not clear its own copy within one more unit | family: 0 arm(s) of flush stacks (walls -); wide reader: no two neighbouring walls with a pair of neighbouring stacks (walls with a pair: -)	no	<scratch>/bounties-squares/take-invent-r22/near/494-f131455x494x22.csv
+541	494-r22hffc5bbd6756c7190	up	1		nan	nan	nan	23.761536403		0	refused: layers: no cut window: a window with the right count on one wall only (4 of 4 turns) | family: 0 arm(s) of flush stacks (walls -); wide reader: no two neighbouring walls with a pair of neighbouring stacks (walls with a pair: -)	no	<scratch>/bounties-squares/take-k123-r22/494.csv
+541	641-r22h29106257ada5aeb2	down	2		nan	nan	nan	23.761536403		0	refused: family: 0 arm(s) of flush stacks (walls -); wide reader: no two neighbouring walls with a pair of neighbouring stacks (walls with a pair: -) | layers: the nearest full grid line is 8.9 from the cut	no	<scratch>/bounties-squares/take-forensics-r22/641.csv
+546	646-r22hdd956a69218ee128	down	2c1	wide	23.863765736	23.853115438	23.853115438	23.840184316	0.012931122	28	ok	no	<scratch>/bounties-squares/take-polish-r22/646.csv
+547	500-r22h4e20d99f9d3685bd	up	1	layers	23.935762756	23.866565406	23.866560015	23.860873027	0.005686988	61	ok	no	<scratch>/bounties-squares/take-polish-r22/500.csv
+548	501-r21h6263bfaa4ab9d896	up	1	layers	24.056647244	23.875360123	23.875228949	23.872518109	0.00271084	98	ok	no	<scratch>/bounties-squares/take-forensics-r21/501.csv
+548	501-r21h6263bfaa4ab9d896	up	1c1	layers cut 1	24.112596812	23.886869490	23.877833348	23.872518109	0.005315239	71	ok	no	<scratch>/bounties-squares/take-forensics-r21/501.csv
+549	502-r22h2d70b7410b4e87d0	up	1	layers	23.975480171	23.900900392	23.899164300	23.890011879	0.009152421	263	ok	no	<scratch>/bounties-squares/take-midm-r22/502.csv
+549	502-r22h2d70b7410b4e87d0	up	1c1	layers cut 1	23.975480171	23.900900391	23.900890357	23.890011879	0.010878478	59	ok	no	<scratch>/bounties-squares/take-midm-r22/502.csv
+550	703-r22h7b9fd00e3a141b60	down	3	strict	23.919142801	23.908527295	23.908510764	23.909825290	-0.001314526	17	below held	no	<scratch>/bounties-squares/take-polish-r22/703.csv
+550	703-r22h7b9fd00e3a141b60	down	3c1	strict	23.919323524	23.908572107	23.908571985	23.909825290	-0.001253305	71	below held	no	<scratch>/bounties-squares/take-polish-r22/703.csv
+555	604-r22h61a9c4ea7bb03635	down	1	layers	23.991483576	23.986314726	23.986136072	23.985263323	0.000872749	44	ok	no	<scratch>/bounties-squares/take-polish-r22/604.csv
+579	530-r22hb5fd37d29f0808ef	up	1c1		nan	nan	nan	24.562332012		0	refused: layers: the nearest full grid line is 6.2 from the cut	no	<scratch>/bounties-squares/take-polish-r22/530.csv
+584	535-r22h8efce1c84193722c	up	1c1		nan	nan	nan	24.676679266		0	refused: layers: a layer does not clear its own copy within one more unit	no	<scratch>/bounties-squares/take-forensics-r22/near/535-rect.csv
+587	538-r22ha569fdc406b714c2	up	1	layers	24.859823047	24.751895409	24.751894396	24.743771760	0.008122636	128	ok	no	<scratch>/bounties-squares/take-polish-r22/538.csv
+588	539-r22h772f6d37d1c86663	up	1		nan	nan	nan	24.757483417		0	refused: layers: a layer does not clear its own copy within one more unit | family: 0 arm(s) of flush stacks (walls -); wide reader: no two neighbouring walls with a pair of neighbouring stacks (walls with a pair: -)	no	<scratch>/bounties-squares/take-border-r22/539.csv
+588	539-r22h772f6d37d1c86663	up	1c1		nan	nan	nan	24.757483417		0	refused: layers: a layer does not clear its own copy within one more unit	no	<scratch>/bounties-squares/take-border-r22/539.csv
+588	539-r22h7cc76cd94ae03dbe	up	1		nan	nan	nan	24.757483417		0	refused: layers: a layer does not clear its own copy within one more unit | family: 0 arm(s) of flush stacks (walls -); wide reader: no two neighbouring walls with a pair of neighbouring stacks (walls with a pair: -)	no	<scratch>/bounties-squares/take-border-r22/539.csv
+588	539-r22h7cc76cd94ae03dbe	up	1c1		nan	nan	nan	24.757483417		0	refused: layers: a layer does not clear its own copy within one more unit	no	<scratch>/bounties-squares/take-border-r22/539.csv
+589	540-r22h46855c09c126267a	up	1	layers	24.893506047	24.777015195	24.777015191	24.764758414	0.012256777	31	ok	no	<scratch>/bounties-squares/take-polish-r22/540.csv
+589	540-r22h46855c09c126267a	up	1c1	layers cut 1	24.893506047	24.775701492	24.775701422	24.764758414	0.010943008	29	ok	no	<scratch>/bounties-squares/take-polish-r22/540.csv
+589	693-r22h042c446404eb75a6	down	2	layers	24.787100463	24.786193066	24.786193066	24.764758414	0.021434652	31	ok	no	<scratch>/bounties-squares/take-polish-r22/693.csv
+589	693-r22hcaee86b0e2329039	down	2	layers	24.791820082	24.788944734	24.788944734	24.764758414	0.02418632	32	ok	no	<scratch>/bounties-squares/take-midm-r22/693.csv
+589	693-r22hcaee86b0e2329039	down	2c1	layers	24.791828986	24.784596913	24.784596913	24.764758414	0.019838499	51	ok	no	<scratch>/bounties-squares/take-midm-r22/693.csv
+589	693-r22hdf8c9b5b9fa5d879	down	2	layers	24.788267788	24.788075918	24.788075918	24.764758414	0.023317504	25	ok	no	<scratch>/bounties-squares/take-harvest-r22/693.csv
+589	693-r22hdf8c9b5b9fa5d879	down	2c1	layers	24.787914411	24.787735551	24.787735551	24.764758414	0.022977137	24	ok	no	<scratch>/bounties-squares/take-harvest-r22/693.csv
+589	693-r22hf8dfa8c7ded2ebbd	down	2	layers	24.786128373	24.784560301	24.784560301	24.764758414	0.019801887	47	ok	no	<scratch>/bounties-squares/take-midm-r22/693.csv
+589	693-r22hf8dfa8c7ded2ebbd	down	2c1		nan	nan	nan	24.764758414		0	refused: family: 0 arm(s) of flush stacks (walls -); wide reader: no two neighbouring walls with a pair of neighbouring stacks (walls with a pair: -) | layers: the nearest full grid line is 13.2 from the cut	no	<scratch>/bounties-squares/take-midm-r22/693.csv
+590	641-r22h29106257ada5aeb2	down	1	layers	24.795685280	24.787260177	24.787260177	24.784148399	0.003111778	21	ok	no	<scratch>/bounties-squares/take-forensics-r22/641.csv
+594	698-r22h8e803ce0319ac929	down	2c1	layers	24.868468212	24.859861534	24.859861534	24.841702152	0.018159382	18	ok	no	<scratch>/bounties-squares/take-invent-r22/near/698-f131329x698x21.csv
+594	698-r22hf0b3b341441a7e7d	down	2	layers	24.868471647	24.859758439	24.859758439	24.841702152	0.018056287	15	ok	no	<scratch>/bounties-squares/take-invent-r22/near/698-f132207x698x25.csv
+594	698-r22hf0b3b341441a7e7d	down	2c1	layers	24.868472444	24.859861426	24.859861426	24.841702152	0.018159274	15	ok	no	<scratch>/bounties-squares/take-invent-r22/near/698-f132207x698x25.csv
+594	698-r22hfc3ea49acce3de11	down	2	layers	24.868469425	24.859842157	24.859842157	24.841702152	0.018140005	19	ok	no	<scratch>/bounties-squares/take-readers-r22/698.csv
+594	698-r22hfc3ea49acce3de11	down	2c1	layers	24.868369410	24.859690265	24.859690265	24.841702152	0.017988113	19	ok	no	<scratch>/bounties-squares/take-readers-r22/698.csv
+594	753-r22h283ff6534a341951	down	3	layers	24.868382807	24.859288879	24.859288879	24.841702152	0.017586727	14	ok	no	<scratch>/bounties-squares/take-k123-r22/near/753-initial-809r-870.csv
+594	753-r22h283ff6534a341951	down	3c1	layers	24.868388663	24.859706495	24.859706495	24.841702152	0.018004343	19	ok	no	<scratch>/bounties-squares/take-k123-r22/near/753-initial-809r-870.csv
+594	810-r22h7ad330ceae1f31ea	down	4c1	layers	24.868485534	24.859779017	24.859779017	24.841702152	0.018076865	16	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/810-rdn22.csv
+595	646-r22hdd956a69218ee128	down	1c1	layers cut 1	24.868670807	24.863765736	24.863765736	24.861616506	0.00214923	14	ok	no	<scratch>/bounties-squares/take-polish-r22/646.csv
+596	500-r22h4e20d99f9d3685bd	up	2	layers	24.956787810	24.910052314	24.910052314	24.870828695	0.039223619	53	ok	no	<scratch>/bounties-squares/take-polish-r22/500.csv
+596	547-r22h3e1d016f7ca492e1	up	1	layers	24.941071287	24.878131453	24.877799457	24.870828695	0.006970762	47	ok	no	<scratch>/bounties-squares/take-forensics-r22/near/547-rect.csv
+596	547-r22h3e1d016f7ca492e1	up	1c1	layers cut 1	24.941071287	24.877799961	24.877799457	24.870828695	0.006970762	40	ok	no	<scratch>/bounties-squares/take-forensics-r22/near/547-rect.csv
+597	501-r21h6263bfaa4ab9d896	up	2	layers	24.950944131	24.900499965	24.899577307	24.893854241	0.005723066	106	ok	no	<scratch>/bounties-squares/take-forensics-r21/501.csv
+597	501-r21h6263bfaa4ab9d896	up	2c1	layers	24.955562347	24.899584408	24.899577929	24.893854241	0.005723688	75	ok	no	<scratch>/bounties-squares/take-forensics-r21/501.csv
+598	502-r22h2d70b7410b4e87d0	up	2	layers	24.996430469	24.919434302	24.919433924	24.900450067	0.018983857	52	ok	no	<scratch>/bounties-squares/take-midm-r22/502.csv
+598	502-r22h2d70b7410b4e87d0	up	2c1	layers	24.995413617	24.921413412	24.921413412	24.900450067	0.020963345	34	ok	no	<scratch>/bounties-squares/take-midm-r22/502.csv
+599	550-r22h4d382f6988c7ec7f	up	1	layers	24.965210874	24.920386677	24.919812299	24.921794194	-0.001981895	162	below held	no	<scratch>/bounties-squares/take-family-r22/550.csv
+599	550-r22h4d382f6988c7ec7f	up	1c1	layers cut 1	24.965096420	24.919531033	24.919068265	24.921794194	-0.002725929	124	below held	no	<scratch>/bounties-squares/take-family-r22/550.csv
+599	703-r22h7b9fd00e3a141b60	down	2	strict	24.929804492	24.919170039	24.919142801	24.921794194	-0.002651393	126	below held	no	<scratch>/bounties-squares/take-polish-r22/703.csv
+599	703-r22h7b9fd00e3a141b60	down	2c1	strict	24.929804187	24.919822450	24.919323524	24.921794194	-0.00247067	143	below held	no	<scratch>/bounties-squares/take-polish-r22/703.csv
+628	577-r22hb4fa577c0e046cb9	up	1		nan	nan	nan	25.535533907		0	refused: layers: a layer does not clear its own copy within one more unit | family: 0 arm(s) of flush stacks (walls -); wide reader: no two neighbouring walls with a pair of neighbouring stacks (walls with a pair: -)	no	<scratch>/bounties-squares/take-border-r22/577.csv
+631	580-r22h87f5fcbf35ffcdf3	up	1		nan	nan	nan	25.608712580		0	refused: layers: no cut window: layers on two walls but no full grid row or column beside them (20 of 4 turns) | family: 0 arm(s) of flush stacks (walls -); wide reader: no two neighbouring walls with a pair of neighbouring stacks (walls with a pair: -)	no	<scratch>/bounties-squares/take-forensics-r22/near/580-rect.csv
+631	580-r22h87f5fcbf35ffcdf3	up	1c1		nan	nan	nan	25.608712580		0	refused: layers: no cut window: layers on two walls but no full grid row or column beside them (20 of 4 turns)	no	<scratch>/bounties-squares/take-forensics-r22/near/580-rect.csv
+636	585-r22h37805cc565c0f7e5	up	1c1	layers cut 1	25.947407444	25.751908551	25.751908551	25.727922063	0.023986488	57	ok	no	<scratch>/bounties-squares/take-forensics-r22/585.csv
+636	585-r22h3ce65f202b74b5bd	up	1c1	layers cut 1	25.859155883	25.764705887	25.764705887	25.727922063	0.036783824	22	ok	no	<scratch>/bounties-squares/take-midm-r22/585.csv
+638	538-r22ha569fdc406b714c2	up	2	layers	26.288069194	25.802666509	25.802666509	25.761536403	0.041130106	76	ok	no	<scratch>/bounties-squares/take-polish-r22/538.csv
+640	540-r22h46855c09c126267a	up	2	layers	25.906515096	25.808479934	25.808479934	25.786128179	0.022351755	55	ok	no	<scratch>/bounties-squares/take-polish-r22/540.csv
+640	540-r22h46855c09c126267a	up	2c1	layers	25.905610538	25.824521254	25.824521254	25.786128179	0.038393075	30	ok	no	<scratch>/bounties-squares/take-polish-r22/540.csv
+640	693-r22h042c446404eb75a6	down	1	layers	25.795499942	25.787608964	25.787100463	25.786128179	0.000972284	112	ok	no	<scratch>/bounties-squares/take-polish-r22/693.csv
+640	693-r22hcaee86b0e2329039	down	1	layers	25.795332379	25.791820082	25.791820082	25.786128179	0.005691903	41	ok	no	<scratch>/bounties-squares/take-midm-r22/693.csv
+640	693-r22hcaee86b0e2329039	down	1c1	layers cut 1	25.795332379	25.791828986	25.791828986	25.786128179	0.005700807	38	ok	no	<scratch>/bounties-squares/take-midm-r22/693.csv
+640	693-r22hdf8c9b5b9fa5d879	down	1	layers	25.796758292	25.788269623	25.788267788	25.786813610	0.001454178	73	ok	no	<scratch>/bounties-squares/take-harvest-r22/693.csv
+640	693-r22hdf8c9b5b9fa5d879	down	1c1	layers cut 1	25.796758292	25.787914421	25.787914411	25.786813610	0.001100801	44	ok	no	<scratch>/bounties-squares/take-harvest-r22/693.csv
+640	693-r22hf8dfa8c7ded2ebbd	down	1	layers	25.795685280	25.786128378	25.786128373	25.786813610	-0.000685237	63	below held	no	<scratch>/bounties-squares/take-midm-r22/693.csv
+640	693-r22hf8dfa8c7ded2ebbd	down	1c1	layers cut 1	25.795685280	25.788399006	25.788398993	25.786813610	0.001585383	66	ok	no	<scratch>/bounties-squares/take-midm-r22/693.csv
+642	591-r21h9b8722e722f17650	up	1	layers	25.942156495	25.838149089	25.838149089	25.817412500	0.020736589	22	ok	no	<scratch>/bounties-squares/take-forensics-r21/591.csv
+642	591-r21h9b8722e722f17650	up	1c1	layers cut 1	25.943998513	25.838760968	25.838760968	25.817412500	0.021348468	30	ok	no	<scratch>/bounties-squares/take-forensics-r21/591.csv
+642	750-r22h431be23df8af4306	down	2c1	layers	25.838578005	25.836446615	25.836446615	25.817412500	0.019034115	41	ok	no	<scratch>/bounties-squares/take-k123-r22/750.csv
+645	698-r22h8e803ce0319ac929	down	1c1	layers cut 1	25.877376671	25.868468212	25.868468212	25.862833908	0.005634304	20	ok	no	<scratch>/bounties-squares/take-invent-r22/near/698-f131329x698x21.csv
+645	698-r22hf0b3b341441a7e7d	down	1	layers	25.877375996	25.868471647	25.868471647	25.862833908	0.005637739	18	ok	no	<scratch>/bounties-squares/take-invent-r22/near/698-f132207x698x25.csv
+645	698-r22hf0b3b341441a7e7d	down	1c1	layers cut 1	25.877375996	25.868472444	25.868472444	25.862833908	0.005638536	24	ok	no	<scratch>/bounties-squares/take-invent-r22/near/698-f132207x698x25.csv
+645	698-r22hfc3ea49acce3de11	down	1	layers	25.877429370	25.868469425	25.868469425	25.862833908	0.005635517	14	ok	no	<scratch>/bounties-squares/take-readers-r22/698.csv
+645	698-r22hfc3ea49acce3de11	down	1c1	layers cut 1	25.877429370	25.868369410	25.868369410	25.862833908	0.005535502	14	ok	no	<scratch>/bounties-squares/take-readers-r22/698.csv
+645	753-r22h283ff6534a341951	down	2	layers	25.877429424	25.868382807	25.868382807	25.862833908	0.005548899	12	ok	no	<scratch>/bounties-squares/take-k123-r22/near/753-initial-809r-870.csv
+645	753-r22h283ff6534a341951	down	2c1	layers	25.877429369	25.868388663	25.868388663	25.862833908	0.005554755	20	ok	no	<scratch>/bounties-squares/take-k123-r22/near/753-initial-809r-870.csv
+645	810-r22h7ad330ceae1f31ea	down	3c1	layers	25.877428718	25.868485534	25.868485534	25.862833908	0.005651626	16	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/810-rdn22.csv
+646	595-r22h5dbbe74470667850	up	1c1	layers cut 1	25.942582042	25.870382981	25.870379446	25.868670807	0.001708639	32	ok	no	<scratch>/bounties-squares/take-family-r22/595.csv
+647	547-r22h3e1d016f7ca492e1	up	2	layers	25.955184244	25.909788392	25.909788392	25.886322395	0.023465997	95	ok	no	<scratch>/bounties-squares/take-forensics-r22/near/547-rect.csv
+647	547-r22h3e1d016f7ca492e1	up	2c1	layers	25.955184244	25.909801876	25.909801876	25.886322395	0.023479481	118	ok	no	<scratch>/bounties-squares/take-forensics-r22/near/547-rect.csv
+648	756-r21h23b264278addf6df	down	2c1	layers	25.912431972	25.903999649	25.903996452	25.903443654	0.000552798	21	ok	no	<scratch>/bounties-squares/take-family-r21/756.csv
+650	550-r22h4d382f6988c7ec7f	up	2	strict	25.970777532	25.929805285	25.929805285	25.932813790	-0.003008505	44	below held	no	<scratch>/bounties-squares/take-family-r22/550.csv
+650	550-r22h4d382f6988c7ec7f	up	2c1	strict	25.970187027	25.930014672	25.930014672	25.932813790	-0.002799118	34	below held	no	<scratch>/bounties-squares/take-family-r22/550.csv
+650	703-r22h7b9fd00e3a141b60	down	1	layers	25.940184077	25.929806439	25.929804492	25.932813790	-0.003009298	106	below held	no	<scratch>/bounties-squares/take-polish-r22/703.csv
+650	703-r22h7b9fd00e3a141b60	down	1c1	layers cut 1	25.940184077	25.929806439	25.929804187	25.932813790	-0.003009603	208	below held	yes	<scratch>/bounties-squares/take-polish-r22/703.csv
+655	604-r22h61a9c4ea7bb03635	up	1c1		nan	nan	nan	25.997339994		0	refused: layers: cut 1 asked, 1 ranked	no	<scratch>/bounties-squares/take-polish-r22/604.csv
+684	855-r22h7fe8195b35fd6631	down	3	strict	26.695758032	26.678383201	26.678383201	26.642569707	0.035813494	36	ok	no	<scratch>/bounties-squares/take-invent-r22/near/855-n122703x855x2.csv
+684	855-r22h7fe8195b35fd6631	down	3c1	layers	26.695790225	26.678387164	26.678387164	26.642569707	0.035817457	25	ok	no	<scratch>/bounties-squares/take-invent-r22/near/855-n122703x855x2.csv
+686	798-r22h364d3df05057e326	down	2c1	layers	26.731918012	26.724664210	26.724664210	26.705882354	0.018781856	22	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/798-tsn22.csv
+686	798-r22hcaf9b29c5ac6fc38	down	2c1	layers	26.731939780	26.724653556	26.724653556	26.705882354	0.018771202	22	ok	no	<scratch>/bounties-squares/take-forensics-r22/798.csv
+690	802-r22ha378b0c196749c89	down	2		nan	nan	nan	26.761536403		0	refused: family: 0 arm(s) of flush stacks (walls -); wide reader: no two neighbouring walls with a pair of neighbouring stacks (walls with a pair: -) | layers: the nearest full grid line is 4.3 from the cut	no	<scratch>/bounties-squares/take-family-r22/work/unread/802-fon22.csv
+690	802-r22ha378b0c196749c89	down	2c1	layers	26.790207126	26.789706166	26.789706166	26.761536403	0.028169763	46	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/802-fon22.csv
+693	640-r22h3f0aa4ab4ca8a2dd	up	1	layers	26.968410183	26.796779151	26.796071255	26.795685280	0.000385975	73	ok	no	<scratch>/bounties-squares/take-readers-r22/640.csv
+693	640-r22h3f0aa4ab4ca8a2dd	up	1c1	layers cut 1	26.968410183	26.795717271	26.795700543	26.795685280	1.5263e-05	63	ok	no	<scratch>/bounties-squares/take-readers-r22/640.csv
+693	805-r22h7d5a5783b20cf13f	down	2	strict	26.830439371	26.818303113	26.818303113	26.795332379	0.022970734	22	ok	no	<scratch>/bounties-squares/take-k123-r22/805.csv
+694	641-r22h29106257ada5aeb2	up	1c1	layers cut 1	27.116247189	26.838071692	26.835100044	26.825155466	0.009944578	137	ok	no	<scratch>/bounties-squares/take-forensics-r22/641.csv
+695	750-r22h431be23df8af4306	down	1c1	layers cut 1	26.847553411	26.838578005	26.838578005	26.836089888	0.002488117	51	ok	no	<scratch>/bounties-squares/take-k123-r22/750.csv
+695	807-r22h0459ed86dbe3a4f2	down	2	layers	26.848626089	26.840969367	26.840969367	26.836089888	0.004879479	42	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/807-f22.csv
+695	807-r22h22756f0f03576255	down	2	layers	26.851746694	26.840674617	26.840674617	26.836089888	0.004584729	73	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/807-ivn22.csv
+695	807-r22h2e46ea939cb4a373	down	2	layers	26.851770431	26.845521978	26.845521978	26.836089888	0.00943209	37	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/807-mmx22.csv
+695	807-r22ha2d51e4e12b2e762	down	2c1	layers	26.851769866	26.841150522	26.841150522	26.836089888	0.005060634	53	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/807-fon22.csv
+697	809-r22h38bfd3065a72f61b	down	2	layers	26.881469562	26.872617672	26.872617672	26.860374742	0.01224293	25	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/809-rdn22.csv
+697	809-r22h38bfd3065a72f61b	down	2c1	layers	26.881505999	26.872612646	26.872612646	26.860374742	0.012237904	23	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/809-rdn22.csv
+698	645-r22h07605ec99c71aacc	up	1	layers	27.097895589	26.899172489	26.899172489	26.877375996	0.021796493	54	ok	no	<scratch>/bounties-squares/take-polish-r22/645.csv
+698	753-r22h283ff6534a341951	down	1	layers	26.886782785	26.877429474	26.877429424	26.880570033	-0.003140609	69	below held	no	<scratch>/bounties-squares/take-k123-r22/near/753-initial-809r-870.csv
+698	753-r22h283ff6534a341951	down	1c1	layers cut 1	26.886782785	26.878258193	26.877429369	26.880570033	-0.003140664	109	below held	no	<scratch>/bounties-squares/take-k123-r22/near/753-initial-809r-870.csv
+698	810-r21h6215dbc1b19fc84c	down	2	layers	26.889743525	26.880684447	26.880570152	26.880570033	1.18999999e-07	174	ok	no	<scratch>/bounties-squares/take-harvest-r21/810.csv
+698	810-r21h6215dbc1b19fc84c	down	2c1	layers	26.889743530	26.880686127	26.880681642	26.880570033	0.000111609	80	ok	no	<scratch>/bounties-squares/take-harvest-r21/810.csv
+698	810-r22h7ad330ceae1f31ea	down	2c1	layers	26.886781997	26.878225969	26.877428718	26.880570033	-0.003141315	123	below held	no	<scratch>/bounties-squares/take-family-r22/work/unread/810-rdn22.csv
+699	595-r22h5dbbe74470667850	up	2c1	wide	26.947625155	26.889328527	26.889328399	26.889968238	-0.000639839	146	below held	no	<scratch>/bounties-squares/take-family-r22/595.csv
+699	646-r22hdd956a69218ee128	up	1c1	layers cut 1	26.948299175	26.889592331	26.889335154	26.889968238	-0.000633084	205	below held	yes	<scratch>/bounties-squares/take-polish-r22/646.csv
+699	811-r22h2d49c792f95b1278	down	2	layers	26.900506242	26.892608801	26.892608801	26.889968238	0.002640563	21	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/811-stx22.csv
+699	811-r22h2d49c792f95b1278	down	2c1	layers	26.900520058	26.892608536	26.892608536	26.889968238	0.002640298	20	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/811-stx22.csv
+701	756-r21h23b264278addf6df	down	1c1	layers cut 1	26.921036773	26.912432885	26.912431972	26.912378265	5.3707e-05	48	ok	no	<scratch>/bounties-squares/take-family-r21/756.csv
+703	815-r22h08a9f61c57090f62	down	2	strict	26.954887260	26.948705405	26.948705405	26.941702257	0.007003148	13	ok	no	<scratch>/bounties-squares/take-family-r22/815.csv
+703	815-r22h08a9f61c57090f62	down	2c1	strict	26.954887260	26.948705405	26.948705405	26.941702257	0.007003148	18	ok	no	<scratch>/bounties-squares/take-family-r22/815.csv
+739	855-r22h7fe8195b35fd6631	down	2	strict	27.712288988	27.695758032	27.695758032	27.684143608	0.011614424	57	ok	no	<scratch>/bounties-squares/take-invent-r22/near/855-n122703x855x2.csv
+739	855-r22h7fe8195b35fd6631	down	2c1	strict	27.712288988	27.695790225	27.695790225	27.684143608	0.011646617	28	ok	no	<scratch>/bounties-squares/take-invent-r22/near/855-n122703x855x2.csv
+741	686-r22h559320905b7995e0	up	1c1	layers cut 1	27.936768542	27.751867084	27.751867084	27.727922063	0.023945021	70	ok	no	<scratch>/bounties-squares/take-forensics-r22/686.csv
+741	798-r22h364d3df05057e326	down	1c1	layers cut 1	27.740476679	27.731918012	27.731918012	27.727922063	0.003995949	28	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/798-tsn22.csv
+741	798-r22hcaf9b29c5ac6fc38	down	1c1	layers cut 1	27.740408683	27.731939780	27.731939780	27.727922063	0.004017717	46	ok	no	<scratch>/bounties-squares/take-forensics-r22/798.csv
+744	689-r22h75d7f8695acca42d	up	1		nan	nan	nan	27.757483418		0	refused: layers: a layer does not clear its own copy within one more unit | family: 0 arm(s) of flush stacks (walls -); wide reader: no two neighbouring walls with a pair of neighbouring stacks (walls with a pair: L)	no	<scratch>/bounties-squares/take-family-r22/689.csv
+745	802-r22ha378b0c196749c89	down	1	layers	27.794425776	27.790376012	27.790376012	27.784148399	0.006227613	77	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/802-fon22.csv
+745	802-r22ha378b0c196749c89	down	1c1	layers cut 1	27.794425776	27.790207126	27.790207126	27.784148399	0.006058727	62	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/802-fon22.csv
+748	640-r22h3f0aa4ab4ca8a2dd	up	2		nan	nan	nan	27.827151956		0	refused: family: 0 arm(s) of flush stacks (walls B); wide reader: no two neighbouring walls with a pair of neighbouring stacks (walls with a pair: L) | layers: a layer does not clear its own copy within one more unit	no	<scratch>/bounties-squares/take-readers-r22/640.csv
+748	640-r22h3f0aa4ab4ca8a2dd	up	2c1		nan	nan	nan	27.827151956		0	refused: family: 0 arm(s) of flush stacks (walls -); wide reader: no two neighbouring walls with a pair of neighbouring stacks (walls with a pair: -) | layers: a layer does not clear its own copy within one more unit	no	<scratch>/bounties-squares/take-readers-r22/640.csv
+748	693-r22h042c446404eb75a6	up	1c1		nan	nan	nan	27.827151956		0	refused: layers: a layer does not clear its own copy within one more unit	no	<scratch>/bounties-squares/take-polish-r22/693.csv
+748	693-r22hcaee86b0e2329039	up	1		nan	nan	nan	27.827151956		0	refused: layers: a layer does not clear its own copy within one more unit | family: 0 arm(s) of flush stacks (walls -); wide reader: no two neighbouring walls with a pair of neighbouring stacks (walls with a pair: L)	no	<scratch>/bounties-squares/take-midm-r22/693.csv
+748	693-r22hcaee86b0e2329039	up	1c1		nan	nan	nan	27.827151956		0	refused: layers: a layer does not clear its own copy within one more unit	no	<scratch>/bounties-squares/take-midm-r22/693.csv
+748	693-r22hdf8c9b5b9fa5d879	up	1		nan	nan	nan	27.827151956		0	refused: layers: a layer does not clear its own copy within one more unit | family: 0 arm(s) of flush stacks (walls -); wide reader: no two neighbouring walls with a pair of neighbouring stacks (walls with a pair: L)	no	<scratch>/bounties-squares/take-harvest-r22/693.csv
+748	693-r22hdf8c9b5b9fa5d879	up	1c1		nan	nan	nan	27.827151956		0	refused: layers: a layer does not clear its own copy within one more unit	no	<scratch>/bounties-squares/take-harvest-r22/693.csv
+748	693-r22hf8dfa8c7ded2ebbd	up	1		nan	nan	nan	27.827151956		0	refused: layers: a layer does not clear its own copy within one more unit | family: 0 arm(s) of flush stacks (walls -); wide reader: no two neighbouring walls with a pair of neighbouring stacks (walls with a pair: -)	no	<scratch>/bounties-squares/take-midm-r22/693.csv
+748	693-r22hf8dfa8c7ded2ebbd	up	1c1		nan	nan	nan	27.827151956		0	refused: layers: a layer does not clear its own copy within one more unit	no	<scratch>/bounties-squares/take-midm-r22/693.csv
+748	805-r22h7d5a5783b20cf13f	down	1	layers	27.842862707	27.830439371	27.830439371	27.827151956	0.003287415	21	ok	no	<scratch>/bounties-squares/take-k123-r22/805.csv
+749	641-r22h29106257ada5aeb2	up	2c1	layers	27.992167709	27.859056436	27.859056436	27.836002771	0.023053665	55	ok	no	<scratch>/bounties-squares/take-forensics-r22/641.csv
+750	807-r22h0459ed86dbe3a4f2	down	1	layers	27.860387583	27.848626095	27.848626089	27.847553416	0.001072673	35	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/807-f22.csv
+750	807-r22h22756f0f03576255	down	1	layers	27.860384507	27.851746694	27.851746694	27.847553411	0.004193283	28	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/807-ivn22.csv
+750	807-r22h2e46ea939cb4a373	down	1	layers	27.860384507	27.851770431	27.851770431	27.847553416	0.004217015	63	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/807-mmx22.csv
+750	807-r22ha2d51e4e12b2e762	down	1c1	layers cut 1	27.860400736	27.851769866	27.851769866	27.847553416	0.00421645	55	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/807-fon22.csv
+752	809-r22h38bfd3065a72f61b	down	1	layers	27.888332414	27.881469562	27.881469562	27.876277922	0.00519164	28	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/809-rdn22.csv
+752	809-r22h38bfd3065a72f61b	down	1c1	layers cut 1	27.888332414	27.881505999	27.881505999	27.876277922	0.005228077	32	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/809-rdn22.csv
+752	868-r22h8280806929033732	down	2	layers	27.888332414	27.881469562	27.881469562	27.876277922	0.00519164	28	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/868-rdn22.csv
+752	868-r22h8280806929033732	down	2c1	layers	27.888354082	27.881435378	27.881435378	27.876277922	0.005157456	36	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/868-rdn22.csv
+753	698-r22h8e803ce0319ac929	up	1	layers	27.934040032	27.886789812	27.886789372	27.886781448	7.924e-06	149	ok	no	<scratch>/bounties-squares/take-invent-r22/near/698-f131329x698x21.csv
+753	698-r22h8e803ce0319ac929	up	1c1	layers cut 1	27.934040032	27.886793361	27.886789341	27.886781448	7.893e-06	141	ok	no	<scratch>/bounties-squares/take-invent-r22/near/698-f131329x698x21.csv
+753	698-r22h8e803ce0319ac929	up	1c2		nan	nan	nan	27.886781448		0	refused: layers: cut 2 asked, 2 ranked	no	<scratch>/bounties-squares/take-invent-r22/near/698-f131329x698x21.csv
+753	698-r22hf0b3b341441a7e7d	up	1	layers	27.934039392	27.886790785	27.886782014	27.886781448	5.66000001e-07	192	ok	no	<scratch>/bounties-squares/take-invent-r22/near/698-f132207x698x25.csv
+753	698-r22hf0b3b341441a7e7d	up	1c1	layers cut 1	27.934039392	27.886789531	27.886788568	27.886781448	7.12e-06	77	ok	no	<scratch>/bounties-squares/take-invent-r22/near/698-f132207x698x25.csv
+753	698-r22hfc3ea49acce3de11	up	1	layers	27.934047972	27.887141547	27.886989342	27.886781448	0.000207894	190	ok	no	<scratch>/bounties-squares/take-readers-r22/698.csv
+753	698-r22hfc3ea49acce3de11	up	1c1	layers cut 1	27.934047972	27.886896407	27.886789339	27.886781448	7.891e-06	144	ok	no	<scratch>/bounties-squares/take-readers-r22/698.csv
+753	810-r21h6215dbc1b19fc84c	down	1	layers	27.898195381	27.889815645	27.889743525	27.889742974	5.50999999e-07	69	ok	no	<scratch>/bounties-squares/take-harvest-r21/810.csv
+753	810-r21h6215dbc1b19fc84c	down	1c1	layers cut 1	27.898195381	27.889815644	27.889743530	27.889742974	5.56e-07	91	ok	no	<scratch>/bounties-squares/take-harvest-r21/810.csv
+753	810-r22h7ad330ceae1f31ea	down	1c1	layers cut 1	27.899681880	27.886857235	27.886781997	27.886781448	5.48999999e-07	170	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/810-rdn22.csv
+754	595-r22h5dbbe74470667850	up	3c1	layers	27.969075490	27.921293660	27.921293660	27.900113400	0.02118026	71	ok	no	<scratch>/bounties-squares/take-family-r22/595.csv
+754	646-r22hdd956a69218ee128	up	2c1	layers	27.959957668	27.921356190	27.921356190	27.900113400	0.02124279	60	ok	no	<scratch>/bounties-squares/take-polish-r22/646.csv
+754	811-r22h2d49c792f95b1278	down	1	layers	27.907816506	27.900529862	27.900506242	27.900113400	0.000392842	113	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/811-stx22.csv
+754	811-r22h2d49c792f95b1278	down	1c1	layers cut 1	27.907816506	27.900529472	27.900520058	27.900113400	0.000406658	65	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/811-stx22.csv
+754	870-r22h59ffb1149ccb181f	down	2	layers	27.907577846	27.900336550	27.900333959	27.900113400	0.000220559	129	ok	no	<scratch>/bounties-squares/take-stair-c-r22/near/870-6d126cd1-s.csv
+758	815-r22h08a9f61c57090f62	down	1	layers	27.960655210	27.954887266	27.954887260	27.954879607	7.653e-06	43	ok	no	<scratch>/bounties-squares/take-family-r22/815.csv
+758	815-r22h08a9f61c57090f62	down	1c1	layers cut 1	27.960655210	27.954887266	27.954887260	27.954879607	7.653e-06	40	ok	no	<scratch>/bounties-squares/take-family-r22/815.csv
+758	874-r22hd4f34f30d59969f4	down	2c1	strict	27.968833955	27.962393391	27.962393391	27.954879607	0.007513784	7	ok	no	<scratch>/bounties-squares/take-stair-c-r22/near/874-03bab4d5-s.csv
+759	875-r22h683117b5e33c27f2	down	2	strict	27.978804822	27.972943130	27.972943130	27.970237656	0.002705474	24	ok	no	<scratch>/bounties-squares/take-midm-r22/875.csv
+759	875-r22h683117b5e33c27f2	down	2c1	strict	27.979016429	27.972917495	27.972917495	27.970237656	0.002679839	37	ok	no	<scratch>/bounties-squares/take-midm-r22/875.csv
+759	875-r22hdd6d0c44c18c36f9	down	2	strict	27.978804820	27.972919799	27.972919799	27.970237656	0.002682143	29	ok	no	<scratch>/bounties-squares/take-family-r22/875.csv
+759	875-r22hdd6d0c44c18c36f9	down	2c1	strict	27.979019692	27.973019118	27.973019118	27.970237656	0.002781462	15	ok	no	<scratch>/bounties-squares/take-family-r22/875.csv
+794	737-r22h94967eca5ca7c959	up	1		nan	nan	nan	28.683970348		0	refused: layers: a layer does not clear its own copy within one more unit | family: 0 arm(s) of flush stacks (walls -); wide reader: no two neighbouring walls with a pair of neighbouring stacks (walls with a pair: -)	no	<scratch>/bounties-squares/take-forensics-r22/737.csv
+794	737-r22h94967eca5ca7c959	up	1c1		nan	nan	nan	28.683970348		0	refused: layers: a layer does not clear its own copy within one more unit	no	<scratch>/bounties-squares/take-forensics-r22/737.csv
+796	855-r22h7fe8195b35fd6631	down	1	layers	28.729472629	28.712290387	28.712288988	28.714700855	-0.002411867	60	below held	no	<scratch>/bounties-squares/take-invent-r22/near/855-n122703x855x2.csv
+796	855-r22h7fe8195b35fd6631	down	1c1	layers cut 1	28.729472629	28.712288999	28.712288988	28.714700855	-0.002411867	128	below held	no	<scratch>/bounties-squares/take-invent-r22/near/855-n122703x855x2.csv
+807	750-r22h431be23df8af4306	up	1c1	layers cut 1	29.160948488	28.866722651	28.866709221	28.860384507	0.006324714	301	ok	no	<scratch>/bounties-squares/take-k123-r22/750.csv
+808	751-r22h0907f94053df0c2b	up	1c1	layers cut 1	29.055790490	28.880269752	28.880269746	28.873577814	0.006691932	73	ok	no	<scratch>/bounties-squares/take-classfill-r22/751.csv
+808	751-r22h290b8d95772482e1	up	1	layers	28.941305264	28.880270031	28.880269746	28.873577814	0.006691932	113	ok	no	<scratch>/bounties-squares/take-forensics-r22/751.csv
+809	868-r22h8280806929033732	down	1	layers	28.893706605	28.888332414	28.888332414	28.884770022	0.003562392	24	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/868-rdn22.csv
+809	868-r22h8280806929033732	down	1c1	layers cut 1	28.893706605	28.888354082	28.888354082	28.884770022	0.00358406	23	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/868-rdn22.csv
+809	929-r22h325cd511d560c08c	down	2	layers	28.893708329	28.888354591	28.888354591	28.884770022	0.003584569	19	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/929-bn22.csv
+809	929-r22h325cd511d560c08c	down	2c1	layers	28.893706605	28.888332414	28.888332414	28.884770022	0.003562392	25	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/929-bn22.csv
+810	698-r22h8e803ce0319ac929	up	2	layers	28.940741333	28.899668266	28.899667031	28.898195381	0.00147165	126	ok	no	<scratch>/bounties-squares/take-invent-r22/near/698-f131329x698x21.csv
+810	698-r22h8e803ce0319ac929	up	2c1	layers	28.940741348	28.899718300	28.899438605	28.898195381	0.001243224	196	ok	no	<scratch>/bounties-squares/take-invent-r22/near/698-f131329x698x21.csv
+810	698-r22hf0b3b341441a7e7d	up	2	layers	28.940884990	28.899659743	28.899643883	28.898195381	0.001448502	53	ok	no	<scratch>/bounties-squares/take-invent-r22/near/698-f132207x698x25.csv
+810	698-r22hf0b3b341441a7e7d	up	2c1	layers	28.940740422	28.899596612	28.899535428	28.898195381	0.001340047	180	ok	no	<scratch>/bounties-squares/take-invent-r22/near/698-f132207x698x25.csv
+810	698-r22hfc3ea49acce3de11	up	2	layers	28.941395511	28.900126125	28.900069125	28.898195381	0.001873744	298	ok	no	<scratch>/bounties-squares/take-readers-r22/698.csv
+810	698-r22hfc3ea49acce3de11	up	2c1	layers	28.940741324	28.899689207	28.899685625	28.898195381	0.001490244	140	ok	no	<scratch>/bounties-squares/take-readers-r22/698.csv
+810	753-r22h283ff6534a341951	up	1	layers	28.940886391	28.899506051	28.899505416	28.898195381	0.001310035	115	ok	no	<scratch>/bounties-squares/take-k123-r22/near/753-initial-809r-870.csv
+810	753-r22h283ff6534a341951	up	1c1	layers cut 1	28.940886391	28.899681910	28.899681880	28.898195381	0.001486499	134	ok	no	<scratch>/bounties-squares/take-k123-r22/near/753-initial-809r-870.csv
+811	870-r22h59ffb1149ccb181f	down	1	layers	28.914468108	28.907639314	28.907577846	28.907506588	7.1258e-05	100	ok	no	<scratch>/bounties-squares/take-stair-c-r22/near/870-6d126cd1-s.csv
+811	931-r22h17909a7dbba2397f	down	2	layers	28.914420380	28.907600978	28.907577684	28.907506588	7.1096e-05	160	ok	no	<scratch>/bounties-squares/take-modules-r22/near/931-931-g4808635-17909a7dbba2397f.csv
+811	931-r22h17909a7dbba2397f	down	2c1	layers	28.914420393	28.907605917	28.907577848	28.907506588	7.126e-05	88	ok	no	<scratch>/bounties-squares/take-modules-r22/near/931-931-g4808635-17909a7dbba2397f.csv
+811	931-r22h8c3b78269ced7b50	down	2	layers	28.914421813	28.907607993	28.907577847	28.907506588	7.1259e-05	95	ok	no	<scratch>/bounties-squares/take-modules-r22/near/931-931-g8a18696-8c3b78269ced7b50.csv
+811	931-r22hb1373e1a70cd502b	down	2	layers	28.914420455	28.907601785	28.907577683	28.907506588	7.1095e-05	174	ok	no	<scratch>/bounties-squares/take-invent-r22/near/931-l131623x931x23.csv
+811	931-r22hb1373e1a70cd502b	down	2c1	layers	28.914420427	28.907606178	28.907577678	28.907506588	7.109e-05	106	ok	no	<scratch>/bounties-squares/take-invent-r22/near/931-l131623x931x23.csv
+815	874-r22hd4f34f30d59969f4	down	1c1	layers cut 1	28.975086587	28.968833955	28.968833955	28.960907619	0.007926336	23	ok	no	<scratch>/bounties-squares/take-stair-c-r22/near/874-03bab4d5-s.csv
+816	875-r22h683117b5e33c27f2	down	1	layers	28.984917958	28.979020006	28.978804822	28.978162933	0.000641889	117	ok	no	<scratch>/bounties-squares/take-midm-r22/875.csv
+816	875-r22h683117b5e33c27f2	down	1c1	layers cut 1	28.984917958	28.979016647	28.979016429	28.978162933	0.000853496	44	ok	no	<scratch>/bounties-squares/take-midm-r22/875.csv
+816	875-r22hdd6d0c44c18c36f9	down	1	layers	28.984922538	28.979019891	28.978804820	28.978162933	0.000641887	75	ok	no	<scratch>/bounties-squares/take-family-r22/875.csv
+816	875-r22hdd6d0c44c18c36f9	down	1c1	layers cut 1	28.984922538	28.979019816	28.979019692	28.978162933	0.000856759	49	ok	no	<scratch>/bounties-squares/take-family-r22/875.csv
+816	936-r22h08c444e5e457cf30	down	2c1	strict	28.985512545	28.979743815	28.979740873	28.978162933	0.00157794	67	ok	no	<scratch>/bounties-squares/take-midm-r22/936.csv
+816	936-r22hc5a8094d682c68af	down	2	strict	28.985513487	28.979753995	28.979744142	28.978162933	0.001581209	46	ok	no	<scratch>/bounties-squares/take-family-r22/936.csv
+816	936-r22hc5a8094d682c68af	down	2c1	strict	28.985512541	28.980091886	28.979744141	28.978162933	0.001581208	84	ok	no	<scratch>/bounties-squares/take-family-r22/936.csv
+850	974-r22h4f8bc10e22b69968	down	2	wide	29.682866226	29.667294494	29.667294494	29.656854251	0.010440243	21	ok	no	<scratch>/bounties-squares/take-twoshort-r22/near/974-s6948-974-1114447c-family.csv
+850	974-r22h4f8bc10e22b69968	down	2c1	wide	29.682866227	29.667295243	29.667295243	29.656854251	0.010440992	23	ok	no	<scratch>/bounties-squares/take-twoshort-r22/near/974-s6948-974-1114447c-family.csv
+852	793-r22h4b1a0759387c50fb	up	1c1	layers cut 1	29.763093588	29.695363104	29.695356555	29.689147723	0.006208832	84	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/793-tsn22.csv
+855	796-r21hbdc15122654f50c7	up	1c1	layers cut 1	29.813365542	29.732009077	29.732009014	29.732009007	7.00000058e-09	46	ok	no	<scratch>/bounties-squares/take-family-r21/796.csv
+855	796-r22h250cf04fc75a2e2a	up	1	layers	29.926230997	29.764457772	29.764457772	29.732009007	0.032448765	113	ok	no	<scratch>/bounties-squares/take-forensics-r22/796.csv
+855	796-r22h250cf04fc75a2e2a	up	1c1	layers cut 1	29.926230997	29.764705888	29.764705888	29.732009007	0.032696881	103	ok	no	<scratch>/bounties-squares/take-forensics-r22/796.csv
+855	796-r22h8f130ff2b5adb501	up	1	layers	29.807510653	29.729472633	29.729472628	29.729472629	-1.00000008e-09	40	below held	yes	<scratch>/bounties-squares/take-readers-r22/796.csv
+855	796-r22h8f130ff2b5adb501	up	1c1	layers cut 1	29.807510653	29.729472633	29.729472628	29.729472629	-1.00000008e-09	60	below held	no	<scratch>/bounties-squares/take-readers-r22/796.csv
+857	798-r22h364d3df05057e326	up	1	layers	30.086197199	29.774010373	29.769979552	29.761536403	0.008443149	259	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/798-tsn22.csv
+857	798-r22h364d3df05057e326	up	1c1	layers cut 1	30.086197199	29.795280142	29.795280142	29.761536403	0.033743739	91	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/798-tsn22.csv
+857	798-r22hcaf9b29c5ac6fc38	up	1	layers	29.934859914	29.766570043	29.766012926	29.761536403	0.004476523	304	ok	no	<scratch>/bounties-squares/take-forensics-r22/798.csv
+857	981-r22h0d7e19bee4c5a00c	down	2	layers	29.789775203	29.789614871	29.789614871	29.761536403	0.028078468	59	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/981-fon22.csv
+857	981-r22h0d7e19bee4c5a00c	down	2c1	layers	29.789089739	29.788917611	29.788917611	29.761536403	0.027381208	119	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/981-fon22.csv
+857	981-r22h925ad182f17357ab	down	2	layers	29.789775186	29.788916124	29.788916124	29.761536403	0.027379721	136	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/981-cfn22.csv
+858	799-r22h244965144f371fa5	up	1c1	layers cut 1	29.888859966	29.781239581	29.781239581	29.776110988	0.005128593	58	time limit	no	<scratch>/bounties-squares/take-family-r22/work/unread/799-cf22.csv
+861	802-r22ha378b0c196749c89	up	1		nan	nan	nan	29.810706535		0	refused: layers: a layer does not clear its own copy within one more unit | family: 0 arm(s) of flush stacks (walls -); wide reader: no two neighbouring walls with a pair of neighbouring stacks (walls with a pair: -)	no	<scratch>/bounties-squares/take-family-r22/work/unread/802-fon22.csv
+861	802-r22ha378b0c196749c89	up	1c1		nan	nan	nan	29.810706535		0	refused: layers: a layer does not clear its own copy within one more unit	no	<scratch>/bounties-squares/take-family-r22/work/unread/802-fon22.csv
+862	803-r22h7ba31f784fceeabe	up	1	layers	29.896145158	29.849734658	29.849734658	29.825745981	0.023988677	142	ok	no	<scratch>/bounties-squares/take-stair-c-r22/near/803-107a381a-n.csv
+864	805-r22h424992c38ccb1ba8	up	1c1	layers cut 1	29.926995176	29.856172444	29.856171018	29.851918339	0.004252679	99	ok	no	<scratch>/bounties-squares/take-invent-r22/near/805-f135120x805x33.csv
+864	805-r22h7d5a5783b20cf13f	up	1	layers	29.927035228	29.857620560	29.857613428	29.851918339	0.005695089	80	ok	no	<scratch>/bounties-squares/take-k123-r22/805.csv
+864	805-r22h7d5a5783b20cf13f	up	1c1	layers cut 1	29.927035228	29.857625009	29.857625003	29.851918339	0.005706664	65	ok	no	<scratch>/bounties-squares/take-k123-r22/805.csv
+864	805-r22ha091cbaaedbddf0d	up	1	layers	29.926920550	29.855951674	29.855949244	29.851918339	0.004030905	178	ok	no	<scratch>/bounties-squares/take-invent-r22/near/805-l141359x805x39.csv
+864	805-r22ha091cbaaedbddf0d	up	1c1	layers cut 1	29.926920550	29.855949557	29.855949522	29.851918339	0.004031183	165	ok	no	<scratch>/bounties-squares/take-invent-r22/near/805-l141359x805x39.csv
+866	750-r22h431be23df8af4306	up	2c1	layers	30.068784338	29.902132792	29.902132792	29.879009147	0.023123645	129	ok	no	<scratch>/bounties-squares/take-k123-r22/750.csv
+866	807-r22h22756f0f03576255	up	1c1	layers cut 1	29.944523166	29.880275778	29.880272754	29.879009147	0.001263607	271	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/807-ivn22.csv
+866	807-r22h2e46ea939cb4a373	up	1c1	layers cut 1	30.054798748	29.880269752	29.880269746	29.879009147	0.001260599	71	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/807-mmx22.csv
+866	807-r22ha2d51e4e12b2e762	up	1	layers	30.057157513	29.880269752	29.880269746	29.879009147	0.001260599	132	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/807-fon22.csv
+866	807-r22ha2d51e4e12b2e762	up	1c1	layers cut 1	30.057157513	29.880275584	29.880269746	29.879009147	0.001260599	74	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/807-fon22.csv
+867	751-r22h0907f94053df0c2b	up	2c1	wide	29.955519088	29.913851575	29.913851575	29.883529906	0.030321669	191	ok	no	<scratch>/bounties-squares/take-classfill-r22/751.csv
+867	751-r22h290b8d95772482e1	up	2	wide	29.955519491	29.931605561	29.931605561	29.883529906	0.048075655	21	ok	no	<scratch>/bounties-squares/take-forensics-r22/751.csv
+868	929-r22h325cd511d560c08c	down	1	layers	29.902469909	29.893708329	29.893708329	29.891252322	0.002456007	20	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/929-bn22.csv
+868	929-r22h325cd511d560c08c	down	1c1	layers cut 1	29.902469909	29.893706605	29.893706605	29.891252322	0.002454283	40	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/929-bn22.csv
+869	753-r22h283ff6534a341951	up	2	layers	29.952137621	29.912808160	29.912794752	29.905762854	0.007031898	201	ok	no	<scratch>/bounties-squares/take-k123-r22/near/753-initial-809r-870.csv
+869	753-r22h283ff6534a341951	up	2c1	layers	29.952497146	29.915777246	29.912930198	29.905762854	0.007167344	550	ok	no	<scratch>/bounties-squares/take-k123-r22/near/753-initial-809r-870.csv
+869	810-r21h6215dbc1b19fc84c	up	1c1	layers cut 1	29.946642970	29.906009508	29.905799289	29.905762854	3.6435e-05	91	ok	no	<scratch>/bounties-squares/take-harvest-r21/810.csv
+869	810-r22h7ad330ceae1f31ea	up	1c1	layers cut 1	29.952497146	29.914720161	29.912932287	29.905762854	0.007169433	600	time limit	no	<scratch>/bounties-squares/take-family-r22/work/unread/810-rdn22.csv
+870	811-r22hf13fb2e2aa522479	up	1	layers	29.953853882	29.914430816	29.914428944	29.914396838	3.2106e-05	236	ok	no	<scratch>/bounties-squares/take-readers-r22/near/811-down2from931-r22h8c3b78269ced7b50.csv
+870	811-r22hf13fb2e2aa522479	up	1c1	layers cut 1	29.953853882	29.914440313	29.914435502	29.914396838	3.8664e-05	124	ok	no	<scratch>/bounties-squares/take-readers-r22/near/811-down2from931-r22h8c3b78269ced7b50.csv
+870	931-r22h17909a7dbba2397f	down	1	layers	29.921105948	29.914424928	29.914420380	29.914396838	2.3542e-05	152	ok	no	<scratch>/bounties-squares/take-modules-r22/near/931-931-g4808635-17909a7dbba2397f.csv
+870	931-r22h17909a7dbba2397f	down	1c1	layers cut 1	29.921105948	29.914423046	29.914420393	29.914396838	2.3555e-05	144	ok	no	<scratch>/bounties-squares/take-modules-r22/near/931-931-g4808635-17909a7dbba2397f.csv
+870	931-r22h8c3b78269ced7b50	down	1	layers	29.921109687	29.914424115	29.914421813	29.914396838	2.4975e-05	97	ok	no	<scratch>/bounties-squares/take-modules-r22/near/931-931-g8a18696-8c3b78269ced7b50.csv
+870	931-r22hb1373e1a70cd502b	down	1	layers	29.921103613	29.914421049	29.914420455	29.914396838	2.3617e-05	162	ok	no	<scratch>/bounties-squares/take-invent-r22/near/931-l131623x931x23.csv
+870	931-r22hb1373e1a70cd502b	down	1c1	layers cut 1	29.921103613	29.914423767	29.914420427	29.914396838	2.3589e-05	212	ok	no	<scratch>/bounties-squares/take-invent-r22/near/931-l131623x931x23.csv
+873	997-r22h83ed3c5402392324	down	2	strict	29.971820227	29.966119805	29.966119805	29.957067167	0.009052638	32	ok	no	<scratch>/bounties-squares/take-stair-c-r22/near/997-ff1c0b37-s.csv
+873	997-r22h83ed3c5402392324	down	2c1	strict	29.971799785	29.966124056	29.966124056	29.957067167	0.009056889	29	ok	no	<scratch>/bounties-squares/take-stair-c-r22/near/997-ff1c0b37-s.csv
+874	815-r22h08a9f61c57090f62	up	1	layers	30.013732716	29.981061389	29.971819871	29.971687925	0.000131946	182	ok	no	<scratch>/bounties-squares/take-family-r22/815.csv
+874	815-r22h08a9f61c57090f62	up	1c1	layers cut 1	30.013732716	29.989691208	29.971909513	29.971687925	0.000221588	257	ok	no	<scratch>/bounties-squares/take-family-r22/815.csv
+875	936-r22h08c444e5e457cf30	down	1c1	layers cut 1	29.990742175	29.985512612	29.985512545	29.984757083	0.000755462	94	ok	no	<scratch>/bounties-squares/take-midm-r22/936.csv
+875	936-r22hc5a8094d682c68af	down	1	layers	29.990742181	29.985513500	29.985513487	29.984757400	0.000756087	25	ok	no	<scratch>/bounties-squares/take-family-r22/936.csv
+875	936-r22hc5a8094d682c68af	down	1c1	layers cut 1	29.990742181	29.985512637	29.985512541	29.984757400	0.000755141	60	ok	no	<scratch>/bounties-squares/take-family-r22/936.csv
+911	974-r22h4f8bc10e22b69968	down	1	layers	30.697896739	30.682866926	30.682866226	30.682847633	1.8593e-05	155	ok	no	<scratch>/bounties-squares/take-twoshort-r22/near/974-s6948-974-1114447c-family.csv
+911	974-r22h4f8bc10e22b69968	down	1c1	layers cut 1	30.697896739	30.682866495	30.682866227	30.682847633	1.8594e-05	191	ok	no	<scratch>/bounties-squares/take-twoshort-r22/near/974-s6948-974-1114447c-family.csv
+912	851-r22h3e07e038a078ace9	up	1	layers	30.763886895	30.720308192	30.720308192	30.694071062	0.02623713	68	ok	no	<scratch>/bounties-squares/take-invent-r22/near/851-f133722x851x29.csv
+912	851-r22h3e07e038a078ace9	up	1c1	layers cut 1	30.763886895	30.721653214	30.721653214	30.694071062	0.027582152	73	ok	no	<scratch>/bounties-squares/take-invent-r22/near/851-f133722x851x29.csv
+912	851-r22h9db87f9126a7f2bb	up	1c1	layers cut 1	30.763886325	30.720192495	30.720192495	30.694071062	0.026121433	50	ok	no	<scratch>/bounties-squares/take-k123-r22/851.csv
+912	851-r22hc2a350d74811d174	up	1	layers	30.763886277	30.720192509	30.720192509	30.694071062	0.026121447	35	ok	no	<scratch>/bounties-squares/take-twoshort-r22/851.csv
+912	851-r22hc2a350d74811d174	up	1c1	layers cut 1	30.763886277	30.720309008	30.720309008	30.694071062	0.026237946	58	ok	no	<scratch>/bounties-squares/take-twoshort-r22/851.csv
+913	793-r22h4b1a0759387c50fb	up	2c1	layers	30.779645404	30.751437992	30.751437992	30.710251303	0.041186689	80	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/793-tsn22.csv
+914	853-r21heb3f5a363b3cd8e7	up	1c1	layers cut 1	30.790686047	30.736674272	30.736669880	30.724353122	0.012316758	107	ok	no	<scratch>/bounties-squares/take-harvest-r21/853.csv
+914	853-r22h56fdbbea701eaa09	up	1	layers	30.793650257	30.764706247	30.764706247	30.724353122	0.040353125	69	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/853-fo22.csv
+914	853-r22h56fdbbea701eaa09	up	1c1	layers cut 1	30.922014187	30.764705888	30.764705888	30.724353122	0.040352766	102	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/853-fo22.csv
+914	853-r22hed88dd77e7dbd7d5	up	1c1	layers cut 1	30.944772334	30.751751493	30.751751493	30.724353122	0.027398371	220	ok	no	<scratch>/bounties-squares/take-forensics-r22/853.csv
+916	796-r21hbdc15122654f50c7	up	2c1	wide	30.823894416	30.765344808	30.765344802	30.752189774	0.013155028	67	ok	no	<scratch>/bounties-squares/take-family-r21/796.csv
+916	796-r22h8f130ff2b5adb501	up	2	strict	30.821443986	30.764683232	30.756920766	30.752189774	0.004730992	90	ok	no	<scratch>/bounties-squares/take-readers-r22/796.csv
+916	796-r22h8f130ff2b5adb501	up	2c1	wide	30.821511663	30.765344808	30.765344802	30.752189774	0.013155028	131	ok	no	<scratch>/bounties-squares/take-readers-r22/796.csv
+916	855-r22h7fe8195b35fd6631	up	1c1	layers cut 1	30.821646919	30.765344808	30.765344802	30.752189774	0.013155028	109	ok	no	<scratch>/bounties-squares/take-invent-r22/near/855-n122703x855x2.csv
+916	855-r22haeae192e41c2211f	up	1	layers	30.821647161	30.765344808	30.765344802	30.752189774	0.013155028	98	ok	no	<scratch>/bounties-squares/take-readers-r22/855.csv
+918	798-r22h364d3df05057e326	up	2		nan	nan	nan	30.776110988		0	refused: family: 0 arm(s) of flush stacks (walls -); wide reader: no two neighbouring walls with a pair of neighbouring stacks (walls with a pair: -) | layers: a layer does not clear its own copy within one more unit	no	<scratch>/bounties-squares/take-family-r22/work/unread/798-tsn22.csv
+918	798-r22hcaf9b29c5ac6fc38	up	2		nan	nan	nan	30.776110988		0	refused: family: 0 arm(s) of flush stacks (walls -); wide reader: no two neighbouring walls with a pair of neighbouring stacks (walls with a pair: B) | layers: a layer does not clear its own copy within one more unit	no	<scratch>/bounties-squares/take-forensics-r22/798.csv
+918	981-r22h0d7e19bee4c5a00c	down	1	layers	30.794425769	30.789775203	30.789775203	30.782681302	0.007093901	130	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/981-fon22.csv
+918	981-r22h0d7e19bee4c5a00c	down	1c1	layers cut 1	30.794425769	30.789089739	30.789089739	30.782681302	0.006408437	164	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/981-fon22.csv
+918	981-r22h925ad182f17357ab	down	1	layers	30.793917771	30.789775186	30.789775186	30.782681302	0.007093884	134	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/981-cfn22.csv
+919	858-r22hf68741793e10d601	up	1		nan	nan	nan	30.790018622		0	refused: layers: a layer does not clear its own copy within one more unit | family: 0 arm(s) of flush stacks (walls -); wide reader: no two neighbouring walls with a pair of neighbouring stacks (walls with a pair: -)	no	<scratch>/bounties-squares/take-family-r22/work/unread/858-kn22.csv
+921	860-r22h75e9824ba11d3cd9	up	1	layers	30.872527914	30.814114049	30.814104348	30.812953796	0.001150552	204	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/860-scn22.csv
+921	860-r22h75e9824ba11d3cd9	up	1c1	layers cut 1	30.872402109	30.814104830	30.814104338	30.812953796	0.001150542	85	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/860-scn22.csv
+925	805-r22h424992c38ccb1ba8	up	2c1	strict	30.936943836	30.867513088	30.867513082	30.860976406	0.006536676	84	ok	no	<scratch>/bounties-squares/take-invent-r22/near/805-f135120x805x33.csv
+925	805-r22h7d5a5783b20cf13f	up	2	wide	30.938016717	30.871680318	30.871680312	30.860976406	0.010703906	69	ok	no	<scratch>/bounties-squares/take-k123-r22/805.csv
+925	805-r22h7d5a5783b20cf13f	up	2c1	strict	30.938025326	30.867513091	30.867513085	30.860976406	0.006536679	176	ok	no	<scratch>/bounties-squares/take-k123-r22/805.csv
+925	805-r22ha091cbaaedbddf0d	up	2	strict	30.936778858	30.867533983	30.867513090	30.860976406	0.006536684	82	ok	no	<scratch>/bounties-squares/take-invent-r22/near/805-l141359x805x39.csv
+925	805-r22ha091cbaaedbddf0d	up	2c1	strict	30.936779066	30.867492099	30.867492093	30.860976406	0.006515687	155	ok	no	<scratch>/bounties-squares/take-invent-r22/near/805-l141359x805x39.csv
+927	807-r22h22756f0f03576255	up	2c1	layers	31.068508751	30.903029471	30.903019759	30.886964471	0.016055288	269	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/807-ivn22.csv
+927	807-r22h2e46ea939cb4a373	up	2c1	layers	30.955541425	30.931605561	30.931605561	30.886964471	0.04464109	25	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/807-mmx22.csv
+927	807-r22ha2d51e4e12b2e762	up	2	layers	31.034913721	30.903005972	30.903005914	30.886964471	0.016041443	232	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/807-fon22.csv
+927	807-r22ha2d51e4e12b2e762	up	2c1	layers	30.955629780	30.931605561	30.931605561	30.886964471	0.04464109	29	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/807-fon22.csv
+929	868-r22h8280806929033732	up	1c1	layers cut 1	30.939477700	30.902591064	30.902533713	30.900659067	0.001874646	65	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/868-rdn22.csv
+930	810-r21h6215dbc1b19fc84c	up	2c1	layers	30.952624688	30.912742024	30.912737696	30.912735216	2.48e-06	124	ok	no	<scratch>/bounties-squares/take-harvest-r21/810.csv
+930	810-r22h7ad330ceae1f31ea	up	2c1	layers	30.961734422	30.922504910	30.922504676	30.912735216	0.00976946	141	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/810-rdn22.csv
+931	811-r22hf13fb2e2aa522479	up	2	layers	30.957929411	30.921167595	30.921163742	30.921118861	4.4881e-05	112	ok	no	<scratch>/bounties-squares/take-readers-r22/near/811-down2from931-r22h8c3b78269ced7b50.csv
+931	811-r22hf13fb2e2aa522479	up	2c1	layers	30.957933347	30.921168246	30.921163753	30.921118861	4.4892e-05	91	ok	no	<scratch>/bounties-squares/take-readers-r22/near/811-down2from931-r22h8c3b78269ced7b50.csv
+931	870-r22h59ffb1149ccb181f	up	1c1	layers cut 1	30.958096514	30.921167249	30.921149185	30.921118861	3.0324e-05	362	ok	no	<scratch>/bounties-squares/take-stair-c-r22/near/870-6d126cd1-s.csv
+934	873-r22hd5ce8a0676f10ccb	up	1	layers	31.017664543	30.971851994	30.971499738	30.964143059	0.007356679	77	ok	no	<scratch>/bounties-squares/take-readers-r22/near/873-down2from997-r22h83ed3c5402392324.csv
+934	997-r22h83ed3c5402392324	down	1	layers	30.977182985	30.971820227	30.971820227	30.964143059	0.007677168	16	ok	no	<scratch>/bounties-squares/take-stair-c-r22/near/997-ff1c0b37-s.csv
+934	997-r22h83ed3c5402392324	down	1c1	layers cut 1	30.977182985	30.971799785	30.971799785	30.964143059	0.007656726	42	ok	no	<scratch>/bounties-squares/take-stair-c-r22/near/997-ff1c0b37-s.csv
+935	815-r22h08a9f61c57090f62	up	2	strict	31.021750880	30.982318104	30.982317636	30.978490764	0.003826872	239	ok	no	<scratch>/bounties-squares/take-family-r22/815.csv
+935	815-r22h08a9f61c57090f62	up	2c1	strict	31.021815014	30.982282808	30.982266021	30.978490764	0.003775257	80	ok	no	<scratch>/bounties-squares/take-family-r22/815.csv
+935	874-r22hd4f34f30d59969f4	up	1	layers	31.024085315	30.982371346	30.982371340	30.978490764	0.003880576	119	ok	no	<scratch>/bounties-squares/take-stair-c-r22/near/874-03bab4d5-s.csv
+936	875-r22h683117b5e33c27f2	up	1	layers	31.031074224	30.998310764	30.991508997	30.990796406	0.000712591	224	ok	no	<scratch>/bounties-squares/take-midm-r22/875.csv
+936	875-r22h683117b5e33c27f2	up	1c1	layers cut 1	31.031074224	30.998224539	30.991509020	30.990796406	0.000712614	308	ok	no	<scratch>/bounties-squares/take-midm-r22/875.csv
+936	875-r22hdd6d0c44c18c36f9	up	1	layers	31.031077468	30.998224261	30.994098007	30.990796406	0.003301601	322	ok	no	<scratch>/bounties-squares/take-family-r22/875.csv
+936	875-r22hdd6d0c44c18c36f9	up	1c1	layers cut 1	31.031077468	30.998222634	30.991509020	30.990796406	0.000712614	188	ok	no	<scratch>/bounties-squares/take-family-r22/875.csv
+970	907-r22he0b880962ff39db4	up	1c1		nan	nan	nan	31.638981453		0	refused: layers: a layer does not clear its own copy within one more unit	no	<scratch>/bounties-squares/take-family-r22/work/unread/907-mmn22.csv
+975	912-r22h70ccb3beefcecba7	up	1	layers	31.777003588	31.736126731	31.736126731	31.714095652	0.022031079	103	ok	no	<scratch>/bounties-squares/take-k123-r22/912.csv
+975	912-r22h70ccb3beefcecba7	up	1c1	layers cut 1	31.777003588	31.734949407	31.734949407	31.714095652	0.020853755	97	ok	no	<scratch>/bounties-squares/take-k123-r22/912.csv
+975	912-r22hc6d4d93e2ed8f543	up	1	layers	31.776990230	31.736117477	31.736117477	31.714095652	0.022021825	81	ok	no	<scratch>/bounties-squares/take-twoshort-r22/912.csv
+977	853-r21heb3f5a363b3cd8e7	up	2c1	wide	31.811858900	31.784895317	31.784895317	31.743573465	0.041321852	56	ok	no	<scratch>/bounties-squares/take-harvest-r21/853.csv
+979	796-r22h8f130ff2b5adb501	up	3	strict	31.843215964	31.782878794	31.782878788	31.766536608	0.01634218	81	ok	no	<scratch>/bounties-squares/take-readers-r22/796.csv
+979	796-r22h8f130ff2b5adb501	up	3c1	strict	31.849492261	31.800985401	31.800985401	31.766536608	0.034448793	101	ok	no	<scratch>/bounties-squares/take-readers-r22/796.csv
+979	855-r22h7fe8195b35fd6631	up	2c1	strict	31.849492261	31.800985401	31.800985401	31.766536608	0.034448793	59	ok	no	<scratch>/bounties-squares/take-invent-r22/near/855-n122703x855x2.csv
+979	855-r22haeae192e41c2211f	up	2	strict	31.849492261	31.801259496	31.801259496	31.766536608	0.034722888	124	ok	no	<scratch>/bounties-squares/take-readers-r22/855.csv
+981	918-r22hace285b9e1d9b1da	up	1c1	layers cut 1	32.020572755	31.794858194	31.794417247	31.793932246	0.000485001	258	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/918-rdn22.csv
+982	919-r22he6febabf03f37a73	up	1c1		nan	nan	nan	31.801262023		0	refused: layers: no cut window: layers on two walls but no full grid row or column beside them (36 of 4 turns)	no	<scratch>/bounties-squares/take-stair-c-r22/near/919-brectbcc0ab03e-n.csv
+984	860-r22h75e9824ba11d3cd9	up	2	layers	31.878547639	31.826523237	31.826522072	31.824095681	0.002426391	277	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/860-scn22.csv
+984	860-r22h75e9824ba11d3cd9	up	2c1	layers	31.879674296	31.826522148	31.826522010	31.824095681	0.002426329	269	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/860-scn22.csv
+992	868-r22h8280806929033732	up	2c1	layers	31.946844901	31.915712289	31.914977564	31.914748700	0.000228864	600	time limit	no	<scratch>/bounties-squares/take-family-r22/work/unread/868-rdn22.csv
+992	929-r22h855a2561b48eff5a	up	1c1	layers cut 1	31.946844901	31.916066729	31.915312702	31.914748700	0.000564002	522	ok	no	<scratch>/bounties-squares/take-family-r22/work/unread/929-rdn22.csv
+994	870-r22h59ffb1149ccb181f	up	2c1	strict	31.962639209	31.931127736	31.931069203	31.928349514	0.002719689	228	ok	no	<scratch>/bounties-squares/take-stair-c-r22/near/870-6d126cd1-s.csv
+994	931-r22h17909a7dbba2397f	up	1c1	layers cut 1	31.962707028	31.931051657	31.930404517	31.928349514	0.002055003	189	ok	no	<scratch>/bounties-squares/take-modules-r22/near/931-931-g4808635-17909a7dbba2397f.csv
+994	931-r22h359e2614bf752f01	up	1c1	layers cut 1	31.962707014	31.931065259	31.930992091	31.928349514	0.002642577	287	ok	no	<scratch>/bounties-squares/take-modules-r22/931.csv
+994	931-r22h8c3b78269ced7b50	up	1c1	layers cut 1	31.962710051	31.930213066	31.930213060	31.928349514	0.001863546	179	ok	no	<scratch>/bounties-squares/take-modules-r22/near/931-931-g8a18696-8c3b78269ced7b50.csv
+994	931-r22hb1373e1a70cd502b	up	1c1	layers cut 1	31.962705128	31.930213066	31.930167744	31.928349514	0.00181823	516	ok	no	<scratch>/bounties-squares/take-invent-r22/near/931-l131623x931x23.csv
+997	873-r22hd5ce8a0676f10ccb	up	2	strict	32.021521808	31.976654307	31.976651793	31.973017758	0.003634035	74	ok	no	<scratch>/bounties-squares/take-readers-r22/near/873-down2from997-r22h83ed3c5402392324.csv
+998	874-r22hd4f34f30d59969f4	up	2	strict	32.029269531	32.005332851	31.988585518	31.985812147	0.002773371	232	ok	no	<scratch>/bounties-squares/take-stair-c-r22/near/874-03bab4d5-s.csv
+999	875-r22h683117b5e33c27f2	up	2	strict	32.035724667	32.000738796	31.999414010	31.997718598	0.001695412	116	ok	no	<scratch>/bounties-squares/take-midm-r22/875.csv
+999	875-r22h683117b5e33c27f2	up	2c1	strict	32.035724683	31.999984635	31.999981458	31.997718598	0.00226286	379	ok	no	<scratch>/bounties-squares/take-midm-r22/875.csv
+999	875-r22hdd6d0c44c18c36f9	up	2	strict	32.037542688	32.001989633	32.000367545	31.997718598	0.002648947	162	ok	no	<scratch>/bounties-squares/take-family-r22/875.csv
+999	875-r22hdd6d0c44c18c36f9	up	2c1	strict	32.035724683	32.000070996	32.000070986	31.997718598	0.002352388	108	ok	no	<scratch>/bounties-squares/take-family-r22/875.csv
+999	936-r22h08c444e5e457cf30	up	1	layers	32.035185219	31.995709889	31.995709883	31.997718598	-0.002008715	131	below held	yes	<scratch>/bounties-squares/take-midm-r22/936.csv
+999	936-r22hc5a8094d682c68af	up	1c1	layers cut 1	32.035185223	31.995734649	31.995732827	31.995812348	-7.9521e-05	101	below held	no	<scratch>/bounties-squares/take-family-r22/936.csv

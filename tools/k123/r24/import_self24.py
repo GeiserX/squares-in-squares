@@ -1,0 +1,8 @@
+import pathlib,sys,json,csv,subprocess,shutil,time
+from provenance24 import W,S,key
+from eligible24 import BARS
+sys.path.insert(0,str(W/'lane'));import methods_lp as m
+csv.field_size_limit(20000000);pool='licensed581self';D=W/pool;D.mkdir(exist_ok=True);input=W/'cc0/581-certified.csv';row=next(r for r in csv.DictReader(open(W.parent/'take.tsv'),delimiter='\t') if r['n']=='581');manifest={'581':dict(clean=True,n=581,origin=str(input),evidence=str(input)+'.json',source=row['source'],licence=row['licence'],sha256_geometry=key(581,m.load(str(input),{581})[581]))};pathlib.Path(str(input)+'.json').write_text(json.dumps(row));(D/('sources-'+pool+'.json')).write_text(json.dumps(manifest,indent=2));shutil.copy(input,D/(pool+'.csv'));shutil.copy(W/'bars.tsv',D/('bars-'+pool+'.tsv'));tag='581-581r-j5-7-s-9';dest=D/'remoteout'/f'{pool}-228-{tag}'/'raw';dest.mkdir(parents=True,exist_ok=True);paths=list((W/'cc0/self228/raw').glob('*.csv'))
+for p in paths:shutil.copy(p,dest/p.name)
+q=dict(n=228,tag=tag,pool=pool,worker='j22licensed',bar=BARS[228],side=min(float(m.side(m.load(str(p),{228})[228])) for p in paths),raw=len(paths),code=0,licensed_reconstruction=True,time=time.strftime('%H:%M:%SZ',time.gmtime()));(D/'records.jsonl').write_text(json.dumps(q)+'\n')
+subprocess.run(['rsync','-e','ssh -S /tmp/squares-k123-r24-ssh','-az',str(D/'remoteout')+'/','boxE:scratch/squares-k123/out/j22licensed/'],check=True);subprocess.run(['scp','-o','ControlPath=/tmp/squares-k123-r24-ssh','-q',str(D/'records.jsonl'),'boxE:scratch/squares-k123/self228-record.jsonl'],check=True);subprocess.run(['ssh','-S','/tmp/squares-k123-r24-ssh','boxE','cd $SCRATCH/squares-k123 && cat self228-record.jsonl >> out/j22licensed/done.jsonl'],check=True);print(q)

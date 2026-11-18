@@ -1,0 +1,6 @@
+n	score	L	source	licence
+542	0.02168412253431673	23.785719200002855	border step from held n=497 (literature_border.py)	ours, on the held n=497
+549	0.01986854912201541	23.896284015742832	grennwolf/squares-in-squares-top-1-santa-2025 :: submission_improved.csv	Apache 2.0 (Kaggle default for public notebooks)
+602	0.01776082081705166	24.971462256161523	grennwolf/squares-in-squares-top-1-santa-2025 :: submission_improved.csv	Apache 2.0 (Kaggle default for public notebooks)
+690	0.01891062911333785	26.7645926623757	grennwolf/squares-in-squares-top-1-santa-2025 :: submission_improved.csv	Apache 2.0 (Kaggle default for public notebooks)
+865	0.01543228735711466	29.864759527398107	alexchilton/fault-line-dp-basin-hopping-lb-22-2620 :: quench__865.csv	Apache 2.0 (Kaggle default for public notebooks)

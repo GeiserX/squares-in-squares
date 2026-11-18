@@ -1,0 +1,201 @@
+"""Keep complete producer proofs once by hash and refuse excluded roots."""
+import csv, functools, hashlib, importlib.util, json, re, sys
+from pathlib import Path
+LANE=Path('.')
+ROOT=Path('$SCRATCH/bounties-squares')
+WORK=ROOT/'take-stair-c-r25/work'
+sys.path.insert(0,str(LANE))
+import readers_sources
+import modules_policy24
+spec=importlib.util.spec_from_file_location('producer_provenance',LANE/'tools/softround/provenance.py')
+P=importlib.util.module_from_spec(spec);spec.loader.exec_module(P)
+csv.field_size_limit(64*1024*1024)
+BAD=re.compile(r'penguin069/squares-joegun-boxed-certified-union|squares-verified-best-of-1105|CC BY-SA|Samanyu-dev/squares_in_squares|no licen[cs]e|unlicensed',re.I)
+
+def clean(source,licence):
+    text=source+' '+licence
+    if not deep_references_clean(text):return False
+    for path in re.findall(r'stair-c proof (/[^ ;<>]+/ancestry/[0-9a-f]{64}\.json)',source):
+        if not pinned_clean(path):return False
+    if BAD.search(text):return False
+    if re.search(r'take-border-r24/(?:near/)?735(?:[.\-]|/)|take-stair-c-r24/near/985(?:[.\-]|/)|take-harvest-r22/(?:near/)?(?:639|691|745|858|918)(?:[.\-]|/)|take-forensics-r23/(?:near/)?980(?:[.\-]|/)',text):return False
+    # A negative annotation cannot erase a positive ancestor elsewhere.
+    policy=modules_policy24.piece(dict(source=source,licence=licence))
+    if policy['status']!='none':return False
+    if 'seed merged0' in text and not policy['couzo']:return False
+    if 'sis-certified-union-micro-shrink' in text and 'per_n.csv' not in text:return False
+    return bool(source and licence)
+
+@functools.lru_cache(None)
+def held_records():
+    H={int(r['n']):float(r['L']) for r in csv.DictReader(open(ROOT/'gate/cand-round23-1113b/details.csv'))}
+    records={}
+    paths=sorted(LANE.glob('results/round*-best-*.tsv'),key=lambda p:int(re.search(r'round(\d+)',p.name)[1]))
+    for p in paths:
+        for r in csv.DictReader(open(p),delimiter='\t'):
+            try:
+                n=int(r['n'])
+                if abs(float(r['L'])-H[n])<2e-7:records[n]=(p,r)
+            except (KeyError,ValueError):pass
+    return records
+
+@functools.lru_cache(None)
+def held_record(n):
+    record=held_records().get(n)
+    if not record:return None
+    p,r=record
+    if not clean(r.get('source',''),r.get('licence','')):return None
+    return dict(n=n,source=str(p.relative_to(LANE))+': '+r['source'],licence=r['licence'],table=str(p),reason='source record matching clean held side')
+
+
+@functools.lru_cache(None)
+def original_matches_held(n):
+    p=WORK/'round23ab-geometry.json'
+    if not p.exists():return False
+    data=json.loads(p.read_text())
+    return n in data['same']
+
+def proof_ok(value):
+    if isinstance(value,dict):
+        path=str(value.get('path',''));n=value.get('n')
+        if path.endswith('/gather/round23-2026-11-13a.csv'):
+            return isinstance(n,int) and original_matches_held(n) and held_record(n) is not None
+        if value.get('status') in ('unknown','samanyu','seeds'):return False
+        src=value.get('source',value.get('src'))
+        if isinstance(src,str) and src:
+            lic=value.get('licence')
+            if lic and not clean(src,str(lic)):return False
+        items=[(k,v) for k,v in value.items() if not (k=='source_proof' and isinstance(v,str) and v in ACTIVE_PROOFS)]
+        for k,v in items:
+            if isinstance(v,str) and k in {'source_record','source_proof','ancestry_file','ancestry_proof','proof_file'} and not deep_references_clean(k+' '+v):return False
+        return all(proof_ok(v) for k,v in items)
+    if isinstance(value,list):return all(proof_ok(v) for v in value)
+    if isinstance(value,str):
+        if BAD.search(value) or not deep_references_clean(value):return False
+        if re.search(r'take-border-r24/(?:near/)?735(?:[.\-]|/)|take-stair-c-r24/near/985(?:[.\-]|/)',value):return False
+    return True
+
+def audit(path,n,source=None,licence=None):
+    path=Path(path)
+    if source is None:source,licence,_=P.metadata(path,n)
+    if not clean(source,licence):return None
+    digest=hashlib.sha256(path.read_bytes()).hexdigest()
+    key=hashlib.sha256((str(path)+digest+source+licence).encode()).hexdigest()
+    dest=WORK/'proofs'/f'{key}.json';dest.parent.mkdir(exist_ok=True)
+    if dest.exists():proof=json.loads(dest.read_text())
+    else:
+        proof=P.trace(path,n)
+        proof.update(snapshot_sha256=digest,source=source,licence=licence)
+        dest.write_text(json.dumps(proof,separators=(',',':')))
+    if not proof.get('ok') or not proof_ok(proof):return None
+    # Compact module metadata names the immutable full proof. Avoid recursive
+    # source copies in queues while retaining the original credits once.
+    try:short,notice=pin(source,licence)
+    except ValueError:return None
+    return dict(n=n,source=f'{path} immutable sha256 {digest}; ancestry proof {dest}; '+short,licence=notice,proof=str(dest))
+
+def control():
+    assert clean('twoshort_corner.py: staircase corner (own construction)','our own')
+    assert not clean('held: seed merged0','our own')
+    assert not clean('join from take-border-r24/735.csv','CC0; Samanyu ancestry: none')
+    assert not clean('held: n = 504 of Samanyu-dev/squares_in_squares','MIT')
+    assert not clean('penguin069/squares-joegun-boxed-certified-union','Apache 2.0')
+    assert not clean('prvsiyan/squares-verified-best-of-1105','CC BY-SA 4.0')
+    assert not clean('Samanyu seed ancestry: yes, seed n=365','our own')
+    assert not proof_ok(dict(ok=True,parent=dict(source='Samanyu-dev/squares_in_squares',licence='no licence')))
+    print('CONTROL source gate accepted independent construction; rejected merged0, seed504, seed365, forbidden public roots and nested forbidden parent',flush=True)
+
+@functools.lru_cache(None)
+def pinned_clean(path):
+    p=Path(path)
+    if not p.is_file():return False
+    raw=p.read_bytes()
+    if hashlib.sha256(raw).hexdigest()!=p.stem:return False
+    value=json.loads(raw)
+    return clean(value['source'],value['licence'])
+
+def pin(source,licence):
+    """Keep the full immutable record once, with bounded queue notices."""
+    raw=json.dumps(dict(source=source,licence=licence),sort_keys=True,separators=(',',':')).encode()
+    digest=hashlib.sha256(raw).hexdigest();folder=WORK/'ancestry';folder.mkdir(exist_ok=True)
+    p=folder/(digest+'.json')
+    if not p.exists():p.write_bytes(raw)
+    # Exact notice clauses are deduplicated. Their complete order remains in p.
+    notice='; '.join(sorted({v.strip() for v in licence.split(';') if v.strip()}))
+    short=f'stair-c proof {p} immutable sha256 {digest}; results/round23-best-2026-11-13.tsv'
+    upstream=upstream_notices(source,licence)
+    if upstream:
+        actual=' | '.join(upstream);short+='; Upstream per-n records: '+actual;notice+='; Upstream per-n records: '+actual
+    return short,notice
+
+
+# Other lanes also retain full source trees by reference. Inspect those files,
+# rather than treating a short licensed wrapper as the complete source tree.
+PROOF_PATH=re.compile(r'($DATA/[^\s,;<>"\\]+/(?:ancestry|provenance|proofs)/[^\s,;<>"\\]+\.json)')
+PROOF_KEYWORD=re.compile(r'(?:pinned\s+ancestry|source_record|source_proof|ancestry_file|ancestry_proof|proof_file|ancestry proof)[\s:=]*'+r'($DATA/[^\s,;<>"\\]+\.json)',re.I)
+ACTIVE_PROOFS=set()
+@functools.lru_cache(maxsize=4096)
+def foreign_proof_clean(path,mtime,size):
+    if path in ACTIVE_PROOFS:return False
+    ACTIVE_PROOFS.add(path)
+    try:
+        p=Path(path);value=json.loads(p.read_text())
+        return proof_ok(value) and has_source_record(value)
+    except (OSError,ValueError,RecursionError):return False
+    finally:ACTIVE_PROOFS.remove(path)
+
+def has_source_record(value):
+    if isinstance(value,dict):
+        if isinstance(value.get('source',value.get('src')),str) and value.get('source',value.get('src')) and value.get('licence'):return True
+        return any(has_source_record(v) for v in value.values())
+    if isinstance(value,list):return any(has_source_record(v) for v in value)
+    return False
+
+def deep_references_clean(text):
+    paths=set(PROOF_PATH.findall(text))|set(PROOF_KEYWORD.findall(text))
+    for path in paths:
+        p=Path(path)
+        try:st=p.stat()
+        except OSError:return False
+        if not foreign_proof_clean(path,st.st_mtime_ns,st.st_size):return False
+    return True
+
+
+UPSTREAM_NOTICE=re.compile(r'areebbb/sis-certified-union-micro-shrink-lb-22-17479\s*::\s*per_n\.csv,\s*donor n\s*=\s*(\d+),\s*src=([^;<>]+);\s*upstream ([^;<>]+);\s*both public notebooks Apache 2\.0')
+@functools.lru_cache(None)
+def upstream_rows():
+    path=ROOT/'take-harvest-r22/work/public/data/nb/areebbb__sis-certified-union-micro-shrink-lb-22-17479/per_n.csv'
+    return {int(r['n']):r for r in csv.DictReader(open(path))}
+
+@functools.lru_cache(maxsize=8192)
+def upstream_notices(source,licence):
+    pending=[source,licence];seen=set();notices=set();has_public=False
+    while pending:
+        text=pending.pop();has_public=has_public or 'areebbb/sis-certified-union-micro-shrink' in text
+        for m in UPSTREAM_NOTICE.finditer(text):
+            n=int(m[1]);row=upstream_rows().get(n)
+            if not row or row['src']!=m[2].strip() or not row['src'].startswith('notebooks/'):raise ValueError('per-n upstream notice mismatch')
+            notices.add(m[0])
+        for path in set(PROOF_PATH.findall(text))|set(PROOF_KEYWORD.findall(text)):
+            if path in seen:continue
+            seen.add(path)
+            try:value=json.loads(Path(path).read_text())
+            except (OSError,ValueError):raise ValueError('missing full public source record')
+            def visit(v):
+                if isinstance(v,dict):
+                    row=v.get('per_n_row')
+                    if isinstance(row,dict) and v.get('licence'):
+                        n=int(row['n']);actual=upstream_rows().get(n)
+                        if not actual or actual['src']!=row.get('src'):raise ValueError('retained per-n row mismatch')
+                        notices.add('areebbb/sis-certified-union-micro-shrink-lb-22-17479 :: per_n.csv, donor n='+str(n)+', record='+json.dumps(actual,sort_keys=True)+'; upstream '+str(v.get('source',''))+'; terms '+str(v['licence']))
+                    for k,x in v.items():
+                        if isinstance(x,str) and k in {'source_record','source_proof','ancestry_file','ancestry_proof','proof_file'}:pending.append(k+' '+x)
+                        visit(x)
+                elif isinstance(v,list):
+                    for x in v:visit(x)
+                elif isinstance(v,str):pending.append(v)
+            visit(value)
+    if has_public and not notices:raise ValueError('areebbb source lacks verified per-n credit')
+    return tuple(sorted(notices))
+
+if __name__=='__main__':control()

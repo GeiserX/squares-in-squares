@@ -1,0 +1,48 @@
+kind	m	k	h	f	count	gain	ok	note
+control rigid	20	1		0.535533905933	401	1	yes	a = b = 5, our held 401
+control rigid	25	1		0.520815280171	626	1	yes	a = b = 17, our held 626
+control plain slot	43	1	15	0.5	1850	1	yes	Kearney-Shiu Fig. 6: 36 columns of 16, trapezia 35 + 35
+control plain slot	43	1	15	0.488780884763	1850	1	yes	smallest f of the plain slot (paper: 0.4888)
+control plain slot	42	1	15	0.507039176176	1765	1	yes	smallest f of the plain slot at m = 42
+control s(1765)	42	1	15	0.487978511860	1765	1	yes	published design counted exactly; splits 4 and 37 found free
+control s(1765)	42	1	15	0.487977511860	1732	-32	no	the same at f - 1e-6: the count must drop
+control transplant	42	1	15	0.488073730469	1765	1	yes	s(1765) ends without the 0.148 slide of the last column, x1 and N re-placed
+control search	42	1	15	0.4885	1764	0	no	first structured search (grid 0.01, top 3 per end): missed it
+control search	42	1	15	0.49	1765	1	yes	structured search from scratch (near/far ends, grid 0.01, neighbour union): left 12, 13, 15; right one 15 slid by 1
+control search refine	42	1	15	0.489194546938	1765	1	yes	smallest f of the found design (published 0.487979, plain 0.507039)
+plain slot best	31		8	0.5205	961	0		best over h of the plain slot (rows in trapezia)
+plain slot best	31		14	0.5352	962	1		best over h of the plain slot (rows in trapezia)
+plain slot best	30		8	0.5205	900	0		best over h of the plain slot (rows in trapezia)
+plain slot best	29		8	0.5205	840	-1		best over h of the plain slot (rows in trapezia)
+plain slot best	28		8	0.5205	783	-1		best over h of the plain slot (rows in trapezia)
+plain slot best	25		8	0.5205	624	-1		best over h of the plain slot (rows in trapezia)
+plain slot best	24		8	0.5352	575	-1		best over h of the plain slot (rows in trapezia)
+plain slot best	20		8	0.5352	399	-1		best over h of the plain slot (rows in trapezia)
+plain slot best	20		7	0.5712	400	0		best over h of the plain slot (rows in trapezia)
+plain slot best	21		7	0.5712	441	0		best over h of the plain slot (rows in trapezia)
+plain slot best	22		7	0.5712	484	0		best over h of the plain slot (rows in trapezia)
+plain slot best	23		7	0.5622	529	0		best over h of the plain slot (rows in trapezia)
+plain slot best	24		7	0.5622	576	0		best over h of the plain slot (rows in trapezia)
+slot search	31		14	0.5352	962	1		N 24, short columns up to 4, ends [11, 12, 14] ... [15, 15, 15], slides of last three [0.0, 0.0, 0.0], boxAa.jsonl
+slot search	31		11	0.5205	960	-1		N 25, short columns up to 4, ends [10, 12, 12] ... [12, 12, 12], slides of last three [0.0, 0.0, 0.0], boxAa.jsonl
+slot search	31		14	0.5205	961	0		N 23, short columns up to 4, ends [11, 12, 14] ... [15, 14, 13], slides of last three [0.0, 1.0, 2.0], boxAb.jsonl
+slot search	31		12	0.5205	960	-1		N 25, short columns up to 4, ends [9, 10, 12] ... [12, 11, 10], slides of last three [1.0, 2.0, 3.0], boxAb.jsonl
+slot search	31		8	0.5205	961	0		N 24, short columns up to 6, ends [8, 9, 9] ... [9, 9, 9], slides of last three [0.0, 0.0, 0.0], boxAc.jsonl
+slot search	31		10	0.5205	959	-2		N 27, short columns up to 4, ends [7, 8, 10] ... [11, 11, 10], slides of last three [0.0, 0.0, 1.0], m31a.jsonl
+slot search	31		15	0.5205	960	-1		N 25, short columns up to 4, ends [13, 15, 16] ... [16, 16, 16], slides of last three [0.0, 0.0, 0.0], m31a.jsonl
+slot search	31		8	0.5205	961	0		N 24, short columns up to 4, ends [8, 9, 9] ... [9, 9, 9], slides of last three [0.0, 0.0, 0.0], m31a.jsonl
+slot search	31		9	0.5205	960	-1		N 26, short columns up to 4, ends [7, 8, 9] ... [10, 10, 10], slides of last three [0.0, 0.0, 0.0], m31c.jsonl
+slot search	31		13	0.5205	959	-2		N 27, short columns up to 4, ends [10, 13, 14] ... [13, 11, 10], slides of last three [1.0, 3.0, 4.0], m31c.jsonl
+slot search	31		14	0.5205	961	0		N 23, short columns up to 6, ends [11, 12, 14] ... [15, 14, 13], slides of last three [0.0, 1.0, 2.0], m31d.jsonl
+slot search	31		14	0.5352	962	1		N 24, short columns up to 6, ends [11, 12, 14] ... [15, 15, 15], slides of last three [0.0, 0.0, 0.0], m31e.jsonl
+transplant s(1765) ends	31	1	15	0.5205	960	-1	no	ends 12, 13, 15 near and 15, 14, 13 slid to the far line
+transplant s(1765) ends	31	1	14	0.5205	959	-2	no	ends 12, 13, 15 near and 15, 14, 13 slid to the far line
+transplant s(1765) ends	31	1	12	0.5205	960	-1	no	ends 12, 13, 15 near and 15, 14, 13 slid to the far line
+transplant s(1765) ends	31	1	11	0.5205	960	-1	no	ends 12, 13, 15 near and 15, 14, 13 slid to the far line
+transplant s(1765) ends	31	1	10	0.5205	959	-2	no	ends 12, 13, 15 near and 15, 14, 13 slid to the far line
+transplant s(1765) ends	31	1	9	0.5205	960	-1	no	ends 12, 13, 15 near and 15, 14, 13 slid to the far line
+transplant s(1765) ends	31	1	8	0.5205	959	-2	no	ends 12, 13, 15 near and 15, 14, 13 slid to the far line
+transplant s(1765) ends	31	2	15	0.5352	960	-1	no	ends 12, 13, 15 near and 15, 14, 13 slid to the far line
+transplant s(1765) ends	31	2	14	0.5352	960	-1	no	ends 12, 13, 15 near and 15, 14, 13 slid to the far line
+transplant s(1765) ends	31	2	12	0.5352	960	-1	no	ends 12, 13, 15 near and 15, 14, 13 slid to the far line
+transplant s(1765) ends	31	2	10	0.5352	960	-1	no	ends 12, 13, 15 near and 15, 14, 13 slid to the far line

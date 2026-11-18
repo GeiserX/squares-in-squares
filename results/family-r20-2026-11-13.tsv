@@ -1,0 +1,297 @@
+part	box	target	donor	source_lane	direction	step	after_step	after_slp	after_squeeze	bar	delta_vs_bar	certified	state
+follow loop: walk from a new design	boxC	452	497-fon20	forensics-r20 near/	down	1	21.780552290	21.779551281	21.779551281	21.763243564	1.631e-02	no	ok
+follow loop: walk from a new design	boxD	502	549-m20	modules-r20	down	1	22.890144908	22.879485286	22.879483671	22.877574315	1.909e-03	no	ok
+follow loop: walk from a new design	boxD	502	549-mm20	midm-r20	down	1	nan	nan	nan	22.877574315		no	refused: the nearest full grid line is 3.4 from the cut
+follow loop: walk from a new design	boxC	507	554-mm20	midm-r20	down	1	22.972078543	22.963101823	22.963101823	22.960284459	2.817e-03	no	ok
+follow loop: walk from a new design	boxC	507	554-mm20a	midm-r20	down	1	22.971213236	22.962995163	22.962995163	22.960284459	2.711e-03	no	ok
+follow loop: walk from a new design	boxC	532	581-fon20	forensics-r20 near/	down	1	nan	nan	nan	23.562384621		no	refused: the nearest full grid line is 5.9 from the cut
+follow loop: walk from a new design	boxC	544	497-fon20	forensics-r20 near/	up	1	23.903567799	23.803938022	23.803634249	23.799033591	4.601e-03	no	ok
+follow loop: walk from a new design	boxC	549	598-c20	corners-r20	down	1	23.900450067	23.890291526	23.890288153	23.890943161	-6.550e-04	no (under 1e-10)	below held
+follow loop: walk from a new design	boxD	552	601-c20	corners-r20	down	1	nan	nan	nan	23.939867893		no	refused: arm 2: no border square beside the cut
+follow loop: walk from a new design	boxD	552	601-c20a	corners-r20	down	1	nan	nan	nan	23.939867893		no	refused: arm 2: no border square beside the cut
+follow loop: walk from a new design	boxC	552	601-mm20	midm-r20	down	1	23.951066246	23.941913327	23.941913327	23.939867893	2.045e-03	no	ok
+follow loop: walk from a new design	boxC	552	601-mm20a	midm-r20	down	1	23.951056042	23.941746490	23.941746270	23.939867893	1.878e-03	no	ok
+follow loop: walk from a new design	boxC	552	601-p20	polish-r20	down	1	23.951056027	23.941747464	23.941746276	23.939867893	1.878e-03	no	ok
+follow loop: walk from a new design	boxD	593	644-fon20	forensics-r20 near/	down	1	24.847630348	24.837426620	24.837426620	24.826202915	1.122e-02	no	ok
+follow loop: walk from a new design	boxD	597	648-cn20	corners-r20 near/	down	1	24.903547600	24.894240914	24.894240185	24.893854241	3.859e-04	no	ok
+follow loop: walk from a new design	boxC	598	549-m20	modules-r20	up	1	24.947634087	24.900450361	24.900450356	24.900450067	2.890e-07	no	ok
+follow loop: walk from a new design	boxC	598	549-mm20	midm-r20	up	1	nan	nan	nan	24.900450067		no	refused: the nearest full grid line is 3.4 from the cut
+follow loop: walk from a new design	boxC	598	649-m20	modules-r20	down	1	24.910304093	24.901012657	24.901012653	24.900450067	5.626e-04	no	ok
+follow loop: walk from a new design	boxD	603	554-mm20	midm-r20	up	1	25.039057058	24.989530626	24.989530621	24.983697770	5.833e-03	no	ok
+follow loop: walk from a new design	boxC	603	554-mm20a	midm-r20	up	1	25.038622207	24.989530626	24.989530621	24.983697770	5.833e-03	no	ok
+follow loop: walk from a new design	boxC	632	581-fon20	forensics-r20 near/	up	1	nan	nan	nan	25.638916068		no	refused: the nearest full grid line is 5.9 from the cut
+follow loop: walk from a new design	boxC	644	697-fon20	forensics-r20 near/	down	1	25.860400738	25.851986707	25.851986707	25.846247578	5.739e-03	no	ok
+follow loop: walk from a new design	boxC	647	700-c20	corners-r20	down	1	25.897234408	25.888786750	25.888786750	25.886322395	2.464e-03	no	ok
+follow loop: walk from a new design	boxD	647	700-p20	polish-r20	down	1	25.897234381	25.888786433	25.888786433	25.886322395	2.464e-03	no	ok
+follow loop: walk from a new design	boxD	649	598-c20	corners-r20	up	1	25.955920032	25.910641159	25.910638980	25.910496400	1.426e-04	no	ok
+follow loop: walk from a new design	boxC	650	703-c20	corners-r20	down	1	25.941702257	25.936537461	25.936537461	25.932813790	3.724e-03	no	ok
+follow loop: walk from a new design	boxC	652	601-c20	corners-r20	up	1	nan	nan	nan	25.960793179		no	refused: arm 2: no border square beside the cut
+follow loop: walk from a new design	boxC	652	601-c20a	corners-r20	up	1	nan	nan	nan	25.960793179		no	refused: arm 2: no border square beside the cut
+follow loop: walk from a new design	boxD	652	601-mm20	midm-r20	up	1	25.996184630	25.964699441	25.963500109	25.960793179	2.707e-03	no	ok
+follow loop: walk from a new design	boxC	652	601-mm20a	midm-r20	up	1	25.996743549	25.964672112	25.963499983	25.960793179	2.707e-03	no	ok
+follow loop: walk from a new design	boxD	652	601-p20	polish-r20	up	1	25.996744415	25.964769480	25.963499868	25.960793179	2.707e-03	no	ok
+follow loop: walk from a new design	boxC	652	705-h20	round 18 file, by family	down	1	25.970685045	25.964905378	25.964905378	25.960793179	4.112e-03	no	ok
+follow loop: walk from a new design	boxC	697	644-fon20	forensics-r20 near/	up	1	26.930586877	26.860498976	26.860413648	26.860374742	3.891e-05	no	ok
+follow loop: walk from a new design	boxD	699	754-c20	corners-r20	down	1	26.900113404	26.892316465	26.892316465	26.889968238	2.348e-03	no	ok
+follow loop: walk from a new design	boxC	701	648-cn20	corners-r20 near/	up	1	26.958658816	26.912789352	26.912378263	26.912526256	-1.480e-04	yes	below held
+follow loop: walk from a new design	boxC	702	649-m20	modules-r20	up	1	26.963370184	26.924471294	26.922563669	26.920341707	2.222e-03	no	ok
+follow loop: walk from a new design	boxD	736	793-f20	family-r20 (own results)	down	1	27.672756639	27.654350872	27.654350872	27.637029403	1.732e-02	no	ok
+follow loop: walk from a new design	boxC	736	793-p20	polish-r20	down	1	27.672756159	27.654351150	27.654351150	27.637029403	1.732e-02	no	ok
+follow loop: walk from a new design	boxD	736	793-tsn20	twoshort-r20 near/	down	1	27.672808496	27.645693463	27.645693463	27.637029403	8.664e-03	no	ok
+follow loop: walk from a new design	boxC	736	793-tsn20a	twoshort-r20 near/	down	1	27.672769876	27.645488934	27.645488934	27.637029403	8.460e-03	no	ok
+follow loop: walk from a new design	boxC	736	852-tsn19	twoshort-r19 near/	down	2	27.672756638	27.654356280	27.654356280	27.637029403	1.733e-02	no	ok
+follow loop: walk from a new design	boxC	737	794-f20	family-r20 (own results)	down	1	27.683979933	27.665719628	27.665719628	27.638891817	2.683e-02	no	ok
+follow loop: walk from a new design	boxC	737	794-ts20	twoshort-r20	down	1	27.683970926	27.665719628	27.665719628	27.638891817	2.683e-02	no	ok
+follow loop: walk from a new design	boxC	737	853-f19	family-r19 (own results of round 19)	down	2	27.683979932	27.665719628	27.665719628	27.638891817	2.683e-02	no	ok
+follow loop: walk from a new design	boxC	746	803-cf20	classfill-r20	down	1	27.814488891	27.802271038	27.802271038	27.793922782	8.348e-03	no	ok
+follow loop: walk from a new design	boxD	746	803-f20	family-r20 (own results)	down	1	27.813499076	27.801385570	27.801385570	27.793922782	7.463e-03	no	ok
+follow loop: walk from a new design	boxC	746	803-iv20	invent-r20	down	1	27.814543968	27.802373811	27.802373811	27.793922782	8.451e-03	no	ok
+follow loop: walk from a new design	boxC	746	862-m20	modules-r20	down	2	27.813499075	27.801384933	27.801384933	27.793922782	7.462e-03	no	ok
+follow loop: walk from a new design	boxC	752	697-fon20	forensics-r20 near/	up	1	27.941489949	27.880269760	27.880269746	27.880269747	-1.000e-09	no (under 1e-10)	below held
+follow loop: walk from a new design	boxC	753	810-cf20	classfill-r20	down	1	27.902453717	27.894218796	27.894218796	27.889968238	4.251e-03	no	ok
+follow loop: walk from a new design	boxD	753	810-iv20	invent-r20	down	1	27.902449576	27.894218797	27.894218797	27.889968238	4.251e-03	no	ok
+follow loop: walk from a new design	boxD	753	810-m20	modules-r20	down	1	27.902453753	27.894218796	27.894218796	27.889968238	4.251e-03	no	ok
+follow loop: walk from a new design	boxC	753	810-p20	polish-r20	down	1	27.902453734	27.894218801	27.894218801	27.889968238	4.251e-03	no	ok
+follow loop: walk from a new design	boxC	753	810-p20a	polish-r20	down	1	nan	nan	nan	27.889968238		no	refused: arm 1: no border square beside the cut
+follow loop: walk from a new design	boxC	753	810-rd20	readers-r20	down	1	nan	nan	nan	27.889968238		no	refused: arm 2: no border square beside the cut
+follow loop: walk from a new design	boxC	753	810-rd20a	readers-r20	down	1	nan	nan	nan	27.889968238		no	refused: arm 1: no border square beside the cut
+follow loop: walk from a new design	boxC	753	810-rdn20	readers-r20 near/	down	1	nan	nan	nan	27.889968238		no	refused: arm 2: no border square beside the cut
+follow loop: walk from a new design	boxC	753	810-sc20	stair-c-r20	down	1	nan	nan	nan	27.889968238		no	refused: arm 2: no border square beside the cut
+follow loop: walk from a new design	boxC	753	810-scn20	stair-c-r20 near/	down	1	nan	nan	nan	27.889968238		no	refused: arm 2: no border square beside the cut
+follow loop: walk from a new design	boxC	753	810-scn20a	stair-c-r20 near/	down	1	nan	nan	nan	27.889968238		no	refused: arm 1: no border square beside the cut
+follow loop: walk from a new design	boxD	753	810-scn20b	stair-c-r20 near/	down	1	nan	nan	nan	27.889968238		no	refused: arm 2: no border square beside the cut
+follow loop: walk from a new design	boxC	754	811-cfn19	classfill-r19 near/	down	1	nan	nan	nan	27.900233520		no	refused: the nearest full grid line is 5.4 from the cut
+follow loop: walk from a new design	boxC	754	811-f20	family-r20 (own results)	down	1	nan	nan	nan	27.900233520		no	refused: the nearest full grid line is 5.4 from the cut
+follow loop: walk from a new design	boxD	754	811-f20a	family-r20 (own results)	down	1	nan	nan	nan	27.900233520		no	refused: the nearest full grid line is 5.4 from the cut
+follow loop: walk from a new design	boxC	754	811-f20b	family-r20 (own results)	down	1	nan	nan	nan	27.900113400		no	refused: the nearest full grid line is 3.3 from the cut
+follow loop: walk from a new design	boxD	754	811-p20	polish-r20	down	1	nan	nan	nan	27.900233520		no	refused: the nearest full grid line is 5.4 from the cut
+follow loop: walk from a new design	boxD	754	811-p20a	polish-r20	down	1	nan	nan	nan	27.900113404		no	refused: the nearest full grid line is 3.3 from the cut
+follow loop: walk from a new design	boxC	754	811-p20b	polish-r20	down	1	nan	nan	nan	27.900113404		no	refused: the nearest full grid line is 3.3 from the cut
+follow loop: walk from a new design	boxC	754	811-sc20	stair-c-r20	down	1	nan	nan	nan	27.900113404		no	refused: the nearest full grid line is 6.5 from the cut
+follow loop: walk from a new design	boxD	754	811-scn20	stair-c-r20 near/	down	1	nan	nan	nan	27.900113404		no	refused: arm 1: no border square beside the cut
+follow loop: walk from a new design	boxC	754	811-scn20a	stair-c-r20 near/	down	1	nan	nan	nan	27.900113404		no	refused: the nearest full grid line is 3.3 from the cut
+follow loop: walk from a new design	boxC	754	870-rdn19	readers-r19 near/	down	2	nan	nan	nan	27.900233520		no	refused: the nearest full grid line is 5.4 from the cut
+follow loop: walk from a new design	boxD	755	700-c20	corners-r20	up	1	27.953200430	27.908602768	27.908574922	27.907888414	6.865e-04	no	ok
+follow loop: walk from a new design	boxC	755	700-p20	polish-r20	up	1	27.953200409	27.908597620	27.908594652	27.907888414	7.062e-04	no	ok
+follow loop: walk from a new design	boxC	758	703-c20	corners-r20	up	1	27.979086689	27.969307204	27.962401175	27.954879607	7.522e-03	no	ok
+follow loop: walk from a new design	boxC	760	705-h20	round 18 file, by family	up	1	28.020938616	27.976209809	27.976209804	27.976209805	-1.000e-09	no (floatsafe)	below held
+follow loop: walk from a new design	boxC	792	851-b20	border-r20	down	1	28.677201357	28.660081514	28.660081514	28.637029403	2.305e-02	no	ok
+follow loop: walk from a new design	boxD	792	851-h20	round 18 file, by family	down	1	28.678989551	28.664875657	28.664875657	28.637029403	2.785e-02	no	ok
+follow loop: walk from a new design	boxC	792	851-tsn19	twoshort-r19 near/	down	1	28.679513820	28.661130834	28.661130834	28.637029403	2.410e-02	no	ok
+follow loop: walk from a new design	boxC	792	851-tsn20	twoshort-r20 near/	down	1	28.679293791	28.662640911	28.662640911	28.637029403	2.561e-02	no	ok
+follow loop: walk from a new design	boxD	793	852-ts20	twoshort-r20	down	1	28.689147723	28.675061552	28.675061552	28.672756159	2.305e-03	no	ok
+follow loop: walk from a new design	boxC	793	852-tsn19	twoshort-r19 near/	down	1	28.690130703	28.672862384	28.672756638	28.673443927	-6.873e-04	no (under 1e-10)	below held
+follow loop: walk from a new design	boxC	794	853-f19	family-r19 (own results of round 19)	down	1	28.706725707	28.683979938	28.683979932	28.683980312	-3.800e-07	no (under 1e-10)	below held
+follow loop: walk from a new design	boxC	794	853-f20	family-r20 (own results)	down	1	28.706725608	28.683980699	28.683980692	28.683980312	3.800e-07	no	ok
+follow loop: walk from a new design	boxC	794	853-tsn20	twoshort-r20 near/	down	1	28.707049673	28.686792930	28.686792930	28.683980312	2.813e-03	no	ok
+follow loop: walk from a new design	boxC	794	853-tsn20a	twoshort-r20 near/	down	1	28.706727541	28.687876822	28.687876822	28.683970926	3.906e-03	no	ok
+follow loop: walk from a new design	boxC	800	859-h20	round 18 file, by family	down	1	28.788309552	28.777084388	28.777084388	28.773929716	3.155e-03	no	ok
+follow loop: walk from a new design	boxD	803	862-f19	family-r19 (own results of round 19)	down	1	28.826703368	28.814642715	28.814642696	28.814544149	9.855e-05	no	ok
+follow loop: walk from a new design	boxC	803	862-f19a	family-r19	down	1	28.826703272	28.814642686	28.814642678	28.814544149	9.853e-05	no	ok
+follow loop: walk from a new design	boxC	803	862-m20	modules-r20	down	1	28.825745981	28.813511265	28.813499075	28.814488891	-9.898e-04	yes	below held
+follow loop: walk from a new design	boxC	809	697-fon20	forensics-r20 near/	up	2	nan	nan	nan	28.889722770		no	refused: the nearest full grid line is 5.5 from the cut
+follow loop: walk from a new design	boxD	809	868-b20	border-r20	down	1	nan	nan	nan	28.889722770		no	refused: the nearest full grid line is 4.4 from the cut
+follow loop: walk from a new design	boxC	810	869-m20	modules-r20	down	1	nan	nan	nan	28.902449576		no	refused: arm 1: no border square beside the cut
+follow loop: walk from a new design	boxC	810	869-m20a	modules-r20	down	1	nan	nan	nan	28.902449576		no	refused: arm 1: no border square beside the cut
+follow loop: walk from a new design	boxC	810	869-p20	polish-r20	down	1	nan	nan	nan	28.902449576		no	refused: arm 1: no border square beside the cut
+follow loop: walk from a new design	boxD	810	869-p20a	polish-r20	down	1	nan	nan	nan	28.900291770		no	refused: arm 1: no border square beside the cut
+follow loop: walk from a new design	boxD	810	869-rdn20	readers-r20 near/	down	1	nan	nan	nan	28.901928328		no	refused: arm 1: no border square beside the cut
+follow loop: walk from a new design	boxC	810	869-sc20	stair-c-r20	down	1	28.910928680	28.903912659	28.903842339	28.902453734	1.389e-03	no	ok
+follow loop: walk from a new design	boxC	810	869-sc20a	stair-c-r20	down	1	nan	nan	nan	28.901879277		no	refused: arm 1: no border square beside the cut
+follow loop: walk from a new design	boxC	810	869-scn20	stair-c-r20 near/	down	1	nan	nan	nan	28.902453734		no	refused: arm 2: no border square beside the cut
+follow loop: walk from a new design	boxC	811	754-c20	corners-r20	up	1	28.955455228	28.910711509	28.910709519	28.909785332	9.242e-04	no	ok
+follow loop: walk from a new design	boxD	811	870-cf20	classfill-r20	down	1	28.916956559	28.909955309	28.909951987	28.909785332	1.667e-04	no	ok
+follow loop: walk from a new design	boxD	811	870-cfn19	classfill-r19 near/	down	1	28.917729506	28.909802821	28.909787562	28.909785332	2.230e-06	no	ok
+follow loop: walk from a new design	boxD	811	870-cn20	corners-r20 near/	down	1	28.917003806	28.909960063	28.909959986	28.909785332	1.747e-04	no	ok
+follow loop: walk from a new design	boxC	811	870-rdn19	readers-r19 near/	down	1	28.917645502	28.909788634	28.909780835	28.909785332	-4.497e-06	no (under 1e-10)	below held
+follow loop: walk from a new design	boxC	811	870-scn20	stair-c-r20 near/	down	1	28.917726337	28.909808040	28.909797063	28.909778805	1.826e-05	no	ok
+follow loop: walk from a new design	boxC	811	870-scn20a	stair-c-r20 near/	down	1	nan	nan	nan	28.909778805		no	refused: the nearest full grid line is 3.3 from the cut
+follow loop: walk from a new design	boxD	811	870-scn20b	stair-c-r20 near/	down	1	nan	nan	nan	28.909778805		no	refused: the nearest full grid line is 3.3 from the cut
+follow loop: walk from a new design	boxC	817	705-h20	round 18 file, by family	up	2	29.024886648	28.996203207	28.991163115	28.987107228	4.056e-03	no	ok
+follow loop: walk from a new design	boxD	851	912-tsn19	twoshort-r19 near/	down	1	29.695136257	29.680518598	29.680518592	29.678989551	1.529e-03	no	ok
+follow loop: walk from a new design	boxC	851	912-tsn20	twoshort-r20 near/	down	1	29.694849588	29.679293797	29.679293791	29.678989551	3.042e-04	no	ok
+follow loop: walk from a new design	boxC	852	793-f20	family-r20 (own results)	up	1	29.758556557	29.690130709	29.690130703	29.690130705	-2.000e-09	no (floatsafe)	below held
+follow loop: walk from a new design	boxD	852	793-p20	polish-r20	up	1	29.758556785	29.690130709	29.690130703	29.690130705	-2.000e-09	no (floatsafe)	below held
+follow loop: walk from a new design	boxC	852	793-tsn20	twoshort-r20 near/	up	1	29.758675542	29.690130709	29.690130703	29.690130705	-2.000e-09	no (under 1e-10)	below held
+follow loop: walk from a new design	boxD	852	793-tsn20a	twoshort-r20 near/	up	1	29.758588253	29.692352865	29.691615300	29.690130705	1.485e-03	no	ok
+follow loop: walk from a new design	boxC	853	794-f19	family-r19 (own results of round 19)	up	1	29.768815278	29.706998039	29.706982356	29.706725707	2.566e-04	no	ok
+follow loop: walk from a new design	boxC	853	794-f20	family-r20 (own results)	up	1	29.768793668	29.706725930	29.706725869	29.706725707	1.620e-07	no	ok
+follow loop: walk from a new design	boxD	853	794-ts20	twoshort-r20	up	1	29.768786261	29.714315130	29.706728351	29.706725707	2.644e-06	no	ok
+follow loop: walk from a new design	boxC	853	914-c20	corners-r20	down	1	29.724353122	29.708481094	29.708481089	29.706725707	1.755e-03	no	ok
+follow loop: walk from a new design	boxD	862	803-cf20	classfill-r20	up	1	29.875900589	29.826725664	29.826725658	29.825745981	9.797e-04	no	ok
+follow loop: walk from a new design	boxC	862	803-f20	family-r20 (own results)	up	1	29.875090908	29.825745986	29.825745980	29.825745981	-1.000e-09	no (under 1e-10)	below held
+follow loop: walk from a new design	boxC	862	803-iv20	invent-r20	up	1	29.875945642	29.826729990	29.826723230	29.826703272	1.996e-05	no	ok
+follow loop: walk from a new design	boxC	869	810-cf20	classfill-r20	up	1	29.958262886	29.920090916	29.920088539	29.910928680	9.160e-03	no	ok
+follow loop: walk from a new design	boxC	869	810-iv20	invent-r20	up	1	29.960541624	29.922662826	29.922649313	29.910928680	1.172e-02	no	ok
+follow loop: walk from a new design	boxC	869	810-m20	modules-r20	up	1	29.959097777	29.922651344	29.922640993	29.911106363	1.153e-02	no	ok
+follow loop: walk from a new design	boxD	869	810-p20	polish-r20	up	1	29.959098327	29.922661961	29.922641047	29.911106363	1.153e-02	no	ok
+follow loop: walk from a new design	boxC	869	810-p20a	polish-r20	up	1	nan	nan	nan	29.909719121		no	refused: arm 1: no border square beside the cut
+follow loop: walk from a new design	boxD	869	810-rd20	readers-r20	up	1	nan	nan	nan	29.909719121		no	refused: arm 2: no border square beside the cut
+follow loop: walk from a new design	boxD	869	810-rd20a	readers-r20	up	1	nan	nan	nan	29.909719121		no	refused: arm 1: no border square beside the cut
+follow loop: walk from a new design	boxC	869	810-rdn20	readers-r20 near/	up	1	nan	nan	nan	29.909719121		no	refused: arm 2: no border square beside the cut
+follow loop: walk from a new design	boxC	869	810-sc20	stair-c-r20	up	1	nan	nan	nan	29.911106363		no	refused: arm 2: no border square beside the cut
+follow loop: walk from a new design	boxD	869	810-scn20	stair-c-r20 near/	up	1	nan	nan	nan	29.909719121		no	refused: arm 2: no border square beside the cut
+follow loop: walk from a new design	boxC	869	810-scn20a	stair-c-r20 near/	up	1	nan	nan	nan	29.909719121		no	refused: arm 1: no border square beside the cut
+follow loop: walk from a new design	boxC	869	810-scn20b	stair-c-r20 near/	up	1	nan	nan	nan	29.909719121		no	refused: arm 2: no border square beside the cut
+follow loop: walk from a new design	boxD	869	930-f20	family-r20 (own results)	down	1	nan	nan	nan	29.911106363		no	refused: arm 2: no border square beside the cut
+follow loop: walk from a new design	boxD	869	930-p20	polish-r20	down	1	nan	nan	nan	29.907755495		no	refused: arm 1: no border square beside the cut
+follow loop: walk from a new design	boxC	869	930-rd20	readers-r20	down	1	nan	nan	nan	29.907755495		no	refused: arm 1: no border square beside the cut
+follow loop: walk from a new design	boxC	869	930-rd20a	readers-r20	down	1	nan	nan	nan	29.907755495		no	refused: arm 1: no border square beside the cut
+follow loop: walk from a new design	boxC	869	930-sc20	stair-c-r20	down	1	nan	nan	nan	29.909719121		no	refused: arm 2: no border square beside the cut
+follow loop: walk from a new design	boxD	869	930-sc20a	stair-c-r20	down	1	nan	nan	nan	29.907755495		no	refused: arm 1: no border square beside the cut
+follow loop: walk from a new design	boxC	869	930-scn20	stair-c-r20 near/	down	1	nan	nan	nan	29.911106363		no	refused: the nearest full grid line is 3.3 from the cut
+follow loop: walk from a new design	boxD	869	930-scn20a	stair-c-r20 near/	down	1	29.917379263	29.910931310	29.910928889	29.909719121	1.210e-03	no	ok
+follow loop: walk from a new design	boxC	869	930-scn20b	stair-c-r20 near/	down	1	29.917351791	29.910925021	29.910901452	29.909719121	1.182e-03	no	ok
+follow loop: walk from a new design	boxD	870	811-cfn19	classfill-r19 near/	up	1	nan	nan	nan	29.916971021		no	refused: the nearest full grid line is 5.4 from the cut
+follow loop: walk from a new design	boxC	870	811-f19b	family-r19 (own results of round 19)	up	1	nan	nan	nan	29.916971021		no	refused: the nearest full grid line is 5.4 from the cut
+follow loop: walk from a new design	boxC	870	811-f20	family-r20 (own results)	up	1	nan	nan	nan	29.916956559		no	refused: the nearest full grid line is 5.4 from the cut
+follow loop: walk from a new design	boxD	870	811-f20a	family-r20 (own results)	up	1	nan	nan	nan	29.916956559		no	refused: the nearest full grid line is 5.4 from the cut
+follow loop: walk from a new design	boxD	870	811-f20b	family-r20 (own results)	up	1	nan	nan	nan	29.916956559		no	refused: the nearest full grid line is 3.3 from the cut
+follow loop: walk from a new design	boxC	870	811-p20	polish-r20	up	1	nan	nan	nan	29.916971021		no	refused: the nearest full grid line is 5.4 from the cut
+follow loop: walk from a new design	boxC	870	811-p20a	polish-r20	up	1	nan	nan	nan	29.916956559		no	refused: the nearest full grid line is 3.3 from the cut
+follow loop: walk from a new design	boxD	870	811-p20b	polish-r20	up	1	nan	nan	nan	29.916956559		no	refused: the nearest full grid line is 3.3 from the cut
+follow loop: walk from a new design	boxD	870	811-sc20	stair-c-r20	up	1	nan	nan	nan	29.916956559		no	refused: the nearest full grid line is 6.5 from the cut
+follow loop: walk from a new design	boxC	870	811-scn20	stair-c-r20 near/	up	1	nan	nan	nan	29.916956559		no	refused: arm 1: no border square beside the cut
+follow loop: walk from a new design	boxD	870	811-scn20a	stair-c-r20 near/	up	1	nan	nan	nan	29.916956559		no	refused: the nearest full grid line is 3.3 from the cut
+follow loop: walk from a new design	boxD	870	931-cfn19	classfill-r19 near/	down	1	29.925551231	29.917775699	29.917775693	29.916971021	8.047e-04	no	ok
+follow loop: walk from a new design	boxD	870	931-scn19a	stair-c-r19 near/	down	1	29.924502146	29.917719452	29.917678758	29.916971021	7.077e-04	no	ok
+follow loop: walk from a new design	boxC	870	931-scn19b	stair-c-r19 near/	down	1	nan	nan	nan	29.916971021		no	refused: the nearest full grid line is 5.4 from the cut
+follow loop: walk from a new design	boxD	870	931-scn20	stair-c-r20 near/	down	1	nan	nan	nan	29.916956559		no	refused: the nearest full grid line is 5.4 from the cut
+follow loop: walk from a new design	boxD	870	931-scn20a	stair-c-r20 near/	down	1	nan	nan	nan	29.916956559		no	refused: the nearest full grid line is 5.4 from the cut
+follow loop: walk from a new design	boxC	870	931-scn20b	stair-c-r20 near/	down	1	nan	nan	nan	29.916956559		no	refused: the nearest full grid line is 5.4 from the cut
+follow loop: walk from a new design	boxC	870	931-scn20c	stair-c-r20 near/	down	1	nan	nan	nan	29.916956559		no	refused: the nearest full grid line is 5.4 from the cut
+follow loop: walk from a new design	boxC	911	974-tsn19	twoshort-r19 near/	down	1	30.697896726	30.682869415	30.682866487	30.682866159	3.280e-07	no	ok
+follow loop: walk from a new design	boxD	912	851-h20	round 18 file, by family	up	1	30.764690024	30.696529819	30.694827566	30.694827568	-2.000e-09	no (under 1e-10)	below held
+follow loop: walk from a new design	boxD	912	851-tsn19	twoshort-r19 near/	up	1	30.765121148	30.695136263	30.695136257	30.694827568	3.087e-04	no	ok
+follow loop: walk from a new design	boxD	912	851-tsn20	twoshort-r20 near/	up	1	30.764940212	30.694849863	30.694849587	30.694827568	2.202e-05	no	ok
+follow loop: walk from a new design	boxC	913	793-f20	family-r20 (own results)	up	2	30.773851117	30.733280489	30.733280489	30.710251303	2.303e-02	no	ok
+follow loop: walk from a new design	boxD	913	793-p20	polish-r20	up	2	30.773851117	30.733279444	30.733279444	30.710251303	2.303e-02	no	ok
+follow loop: walk from a new design	boxC	913	793-tsn20	twoshort-r20 near/	up	2	30.773851117	30.735965654	30.735965654	30.710251303	2.571e-02	no	ok
+follow loop: walk from a new design	boxC	913	852-ts20	twoshort-r20	up	1	30.773042897	30.717739588	30.717707307	30.710251303	7.456e-03	no	ok
+follow loop: walk from a new design	boxC	913	852-tsn19	twoshort-r19 near/	up	1	30.773851117	30.735987455	30.735987455	30.710251303	2.574e-02	no	ok
+follow loop: walk from a new design	boxC	914	853-f20	family-r20 (own results)	up	1	30.787493633	30.736682265	30.736670901	30.724353122	1.232e-02	no	ok
+follow loop: walk from a new design	boxD	914	853-tsn20	twoshort-r20 near/	up	1	30.787760000	30.736482817	30.736467270	30.724353122	1.211e-02	no	ok
+follow loop: walk from a new design	boxD	914	853-tsn20a	twoshort-r20 near/	up	1	30.787495221	30.736324776	30.736320832	30.724353122	1.197e-02	no	time limit
+follow loop: walk from a new design	boxC	915	978-tsn19	twoshort-r19 near/	down	1	30.759928285	30.745024521	30.745024521	30.739964705	5.060e-03	no	ok
+follow loop: walk from a new design	boxD	917	980-p20	polish-r20	down	1	30.783492518	30.770869217	30.770869217	30.761536403	9.333e-03	no	ok
+follow loop: walk from a new design	boxC	917	980-p20a	polish-r20	down	1	30.783492357	30.770857721	30.770857721	30.761536403	9.321e-03	no	ok
+follow loop: walk from a new design	boxD	919	982-p20	polish-r20	down	1	30.801262023	30.790562446	30.790562438	30.790018622	5.438e-04	no	ok
+follow loop: walk from a new design	boxC	920	859-h20	round 18 file, by family	up	1	30.853885070	30.805941164	30.805940821	30.799088348	6.852e-03	no	ok
+follow loop: walk from a new design	boxC	923	803-f20	family-r20 (own results)	up	2	30.885104474	30.846002256	30.846002213	30.837101199	8.901e-03	no	ok
+follow loop: walk from a new design	boxD	923	862-f19a	family-r19	up	1	30.885886759	30.841602782	30.841601000	30.837101199	4.500e-03	no	ok
+follow loop: walk from a new design	boxD	923	862-m20	modules-r20	up	1	30.885104476	30.846002144	30.840430958	30.837101199	3.330e-03	no	ok
+follow loop: walk from a new design	boxC	929	868-b20	border-r20	up	1	nan	nan	nan	30.906856361		no	refused: the nearest full grid line is 4.4 from the cut
+follow loop: walk from a new design	boxD	929	992-scn20	stair-c-r20 near/	down	1	nan	nan	nan	30.906856361		no	refused: arm 1: no border square beside the cut
+follow loop: walk from a new design	boxC	930	869-m20	modules-r20	up	1	nan	nan	nan	30.917455329		no	refused: arm 1: no border square beside the cut
+follow loop: walk from a new design	boxD	930	869-m20a	modules-r20	up	1	nan	nan	nan	30.917455329		no	refused: arm 1: no border square beside the cut
+follow loop: walk from a new design	boxC	930	869-p20	polish-r20	up	1	nan	nan	nan	30.917455329		no	refused: arm 1: no border square beside the cut
+follow loop: walk from a new design	boxC	930	869-p20a	polish-r20	up	1	nan	nan	nan	30.914585196		no	refused: arm 1: no border square beside the cut
+follow loop: walk from a new design	boxC	930	869-rdn20	readers-r20 near/	up	1	nan	nan	nan	30.917455329		no	refused: arm 1: no border square beside the cut
+follow loop: walk from a new design	boxC	930	869-sc20	stair-c-r20	up	1	30.955105001	30.917382462	30.917374308	30.917455329	-8.102e-05	no (under 1e-10)	below held
+follow loop: walk from a new design	boxC	930	869-sc20a	stair-c-r20	up	1	nan	nan	nan	30.914629094		no	refused: arm 1: no border square beside the cut
+follow loop: walk from a new design	boxD	930	869-scn20	stair-c-r20 near/	up	1	nan	nan	nan	30.917455329		no	refused: arm 2: no border square beside the cut
+follow loop: walk from a new design	boxD	930	993-c20	corners-r20	down	1	30.923383857	30.916575391	30.916570286	30.917455329	-8.850e-04	no (under 1e-10)	below held
+follow loop: walk from a new design	boxC	930	993-cf20	classfill-r20	down	1	30.924642799	30.919126688	30.919126162	30.917455329	1.671e-03	no	ok
+follow loop: walk from a new design	boxC	930	993-cf20a	classfill-r20	down	1	30.924640488	30.919137474	30.919126179	30.917455329	1.671e-03	no	ok
+follow loop: walk from a new design	boxD	930	993-cf20b	classfill-r20	down	1	30.923353520	30.916579929	30.916576735	30.917455329	-8.786e-04	no (under 1e-10)	below held
+follow loop: walk from a new design	boxC	930	993-cf20c	classfill-r20	down	1	nan	nan	nan	30.916015850		no	refused: arm 2: no border square beside the cut
+follow loop: walk from a new design	boxC	930	993-cf20d	classfill-r20	down	1	nan	nan	nan	30.914628868		no	refused: the nearest full grid line is 6.4 from the cut
+follow loop: walk from a new design	boxC	930	993-cf20e	classfill-r20	down	1	nan	nan	nan	30.914585196		no	refused: arm 2: no border square beside the cut
+follow loop: walk from a new design	boxC	930	993-rd20	readers-r20	down	1	30.923199392	30.916585033	30.916570371	30.917455329	-8.850e-04	no (under 1e-10)	below held
+follow loop: walk from a new design	boxC	930	993-rd20a	readers-r20	down	1	nan	nan	nan	30.914585196		no	refused: the nearest full grid line is 6.4 from the cut
+follow loop: walk from a new design	boxC	930	993-rdn20	readers-r20 near/	down	1	nan	nan	nan	30.914629094		no	refused: arm 2: no border square beside the cut
+follow loop: walk from a new design	boxC	930	993-sc20	stair-c-r20	down	1	nan	nan	nan	30.917455329		no	refused: arm 2: no border square beside the cut
+follow loop: walk from a new design	boxC	930	993-sc20a	stair-c-r20	down	1	nan	nan	nan	30.914629094		no	refused: the nearest full grid line is 6.4 from the cut
+follow loop: walk from a new design	boxD	930	993-scn19	stair-c-r19 near/	down	1	30.924787069	30.919130228	30.919129494	30.917455329	1.674e-03	no	ok
+follow loop: walk from a new design	boxC	930	993-scn20	stair-c-r20 near/	down	1	30.924324476	30.919138965	30.919126326	30.917455329	1.671e-03	no	ok
+follow loop: walk from a new design	boxD	930	993-scn20a	stair-c-r20 near/	down	1	30.924758910	30.919699635	30.919699635	30.916015850	3.684e-03	no	ok
+follow loop: walk from a new design	boxC	930	993-scn20b	stair-c-r20 near/	down	1	30.924702358	30.919514626	30.919514626	30.916015850	3.499e-03	no	ok
+follow loop: walk from a new design	boxD	931	870-cf20	classfill-r20	up	1	30.960487517	30.924002136	30.924001550	30.923959292	4.226e-05	no	ok
+follow loop: walk from a new design	boxC	931	870-cfn19	classfill-r19 near/	up	1	30.960357271	30.926292046	30.926291598	30.923959292	2.332e-03	no	ok
+follow loop: walk from a new design	boxC	931	870-cn20	corners-r20 near/	up	1	30.960515938	30.924022078	30.924009639	30.923959292	5.035e-05	no	ok
+follow loop: walk from a new design	boxD	931	870-rdn19	readers-r19 near/	up	1	30.960686748	30.927028646	30.927028587	30.923959292	3.069e-03	no	ok
+follow loop: walk from a new design	boxD	931	870-scn20	stair-c-r20 near/	up	1	30.960824051	30.927380984	30.927380978	30.923959292	3.422e-03	no	ok
+follow loop: walk from a new design	boxC	931	870-scn20a	stair-c-r20 near/	up	1	nan	nan	nan	30.923959292		no	refused: the nearest full grid line is 3.3 from the cut
+follow loop: walk from a new design	boxC	931	870-scn20b	stair-c-r20 near/	up	1	nan	nan	nan	30.923959292		no	refused: the nearest full grid line is 3.3 from the cut
+follow loop: walk from a new design	boxD	931	994-scn19a	stair-c-r19 near/	down	1	30.933807025	30.928662879	30.928662879	30.923959292	4.704e-03	no	ok
+follow loop: walk from a new design	boxC	931	994-scn20	stair-c-r20 near/	down	1	30.931759707	30.926035445	30.926035445	30.923959292	2.076e-03	no	ok
+follow loop: walk from a new design	boxC	932	995-c20	corners-r20	down	1	30.945057658	30.938635568	30.938635562	30.937936226	6.993e-04	no	ok
+follow loop: walk from a new design	boxC	932	995-cf20	classfill-r20	down	1	30.944994406	30.938598602	30.938598596	30.937936226	6.624e-04	no	ok
+follow loop: walk from a new design	boxC	933	996-c20	corners-r20	down	1	30.954070764	30.947921619	30.947921619	30.943773310	4.148e-03	no	ok
+follow loop: walk from a new design	boxC	933	996-c20a	corners-r20	down	1	30.953471597	30.947484003	30.947484003	30.943773310	3.711e-03	no	ok
+follow loop: walk from a new design	boxC	933	996-cf20	classfill-r20	down	1	30.953429428	30.947803951	30.947803951	30.943773310	4.031e-03	no	ok
+follow loop: walk from a new design	boxD	933	996-m19	modules-r19	down	1	30.954689602	30.948069263	30.948069263	30.943773310	4.296e-03	no	ok
+follow loop: walk from a new design	boxC	933	996-m20	modules-r20	down	1	30.953330459	30.947714818	30.947714818	30.943773310	3.942e-03	no	ok
+follow loop: walk from a new design	boxC	933	996-m20a	modules-r20	down	1	30.953322994	30.947712819	30.947712819	30.943773310	3.940e-03	no	ok
+follow loop: walk from a new design	boxD	975	851-h20	round 18 file, by family	up	2	31.777545164	31.731857938	31.731854553	31.714095652	1.776e-02	no	ok
+follow loop: walk from a new design	boxC	975	912-tsn19	twoshort-r19 near/	up	1	31.777966561	31.735173227	31.735173227	31.714095652	2.108e-02	no	ok
+follow loop: walk from a new design	boxD	975	912-tsn20	twoshort-r20 near/	up	1	31.777730878	31.735170163	31.735170163	31.714095652	2.107e-02	no	ok
+follow loop: walk from a new design	boxC	977	914-c20	corners-r20	up	1	31.817061902	31.744479816	31.744479810	31.743573465	9.063e-04	no	ok
+follow loop: walk from a new design	boxC	993	869-sc20	stair-c-r20	up	2	31.960320436	31.926050094	31.926049598	31.923383857	2.666e-03	no	ok
+follow loop: walk from a new design	boxC	993	930-f20	family-r20 (own results)	up	1	nan	nan	nan	31.923383857		no	refused: arm 2: no border square beside the cut
+follow loop: walk from a new design	boxC	993	930-p20	polish-r20	up	1	nan	nan	nan	31.921085045		no	refused: arm 1: no border square beside the cut
+follow loop: walk from a new design	boxD	993	930-rd20	readers-r20	up	1	nan	nan	nan	31.921085045		no	refused: arm 1: no border square beside the cut
+follow loop: walk from a new design	boxD	993	930-rd20a	readers-r20	up	1	nan	nan	nan	31.921074198		no	refused: arm 1: no border square beside the cut
+follow loop: walk from a new design	boxD	993	930-sc20	stair-c-r20	up	1	nan	nan	nan	31.922432640		no	refused: arm 2: no border square beside the cut
+follow loop: walk from a new design	boxC	993	930-sc20a	stair-c-r20	up	1	nan	nan	nan	31.921089800		no	refused: arm 1: no border square beside the cut
+follow loop: walk from a new design	boxC	993	930-scn20	stair-c-r20 near/	up	1	nan	nan	nan	31.924640488		no	refused: the nearest full grid line is 3.3 from the cut
+follow loop: walk from a new design	boxC	993	930-scn20a	stair-c-r20 near/	up	1	31.960329256	31.926050094	31.926049524	31.922432041	3.617e-03	no	ok
+follow loop: walk from a new design	boxD	993	930-scn20b	stair-c-r20 near/	up	1	31.960475051	31.926012828	31.926011953	31.922432041	3.580e-03	no	ok
+follow loop: walk from a new design	boxC	994	931-cfn19	classfill-r19 near/	up	1	31.966133397	31.932763312	31.932663962	31.929838909	2.825e-03	no	ok
+follow loop: walk from a new design	boxC	994	931-scn19a	stair-c-r19 near/	up	1	31.966591398	31.933420993	31.932152208	31.929838909	2.313e-03	no	ok
+follow loop: walk from a new design	boxD	994	931-scn19b	stair-c-r19 near/	up	1	nan	nan	nan	31.929838909		no	refused: the nearest full grid line is 5.4 from the cut
+follow loop: walk from a new design	boxD	994	931-scn20	stair-c-r20 near/	up	1	nan	nan	nan	31.929838909		no	refused: the nearest full grid line is 5.4 from the cut
+follow loop: walk from a new design	boxC	994	931-scn20a	stair-c-r20 near/	up	1	nan	nan	nan	31.929838909		no	refused: the nearest full grid line is 5.4 from the cut
+follow loop: walk from a new design	boxD	994	931-scn20b	stair-c-r20 near/	up	1	nan	nan	nan	31.929838909		no	refused: the nearest full grid line is 5.4 from the cut
+follow loop: walk from a new design	boxC	994	931-scn20c	stair-c-r20 near/	up	1	nan	nan	nan	31.929838909		no	refused: the nearest full grid line is 5.4 from the cut
+second draw of a near miss (SQ_DRAW=1)	boxC	549	598-c20	corners-r20	down	1	23.900450067	23.890291956	23.890287296	23.890943161	-6.559e-04	no (under 1e-10)	below held
+second draw of a near miss (SQ_DRAW=1)	boxC	598	549-m20	modules-r20	up	1	24.947634087	24.900504643	24.900450356	24.900450067	2.890e-07	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxC	697	644-fon20	forensics-r20 near/	up	1	26.930586877	26.860415993	26.860404096	26.860374742	2.935e-05	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxD	793	852-tsn19	twoshort-r19 near/	down	1	28.690130703	28.672778126	28.672764994	28.672756159	8.835e-06	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxC	794	853-f20	family-r20 (own results)	down	1	28.706725608	28.683979982	28.683979976	28.683980312	-3.360e-07	no (under 1e-10)	below held
+second draw of a near miss (SQ_DRAW=1)	boxD	811	870-rdn19	readers-r19 near/	down	1	28.917645502	28.909789886	28.909780867	28.909778805	2.062e-06	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxC	853	794-f20	family-r20 (own results)	up	1	29.768793668	29.706743439	29.706725784	29.706725707	7.700e-08	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxD	853	794-ts20	twoshort-r20	up	1	29.768786261	29.714386101	29.714007704	29.706725707	7.282e-03	no	ok
+second draw of a near miss (SQ_DRAW=1)	boxC	931	870-f19	family-r19 (own results of round 19)	up	1	30.960496281	30.924012909	30.924001932	30.923959292	4.264e-05	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	549	598-c20	corners-r20	down	1	23.900450067	23.890291066	23.890287500	23.890943161	-6.557e-04	no (under 1e-10)	below held
+second draw of a near miss (SQ_DRAW=2)	boxC	598	549-m20	modules-r20	up	1	24.947634087	24.900453472	24.900450113	24.900450067	4.600e-08	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxD	598	549-m20	modules-r20	up	1	24.947634087	24.900453472	24.900450113	24.900450067	4.600e-08	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	697	644-fon20	forensics-r20 near/	up	1	26.930586877	26.860411357	26.860410184	26.860374742	3.544e-05	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	793	852-tsn19	twoshort-r19 near/	down	1	28.690130703	28.672873700	28.672764879	28.672756159	8.720e-06	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxD	794	853-f20	family-r20 (own results)	down	1	28.706725608	28.683980111	28.683980080	28.683970926	9.154e-06	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	811	870-cfn19	classfill-r19 near/	down	1	28.917729506	28.909791605	28.909787551	28.909778465	9.086e-06	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	811	870-rdn19	readers-r19 near/	down	1	28.917645502	28.909785088	28.909777824	28.909778465	-6.410e-07	no (under 1e-10)	below held
+second draw of a near miss (SQ_DRAW=2)	boxC	853	794-f20	family-r20 (own results)	up	1	29.768793668	29.706725533	29.706725527	29.706725707	-1.800e-07	yes	below held
+second draw of a near miss (SQ_DRAW=2)	boxC	911	974-tsn19	twoshort-r19 near/	down	1	30.697896726	30.682869409	30.682866252	30.682866159	9.300e-08	no	ok
+second draw of a near miss (SQ_DRAW=2)	boxC	931	870-f19	family-r19 (own results of round 19)	up	1	30.960496281	30.924008806	30.924001906	30.923959292	4.261e-05	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	549	598-c20	corners-r20	down	1	23.900450067	23.890294067	23.890287948	23.890943161	-6.552e-04	no (under 1e-10)	below held
+second draw of a near miss (SQ_DRAW=3)	boxC	598	549-m20	modules-r20	up	1	24.947634087	24.900469489	24.900450356	24.900450067	2.890e-07	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	697	644-fon20	forensics-r20 near/	up	1	26.930586877	26.860402630	26.860400286	26.860374742	2.554e-05	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxD	794	853-f20	family-r20 (own results)	down	1	28.706725608	28.683979995	28.683979989	28.683970926	9.063e-06	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	811	870-rdn19	readers-r19 near/	down	1	28.917645502	28.909787261	28.909780511	28.909778465	2.046e-06	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	853	794-ts20	twoshort-r20	up	1	29.768786261	29.714065608	29.713979658	29.706725707	7.254e-03	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxC	911	974-tsn19	twoshort-r19 near/	down	1	30.697896726	30.682866377	30.682866229	30.682866159	7.000e-08	no	ok
+second draw of a near miss (SQ_DRAW=3)	boxD	931	870-f19	family-r19 (own results of round 19)	up	1	30.960496281	30.924010838	30.923996395	30.923959292	3.710e-05	no	ok
+second build of a near miss of this round	boxC	549	598-c19	corners-r19	down	1	23.901199609	23.891129535	23.891119507	23.890943161	1.763e-04	no	ok
+second build of a near miss of this round	boxD	598	549-m20	modules-r20	up	1	24.947634087	24.900469489	24.900450670	24.900450067	6.030e-07	no	ok
+second build of a near miss of this round	boxC	649	598-c20	corners-r20	up	1	25.955920032	25.910695394	25.910618337	25.910496400	1.219e-04	no	ok
+second build of a near miss of this round	boxC	697	644-fon20	forensics-r20 near/	up	1	26.930586877	26.860374957	26.860374950	26.860374742	2.080e-07	no	ok
+second build of a near miss of this round	boxC	794	853-f20	family-r20 (own results)	down	1	28.706725608	28.683984803	28.683980004	28.683970926	9.078e-06	no	ok
+second build of a near miss of this round	boxC	803	862-f19	family-r19 (own results of round 19)	down	1	28.826703368	28.814649318	28.814641150	28.814544149	9.700e-05	no	ok
+second build of a near miss of this round	boxC	803	862-f19a	family-r19	down	1	28.826703272	28.814642259	28.814641129	28.814544149	9.698e-05	no	ok
+second build of a near miss of this round	boxD	811	870-cf20	classfill-r20	down	1	28.916956559	28.909952150	28.909951987	28.909780177	1.718e-04	no	ok
+second build of a near miss of this round	boxC	811	870-cfn19	classfill-r19 near/	down	1	28.917729506	28.909795100	28.909787814	28.909785332	2.482e-06	no	ok
+second build of a near miss of this round	boxC	811	870-cn20	corners-r20 near/	down	1	28.917003806	28.910000583	28.909965169	28.909780177	1.850e-04	no	ok
+second build of a near miss of this round	boxC	811	870-scn20	stair-c-r20 near/	down	1	28.917726337	28.909819126	28.909796960	28.909778465	1.850e-05	no	ok
+second build of a near miss of this round	boxD	853	794-f20	family-r20 (own results)	up	1	29.768793668	29.706736887	29.706725607	29.706725707	-1.000e-07	yes	below held
+second build of a near miss of this round	boxD	862	803-iv20	invent-r20	up	1	29.875945642	29.826706046	29.826703004	29.825745981	9.570e-04	no	ok
+second build of a near miss of this round	boxC	863	924-scn19	stair-c-r19 near/	down	1	29.850708905	29.840079432	29.840068318	29.840064853	3.465e-06	no	ok
+second build of a near miss of this round	boxD	870	931-sc19	stair-c-r19	down	1	29.925522553	29.917653626	29.917653488	29.916956559	6.969e-04	no	ok
+second build of a near miss of this round	boxD	911	974-tsn19	twoshort-r19 near/	down	1	30.697896726	30.682869374	30.682866228	30.682866159	6.900e-08	no	ok
+second build of a near miss of this round	boxD	912	851-tsn20	twoshort-r20 near/	up	1	30.764940212	30.694864336	30.694849588	30.694827568	2.202e-05	no	ok
+second build of a near miss of this round	boxC	924	863-sc19a	stair-c-r19	up	1	30.896765446	30.850709540	30.850708906	30.850708906	0.000e+00	no	ok
+second build of a near miss of this round	boxD	924	863-scn19	stair-c-r19 near/	up	1	30.896927696	30.850734233	30.850733232	30.850708906	2.433e-05	no	ok
+second build of a near miss of this round	boxC	931	870-cf20	classfill-r20	up	1	30.960487517	30.924012898	30.924002511	30.923959292	4.322e-05	no	ok
+second build of a near miss of this round	boxC	931	870-cn20	corners-r20 near/	up	1	30.960515938	30.924014584	30.924009639	30.923959292	5.035e-05	no	ok
+second build of a near miss of this round	boxC	931	870-f19	family-r19 (own results of round 19)	up	1	30.960496281	30.923964086	30.923961384	30.923959292	2.092e-06	no	ok
+second build of a near miss of this round	boxC	931	870-sc19a	stair-c-r19	up	1	30.960489903	30.924009137	30.924008670	30.923959292	4.938e-05	no	ok

@@ -1,0 +1,72 @@
+n	run	move	pass	quenched_starts	below_round17_side	best_start	best_side	round17_side	round17_minus_best	at_take_side
+66	ch-c1-66-p1	fault, whole list of bands, n from the scan of the held file	pass 1	10	0	TL3:5_s0.15_easis	8.656854249	8.656854250	3.887e-10	
+150	ch-c1-150-p1	fault, whole list of bands, n from the scan of the held file	pass 1	25	0	BR1:3_s0.15_easis	12.778174593	12.778174594	5.981e-10	
+230	cl-h230	chain move, control: from the kinked 261 with one more tilted square (round 17), two steps		409	0	cu3l	15.682926829	15.682926830	7.307e-10	
+237	ch-c1-237-p1	fault, whole list of bands, n from the scan of the held file	pass 1	4	0	TL11:12_s0.15_easis	15.967301709	15.893805581	-7.350e-02	
+261	ck-g1	chain move, control: from the kinked 261 with one more tilted square (round 17), two steps		257	0	cu5h	16.682926829	16.678779876	-4.147e-03	
+261	ck-g3	chain move, control: from the kinked 261 with one more tilted square (round 17), two steps		259	0	cu2l	16.682926829	16.678779876	-4.147e-03	
+261	ck-g4	chain move, control: from the kinked 261 with one more tilted square (round 17), two steps		263	0	cu1l	16.682926829	16.678779876	-4.147e-03	
+261	cl-g2	chain move, control: from the kinked 261 with one more tilted square (round 17), two steps		262	0	cu6h	16.682926829	16.678779876	-4.147e-03	
+261	cl-heldt	chain move (one line of tilted squares moved one square along), from the held layout, as it is and with the staircases built again, two steps		228	0	cu2l	16.678779875	16.678779876	6.612e-10	
+263	ch-g1-263-p1	fault, whole list of bands, from the held layout	pass 1	32	2	TL6:9_s0.15_easis	16.732995056	16.733166009	1.710e-04	
+263	ch-g1-263-p2	fault, whole list of bands, from the held layout	pass 2	12	0	BR1:10_s0.15_easis	16.735883113	16.733166009	-2.717e-03	
+263	fl-263	flip of rows, on the layout this round certified		24	12	r1-2p_e0	16.732993793	16.733166009	1.722e-04	
+263	fl2-263	flip of rows, on the layout this round certified		7	6	r6-7p_e0	16.728569535	16.733166009	4.596e-03	
+263	fl5-263a	second flip of rows, on the layout this round certified; a run name that ends in b makes every turn larger first (--turn)		23	19	r8-9m_e0	16.728567868	16.733166009	4.598e-03	
+263	fl5-263b	second flip of rows, on the layout this round certified; a run name that ends in b makes every turn larger first (--turn)		6	3	r7-9p_e0	16.724372709	16.733166009	8.793e-03	
+263	fx-263-1	flip of the rows that stand against their neighbours, on another result of the fault move		11	9	r6-7p_e0	16.728567893	16.733166009	4.598e-03	
+263	fx-263-2	flip of the rows that stand against their neighbours, on another result of the fault move		34	10	r4-6p_e0	16.729916798	16.733166009	3.249e-03	
+263	fx-263-3	flip of the rows that stand against their neighbours, on another result of the fault move		39	15	r8-8p_e0	16.729963945	16.733166009	3.202e-03	
+297	bc-297	band scan from a rigid block, end sites left out (control of the model)		96	0	6x18_e0_-0.30_0.20_t0.15_d0.5_l1	17.741133740	17.740417288	-7.165e-04	
+297	ch-b2-297-p1	fault, whole list of bands, from the layout of the first step	pass 1	9	0	BR1:3_s0.15_easis	17.740475312	17.740417288	-5.802e-05	
+297	ch-d1-297-p1	fault, whole list of bands, from the held layout	pass 1	20	1	TL6:12_s0.15_easis	17.739455559	17.740417288	9.617e-04	
+297	e-297	end move (a band to one end of the block), from the held layout		30	0	asis_t0.15	17.740417288	17.740417288	8.333e-10	
+297	e-297-TL10-12	end move, from the result of the fault TL10:12		9	0	asis_t0.1	17.798563600	17.740417288	-5.815e-02	
+297	e-297-TL6-11	end move, from the result of the fault TL6:11		10	0	asis_t0.3	17.857367574	17.740417288	-1.170e-01	
+297	e-ctl-297	end move, control: the held tilted squares with the staircases built again		2	0	asis_t0.15	17.740417288	17.740417288	8.333e-10	
+297	f-297	fault, four bands with a leftover tooth away from the middle of its row, from the held layout		4	0	TL10:12_s0.15_easis	17.798761068	17.740417288	-5.834e-02	
+297	fl2-297	flip of rows, on the layout this round certified		36	34	r0-0p_e0	17.739455512	17.740417288	9.618e-04	yes
+297	fl3-h297	flip of the lone bands, on the held layout		7	0	r10-10p_e0	17.740417288	17.740417288	8.333e-10	
+297	fl5-297b	second flip of rows, on the layout this round certified; a run name that ends in b makes every turn larger first (--turn)		17	17	r7-8p_e0	17.739455512	17.740417288	9.618e-04	yes
+297	ft-297	fault, the band TL6:12, from the held layout		6	6	TL6:12_s0.15_e0.35	17.739455512	17.740417288	9.618e-04	yes
+328	ch-a-328-p1	fault, whole list of bands	pass 1	95	8	BR8:14_s0.15_easis	18.612574792	18.614368939	1.794e-03	
+328	ch-a-328-p2	fault, whole list of bands	pass 2	19	0	BR1:4_s0.15_easis	18.617317074	18.614368939	-2.948e-03	
+328	e-328	end move (a band to one end of the block), from the held layout		28	2	BR7lo_71_t0.15	18.613797171	18.614368939	5.718e-04	
+328	e-328c	end move, from the layout this round certified		17	9	asis_t0.1	18.612590566	18.614368939	1.778e-03	
+328	fl2-328	flip of rows, on the layout this round certified		12	12	r0-0p_e0	18.612574792	18.614368939	1.794e-03	
+328	fl3-328	flip of rows, on the layout this round certified		28	26	r11-15p_e0	18.612574791	18.614368939	1.794e-03	
+328	fl3-h328	flip of the lone bands, on the held layout		24	0	r3-3p_e0	18.614368938	18.614368939	8.805e-10	
+328	fl5-328b	second flip of rows, on the layout this round certified; a run name that ends in b makes every turn larger first (--turn)		37	37	r1-2p_e0	18.612574792	18.614368939	1.794e-03	
+328	fx-328-4	flip of the rows that stand against their neighbours, on another result of the fault move		33	32	r0-0p_e0	18.612630613	18.614368939	1.738e-03	
+328	fx-328-5	flip of the rows that stand against their neighbours, on another result of the fault move		40	40	r3-3m_e0	18.613729591	18.614368939	6.393e-04	
+328	fx-328-6	flip of the rows that stand against their neighbours, on another result of the fault move		34	32	r0-0p_e0	18.613387243	18.614368939	9.817e-04	
+328	fx-328-7	flip of the rows that stand against their neighbours, on another result of the fault move		36	36	r11-11m_e0	18.613757120	18.614368939	6.118e-04	
+328	mk-328	kick scan of the midm lane (midm_scan.py kick,lkick), from the layout this round certified		54	48	kick sig0.003	18.612574298	18.614368939	1.795e-03	yes
+332	ch-b2-332-p1	fault, whole list of bands, from the layout of the first step	pass 1	9	0	BR1:3_s0.15_easis	18.792957840	18.740417288	-5.254e-02	
+332	e-332	end move (a band to one end of the block), from the held layout		7	0	asis_t0.15	18.740417288	18.740417288	8.831e-10	
+332	ft-332	fault, the band TL6:12, from the held layout		2	2	TL6:12_s0.15_easis	18.739455558	18.740417288	9.617e-04	
+365	ch-a-365-p1	fault, whole list of bands	pass 1	70	1	BR8:14_s0.15_easis	19.610439666	19.612856389	2.417e-03	
+365	ch-a-365-p2	fault, whole list of bands	pass 2	14	1	BR1:4_s0.15_easis	19.612730951	19.612856389	1.254e-04	
+365	e-365c	end move, from the layout this round certified		6	3	TL21hi_71_t0.2	19.610448741	19.612856389	2.408e-03	
+365	fl-ctl-365	flip, control: rows 10 to 12 of the 365 this round certified		5	5	r10-10m_e0	19.608371152	19.612856389	4.485e-03	
+365	fl2-365m	flip of rows, on the 365 of the midm lane		17	17	r0-0p_e0	19.608371152	19.612856389	4.485e-03	
+365	fl3-365m	flip of rows, on the 365 of the midm lane		15	15	r3-10m_e0	19.608277773	19.612856389	4.579e-03	yes
+365	fl3-h365	flip of the lone bands, on the held layout		12	0	r3-3p_e0	19.612856388	19.612856389	9.267e-10	
+365	fl5-365b	second flip of rows, on the layout this round certified; a run name that ends in b makes every turn larger first (--turn)		29	29	r0-0p_e0	19.608277773	19.612856389	4.579e-03	yes
+409	ch-b2-409-p1	fault, whole list of bands, from the layout of the first step	pass 1	9	0	BR1:3_s0.15_easis	20.784129861	20.740417289	-4.371e-02	
+409	ft-409	fault, the band TL6:12, from the held layout		2	2	TL6:12_s0.15_e0.35	20.739680627	20.740417289	7.367e-04	
+409	v-409	fault, the best band with more start settings		4	4	TL6:12_s0.1_easis	20.739455559	20.740417289	9.617e-04	
+451	ch-c2-451-p1	fault, bands with both leftover teeth within 0.12 of the middle	pass 1	13	0	TL16:22_s0.15_easis	21.763380205	21.756097562	-7.283e-03	
+494	ch-b-494-p1	fault, whole list of bands	pass 1	33	1	TL6:12_s0.15_easis	22.734836449	22.736096176	1.260e-03	
+494	ch-b2-494-p1	fault, whole list of bands, from the layout of the first step	pass 1	35	1	BR18:21_s0.15_easis	22.734443443	22.736096176	1.653e-03	
+494	ch-b2-494-p2	fault, whole list of bands, from the layout of the first step	pass 2	19	1	BR22:23_s0.15_easis	22.735541636	22.736096176	5.545e-04	
+494	fl2-494	flip of rows, on the layout this round certified		16	16	r19-21m_e0	22.733430918	22.736096176	2.665e-03	yes
+494	fl3-h494	flip of the lone bands, on the held layout		7	0	r6-6p_e0	22.736096175	22.736096176	1.087e-09	
+494	fl4-494	flip of rows, on the layout this round certified after its first flip		8	6	r0-3p_e0	22.733463311	22.736096176	2.633e-03	
+494	fl5-494a	second flip of rows, on the layout this round certified; a run name that ends in b makes every turn larger first (--turn)		3	3	r6-6m_e0	22.733463670	22.736096176	2.633e-03	
+494	fl5-494b	second flip of rows, on the layout this round certified; a run name that ends in b makes every turn larger first (--turn)		35	35	r20-22p_e0	22.733430920	22.736096176	2.665e-03	yes
+907	a-907	fault, bottom right bands that fit, from the held layout		3	0	BR8:14_s0.15_easis	30.629100100	30.618366066	-1.073e-02	
+907	b-907	fault, bands that fit and had not run, from the held layout		10	1	TL13:26_s0.15_easis	30.617919299	30.618366066	4.468e-04	yes
+907	ch-c2-907-p1	fault, bands with both leftover teeth within 0.12 of the middle	pass 1	16	1	TL3:12_s0.15_easis	30.617920026	30.618366066	4.460e-04	
+907	fl2-907	flip of rows, on the layout this round certified		17	14	r24-26m_e0	30.617923348	30.618366066	4.427e-04	
+907	fl5-907b	second flip of rows, on the layout this round certified; a run name that ends in b makes every turn larger first (--turn)		27	23	r18-19m_e0	30.617923345	30.618366066	4.427e-04	
