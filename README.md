@@ -1,3 +1,5 @@
+<p align="center"><img src="docs/images/banner.svg" alt="Squares in Squares" width="100%"></p>
+
 # Squares in Squares
 
 This repository holds my code, layouts and notes for the Kaggle competition [Squares in Squares](https://www.kaggle.com/competitions/squares-in-squares). The task is to pack n unit squares, at any angle, into the smallest square, for every n from 1 to 1000. Lower scores are better. My best submitted file scored **22.1124018632** in public, rank 29 of 2,226 on 2026-11-18. The leader had 22.0399511 on that day. The repository has that file, about 4,700 scripts that built it, a table of sources and licences for each submitted round, and 32 research notes.
