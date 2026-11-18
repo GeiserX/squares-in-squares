@@ -2,6 +2,8 @@
 
 `submission-best.csv.gz` is the best file that Sergio Fernández Rubio (GeiserX) submitted to the Kaggle competition "Squares in Squares". The competition page is https://www.kaggle.com/competitions/squares-in-squares. It is the gzip of round 38 a (`round38-2026-11-18a.csv`, Kaggle ref 58514241), the last round. It has one packing for every n from 1 to 1000, in the competition's submission format (`id,n,square_id,x,y,angle`).
 
+`x` and `y` are the centre of each unit square. `angle` is in radians, so the tilted square of n = 5 has 0.7853981633974483, which is π/4.
+
 | | |
 |---|---|
 | Public score | 22.1124018632 (rank 29 of 2,226 at 15:00 UTC on 2026-11-18) |
